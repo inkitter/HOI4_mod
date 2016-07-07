@@ -1,0 +1,128 @@
+equipments = {
+  # 新增驱逐
+	destroyer_5 = {
+		archetype = destroyer
+		parent = destroyer_4
+		priority = 20
+		
+		ap_attack = 3.0	#穿甲能力	
+		attack = 5	#攻击力
+		fire_range = 17	#开火范围
+		torpedo_attack = 12	#鱼雷攻击
+		sub_attack = 25	#对潜攻击
+		
+		anti_air_attack = 8	#防空攻击
+		
+		armor_value = 0	#装甲
+		evasion = 95	#逃跑
+		
+		surface_detection = 70	#海面侦查
+		sub_detection = 160	#对潜侦查
+		surface_visibility = 20	#海面能见距离
+		naval_speed = 40	#海军速度
+		reliability = 0.93	#可靠性
+
+		naval_range = 3500	#海军范围
+		
+		max_strength = 100	#最高HP
+		
+		port_capacity_usage = 1	#港口容纳值
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		build_cost_ic = 2000	#建造花费
+		resources = {
+			oil = 3
+			steel = 6
+			chromium = 2
+		}		
+		manpower = 600		#需要人力
+	}
+
+	destroyer_6 = {
+		archetype = destroyer
+		parent = destroyer_5
+		priority = 20
+		
+		ap_attack = 3.5	#穿甲能力	
+		attack = 6	#攻击力
+		fire_range = 18	#开火范围
+		torpedo_attack = 20	#鱼雷攻击
+		sub_attack = 35	#对潜攻击
+		
+		anti_air_attack = 10	#防空攻击
+		
+		armor_value = 5	#装甲
+		evasion = 100	#逃跑
+		
+		surface_detection = 85	#海面侦查
+		sub_detection = 180	#对潜侦查
+		surface_visibility = 40	#海面能见距离
+		naval_speed = 42	#海军速度
+		reliability = 0.95	#可靠性
+
+		naval_range = 4500	#海军范围
+		
+		max_strength = 180	#最高HP
+		
+		port_capacity_usage = 1	#港口容纳值
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		build_cost_ic = 3000	#建造花费
+		resources = {
+			oil = 4
+			steel = 9
+			chromium = 3
+		}		
+		manpower = 2000		#需要人力
+	}
+
+	destroyer_7 = {
+		archetype = destroyer
+		parent = destroyer_6
+		priority = 20
+		
+		ap_attack = 4.5	#穿甲能力	
+		attack = 8	#攻击力
+		fire_range = 20	#开火范围
+		torpedo_attack = 35	#鱼雷攻击
+		sub_attack = 45	#对潜攻击
+		
+		anti_air_attack = 20	#防空攻击
+		
+		armor_value = 15	#装甲
+		evasion = 120	#逃跑
+		
+		surface_detection = 105	#海面侦查
+		sub_detection = 220	#对潜侦查
+		surface_visibility = 60	#海面能见距离
+		naval_speed = 45	#海军速度
+		reliability = 0.98	#可靠性
+
+		naval_range = 8000	#海军范围
+		
+		max_strength = 240	#最高HP
+		
+		port_capacity_usage = 2	#港口容纳值
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		build_cost_ic = 4500	#建造花费
+		resources = {
+			oil = 7
+			steel = 12
+			chromium = 5
+		}		
+		manpower = 4000		#需要人力
+	}
+}

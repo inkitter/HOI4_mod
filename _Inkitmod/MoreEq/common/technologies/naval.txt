@@ -359,7 +359,11 @@ technologies = {
 		enable_equipments = { 
 			carrier_4
 		}
-
+		
+		path = {
+			leads_to_tech = tech_carrier_5
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 2
 
@@ -372,6 +376,91 @@ technologies = {
 
 		sub_technologies = {
 			advanced_carrierl
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+  # 新增航母
+	tech_carrier_5 = {	#5级航母  常规动力
+
+		enable_equipments = { 
+			carrier_5
+		}
+
+		path = {
+			leads_to_tech = tech_carrier_6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 1955
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 25 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	tech_carrier_6 = {	#6级航母	核动力
+
+		enable_equipments = { 
+			carrier_6
+		}
+
+		path = {
+			leads_to_tech = tech_carrier_7
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 1965
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 31 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	tech_carrier_7 = {	#7级航母	核动力
+
+		enable_equipments = { 
+			carrier_7
+		}
+
+		research_cost = 2
+
+		start_year = 1985
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 37 }
 		}
 		
 		ai_will_do = {
@@ -594,6 +683,11 @@ technologies = {
 			destroyer_4
 		}
 		
+		path = {
+			leads_to_tech = tech_destroyer_5
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 
 		start_year = 1944
@@ -612,7 +706,91 @@ technologies = {
 			dd_tech
 		}
 	}
-	
+  # 新增驱逐
+	tech_destroyer_5 = {
+
+		enable_equipments = { 
+			destroyer_5
+		}
+		
+		path = {
+			leads_to_tech = tech_destroyer_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 1955
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 25 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+	tech_destroyer_6 = {
+
+		enable_equipments = { 
+			destroyer_6
+		}
+
+		path = {
+			leads_to_tech = tech_destroyer_7
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 1965
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 31 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+	tech_destroyer_7 = {
+
+		enable_equipments = { 
+			destroyer_7
+		}
+		
+		research_cost = 2
+
+		start_year = 1985
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 37 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
   # 原始巡洋
 	early_light_cruiser = {
 
@@ -732,6 +910,11 @@ technologies = {
 		enable_equipments = { 
 			light_cruiser_4
 		}
+
+		path = {
+			leads_to_tech = tech_light_cruiser_5
+			research_cost_coeff = 1
+		}
 		
 		path = {
 			leads_to_tech = advanced_heavy_cruiser 
@@ -748,6 +931,91 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = -1 y = 19 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+		}
+	}
+  # 新增轻巡
+	tech_light_cruiser_5 = {
+
+		enable_equipments = { 
+			light_cruiser_5
+		}
+		
+		path = {
+			leads_to_tech = tech_light_cruiser_6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 1955
+		
+		folder = {
+			name = naval_folder
+			position = { x = -1 y = 25 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+		}
+	}
+
+	tech_light_cruiser_6 = {
+
+		enable_equipments = { 
+			light_cruiser_6
+		}
+		
+		path = {
+			leads_to_tech = tech_light_cruiser_7
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 1965
+		
+		folder = {
+			name = naval_folder
+			position = { x = -1 y = 31 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+		}
+	}
+
+	tech_light_cruiser_7 = {
+
+		enable_equipments = { 
+			light_cruiser_7
+		}
+		
+		research_cost = 2
+
+		start_year = 1985
+		
+		folder = {
+			name = naval_folder
+			position = { x = -1 y = 37 }
 		}
 		
 		ai_will_do = {

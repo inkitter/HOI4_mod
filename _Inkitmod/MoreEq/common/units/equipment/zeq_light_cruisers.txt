@@ -1,0 +1,251 @@
+equipments = {
+  # 新增巡洋
+    light_cruiser_5 = {
+		archetype = light_cruiser
+		parent = light_cruiser_4
+		priority = 30
+		
+		ap_attack = 20
+		attack = 20
+		fire_range = 25
+		torpedo_attack = 15	#鱼雷攻击
+		sub_attack = 12		#对潜攻击
+		
+		anti_air_attack = 30	#防空火力
+		
+		armor_value = 20	#护甲值
+		evasion = 90		#
+		
+		surface_detection = 75	#
+		sub_detection = 65
+		naval_speed = 36
+		reliability = 0.93
+
+		naval_range = 5500
+		
+		max_strength = 220
+		
+		port_capacity_usage = 2
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+		build_cost_ic = 6000
+		resources = {
+			oil = 4
+			steel = 8
+			chromium = 2
+		}
+		manpower = 2280
+	}
+
+	light_cruiser_6 = {
+		archetype = light_cruiser
+		parent = light_cruiser_5
+		priority = 30
+		
+		ap_attack = 30		#穿甲
+		attack = 30		#火力
+		fire_range = 35		#开火范围
+		torpedo_attack = 15	
+		sub_attack = 12		
+		
+		anti_air_attack = 45	#防空火力
+		
+		armor_value = 20	#护甲值
+		evasion = 95		#
+		
+		surface_detection = 80	#
+		sub_detection = 70
+		naval_speed = 38
+		reliability = 0.94
+
+		naval_range = 8500
+		
+		max_strength = 330
+		
+		port_capacity_usage = 3
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+		build_cost_ic = 8000
+		resources = {
+			oil = 8
+			steel = 16
+			chromium = 4
+		}
+		manpower = 5000
+	}
+
+	light_cruiser_7 = {
+		archetype = light_cruiser
+		parent = light_cruiser_6
+		priority = 30
+		
+		ap_attack = 40		#穿甲
+		attack = 40		#火力
+		fire_range = 45		#开火范围
+		torpedo_attack = 15	
+		sub_attack = 12		
+		
+		anti_air_attack = 65	#防空火力
+		
+		armor_value = 25	#护甲值
+		evasion = 100		#
+		
+		surface_detection = 85	#
+		sub_detection = 75
+		naval_speed = 40
+		reliability = 0.95
+
+		naval_range = 12500
+		
+		max_strength = 440
+		
+		port_capacity_usage = 4
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+		build_cost_ic = 11000
+		resources = {
+			oil = 16
+			steel = 32
+			chromium = 8
+		}
+		manpower = 15000
+	}
+  # 微型巡洋
+  	light_cruiserl_1 = {
+		archetype = light_cruiser
+		priority = 30
+		carrier_size = 2
+		build_cost_ic = 4300
+		resources = {
+			oil = 1
+			steel = 3
+		}
+	}
+	light_cruiserl_2 = {
+		archetype = light_cruiser
+		parent = light_cruiserl_1
+		priority = 30
+
+		ap_attack = 3
+		attack = 6
+		fire_range = 19
+		torpedo_attack = 8
+		sub_attack = 6		
+		
+		anti_air_attack = 8
+		
+		armor_value = 0
+		evasion = 70
+		
+		surface_detection = 15
+		sub_detection = 30
+		naval_speed = 29
+		reliability = 0.8
+
+		naval_range = 2200
+		
+		max_strength = 110
+		
+		port_capacity_usage = 1
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		carrier_size = 4
+		build_cost_ic = 4500
+		resources = {
+			oil = 1
+			steel = 4
+		}
+	}
+	light_cruiserl_3 = {
+		archetype = light_cruiser
+		parent = light_cruiserl_2
+		priority = 30
+
+		ap_attack = 6
+		attack = 7
+		fire_range = 20
+		torpedo_attack = 12
+		sub_attack = 8
+		
+		anti_air_attack = 10
+		
+		armor_value = 0
+		evasion = 78
+		
+		surface_detection = 60
+		sub_detection = 50
+		naval_speed = 31
+		reliability = 0.8
+
+		naval_range = 2400
+		
+		max_strength = 120
+		
+		port_capacity_usage = 1
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		carrier_size = 7
+		build_cost_ic = 4700
+		resources = {
+			oil = 2
+			steel = 5
+		}
+	}
+	light_cruiserl_4 = {
+		archetype = light_cruiser
+		parent = light_cruiserl_3
+		priority = 30
+
+		ap_attack = 6
+		attack = 8
+		fire_range = 21
+		torpedo_attack = 18
+		sub_attack = 10
+		
+		anti_air_attack = 12
+		
+		armor_value = 0
+		evasion = 88
+		
+		surface_detection = 100
+		sub_detection = 90
+		naval_speed = 34
+		reliability = 0.8
+
+		naval_range = 2600
+		
+		max_strength = 130
+		
+		port_capacity_usage = 1
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		carrier_size = 10
+		build_cost_ic = 5000
+		resources = {
+			oil = 3
+			steel = 5
+			chromium = 2
+		}
+	}
+}

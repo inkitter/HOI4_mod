@@ -557,7 +557,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = { 
-					width = 1450 height = 1090 
+					width = 2000 height = 2000 
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -836,7 +836,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = { 
-					width = 1239 height = 1390 
+					width = 2000 height = 2000 
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -1030,6 +1030,58 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 
+				instantTextBoxType = {
+					name = "artillery_year11"
+					position = { x = 60 y = 1398 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1950"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "artillery_year12"
+					position = { x = 60 y = 1538 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1956"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "artillery_year13"
+					position = { x = 60 y = 1678 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1965"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "artillery_year14"
+					position = { x = 60 y = 1818 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1970"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
 				containerWindowType = {
 					name = "artillery_year_left"
 					position = { x=-100 y=0 }
@@ -1151,6 +1203,57 @@ guiTypes = {
 						maxHeight = 32
 						format = left
 						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "artillery_year11"
+						position = { x = 0 y = 1398 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1950"
+						maxWidth = 170
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+
+					instantTextBoxType = {
+						name = "artillery_year12"
+						position = { x = 0 y = 1538 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1956"
+						maxWidth = 170
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+
+					instantTextBoxType = {
+						name = "artillery_year13"
+						position = { x = 0 y = 1678 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1965"
+						maxWidth = 170
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+
+					instantTextBoxType = {
+						name = "artillery_year14"
+						position = { x = 0 y = 1818 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1970"
+						maxWidth = 170
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
 					}				
 				
 				}
@@ -1159,7 +1262,7 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "gw_artillery_tree"
-				position = { x = 10% y = 172 }
+				position = { x = 300 y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1181,11 +1284,11 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
-			# containerWindowType = {
-			# 	name = "size_filler"
-			# 	position = { x=0 y=0 }
-			# 	size = { width = 1700 height = 1200 }
-			# }
+			containerWindowType = {
+				name = "size_filler"
+				position = { x=0 y=0 }
+				size = { width = 3500 height = 2000 }
+			}
 
 			iconType = {
 				name ="naval_techtree_bg"
@@ -1239,6 +1342,45 @@ guiTypes = {
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1944"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "naval_year5"
+					position = { x = 1904 y = 20 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1950"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "naval_year6"
+					position = { x = 2324 y = 20 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1957"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "naval_year6"
+					position = { x = 2744 y = 20 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1965"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1342,20 +1484,20 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}					
 			
-			containerWindowType = {
-				name = "tiled_window_transparent_transparent"
-				position = { x= 0 y= 0 }
-				size = { 
-					width=1700 height=1300 
-					min = { width=100%% height=100%% }
-				}
-				clipping = no
+			# containerWindowType = {
+			# 	name = "tiled_window_transparent_transparent"
+			# 	position = { x= 0 y= 0 }
+			# 	size = { 
+			# 		width=3000 height=2000 
+			# 		min = { width=100%% height=100%% }
+			# 	}
+			# 	clipping = no
 
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent_transparent"
-				}
-			}			
+			# 	background = {
+			# 		name = "Background"
+			# 		quadTextureSprite ="GFX_tiled_window_transparent_transparent"
+			# 	}
+			# }			
 			
 			gridboxtype = {
 				name = "early_destroyer_tree"
@@ -1442,7 +1584,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = {
-					width = 2000 height = 1300
+					width = 3000 height = 2000
 					min = { width=100%% height=100%% }
 				}
 				clipping = no

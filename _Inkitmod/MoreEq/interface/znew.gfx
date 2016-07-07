@@ -207,4 +207,58 @@ spriteTypes = {
 		name = "GFX_as_missile_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/guided_missile_2.dds"
 	}	
+  # 船-航母
+	SpriteType = {
+		name = "GFX_tech_carrier_5_medium"
+		texturefile = "gfx/interface/technologies/carrier_5.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_tech_carrier_6_medium"
+		texturefile = "gfx/interface/technologies/carrier_6.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_tech_carrier_7_medium"
+		texturefile = "gfx/interface/technologies/carrier_7.dds"
+		alwaystransparent = yes
+	}
+  # 船-驱逐
+	SpriteType = {
+		name = "GFX_tech_destroyer_5_medium"
+		texturefile = "gfx/interface/technologies/destroyer_5.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_tech_destroyer_6_medium"
+		texturefile = "gfx/interface/technologies/destroyer_6.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_tech_destroyer_7_medium"
+		texturefile = "gfx/interface/technologies/destroyer_7.dds"
+		alwaystransparent = yes
+	}
+  # 船-轻巡
+	SpriteType = {
+		name = "GFX_tech_light_cruiser_5_medium"
+		texturefile = "gfx/interface/technologies/light_cruiser_5.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_tech_light_cruiser_6_medium"
+		texturefile = "gfx/interface/technologies/light_cruiser_6.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_tech_light_cruiser_7_medium"
+		texturefile = "gfx/interface/technologies/light_cruiser_7.dds"
+		alwaystransparent = yes
+	}
 }
