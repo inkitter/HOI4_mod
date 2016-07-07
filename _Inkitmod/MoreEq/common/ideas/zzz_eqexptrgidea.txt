@@ -1,0 +1,42 @@
+ideas = {
+    country = {
+        clonetoman_pressure = {
+            allowed = {
+                always = no
+            }
+
+            picture = generic_communism_drift_bonus
+            
+            modifier = {
+                POLITICAL_POWER_GAIN = -0.05
+                RESISTANCE_TICK = 0.1
+                TRAINING_TIME_FACTOR = 0.05
+            }
+        }
+        buildingslot_brandnew = {
+            allowed = {
+                always = no
+            }
+
+            picture = generic_communism_drift_bonus
+            
+            modifier = {
+                production_speed_buildings_factor = 0.15
+            }
+        }
+
+        eqresistance_down = {
+            allowed = {
+                always = no
+            }
+            picture = generic_communism_drift_bonus
+            modifier = {
+                POLITICAL_POWER_GAIN = -0.05
+                RESISTANCE_TICK = -0.4
+                OCCUPATION_COST = -0.01
+                local_factories = 0.1
+                local_resources = 0.1
+            }
+        }
+    }
+}

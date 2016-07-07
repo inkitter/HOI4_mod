@@ -1,0 +1,27 @@
+ideas = {
+	cheat_event1 = {
+		law = yes
+		cheat_white_peace = {
+			picture = generic_production_bonus
+			on_add = {
+				country_event = Easybuff.63
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		
+		cheat_event1_test3 = {
+			picture = generic_production_bonus
+			on_add = {
+				country_event = Easybuffe.12
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+	}
+
+}

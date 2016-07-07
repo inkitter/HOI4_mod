@@ -1,0 +1,41 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+# value
+# min_trust
+# max_trust
+# decay
+# months/years/days = timer
+# trade = yes/no
+
+opinion_modifiers = {
+	
+	### KMT mod ###
+	
+	no_collaboration_with_CHI_COM = { value = -100 }
+	
+	KMT_SHX_refused = { value = -50 }
+	
+	PRC_SHX_refused = { value = 100 }
+	
+	SHX_SHX_refused = { value = -100 }
+	
+	chi_tib_diplomatic_focus = { value = 60 }
+	
+	CHI_join_britain_rejected = { value = -10 }
+	
+	false_document_trusted = { value = -100 }
+	
+	never_like_them_anyway = { value = -100 }
+	
+	recognition = { value = 100 }
+	
+	tolerance = { value = 100 }
+	
+	wtever = { value = 40 }
+	
+	SOV_CHI_join_comintern_reject = { value = -50 }
+	
+	KMT_commie_banned = { value = -50 }
+
+}	

@@ -1,0 +1,645 @@
+ideas = {
+	cheat_construction = {
+		law = yes
+		cheat_construction_lv1 = {
+			picture = generic_production_bonus
+			modifier = {
+				global_building_slots_factor = 0.1
+
+				production_speed_buildings_factor = 0.2
+				LOCAL_RESOURCES_FACTOR = 0.2
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_construction_lv2 = {
+			picture = generic_production_bonus
+			modifier = {
+				global_building_slots_factor = 0.2
+
+				production_speed_buildings_factor = 0.5
+				BUILDING_CONVERTION_FACTOR = 0.5
+				BUILDING_CONVERTION = 0.1
+				LOCAL_RESOURCES_FACTOR = 0.5
+
+				LOCAL_MANPOWER = 0.1
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_construction_lv3 = {
+			picture = generic_production_bonus
+			modifier = {
+				global_building_slots_factor = 0.5
+
+				production_speed_buildings_factor = 0.7
+				BUILDING_CONVERTION_FACTOR = 1
+				BUILDING_CONVERTION = 0.5
+				LOCAL_RESOURCES_FACTOR = 1.2
+
+				LOCAL_MANPOWER = 0.4
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_construction_insane = {
+			picture = generic_production_bonus
+			modifier = {
+				global_building_slots_factor = 2
+
+				production_speed_buildings_factor = 10
+				BUILDING_CONVERTION_FACTOR = 10
+				BUILDING_CONVERTION = 1
+				LOCAL_RESOURCES = 10
+				LOCAL_RESOURCES_FACTOR = 10
+
+				LOCAL_MANPOWER = 10
+				industry_repair_factor = 100
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_buildinfra = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.10
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_getres = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.20
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_setcapital = {
+			picture = generic_production_bonus
+			on_add = {
+				country_event = Easybuffe.10
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+	}
+
+	cheat_technology = {
+		law = yes
+		cheat_technology_lv1 = {
+			picture = generic_intel_bonus
+			modifier = {
+				research_time_factor = -0.2
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_technology_lv2 = {
+			picture = generic_intel_bonus
+			modifier = {
+				research_time_factor = -0.4
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_technology_lv3 = {
+			picture = generic_intel_bonus
+			modifier = {
+				research_time_factor = -0.8
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_technology_insane = {
+			picture = generic_intel_bonus
+			modifier = {
+				research_time_factor = -2
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_remfac = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.48
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_discore = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.40
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+	}
+
+	cheat_politics = {
+		law = yes
+		cheat_politics_lv1 = {
+			picture = generic_communism_drift_bonus
+			modifier = {
+				POLITICAL_POWER_GAIN = 0.5
+
+				UNITY_WEEKLY = 0.1
+				OPINION_GAIN_MONTHLY = 0.01
+
+				TRADE_OPINION_FACTOR = 0.2
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_lv2 = {
+			picture = generic_communism_drift_bonus
+			modifier = {
+				POLITICAL_POWER_GAIN = 1
+				POLITICAL_POWER_FACTOR = 0.1
+
+				RESISTANCE_TICK = -0.05
+				UNITY_FACTOR = 0.1
+				UNITY_WEEKLY = 0.1
+				OPINION_GAIN_MONTHLY = 0.02
+
+				TRADE_OPINION_FACTOR = 0.5
+				OCCUPATION_COST = -0.05
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_lv3 = {
+			picture = generic_communism_drift_bonus
+			modifier = {
+				POLITICAL_POWER_GAIN = 2
+				POLITICAL_POWER_FACTOR = 0.2
+
+				RESISTANCE_TICK = -0.2
+				UNITY_FACTOR = 0.3
+				UNITY_WEEKLY = 0.5
+				OPINION_GAIN_MONTHLY = 0.05
+				OPINION_GAIN_MONTHLY_FACTOR = 0.3
+
+				TRADE_OPINION_FACTOR = 1
+				OCCUPATION_COST = -0.3
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_insane = {
+			picture = generic_communism_drift_bonus
+			modifier = {
+				POLITICAL_POWER_GAIN = 100
+				POLITICAL_POWER_FACTOR = 1
+
+				RESISTANCE_TICK = -1
+				UNITY_FACTOR = 100
+				UNITY_WEEKLY = 1
+				OPINION_GAIN_MONTHLY = 1
+				OPINION_GAIN_MONTHLY_FACTOR = 1
+
+				TRADE_OPINION_FACTOR = 10
+				OCCUPATION_COST = -10
+				DRIFT_DEFENCE_FACTOR = 1
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+
+		cheat_politics_makecore = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.42
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_morestate = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.43
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_losecore = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.44
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_exitfac = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.45
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_joinfac = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.46
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_creatparty = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.47
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_disbandfac = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.49
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+	}
+
+	cheat_equipment = {
+		law = yes
+		cheat_equipment_lv1 = {
+			picture = generic_goods_red_bonus
+			modifier = {
+				production_factory_max_efficiency_factor = 0.2
+				line_change_production_efficiency_factor = 0.5
+				industrial_capacity_factory = 0.2
+				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 0.5
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_equipment_lv2 = {
+			picture = generic_goods_red_bonus
+			modifier = {
+				industrial_capacity_factory = 0.5
+				production_factory_max_efficiency_factor = 0.5
+				line_change_production_efficiency_factor = 1
+				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 1
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_equipment_lv3 = {
+			picture = generic_goods_red_bonus
+			modifier = {
+				production_factory_max_efficiency_factor = 1
+				industrial_capacity_factory = 0.8
+				line_change_production_efficiency_factor = 2
+				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 2
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_equipment_insane = {
+			picture = generic_goods_red_bonus
+			modifier = {
+				industrial_capacity_factory = 3
+				INDUSTRY_REPAIR_FACTOR = 3
+				production_factory_max_efficiency_factor = 5
+				line_change_production_efficiency_factor = 1
+				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 10
+				CONSUMER_GOODS_FACTOR = -0.8
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_add_unity = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.60
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_add_politic = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.61
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_add_manpower = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.62
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+	}
+
+	cheat_land = {
+		law = yes
+		cheat_land_lv1 = {
+			picture = generic_fascism_drift_bonus
+			modifier = {
+				land_reinforce_rate = 0.1
+				ARMY_ORG_FACTOR = 0.1
+				ARMY_MORALE_FACTOR = 0.1
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}		
+		cheat_land_lv2 = {
+			picture = generic_fascism_drift_bonus
+			modifier = {
+				land_reinforce_rate = 0.2
+				ARMY_ORG_FACTOR = 0.3
+				LOCAL_ORG_REGAIN = 0.2
+				ARMY_MORALE_FACTOR = 0.3
+
+				DEFENCE = 0.2
+				OFFENCE = 0.2
+				ARMY_SPEED_FACTOR = 0.1
+				ARMY_ARMOR_SPEED_FACTOR = 0.1
+
+				ATTRITION = -0.1
+
+				EXPERIENCE_LOSS_FACTOR = -0.4
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_land_lv3 = {
+			picture = generic_fascism_drift_bonus
+			modifier = {
+				land_reinforce_rate = 0.5
+				NO_SUPPLY_GRACE = 240
+				ARMY_ORG = 40
+				ARMY_ORG_FACTOR = 0.1
+				LOCAL_ORG_REGAIN = 0.3
+				ORG_LOSS_WHEN_MOVING = -0.5
+				ARMY_MORALE_FACTOR = 0.6
+
+				DEFENCE = 0.4
+				OFFENCE = 0.4
+				ARMY_SPEED_FACTOR = 0.2
+				ARMY_ARMOR_SPEED_FACTOR = 0.2
+				TRAINING_TIME_FACTOR = -0.5
+
+				ATTRITION = -0.2
+				COMBAT_WIDTH_FACTOR = -0.2
+
+				EXPERIENCE_LOSS_FACTOR = -0.6
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_land_insane = {
+			picture = generic_fascism_drift_bonus
+			modifier = {
+				land_reinforce_rate = 1
+				NO_SUPPLY_GRACE = 2400
+
+				ARMY_ORG = 40
+				ARMY_ORG_FACTOR = 1
+				LOCAL_ORG_REGAIN = 1
+				ORG_LOSS_WHEN_MOVING = -1
+				ARMY_MORALE = 30
+				ARMY_MORALE_FACTOR = 1
+
+				DEFENCE = 1
+				OFFENCE = 1
+				ARMY_ATTACK_FACTOR = 1
+				ARMY_DEFENCE_FACTOR = 1
+
+				ARMY_SPEED_FACTOR = 10
+				ARMY_ARMOR_SPEED_FACTOR = 10
+
+				ATTRITION = -0.5
+
+				EXPERIENCE_LOSS_FACTOR = -1
+				TRAINING_TIME_FACTOR = -0.85
+				
+				JUSTIFY_WAR_GOAL_TIME = -1
+				ENEMY_JUSTIFY_WAR_GOAL_TIME = 10
+				
+				COMBAT_WIDTH_FACTOR = -0.8
+				MINIMUM_TRAINING_LEVEL = -0.9
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_getexp = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.50
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_getexpinsane = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.51
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_adjustthreat = {
+			picture = generic_production_bonus
+			on_add = {
+				country_event = Easybuffe.11
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+	}
+
+	cheat_navyair = {
+		law = yes
+		cheat_navyair_lv1 = {
+			picture = generic_air_bonus
+			modifier = {
+				AIR_ATTACK_FACTOR = 0.1
+				AIR_DEFENCE_FACTOR = 0.1
+
+				NAVY_ORG_FACTOR = 0.1
+				NAVAL_STRIKE = 0.1
+				CARRIER_TRAFFIC = 0.2
+				NAVAL_SPEED_FACTOR = 0.3
+				NAVY_MAX_RANGE_FACTOR = 0.3
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_navyair_lv2 = {
+			picture = generic_air_bonus
+			modifier = {
+				AIR_DETECTION = 1
+				NAVAL_DETECTION = 1
+
+				AIR_ACCIDENTS = -0.3
+
+				AIR_ATTACK_FACTOR = 0.2
+				AIR_DEFENCE_FACTOR = 0.2
+				AIR_BOMBING_TARGETTING = 0.3
+				AIR_RANGE_FACTOR = 0.5
+
+				NAVY_ORG_FACTOR = 0.2
+				NAVAL_STRIKE = 0.3
+				NAVAL_HIT_CHANCE = 0.2
+				CARRIER_TRAFFIC = 0.5
+				NAVAL_SPEED_FACTOR = 0.5
+				NAVY_MAX_RANGE_FACTOR = 0.5
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_navyair_lv3 = {
+			picture = generic_air_bonus
+			modifier = {
+				AIR_DETECTION = 4
+				NAVAL_DETECTION = 4
+
+				AIR_ACCIDENTS = -0.7
+
+				AIR_ATTACK_FACTOR = 0.4
+				AIR_DEFENCE_FACTOR = 0.4
+				AIR_BOMBING_TARGETTING = 0.5
+				AIR_RANGE_FACTOR = 1
+
+				NAVY_ORG = 10
+				NAVY_ORG_FACTOR = 0.3
+				NAVAL_STRIKE = 0.3
+				NAVAL_HIT_CHANCE = 0.2
+				CARRIER_TRAFFIC = 0.5
+				NAVAL_SPEED_FACTOR = 0.8
+				SUBMARINE_ATTACK = 5
+				NAVY_MAX_RANGE_FACTOR = 1
+
+				
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_navyair_insane = {
+			picture = generic_air_bonus
+			modifier = {
+				AIR_DETECTION = 50
+				NAVAL_DETECTION = 50
+
+				AIR_ACCIDENTS = -1
+				AIR_ACCIDENTS_FACTOR = -1
+
+				AIR_ATTACK_FACTOR = 3
+				AIR_DEFENCE_FACTOR = 3
+				AIR_AGILITY_FACTOR = 3		
+				AIR_BOMBING_TARGETTING = 1
+				AIR_RANGE_FACTOR = 10
+
+				NAVY_ORG = 40
+				NAVY_ORG_FACTOR = 1
+				NAVAL_STRIKE = 1
+				NAVAL_HIT_CHANCE = 1
+				CARRIER_TRAFFIC = 1
+				NAVAL_SPEED_FACTOR = 10
+				SUBMARINE_ATTACK = 100
+				NAVY_MAX_RANGE_FACTOR = 100
+				NAVY_SUBMARINE_DEFENCE_FACTOR = 10
+				NAVAL_TORPEDO_RANGE_FACTOR = 10
+				CARRIER_CAPACITY_PENALTY_REDUCTION = -1
+
+				AMPHIBIOUS_INVASION = 5
+				INVASION_PREPARATION = -1
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+	}
+}

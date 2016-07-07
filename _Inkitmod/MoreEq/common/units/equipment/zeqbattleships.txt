@@ -1,0 +1,127 @@
+equipments = {
+  # 航空战舰
+  	battleshipl_1 = {
+		archetype = battleship
+		priority = 60
+
+		carrier_size = 10
+		
+		build_cost_ic = 15000
+		resources = {
+			oil = 2
+			steel = 5
+			chromium = 1
+		}
+	}
+	battleshipl_2 = {
+		archetype = battleship
+		parent = battleshipl_1
+		priority = 60
+
+		carrier_size = 20
+
+		ap_attack = 12
+		attack = 22
+		fire_range = 33
+		torpedo_attack = 0
+		shore_bombardment = 11
+		
+		anti_air_attack = 10
+		
+		armor_value = 12
+		evasion = 12
+		
+		surface_detection = 15
+		sub_detection = 0
+		surface_visibility = 30
+		naval_speed = 26
+		reliability = 0.8
+
+		naval_range = 4000
+
+		max_strength = 450		
+		port_capacity_usage = 2
+
+		build_cost_ic = 16000
+		resources = {
+			oil = 2
+			steel = 5
+			chromium = 3
+		}
+	}
+	battleshipl_3 = {
+		archetype = battleship
+		parent = battleshipl_2
+		priority = 60
+		
+		carrier_size = 30
+
+		ap_attack = 14
+		attack = 26
+		fire_range = 34
+		torpedo_attack = 0
+		
+		anti_air_attack = 14
+		
+		armor_value = 14
+		evasion = 15
+		
+		surface_detection = 15
+		sub_detection = 0
+		surface_visibility = 30
+		naval_speed = 28
+		reliability = 0.8
+
+		naval_range = 4500
+		
+		max_strength = 500
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 17000
+		resources = {
+			oil = 2
+			steel = 6
+			chromium = 3
+		}
+	}
+	battleshipl_4 = {
+		archetype = battleship
+		parent = battleshipl_3
+		priority = 60
+
+		carrier_size = 40
+
+		ap_attack = 16
+		attack = 30
+		fire_range = 35
+		torpedo_attack = 0
+		shore_bombardment = 13
+
+		anti_air_attack = 18
+		
+		armor_value = 16
+		evasion = 20
+		
+		surface_detection = 15
+		sub_detection = 0
+		surface_visibility = 30
+		naval_speed = 30
+		reliability = 0.8
+
+		naval_range = 5000
+		
+		max_strength = 550
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 18000
+		resources = {
+			oil = 3
+			steel = 6
+			chromium = 3
+		}
+	}
+
+
+}

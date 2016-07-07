@@ -1,0 +1,228 @@
+# options for map_icon_category:
+# For land units: infantry,armored,other
+# For sea units: ship,transport,uboat
+
+sub_units = {
+	# 特种兵
+	specialinfantry = {
+		sprite = infantry
+		map_icon_category = infantry
+		special_forces = yes
+		mountaineers = yes
+		
+		priority = 600
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 0.5
+		
+		#Size Definitions
+		max_strength = 50
+		max_organisation = 80
+		default_morale = 0.4
+		manpower = 4000
+		recon = 2
+		experience_loss_factor = -0.05
+
+		#Misc Abilities
+		training_time = 300
+		weight = 1
+		supply_consumption = 0.1
+		initiative = 0.1
+
+		transport = spinfty_equipment
+
+		can_be_parachuted = yes
+		hardness = 0
+	
+		essential = {
+			spinfty_equipment
+			infantry_equipment
+		}
+
+		need = {
+			infantry_equipment = 80
+			rocketinfantry_equipment = 30
+			bombinfantry_equipment = 30
+			spinfty_equipment = 80
+		}
+		
+		forest = {
+			attack = 0.1
+			defence = 0.1
+			movement = 0.2
+		}
+		hills = {
+			attack = 0.2
+			defence = 0.1
+			movement = 0.2
+		}
+		mountain = {
+			attack = 0.2
+			defence = 0.2
+			movement = 0.2
+		}
+		plains = {
+			attack = 0.05
+			defence = 0.05
+			movement = 0.05
+		}
+		urban = {
+			attack = 0.1
+			defence = 0.1
+			movement = 0.1
+		}
+		jungle = {
+			attack = 0.2
+			defence = 0.2
+			movement = 0.1
+		}
+		marsh = {
+			attack = 0.1
+			defence = 0.1
+			movement = 0.1
+		}
+		river = {
+			attack = 0.15
+			defence = 0.2
+			movement = 0.1
+		}
+		amphibious = {
+			attack = 0.1
+			defence = 0.2
+			movement = 0.1
+		}
+		desert = {
+			attack = 0.1
+			defence = 0.1
+			movement = 0.1
+		}
+		fort = {
+			defence = 0.3
+			attack = 0.2
+			movement = 0.1
+		}
+	}
+	# 火箭兵
+	rocketinfantry = {
+		sprite = infantry
+		map_icon_category = infantry
+
+		priority = 599
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 1.5
+		
+		#Size Definitions
+		max_strength = 20
+		max_organisation = 60
+		default_morale = 0.30
+		manpower = 1200
+
+		#Misc Abilities
+		training_time = 120
+		suppression = 1
+		weight = 0.75
+		supply_consumption = 0.1
+	
+		# this is what moves us and sets speed
+		transport = rocketinfantry_equipment
+	
+		essential = {
+			rocketinfantry_equipment
+		}
+		need = {
+			infantry_equipment = 80
+			rocketinfantry_equipment = 30
+		}
+		plains = {
+			attack = 0.2
+		}
+		desert = {
+			attack = 0.2
+		}
+		river = {
+			attack = 0.2
+		}
+		amphibious = {
+			attack = 0.2
+		}
+	}
+	# 爆破兵
+	bombinfantry = {
+		sprite = infantry
+		map_icon_category = infantry
+
+		priority = 599
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 1.5
+		
+		#Size Definitions
+		max_strength = 20
+		max_organisation = 60
+		default_morale = 0.30
+		manpower = 1200
+
+		#Misc Abilities
+		training_time = 120
+		suppression = 1
+		weight = 0.75
+		supply_consumption = 0.1
+	
+		# this is what moves us and sets speed
+		transport = bombinfantry_equipment
+		
+		essential = {
+			bombinfantry_equipment
+		}
+		need = {
+			infantry_equipment = 80
+			bombinfantry_equipment = 30
+		}
+		fort = {
+			attack = 0.5
+		}
+		urban = {
+			attack = 0.5
+		}
+	}
+}

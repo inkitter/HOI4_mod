@@ -1,0 +1,285 @@
+﻿add_namespace = techexp
+
+# 增加资源事件 20~29
+country_event = {
+    id = techexp.20
+    title = techexp.20.t
+    desc = techexp.20.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+        # is_ai = no
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            
+        }
+    }
+
+    option = {
+        name = techexp.20.a
+        ai_chance = { factor = 0 }
+    }
+  
+    option = {
+        name = techexp.20.c
+        ai_chance = { factor = 100 }
+    }
+}
+
+# 合成年人事件 30
+country_event = {
+    id = techexp.30
+    title = techexp.30.t
+    desc = techexp.30.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+       any_owned_state = {
+           clonemanfactory > 0
+       }
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            remove_ideas = exp_clonetoman
+        }
+    }
+
+    option = {
+        name = techexp.30.a
+        ai_chance = { factor = 1 }
+        random_state = {
+            limit = {
+                AND= {
+                    is_owned_by = ROOT
+                    clonemanfactory > 0
+                }
+            }
+            remove_building = {
+                type = clonemanfactory 
+                level = 1
+            }
+            add_manpower = 100000
+        }
+        random_list = {
+            70 = {
+                add_timed_idea = {
+                    idea = clonetoman_pressure
+                    days = 180
+                }
+            }
+            30 = {
+                add_manpower = 50000
+            }
+        }
+        
+    }
+    option = {
+        name = techexp.30.b
+        ai_chance = { factor = 0 }
+        add_political_power = 100
+    }
+}
+# 降低抵抗 31
+country_event = {
+    id = techexp.31
+    title = techexp.31.t
+    desc = techexp.31.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+        has_idea = exp_lowerresist
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+        	remove_ideas = exp_lowerresist
+        }
+    }
+
+    option = {
+        name = techexp.31.a
+        ai_chance = { factor = 0 }
+        add_timed_idea = {
+			idea = eqresistance_down
+            days = 180
+        }
+    }
+  
+    option = {
+        name = techexp.31.c
+        ai_chance = { factor = 100 }
+        add_political_power = 200
+    }
+}
+
+# 建设格子 32
+country_event = {
+    id = techexp.32
+    title = techexp.32.t
+    desc = techexp.32.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+       any_owned_state = {
+           buildingteam > 0
+       }
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            remove_ideas = eqexp_moresharedslot
+        }
+    }
+
+    option = {
+        name = techexp.32.a
+        ai_chance = { factor = 1 }
+        random_state = {
+            limit = {
+                AND= {
+                    is_owned_by = ROOT
+                    buildingteam > 0
+                    is_core_of = ROOT
+                }
+            }
+            remove_building = {
+                type = buildingteam 
+                level = 1
+            }
+            add_extra_state_shared_building_slots = 1
+        }
+        random_state = {
+            limit = {
+                AND= {
+                    is_owned_by = ROOT
+                    buildingteam > 0
+                }
+            }
+            remove_building = {
+                type = buildingteam
+                level = 1
+            }
+            add_extra_state_shared_building_slots = 1
+        }
+        random_list = {
+            60 = {
+                add_timed_idea = {
+                    idea = buildingslot_brandnew
+                    days = 90
+                }
+            }
+            20 = {
+                random_state = {
+                    limit = {
+                        AND= {
+                            is_owned_by = ROOT
+                            buildingteam > 0
+                        }
+                    }
+                    remove_building = {
+                        type = buildingteam 
+                        level = 1
+                    }
+                    add_extra_state_shared_building_slots = 1
+                }
+            }
+            20 = {
+                add_manpower = -10000
+            }
+        }
+    }
+    option = {
+        name = techexp.32.b
+        ai_chance = { factor = 0 }
+        add_political_power = 75
+    }
+}
+
+# 造核 33
+country_event = {
+    id = techexp.33
+    title = techexp.33.t
+    desc = techexp.33.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+       any_owned_state = {
+           memorialplaza > 0
+       }
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            remove_ideas = eqexp_plazatocore
+        }
+    }
+
+    option = {
+        name = techexp.33.a
+        ai_chance = { factor = 1 }
+        random_list = {
+            70 = {
+                random_state = {
+                    limit = {
+                        AND= {
+                            is_owned_by = ROOT
+                            memorialplaza > 0
+                            NOT = { is_core_of = ROOT }
+                        }
+                    }
+                    remove_building = {
+                        type = memorialplaza 
+                        level = 1
+                    }
+                    add_core_of = ROOT
+                }
+            }
+                
+            30 = {
+                 random_state = {
+                    limit = {
+                        AND= {
+                            is_owned_by = ROOT
+                            memorialplaza > 0
+                            NOT = { is_core_of = ROOT }
+                            NOT = { is_claimed_by = ROOT }
+                        }
+                    }
+                    remove_building = {
+                        type = memorialplaza 
+                        level = 1
+                    }
+                    add_claim_by = ROOT
+                }
+            }
+        }
+    }
+    option = {
+        name = techexp.33.b
+        ai_chance = { factor = 0 }
+        add_political_power = 100
+    }
+}

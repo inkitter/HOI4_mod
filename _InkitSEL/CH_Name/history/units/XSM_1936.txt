@@ -1,0 +1,96 @@
+﻿division_template = {
+	name = "军团"		# Represents two-division infantry corps (generally poorly-equipped militias), and local militia groups
+
+	regiments = {					
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+}
+division_template = {
+	name = "骑兵军团"				# Represents two-division cavalry corps (generally poorly-equipped)
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+}
+
+
+units = {
+	#Ma Clique units - 15 inf divisions, 6 cav divisions
+	division = {
+		name = "80军"
+		location = 12846
+		division_template = "军团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "81军"
+		location = 1647
+		division_template = "军团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "82军"
+		location = 1933
+		division_template = "军团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "1马家军"
+		location = 7911
+		division_template = "骑兵军团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "2马家军"
+		location = 531
+		division_template = "骑兵军团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "3马家军"
+		location = 12846
+		division_template = "骑兵军团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "格尔木警备队"
+		location = 12846
+		division_template = "军团"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.2
+
+	}
+}
+
+### STARTING PRODUCTION ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "XSM"
+		}
+		requested_factories = 1
+		progress = 0.74
+		efficiency = 100
+	}
+}

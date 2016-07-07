@@ -1,0 +1,44 @@
+﻿division_template = {
+	name = "军团"				# Represents local militia groups (generally poorly-equipped )
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+}
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "绥远警备队"
+		location = 4174
+		division_template = "军团"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "察哈尔警备队"
+		location = 7048
+		division_template = "军团"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.2
+
+	}
+	
+}
+
+### STARTING PRODUCTION ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SHX"
+		}
+		requested_factories = 1
+		progress = 0.78
+		efficiency = 100
+	}
+}

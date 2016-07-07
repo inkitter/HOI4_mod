@@ -1,0 +1,557 @@
+﻿division_template = {
+	name = "国民警备队"				# Represents: German-trained divisions (better equipment than rest),
+									# 	as well as two-division infantry corps (generally poorly-equipped militias),
+	regiments = {					#	and local militia groups.
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+	priority = 0 # garrison
+}
+division_template = {
+	name = "国民革命军"			# Represents three-division infantry corps (generally poorly-equipped militias)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "骑兵师"		# Represents two-division cavalry corps (generally poorly-equipped)
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+### OOB ###
+units = {
+	###### Kuomintang Army (CO: Chang Kai-shek) ######
+	##### Beiping-Tianjin Area (CO: ) #####
+	### 29 Juntuan (highly-reinforced corps) ###
+	division = {
+		name = "37师"
+		location = 9843
+		division_template = "国民革命军"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "38师"
+		location = 10068
+		division_template = "国民革命军"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "132师"
+		location = 11761
+		division_template = "国民革命军"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "143师"
+		location = 4140
+		division_template = "国民革命军"
+		start_experience_factor = 0.2
+	}
+
+	##### First War Area (CO: Cheng Qian) #####
+	division = {
+		name = "第4骑兵师"
+		location = 4925
+		division_template = "骑兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	### 2nd Army Group (CO: Liu Shi) ###
+	division = {
+		name = "第3军"
+		location = 12408
+		division_template = "国民警备队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "第2师"
+		location = 7256
+		division_template = "国民革命军"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "25师"
+		location = 7256
+		division_template = "国民革命军"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	## 1st Army ##
+	division = {
+		name = "27师"
+		location = 2091
+		division_template = "国民革命军"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第1陆军师"
+		location = 8072
+		division_template = "国民警备队"
+		start_equipment_factor = 0.3
+
+	}
+	## 14th Army ##
+	division = {
+		name = "14陆军师"
+		location = 10144
+		division_template = "国民革命军"
+		start_equipment_factor = 0.3
+
+	}
+
+	##### Second War Area (CO: Yan Xishan) #####
+	division = {
+		name = "第9军"
+		location = 1069
+		division_template = "国民革命军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "第1骑兵师"
+		location = 1069
+		division_template = "骑兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "第2骑兵师"
+		location = 1069
+		division_template = "骑兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	### 7th Army Group (CO: Fu Zuoyi) ###
+	division = {
+		name = "第4师"
+		location = 9958
+		division_template = "国民革命军"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "89师"
+		location = 9958
+		division_template = "国民革命军"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "17军"
+		location = 4114
+		division_template = "国民警备队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "第6骑兵师"
+		location = 4114
+		division_template = "骑兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	### 14th Army Group (CO: Wei Lihuang) ###
+	division = {
+		name = "10师"
+		location = 10043
+		division_template = "国民革命军"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "83师"
+		location = 10043
+		division_template = "国民革命军"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+
+	##### Third War Area (CO: Gu Zhutong) #####
+	division = {
+		name = "第1军"
+		location = 7027
+		division_template = "国民革命军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "第1福建警备队"
+		location = 9974
+		division_template = "国民警备队"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "第2福建警备队"
+		location = 4169
+		division_template = "国民警备队"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "第3福建警备队"
+		location = 4196
+		division_template = "国民警备队"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 0.3
+
+	}
+	## Shanghai Defense Force ##
+	division = {
+		name = "上海警备队"
+		location = 7014
+		division_template = "国民警备队"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "陆战师"
+		location = 7014
+		division_template = "国民警备队"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 0.3
+
+	}
+	## 8th Army (CO: Zhang Fakui) ##
+	division = {
+		name = "3师"
+		location = 10076
+		division_template = "国民革命军"		# German-trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "晋绥军"
+		location = 10076
+		division_template = "国民革命军"		# German-trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "8陆军师"
+		location = 4925
+		division_template = "国民警备队"
+		start_equipment_factor = 0.3
+
+	}
+	## 9th Army (CO: Zhang Zhizhong) ##
+	division = {
+		name = "36师"
+		location = 7191
+		division_template = "国民革命军"		# German-trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "87师"
+		location = 7191
+		division_template = "国民革命军"		# German-trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "88师"
+		location = 7191
+		division_template = "国民革命军"		# German-trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	## 10th Army (CO: Liu Jiangxu) ##
+	division = {
+		name = "10陆军师"
+		location = 10076
+		division_template = "国民警备队"
+		start_equipment_factor = 0.3
+
+	}
+	### 15th Army Group (CO: Chen Cheng) ###
+	division = {
+		name = "11师"
+		location = 12076
+		division_template = "国民革命军"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "14师"
+		location = 12076
+		division_template = "国民革命军"		# German-trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第4军"
+		location = 12076
+		division_template = "国民警备队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "18军"
+		location = 12076
+		division_template = "国民警备队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "39军"
+		location = 4042
+		division_template = "国民警备队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "54军"
+		location = 4042
+		division_template = "国民警备队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "74军"
+		location = 4042
+		division_template = "国民警备队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	### 19th Army Group (CO: Xu Yue) ###
+	division = {
+		name = "第6师"
+		location = 7058
+		division_template = "国民革命军"		# German-trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第9师"
+		location = 7058
+		division_template = "国民革命军"		# German-trained division (frontline infantry, better equipment and experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "25军"
+		location = 1096
+		division_template = "国民警备队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	##### Yangtze War Area (CO: ) #####
+	division = {
+		name = "武汉警备队"
+		location = 4619
+		division_template = "国民警备队"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 0.3
+
+	}
+	### River Defense Force (CO: ) ###
+	division = {
+		name = "11陆军师"
+		location = 1036
+		division_template = "国民警备队"
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "12陆军师"
+		location = 7637
+		division_template = "国民警备队"
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "43军"
+		location = 9959
+		division_template = "国民警备队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	### Capital Garrison Force (CO: ) ###
+	division = {
+		name = "第2陆军师"
+		location = 11913
+		division_template = "国民警备队"
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "预备师"
+		location = 11913
+		division_template = "国民革命军"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第1南京警备队"
+		location = 11913
+		division_template = "国民警备队"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		name = "第2南京警备队"
+		location = 11913
+		division_template = "国民警备队"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "第3南京警备队"
+		location = 11913
+		division_template = "国民警备队"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "第4南京警备队"
+		location = 11913
+		division_template = "国民警备队"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 0.4
+	}
+
+	##### Fifth War Area (CO: Li Zongren) #####
+	division = {
+		name = "第3骑兵师"
+		location = 10000
+		division_template = "骑兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "青岛警备队"
+		location = 10000
+		division_template = "国民警备队"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 0.3
+
+	}
+	## 3rd Army (CO: Han Fuqu) ##
+	division = {
+		name = "12军"
+		location = 4205
+		division_template = "国民警备队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "40军"
+		location = 4205
+		division_template = "国民警备队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+
+	##### ROCN #####
+	navy = {
+		name = "第1舰队"
+		base = 7014
+		location = 7014 #Shanghai
+		ship = { name = "应瑞号" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "宁海号" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "海容号" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "肇和号" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "海圻号" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "大东号" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+		ship = { name = "浙江号" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+	}
+}
+
+
+### Air Forces ###
+air_wings = {
+# Roughly 300 fighters, 21 tac bombers, but only 200 aircraft total were serviceable in 1937 due to neglect
+	# Beijing
+	608 = { 
+		fighter_equipment_0 = { owner = "CHI" amount = 30 }				# 3rd PG - Fiat CR.32
+	}
+	#Shanghai
+	613 = {
+		fighter_equipment_0 = { owner = "CHI" amount = 70 } 		# 4th PF, 5th PG, 9th PS - Curtiss Hawk
+		tac_bomber_equipment_0 =  { owner = "CHI" amount = 15 }		# Combined BG -- Martin 139WC, Savoia S.72
+	}
+}
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "CHI"
+		}
+		requested_factories = 2
+		progress = 0.55
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "CHI"
+		}
+		requested_factories = 1
+		progress = 0.55
+		efficiency = 100
+	}	
+	
+#Under Construction in Shanghai
+	# Light Cruiser 
+	add_equipment_production = { 		# "Pinghai"
+		equipment = {
+			type = light_cruiser_1
+			creator = "CHI" 
+		}
+		requested_factories = 1
+		progress = 0.33
+		amount = 1
+	}
+}

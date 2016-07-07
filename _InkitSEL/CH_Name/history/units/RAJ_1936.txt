@@ -1,0 +1,139 @@
+﻿division_template = {
+	name = "印度师"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	#India Command
+	
+	#Northern Command
+	
+	division= {	
+		name = "白沙瓦师"
+		location = 12717
+		division_template = "印度师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "科哈特师"
+		location = 4998
+		division_template = "印度师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "拉瓦尔品第师"
+		location = 12005
+		division_template = "印度师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "拉合尔师"
+		location = 10843
+		division_template = "印度师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "瓦济里斯坦师"
+		location = 1978
+		division_template = "印度师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
+	#Eastern Command
+	division= {	
+		name = "密鲁特师"
+		location = 11955
+		division_template = "印度师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "勒克瑙师"
+		location = 12137
+		division_template = "印度师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "阿萨姆师"
+		location = 1497
+		division_template = "印度师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
+	#Southern Command
+	division= {	
+		name = "德干师"
+		location = 12781
+		division_template = "印度师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "孟买师"
+		location = 1349
+		division_template = "印度师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "马德拉斯师"
+		location = 10278
+		division_template = "印度师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+}
+
+air_wings = {
+	### AHQ India
+	439 = { 
+		### AHQ India -- Fairey Gordons, Battles
+		CAS_equipment_1 = {
+			owner = "RAJ" 
+			amount = 80
+		}
+	}
+}
+
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "RAJ"
+		}
+		requested_factories = 1
+		progress = 0.12
+		efficiency = 100
+	}
+}

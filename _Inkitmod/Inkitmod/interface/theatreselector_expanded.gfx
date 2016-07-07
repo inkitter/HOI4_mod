@@ -1,0 +1,15 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_theatre_group_shield_selected"
+		texturefile = "gfx//interface//theatre_group_shield_selected_expanded.dds"
+		noOfFrames = 24
+	}
+
+	spriteType = {
+		name = "GFX_theatre_group_shield"
+		texturefile = "gfx//interface//theatre_group_shield_expanded.dds"
+		noOfFrames = 24
+	}
+
+}

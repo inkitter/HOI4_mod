@@ -1,0 +1,13 @@
+﻿l_english:
+ ASK_fascism:0 "Glorious Arstotzka Empire "
+ ASK_fascism_fascism_DEF:0 "The Glorious Arstotzkan Rule"
+ ASK_democratic:0 "EZIC Republic"
+ ASK_democratic_DEF:0 "The EZIC Republic"
+ ASK_neutrality:0 "Arstotzka"
+ ASK_neutrality_DEF:0 "Arstotzka"
+ ASK_communism:0 "Socialist Republic of Arstotzka"
+ ASK_communism_DEF:0 "The Socialist Republic of Arstotzka"
+ ASK_fascism_ADJ:0 "Arstotzkan"
+ ASK_democratic_ADJ:0 "Arstotzkan"
+ ASK_neutrality_ADJ:0 "Arstotzkan"
+ ASK_communism_ADJ:0 "Arstotzkan"

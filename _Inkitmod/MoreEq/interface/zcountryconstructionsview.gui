@@ -1,0 +1,337 @@
+guiTypes = {
+  # 建筑界面 扩展建筑格子
+	containerWindowType = {
+		name = "countryconstructionsview"
+		position = { x=-606 y=78}	
+		show_position = { x=-9 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300	
+		size = { width=600 height=100%% }  #605
+		clipping = no
+		
+		#hide_sound = menu_close_window
+		show_sound = menu_open_window
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window_thin_border"
+		}
+
+		iconType ={
+			name ="construction_screen_top_bg"
+			spriteType = "GFX_construction_screen_top_bg"
+			position = { x= 5 y = 37 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="production_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 07 }
+			Orientation = "UPPER_LEFT"
+		}	
+		
+		instantTextboxType = {
+			name = "construction_title"
+			position = { x = 45 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "CONSTRUCTION_VIEW_LABLE"
+			maxWidth = 240
+			maxHeight = 20
+			format = left	
+		}
+		
+		containerWindowType = {
+			name = "production_win_top"
+			position = { x = 28 y = 26 }
+			size = { width = 100% height = 80% }
+			verticalScrollbar = "right_vertical_slider"
+			
+			#background = {
+			#	name = "Background"
+			#	spriteType ="GFX_production_win_top"
+			#}
+
+			iconType = {
+				name = "civilian_factory_icon"
+				position = { x = -11 y = 29 }
+				spriteType = "GFX_non_available_factory_icon"
+			}
+			
+			
+			instantTextboxType = {
+				name = "available_factories_value"
+				position = { x = 15 y = 32 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "20/37"
+				maxWidth = 87
+				maxHeight = 20
+				format = center
+			}
+		
+			
+			instantTextboxType = {
+				name = "from_trade"
+				position = { x = 100 y = 24 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "from_trade"
+				maxWidth = 200
+				maxHeight = 20
+				format = left
+			}			
+			instantTextboxType = {
+				name = "traded_factories_value"
+				position = { x = 159 y = 24 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "99"
+				maxWidth = 70
+				maxHeight = 20
+				format = right
+			}
+
+			instantTextboxType = {
+				name = "local_factories"
+				position = { x = 100 y = 44 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "owned"
+				maxWidth = 200
+				maxHeight = 20
+				format = left
+			}
+			
+			instantTextboxType = {
+				name = "local_factories_value"
+				position = { x = 159 y = 44 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "99"
+				maxWidth = 70
+				maxHeight = 20
+				format = right
+			}
+
+			iconType = {
+				name = "construction_speed_icon"
+				position = { x = 264 y = 45 }
+				spriteType = "GFX_construction_speed_icon"
+			}
+			
+			instantTextboxType = {
+				name = "construction_speed_value"
+				position = { x = 315 y = 44 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "99"
+				maxWidth = 70
+				maxHeight = 20
+				format = right
+			}			
+			
+		}
+			
+		instantTextboxType = {
+			name = "location"
+			position = { x = 20 y = 106 }
+			font = "hoi_18mbs"
+			maxWidth = 150			
+			text = "CONSTRUCTION_LOCATION_LABEL"
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "task"
+			position = { x = 180 y = 106 }
+			font = "hoi_18mbs"
+			maxWidth = 80				
+			text = "CONSTRUCTION_TASK_LABEL"
+			format = center
+		}
+		
+		iconType = {
+			name = "factories"
+			position = { x = 274 y = 106 }
+			spriteType = "GFX_non_available_factory_icon"
+		}
+
+		instantTextboxType = {
+			name = "factories_amount"
+			position = { x = 234 y = 106 }
+			font = "hoi_18mbs"
+			maxWidth = 150				
+			text = "CONSTRUCTION_FACTORIES_LABEL"
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "priority"
+			position = { x = 295 y = 106 }
+			font = "hoi_18mbs"
+			maxWidth = 150				
+			text = "CONSTRUCTION_PRIORITY_LABEL"
+			format = center
+		}
+			
+		containerWindowType = {
+			name = "production_lines"
+			position = { x = 0 y = 130 }
+			size = { width = 440 height = 100%% }
+			verticalScrollbar = "right_vertical_slider"
+			margin = { top = 13 left = 13 bottom = 15 right = 25}			
+			
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window2_1b_border"
+			}
+
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
+			}
+			
+			gridBoxType = {
+				name = "item_grid"
+				position = { x = 1 y = 5 }
+				size = { width = 100% height = 100%% }
+				slotsize = { width = 500 height = 52 }
+				max_slots_horizontal = 1
+				format = "UPPER_LEFT"
+			}	
+		}
+		
+		containerWindowType = {
+			name = "possible_constructions"
+			position = { x = 438 y = 48 }
+			size = { width = 104 height = 585 }
+			
+			iconType = {
+				name = "constructions_bg1"
+				position = { x = 0 y = 6 }
+				quadTextureSprite = "GFX_constructions_bg8"
+			}
+
+			iconType = {
+				name = "constructions_bg2"
+				position = { x = 0 y = 240 }  # y=152
+				quadTextureSprite = "GFX_constructions_bg8"
+			}
+			
+			iconType = {
+				name = "constructions_bg3"
+				position = { x = 0 y = 473 }  # y=340
+				quadTextureSprite = "GFX_constructions_bg2"
+			}
+
+			iconType = {
+				name = "constructions_bg4"
+				position = { x = 0 y = 618 }  # y=485
+				quadTextureSprite = "GFX_constructions_bg3"
+			}
+
+			iconType = {
+				name = "state_constructions"
+				position = { x = 5 y = 9 }  # y = 9
+				quadTextureSprite = "GFX_state_constructions"
+			}
+
+			iconType = {
+				name = "shared_constructions"
+				position = { x = 5 y = 243 } # y = 155 +88
+				quadTextureSprite = "GFX_shared_constructions"
+			}
+
+			iconType = {
+				name = "province_constructions"
+				position = { x = 5 y = 476 } # y = 343 +133
+				quadTextureSprite = "GFX_province_constructions"
+			}
+	# 建筑格子扩展
+			gridBoxType = {
+				name = "non_shared_item_grid"
+				position = { x = 8 y = 51 } # y = 51
+				size = { width = 100% height = 100% }
+				slotsize = { width = 46 height = 44 }
+				max_slots_horizontal = 3
+				format = "UPPER_LEFT"
+			}
+			
+			gridBoxType = {
+				name = "shared_item_grid"
+				position = { x = 8 y = 285 } # y =196 +88 +1
+				size = { width = 100% height = 100% }
+				slotsize = { width = 46 height = 44 }
+				max_slots_horizontal = 3
+				format = "UPPER_LEFT"
+			}
+			
+			gridBoxType = {
+				name = "province_item_grid"
+				position = { x = 8 y = 518 } # y = 385 +133
+				size = { width = 100% height = 100% }
+				slotsize = { width = 46 height = 44 }
+				max_slots_horizontal = 3
+				format = "UPPER_LEFT"
+			}
+		}
+
+		buttonType = {
+			name = "convert_ic_button"
+			position = { x = -111 y = 677 } # y(+159) = 544 + 
+			quadTextureSprite ="GFX_convert_ic_button"
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = "CONSTRUCTION_CONVERT_IC_TOOLTIP"
+			pdx_tooltip_delayed = "CONSTRUCTION_CONVERT_IC_TOOLTIP_DELAYED"
+		}
+				
+		buttonType = {
+			name = "minimize"
+			position = { x = -104 y = 730 }
+			quadTextureSprite ="GFX_production_line_arrow_left"
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = "CONSTRUCTION_MINIMIZE"
+		}
+		
+		buttonType = {
+			name = "expand"
+			position = { x = -104 y = 730 }
+			quadTextureSprite ="GFX_production_line_arrow_right"
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = "CONSTRUCTION_EXPAND"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -42 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		
+		iconType ={
+			name ="tutorial_glow"
+			spriteType = "GFX_tutorial_building_icon_glow"
+			position = { x= 491 y = 244 }
+			Orientation = "UPPER_LEFT"
+			hide = yes
+		}
+	}
+	
+ 
+}

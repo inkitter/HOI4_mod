@@ -1,0 +1,23 @@
+resources = {
+	# 神秘材料
+	secretmater = {
+		icon_frame = 7
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	# 克隆人
+	cloneman = {
+		icon_frame = 8
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	# 知识
+	knowledge = {
+		icon_frame = 9
+		cic = 0.125
+		convoys = 0.1
+	}
+
+}

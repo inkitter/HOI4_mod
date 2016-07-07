@@ -1,0 +1,146 @@
+﻿start_equipment_factor = 0.3
+division_template = {
+	name = "混编师"				# 混编师 -师s raised in 1939, still at reserve levels at start of war
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "步兵集团"				# Represents groups of independent infantry brigades
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	######## LAND OOB ########
+	##### Royal Iranian Army #####
+	division = {
+		name = "第1师"
+		location = 1896
+		division_template = "混编师"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "第2师"
+		location = 10913
+		division_template = "混编师"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "第3师"
+		location = 10837
+		division_template = "混编师"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "第4师"
+		location = 5029
+		division_template = "混编师"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "第5师"
+		location = 7982
+		division_template = "混编师"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "第6师"
+		location = 2026
+		division_template = "混编师"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "第7师"
+		location = 8117
+		division_template = "混编师"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "第8师"
+		location = 7953
+		division_template = "混编师"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "第9师"
+		location = 5005
+		division_template = "混编师"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "北波斯集团军"
+		location = 1896
+		division_template = "步兵集团"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "南波斯集团军"
+		location = 10837
+		division_template = "步兵集团"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	######## No Naval OOB ########
+}
+
+air_wings = {
+	### Royal Iranian Air Force ###
+	266 = {
+		fighter_equipment_0 =  { owner = "PER" amount = 72 }		# 1st Air Group -- Hawker Furys
+		CAS_equipment_1 =  { owner = "PER" amount = 48 }			# 2nd, 3rd Air Groups -- Hawker Hinds, Audaxes
+	}
+}
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "PER"
+		}
+		requested_factories = 1
+		progress = 0.51
+		efficiency = 100
+	}
+}

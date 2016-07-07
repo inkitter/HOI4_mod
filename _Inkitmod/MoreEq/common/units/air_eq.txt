@@ -1,0 +1,32 @@
+sub_units = {
+	airship = {
+		sprite = light_plane  # NEED to change
+		priority = 1
+		active = yes
+		type = { strategic_bomber }
+		need = { airship_equipment = 1 }
+	}
+
+	tactic_missile = {
+		sprite = missile_default
+		priority = 1
+		active = yes
+		type = { tactical_bomber }
+		need = { tactic_missile_equipment = 1 }
+	}
+
+	aa_missile = {
+		sprite = missile_default
+		priority = 1
+		active = yes
+		type = { interceptor }
+		need = { aa_missile_equipment = 1 }
+	}
+	as_missile = {
+		sprite = missile_default
+		priority = 1
+		active = yes
+		type = { naval_bomber }
+		need = { as_missile_equipment = 1 }
+	}
+}

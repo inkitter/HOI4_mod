@@ -1,0 +1,314 @@
+﻿division_template = {
+	name = "步兵旅"				# Infantry Brigade
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "轻骑兵旅" 			# Cavalry Brigade
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }   
+	}
+}
+division_template = {
+	name = "摩化机动旅" 			# Motorized Brigade
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }   
+	}
+}
+
+units = {
+	##### Honvédelmi Fõparancsnokság #####
+	# Gyorshadtest ('Rapid Corps', actual corps raised in 1940) #
+	division= {	
+		name = "1. 摩化机动旅"
+		location = 9660
+		division_template = "摩化机动旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2. 摩化机动旅"
+		location = 9660
+		division_template = "摩化机动旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "1. 轻骑兵旅"
+		location = 9660
+		division_template = "轻骑兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2. 轻骑兵旅"
+		location = 9660
+		division_template = "轻骑兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# I Hadtest #
+	division= {	
+		name = "1. 步兵旅"
+		location = 9660
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2. 步兵旅"
+		location = 9660
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "3. 步兵旅"
+		location = 9660
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# II Hadtest #
+	division= {	
+		name = "4. 步兵旅"
+		location = 701
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "5. 步兵旅"
+		location = 701
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "6. 步兵旅"
+		location = 701
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# III Hadtest #
+	division= {	
+		name = "7. 步兵旅"
+		location = 11627
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "8. 步兵旅"
+		location = 11627
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "9. 步兵旅"
+		location = 11627
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# IV Hadtest #
+	division= {	
+		name = "10. 步兵旅"
+		location = 11610
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "11. 步兵旅"
+		location = 11610
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "12. 步兵旅"
+		location = 11610
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# V Hadtest #
+	division= {	
+		name = "13. 步兵旅"
+		location = 679
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "14. 步兵旅"
+		location = 679
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "15. 步兵旅"
+		location = 679
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# VI Hadtest #
+	division= {	
+		name = "16. 步兵旅"
+		location = 11659
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "17. 步兵旅"
+		location = 11659
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "18. 步兵旅"
+		location = 11659
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# VII Hadtest #
+	division= {	
+		name = "19. 步兵旅"
+		location = 6751
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "20. 步兵旅"
+		location = 6751
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "21. 步兵旅"
+		location = 6751
+		division_template = "步兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# Note: VIII, IX Corps created during 1940 #
+	
+}
+
+### Magyar Légiero ###
+air_wings = {
+	43 = {
+		fighter_equipment_0 = { owner = "HUN" amount = 36 }		# 1. Légi Ezred -- Fiat CR.32 fighters
+		fighter_equipment_1 = { owner = "HUN" amount = 36 }		# 2. Légi Ezred -- Fiat CR.42 fighters
+	}
+	154 = {
+		tac_bomber_equipment_1 = { owner = "HUN" amount = 54 }			# 3. Légi Ezred -- Ju-86K, WM-16 Budapest bombers
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "HUN"
+		}
+		requested_factories = 1
+		progress = 0.82
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "HUN"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "HUN" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "HUN"
+		}
+		requested_factories = 1
+		progress = 0.47
+		efficiency = 100
+	}
+}

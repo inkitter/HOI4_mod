@@ -1,0 +1,50 @@
+﻿division_template = {
+	name = "军团"				# Represents a corps of 3 NRA divisions (2 brigades of 2 regiments each)
+									# Militia-level training and equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "蒙古骑兵师"			# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1军"
+		location = 828
+		division_template = "军团"		
+	}
+	division = {
+		name = "第1蒙古师"
+		location = 1590
+		division_template = "军团"
+	}
+	division = {
+		name = "第2蒙古师"
+		location = 828
+		division_template = "军团"
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MEN"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}
+}

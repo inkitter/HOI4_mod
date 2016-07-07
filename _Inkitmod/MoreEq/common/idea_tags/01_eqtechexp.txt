@@ -1,0 +1,9 @@
+idea_categories = {	
+	TechExpidea = {
+		slot = TechExpideas
+		slot = exp_test
+
+		cost = 0
+		removal_cost = 0
+	}
+}

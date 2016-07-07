@@ -1,0 +1,138 @@
+﻿add_namespace = Easybuffe
+
+country_event = {
+    id = Easybuffe.10
+    title = Easybuffe.10.t
+    desc = Easybuffe.10.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+        is_ai = no
+        has_idea = cheat_politics_setcapital
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            remove_ideas = cheat_politics_setcapital
+            random_owned_state = {
+                limit = {
+                    AND = {
+                        is_owned_by = ROOT
+                        ROOT = {
+                            divisions_in_state = {
+                                state = PREV
+                                size > 10
+                            }
+                        }
+                    }
+                }
+                save_event_target_as = cap_state          
+            }
+            random_owned_state = {
+                limit = {
+                    AND = {
+                        is_owned_by = ROOT
+                        ROOT = {
+                            divisions_in_state = {
+                                state = PREV
+                                size > 20
+                            }
+                        }
+                    }
+                }
+                save_event_target_as = cap_states         
+            }
+        }
+    }
+
+    option = {
+        name = Easybuffe.10.a
+        ai_chance = { factor = 0 }
+        set_capital = event_target:cap_state
+    }
+    option = {
+        name = Easybuffe.10.b
+        ai_chance = { factor = 0 }
+        set_capital = event_target:cap_states
+    }
+    option = {
+        name = Easybuffe.10.c
+        ai_chance = { factor = 100 }
+    }
+}
+
+country_event = {
+    id = Easybuffe.11
+    title = Easybuffe.11.t
+    desc = Easybuffe.11.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+        is_ai = no
+        has_idea = cheat_politics_adjustthreat
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            remove_ideas = cheat_politics_adjustthreat
+        }
+    }
+    
+    option = {
+        name = Easybuffe.11.a
+        ai_chance = { factor = 0 }
+        add_named_threat = { threat = -25 }
+    }
+    option = {
+        name = Easybuffe.11.b
+        ai_chance = { factor = 0 }
+        add_named_threat = { threat = 25 }
+    }
+  
+    option = {
+        name = Easybuffe.11.c
+        ai_chance = { factor = 100 }
+    }
+}
+
+country_event = {
+    id = Easybuffe.12
+    title = Easybuffe.12.t
+    desc = Easybuffe.12.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+        is_ai = no
+        has_idea = cheat_event1_test3
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            remove_ideas = cheat_event1_test3
+        }
+    }
+    
+    option = {
+        name = Easybuffe.12.a
+        ai_chance = { factor = 0 }
+        add_political_power = 150
+        add_national_unity = 0.15
+    }
+  
+    option = {
+        name = Easybuffe.12.c
+        ai_chance = { factor = 100 }
+    }
+}

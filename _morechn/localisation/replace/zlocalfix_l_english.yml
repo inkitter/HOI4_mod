@@ -1,0 +1,11 @@
+﻿l_english:
+ DESIGNER_BASE_STATS_LABEL:0 " 基本属性"
+ DESIGNER_COMBAT_STATS_LABEL:0 " 战斗属性"
+ DESIGNER_EQUIPMENT_STATS_LABEL:0 " 装备成本"
+
+ TRADED_NATIONS:0 "正在与其贸易的国家"
+
+ WGR_fascist:0 "第四帝国"
+ WGR_fascist_DEF:0 "第四帝国"
+ TRIGGER_HAS_NOT_IDEA:0 "没有民族精神$IDEA|H$"
+ TRIGGER_HAS_IDEA:0 "拥有想法$IDEA|H$"

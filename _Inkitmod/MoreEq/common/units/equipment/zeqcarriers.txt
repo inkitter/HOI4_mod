@@ -1,0 +1,131 @@
+equipments = {
+  # 高容量航母
+	carrierl_1 = {
+		archetype = carrier
+		priority = 70
+
+		carrier_size = 100
+
+		evasion = 2
+		naval_speed = 20
+		reliability = 0.75
+
+		surface_visibility = 35
+
+		build_cost_ic = 12000
+
+		resources = {
+			oil = 1
+			steel = 4
+			chromium = 2
+		}
+
+		manpower = 4000
+	}
+
+	carrierl_2 = {
+		archetype = carrier
+		parent = carrierl_1
+		priority = 70
+
+		ap_attack = 2
+		attack = 2
+		fire_range = 16
+		torpedo_attack = 0
+		carrier_size = 150
+		
+		armor_value = 1
+		evasion = 10
+		
+		surface_detection = 5
+		sub_detection = 0
+		surface_visibility = 35
+		naval_speed = 25
+		reliability = 0.8
+
+		naval_range = 4000
+		
+		max_strength = 150
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 13500
+		resources = {
+			oil = 1
+			steel = 4
+			chromium = 2
+		}
+	}
+
+	carrierl_3 = {
+		archetype = carrier
+		parent = carrierl_2
+		priority = 70
+
+		ap_attack = 2
+		attack = 2
+		fire_range = 16
+		torpedo_attack = 0
+		carrier_size = 250
+		
+		anti_air_attack = 4
+		
+		armor_value = 1
+		evasion = 8
+		
+		surface_detection = 5
+		sub_detection = 0
+		surface_visibility = 35
+		naval_speed = 28
+		reliability = 0.8
+
+		naval_range = 5000
+		
+		max_strength = 200
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 15000
+		resources = {
+			oil = 2
+			steel = 5
+			chromium = 3
+		}
+	}
+
+	carrierl_4 = {
+		archetype = carrier
+		parent = carrierl_3
+		priority = 70
+		
+		ap_attack = 2
+		attack = 2
+		fire_range = 16
+		torpedo_attack = 0
+		carrier_size = 400
+
+		anti_air_attack = 6
+		
+		armor_value = 1
+		evasion = 12
+		
+		surface_detection = 5
+		sub_detection = 0
+		surface_visibility = 35
+		naval_speed = 32
+		reliability = 0.8
+
+		naval_range = 6000
+		
+		max_strength = 250
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 16000
+		resources = {
+			oil = 2
+			steel = 6
+			chromium = 3
+		}		
+	}
+}

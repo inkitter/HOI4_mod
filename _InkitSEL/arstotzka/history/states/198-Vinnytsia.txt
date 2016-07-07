@@ -1,0 +1,22 @@
+
+state={
+	id=198
+	name="STATE_198"
+	manpower = 1893391
+
+	state_category = large_town
+
+	history={
+		owner = ASK
+		buildings = {
+			infrastructure = 6
+			air_base = 5
+			industrial_complex = 1
+		}
+		add_core_of = ASK
+	}
+
+	provinces={
+		476 6455 6480 9423 9435 9481 9576 
+	}
+}

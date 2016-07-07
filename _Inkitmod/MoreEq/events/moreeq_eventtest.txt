@@ -1,0 +1,35 @@
+﻿add_namespace = techexp
+
+# 测试事件 10~19
+country_event = {
+    id = techexp.10
+    title = techexp.10.t
+    desc = techexp.10.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+        is_ai = no
+        has_idea = exp_test1
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            # remove_ideas = exp_test1
+        }
+    }
+
+    option = {
+        name = techexp.10.a
+        ai_chance = { factor = 0 }
+    }
+  
+    option = {
+        name = techexp.10.c
+        ai_chance = { factor = 100 }
+    }
+}
+}

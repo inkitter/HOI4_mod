@@ -1,0 +1,128 @@
+ideas = {
+	# col1
+	TechExpideas = {
+		law = yes
+		exp_clonetoman = {
+			picture = GFX_trait_unknown
+			available = {
+				any_owned_state = {
+					clonemanfactory > 0
+				}
+			}
+			on_add = {
+				country_event = techexp.30
+			}
+			cost = 100
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+				modifier = {
+					factor = 1
+					any_owned_state = {
+						clonemanfactory > 0
+					}
+				}
+			}
+		}
+		eqexp_moresharedslot = {
+			picture = GFX_trait_unknown
+			available = {
+				any_owned_state = {
+					buildingteam > 0
+				}
+			}
+			on_add = {
+				country_event = techexp.32
+			}
+			cost = 75
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+				modifier = {
+					factor = 1
+					any_owned_state = {
+						buildingteam > 0
+					}
+				}
+			}
+		}
+		eqexp_plazatocore = {
+			picture = GFX_trait_unknown
+			available = {
+				any_owned_state = {
+					memorialplaza > 0
+				}
+			}
+			on_add = {
+				country_event = techexp.33
+			}
+			cost = 100
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+				# modifier = {
+				# 	factor = 1
+				# 	any_owned_state = {
+				# 		memorialplaza > 0
+				# 	}
+				# }
+			}
+		}
+		
+	}
+
+	# col2
+	exp_test = {
+		law = yes
+		exp_test1 = {
+			picture = GFX_trait_unknown
+			on_add = {
+				country_event = techexp.10
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		exp_test2 = {
+			picture = GFX_trait_unknown
+			on_add = {
+				country_event = techexp.10
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		exp_test3 = {
+			picture = GFX_trait_unknown
+			on_add = {
+				country_event = techexp.10
+			}
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		exp_lowerresist = {
+			picture = GFX_trait_unknown
+			available = {
+				AND = {
+					any_owned_state = {
+						NOT = { is_core_of = ROOT }
+					}
+					# NOT = { has_idea = eqresistance_down }
+				}
+			}
+			on_add = {
+				country_event = techexp.31
+			}
+			cost = 200
+			removal_cost = 0
+			ai_will_do = {
+   				factor = 1
+			}
+		}
+	}
+
+}

@@ -1,0 +1,210 @@
+# 本文件用于图标索引
+spriteTypes = {
+
+  # 建筑图标扩展
+		spriteType = {
+			name = "GFX_buildings_strip"
+			textureFile = "gfx/interface/buildings/building_icon_strip.dds"
+			noOfFrames = 40
+		}
+  # 建筑界面背景
+		spriteType = {
+			name = "GFX_constructions_bg8"
+			textureFile = "gfx//interface//constructions_bg8.dds"
+		}
+
+  # 资源图标扩展
+		spriteType = {
+			name = "GFX_resources_strip"
+			texturefile = "gfx/interface/resources_strip.dds"
+			noOfFrames = 20
+		}
+
+  # 缺少的资源图标扩展
+		spriteType = {
+			name = "GFX_missing_resources_strip"
+			texturefile = "gfx/interface/missing_resources_strip.dds"
+			noOfFrames = 20
+		}
+  # 建筑科技图标
+    # 资源工厂
+		SpriteType = {
+			name = "GFX_secretmaterfactory_medium"
+			texturefile = "gfx/interface/technologies/basic_construction.dds"
+		}
+		SpriteType = {
+			name = "GFX_secretmaterfactory2_medium"
+			texturefile = "gfx/interface/technologies/basic_construction.dds"
+		}
+		SpriteType = {
+			name = "GFX_secretmaterfactory3_medium"
+			texturefile = "gfx/interface/technologies/basic_construction.dds"
+		}
+		SpriteType = {
+			name = "GFX_secretmaterfactory4_medium"
+			texturefile = "gfx/interface/technologies/basic_construction.dds"
+		}
+		SpriteType = {
+			name = "GFX_secretmaterfactory5_medium"
+			texturefile = "gfx/interface/technologies/basic_construction.dds"
+		}
+	
+  # 特种装备科技图标
+		SpriteType = {
+			name = "GFX_spec_teck0_medium"
+			texturefile = "gfx/interface/technologies/specinfantry_equipment_0.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teck1_medium"
+			texturefile = "gfx/interface/technologies/specinfantry_equipment_1.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teck2_medium"
+			texturefile = "gfx/interface/technologies/specinfantry_equipment_2.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teck3_medium"
+			texturefile = "gfx/interface/technologies/specinfantry_equipment_3.dds"
+		}
+
+   # 特种兵科技树
+		SpriteType = {
+			name = "GFX_spec_teckt0_medium"
+			texturefile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teckt1_medium"
+			texturefile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teckt2_medium"
+			texturefile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teckt3_medium"
+			texturefile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teckt4_medium"
+			texturefile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+
+  # 爆破装备科技图标
+		SpriteType = {
+			name = "GFX_bomb_tech0_medium"
+			texturefile = "gfx/interface/technologies/bombinfantry_equipment_0.dds"
+		}
+		SpriteType = {
+			name = "GFX_bomb_tech1_medium"
+			texturefile = "gfx/interface/technologies/bombinfantry_equipment_1.dds"
+		}
+		SpriteType = {
+			name = "GFX_bomb_tech2_medium"
+			texturefile = "gfx/interface/technologies/bombinfantry_equipment_2.dds"
+		}
+		SpriteType = {
+			name = "GFX_bomb_tech3_medium"
+			texturefile = "gfx/interface/technologies/bombinfantry_equipment_3.dds"
+		}
+
+  # 火箭筒科技图标
+		SpriteType = {
+			name = "GFX_rocket_tech0_medium"
+			texturefile = "gfx/interface/technologies/rocketinfantry_equipment_0.dds"
+		}
+		SpriteType = {
+			name = "GFX_rocket_tech1_medium"
+			texturefile = "gfx/interface/technologies/rocketinfantry_equipment_1.dds"
+		}
+		SpriteType = {
+			name = "GFX_rocket_tech2_medium"
+			texturefile = "gfx/interface/technologies/rocketinfantry_equipment_2.dds"
+		}
+		SpriteType = {
+			name = "GFX_rocket_tech3_medium"
+			texturefile = "gfx/interface/technologies/rocketinfantry_equipment_3.dds"
+		}
+
+# 新兵种图标
+  # 特种部队
+	# 中图标
+		spriteType = {
+			name = "GFX_unit_specialinfantry_icon_medium"
+			textureFile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+	# 中图标
+		spriteType = {
+			name = "GFX_unit_specialinfantry_icon_medium_white"
+			textureFile = "gfx/interface/counters/division_templates_small/custom_template_019.dds"
+		}
+	# NATO
+		spriteType = {
+			name = "GFX_nato_unit_specialinfantry_icon_small"
+			texturefile = "gfx/texticons/nato_unit_motorized_icon_small.dds"
+			legacy_lazy_load = no
+		}
+	# 小图标
+		spriteType = {
+			name = "GFX_unit_specialinfantry_icon_small"
+			texturefile = "gfx/texticons/unit_motorized_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2		
+		}	
+
+  # 火箭
+		spriteType = {
+			name = "GFX_unit_rocketinfantry_icon_medium"
+			textureFile = "gfx/interface/counters/division_templates_large/rocketicon.dds"
+		}
+		spriteType = {
+			name = "GFX_unit_rocketinfantry_icon_medium_white"
+			textureFile = "gfx/interface/counters/division_templates_large/rocketicon.dds"
+		} # NEED Small icon
+
+  # 爆破
+		spriteType = {
+			name = "GFX_unit_bombinfantry_icon_medium"
+			textureFile = "gfx/interface/counters/division_templates_large/custom_template_029.dds"
+		}
+		spriteType = {
+			name = "GFX_unit_bombinfantry_icon_medium_white"
+			textureFile = "gfx/interface/counters/division_templates_small/custom_template_029.dds"
+		}
+  # 飞艇
+  	SpriteType = {
+		name = "GFX_airship_tech0_medium"
+		texturefile = "gfx/interface/technologies/airship.dds"
+	}	
+	SpriteType = {
+		name = "GFX_airship_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/airship.dds"
+	}
+  # 战术导弹
+	SpriteType = {
+		name = "GFX_tacticmissile_tech0_medium"
+		texturefile = "gfx/interface/technologies/experimental_rockets.dds"
+	}
+	SpriteType = {
+		name = "GFX_tactic_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/guided_missile_2.dds"
+	}	
+	
+  # 对空导弹
+	SpriteType = {
+		name = "GFX_aamissile_tech0_medium"
+		texturefile = "gfx/interface/technologies/experimental_rockets.dds"
+	}
+	SpriteType = {
+		name = "GFX_aa_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/guided_missile_2.dds"
+	}	
+  # 反舰导弹
+	SpriteType = {
+		name = "GFX_asmissile_tech0_medium"
+		texturefile = "gfx/interface/technologies/experimental_rockets.dds"
+	}
+	SpriteType = {
+		name = "GFX_as_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/guided_missile_2.dds"
+	}	
+}

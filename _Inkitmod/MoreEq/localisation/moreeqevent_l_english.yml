@@ -1,0 +1,27 @@
+﻿l_english:
+ TechExpidea:0 "More Equipment Events"
+ TechExpideas:0 "More Equipment Events"
+ exp_test:0 "TESTING"
+ exp_clonetoman:0 "Drop Synths"
+ eqexp_moresharedslot:0 "Build Slots"
+ eqexp_plazatocore:0 "Make Core"
+
+ techexp.30:0 "Drop Synths"
+ techexp.30.t:0 "Drop Synths"
+ techexp.30.d:0 "Drop Synths into manpower"
+ techexp.30.a:0 "Drop now"
+ techexp.30.b:0 "Later"
+ clonetoman_pressure:0 "Mass New Synths in Pops"
+
+ techexp.32:0 "Add building slot"
+ techexp.32.t:0 "Add building slot"
+ techexp.32.d:0 "Add building slot"
+ techexp.32.a:0 "Add"
+ techexp.32.b:0 "Later"
+ buildingslot_brandnew:0 "Brand New Building Slot"
+
+ techexp.33:0 "Make Core"
+ techexp.33.t:0 "Make Core"
+ techexp.33.d:0 "Make Core"
+ techexp.33.a:0 "Make Core"
+ techexp.33.b:0 "Later"

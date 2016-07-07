@@ -1,0 +1,109 @@
+buildings = {
+
+	# show_on_map:
+	#    if provincial = yes, then show_on_map = X is amount per each province
+	#    if provincial = no, then show_on_map = X is amount per state
+
+	# 钢铁工厂
+	metalfactory = {
+		show_on_map = 1
+		base_cost = 3000  # 3000
+		icon_frame = 16
+		max_level = 10
+		value = 1
+		damage_factor = 0
+		local_resources_steel = 2
+		# refinery = yes
+		value = 0
+		# shares_slots = yes
+	}
+	# 铝厂
+	aluminiumfactory = {
+		show_on_map = 1
+		base_cost = 9000 
+		icon_frame = 15
+		max_level = 3
+		value = 1
+		damage_factor = 0
+		local_resources_aluminium = 7
+		# refinery = yes
+		value = 0
+		shares_slots = yes
+	}
+
+	# 神秘材料工厂
+	secretfactory = {
+		show_on_map = 1
+		base_cost = 3000 # 6000
+		icon_frame = 18
+		max_level = 10
+		value = 5
+		local_resources_secretmater = 1
+		shares_slots = yes
+	}
+
+	# 克隆人工厂
+	clonemanfactory = {
+		show_on_map = 1
+		base_cost = 7000
+		icon_frame = 17
+		max_level = 10
+		value = 5
+		local_resources_cloneman = 1
+		LOCAL_MANPOWER = 0.01
+		shares_slots = yes
+	}
+
+	# 建筑工队 开发区
+	buildingteam = {
+		show_on_map = 1
+		base_cost = 1500 
+		icon_frame = 14
+		max_level = 5
+		value = 5
+		production_speed_buildings_factor = 0.02
+		#shares_slots = yes
+	}
+	# 学校
+	schoolbuild = {
+		show_on_map = 1
+		base_cost = 5000
+		icon_frame = 23
+		max_level = 5
+		local_resources_knowledge = 1
+		value = 5
+		shares_slots = yes
+	}
+	# 纪念广场Memorial Plaza
+	memorialplaza = {
+		show_on_map = 1
+		base_cost = 5000 
+		icon_frame = 22
+		max_level = 1
+		value = 5
+		shares_slots = yes
+	}
+	# 市级船厂
+	dockyardp = {
+		show_on_map = 1
+		show_on_map_meshes = 3
+		provincial = yes
+		base_cost = 5000
+		only_costal = yes
+		naval_production = 1
+		icon_frame = 4
+		only_costal = yes
+		max_level = 2
+		#shares_slots = yes
+		value = 5
+	}
+
+	# infrastructure = {
+	# 	base_cost = 3000
+	# 	icon_frame = 3
+	# 	local_building_slots = 0.5
+	# 	infrastructure = yes
+	# 	max_level = 10
+	# 	value = 1
+	# }
+}

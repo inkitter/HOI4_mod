@@ -1,0 +1,102 @@
+technologies = {
+  # 飞艇
+	airship_tech0 = {
+        enable_equipments = {
+			airship_equipment_1
+		}
+        # enable_subunits = {
+		# 	airship
+		# }
+        research_cost = 0.6
+		start_year = 1918
+
+        folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 0 }
+		}
+        categories = {
+			light_air
+            medium_air
+			air_equipment
+            tactical_bomber
+		}
+        ai_will_do = {
+			factor = 0
+		}
+    }
+
+  # 战术导弹
+	tacticmissile_tech0 = {
+        enable_equipments = {
+			tactic_missile_equipment_1
+		}
+        # enable_subunits = {
+		# 	airship
+		# }
+		path = {
+			leads_to_tech = aamissile_tech0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = asmissile_tech0 
+			research_cost_coeff = 1
+		}
+        research_cost = 0.4
+		start_year = 1942
+
+        folder = {
+			name = electronics_folder
+			position = { x = 0 y = 0 }
+		}
+        categories = {
+			rocketry
+		}
+        ai_will_do = {
+			factor = 0
+		}
+    }
+
+  # 对空导弹
+	aamissile_tech0 = {
+		enable_equipments = {
+			aa_missile_equipment_1
+		}
+		# enable_subunits = {
+		# 	airship
+		# }
+		research_cost = 0.4
+		start_year = 1942
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 2 }
+		}
+		categories = {
+			rocketry
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	asmissile_tech0 = {
+		enable_equipments = {
+			as_missile_equipment_1
+		}
+		# enable_subunits = {
+		# 	airship
+		# }
+		research_cost = 0.4
+		start_year = 1942
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 2 }
+		}
+		categories = {
+			rocketry
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

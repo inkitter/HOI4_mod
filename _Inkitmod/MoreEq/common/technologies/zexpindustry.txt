@@ -1,0 +1,238 @@
+technologies = {
+	
+	secretmaterfactory = {
+
+		enable_building = {
+			building = secretfactory
+			level = 1
+		}
+		enable_building = {
+			building = metalfactory
+			level = 1
+		}
+		enable_building = {
+			building = aluminiumfactory
+			level = 1
+		}
+
+		enable_building = {
+			building = clonemanfactory
+			level = 1
+		}
+
+		enable_building = {
+			building = schoolbuild
+			level = 1
+		}
+
+		enable_building = {
+			building = buildingteam
+			level = 1
+		}
+		enable_building = {
+			building = dockyardp
+			level = 1
+		}
+
+
+
+		path = {
+			leads_to_tech = secretmaterfactory2 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1		
+		}
+	}
+	secretmaterfactory2 = {
+
+		enable_building = {
+			building = secretfactory
+			level = 2
+		}
+		enable_building = {
+			building = metalfactory
+			level = 2
+		}
+		
+		enable_building = {
+			building = buildingteam
+			level = 2
+		}
+		enable_building = {
+			building = schoolbuild
+			level = 2
+		}
+		enable_building = {
+			building = clonemanfactory
+			level = 2
+		}
+
+		path = {
+			leads_to_tech = secretmaterfactory3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1		
+		}
+	}
+	secretmaterfactory3 = {
+
+		enable_building = {
+			building = secretfactory
+			level = 3
+		}
+		enable_building = {
+			building = metalfactory
+			level = 3
+		}
+		
+		enable_building = {
+			building = schoolbuild
+			level = 3
+		}
+		enable_building = {
+			building = clonemanfactory
+			level = 3
+		}
+		enable_building = {
+			building = aluminiumfactory
+			level = 2
+		}
+		enable_building = {
+			building = dockyardp
+			level = 2
+		}
+
+		path = {
+			leads_to_tech = secretmaterfactory4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1		
+		}
+	}
+	secretmaterfactory4 = {
+
+		enable_building = {
+			building = secretfactory
+			level = 4
+		}
+		enable_building = {
+			building = metalfactory
+			level = 4
+		}
+		enable_building = {
+			building = memorialplaza
+			level = 1
+		}
+		enable_building = {
+			building = schoolbuild
+			level = 4
+		}
+		enable_building = {
+			building = clonemanfactory
+			level = 4
+		}
+
+		path = {
+			leads_to_tech = secretmaterfactory5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1		
+		}
+	}
+
+	secretmaterfactory5 = {
+
+		enable_building = {
+			building = secretfactory
+			level = 5
+		}
+		enable_building = {
+			building = metalfactory
+			level = 5
+		}
+		enable_building = {
+			building = schoolbuild
+			level = 5
+		}
+		enable_building = {
+			building = clonemanfactory
+			level = 5
+		}
+		enable_building = {
+			building = aluminiumfactory
+			level = 3
+		}
+		
+		research_cost = 1
+		start_year = 1947
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1		
+		}
+	}
+}

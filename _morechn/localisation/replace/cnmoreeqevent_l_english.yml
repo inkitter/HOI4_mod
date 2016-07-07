@@ -1,0 +1,27 @@
+﻿l_english:
+ TechExpidea:0 "科技扩展事件"
+ TechExpideas:0 "科技扩展事件"
+ exp_test:0 "测试用"
+ exp_clonetoman:0 "投放合成年人"
+ eqexp_moresharedslot:0 "扩展建筑用地"
+ eqexp_plazatocore:0 "制造核心"
+
+ techexp.30:0 "投放合成年人"
+ techexp.30.t:0 "投放合成年人"
+ techexp.30.d:0 "将合成年人偷偷放入人群中"
+ techexp.30.a:0 "投放"
+ techexp.30.b:0 "再过一段时间"
+ clonetoman_pressure:0 "大量新种族迁入"
+
+ techexp.32:0 "扩展建筑用地"
+ techexp.32.t:0 "扩展建筑用地"
+ techexp.32.d:0 "扩展建筑用地"
+ techexp.32.a:0 "扩展"
+ techexp.32.b:0 "稍后"
+ buildingslot_brandnew:0 "全新地基"
+
+ techexp.33:0 "制造核心"
+ techexp.33.t:0 "制造核心"
+ techexp.33.d:0 "制造核心"
+ techexp.33.a:0 "制造核心"
+ techexp.33.b:0 "稍后"
