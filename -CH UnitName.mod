@@ -1,5 +1,5 @@
 name="-CH Name"
-path="mod/_InkitSEL/CH_Name"
+path="mod/_InkitSEL/CH_UnitName"
 tags={
 	"Gameplay"
 }
