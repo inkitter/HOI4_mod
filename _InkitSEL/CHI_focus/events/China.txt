@@ -1115,6 +1115,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
 	id = china.110
 	title = china.110.t
@@ -1327,3 +1328,68 @@ country_event = {
 	}
 }
 
+
+#Move capital if PRC wins civil war
+country_event = {
+	id = china.204
+	title = china.204.t
+	desc = china.204.d
+	picture = GFX_report_event_chinese_soldiers
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PRC
+		NOT = {
+			country_exists = CHI
+		}
+		owns_state = 608 #Beijing
+		owns_state = 613 #Nanjing
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	#Move to Beijing
+	option = {
+		name = china.204.a
+		ai_chance = {
+			base = 90
+			modifier = {
+				factor = 0
+				NOT = { 608 = { is_controlled_by = PRC } }
+			}
+		}
+		set_capital = 608
+	}
+
+	#Move to Nanjing
+	option = {
+		name = china.204.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				NOT = { 613 = { is_controlled_by = PRC } }
+			}
+		}
+		trigger = {
+			owns_state = 613
+		}
+		set_capital = 613
+	}
+
+	#Stay where you are
+	option = {
+		name = china.204.c
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 1
+				NOT = { 608 = { is_controlled_by = PRC } }
+				NOT = { 613 = { is_controlled_by = PRC } }
+			}			
+		}
+	}
+}

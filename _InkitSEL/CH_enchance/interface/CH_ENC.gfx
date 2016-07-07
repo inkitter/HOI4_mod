@@ -1,0 +1,385 @@
+spriteTypes = {
+	### CHI planes ###	
+
+	SpriteType = {
+		name = "GFX_CHI_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/hawk3.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_fighter1_medium"
+		texturefile = "gfx/interface/technologies/i16.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_fighter2_medium"
+		texturefile = "gfx/interface/technologies/p40b.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_fighter3_medium"
+		texturefile = "gfx/interface/technologies/p51d.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/br20.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/sb2m.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/A20.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/A26.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/he111a1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_CHI_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/b25j.dds"
+	}	
+	SpriteType = {
+		name = "GFX_CHI_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/B17.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/p43.dds"
+	}	
+	SpriteType = {
+		name = "GFX_CHI_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/P-47D.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/xp58.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/SF-2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/tbd.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/tbm.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_CAS1_medium"
+		texturefile = "gfx/interface/technologies/hs123.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_CAS2_medium"
+		texturefile = "gfx/interface/technologies/bt1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_CAS3_medium"
+		texturefile = "gfx/interface/technologies/sbd-6.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_fighter1_medium"
+		texturefile = "gfx/interface/technologies/f3f-h.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_fighter2_medium"
+		texturefile = "gfx/interface/technologies/f4f-h.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_fighter3_medium"
+		texturefile = "gfx/interface/technologies/f6f-h.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/SF-2-h.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/tbd-h.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/tbm-h.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_CAS1_medium"
+		texturefile = "gfx/interface/technologies/SBC-h.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_CAS2_medium"
+		texturefile = "gfx/interface/technologies/bt1-h.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_CAS3_medium"
+		texturefile = "gfx/interface/technologies/sbd-6-h.dds"
+	}
+	
+	### chi tanks ####
+	SpriteType = {
+		name = "GFX_CHI_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/CHI_t26.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHI_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/CHI_m3a1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_CHI_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/CHI_m24.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_CHI_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/CHI_m3a3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_CHI_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/CHI_m4a3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/CHI_m26.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/CHI_m46.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_CHI_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/CHI_t1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_CHI_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/CHI_m6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/CHI_t23e3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/CHI_t95.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_basic_light_td_medium"
+		texturefile = "gfx/interface/technologies/M8A1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_basic_light_art_medium"
+		texturefile = "gfx/interface/technologies/M8.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_basic_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/M19.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_improved_light_td_medium"
+		texturefile = "gfx/interface/technologies/M8A1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_improved_light_art_medium"
+		texturefile = "gfx/interface/technologies/M8.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_improved_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/M19.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_advanced_light_td_medium"
+		texturefile = "gfx/interface/technologies/M8A1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_advanced_light_art_medium"
+		texturefile = "gfx/interface/technologies/M8.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_advanced_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/M19.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_basic_medium_td_medium"
+		texturefile = "gfx/interface/technologies/M10.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_basic_medium_art_medium"
+		texturefile = "gfx/interface/technologies/M7.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_basic_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/M19.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_improved_medium_td_medium"
+		texturefile = "gfx/interface/technologies/M10.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_improved_medium_art_medium"
+		texturefile = "gfx/interface/technologies/M7.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_improved_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/M19.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_advanced_medium_td_medium"
+		texturefile = "gfx/interface/technologies/M10.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_advanced_medium_art_medium"
+		texturefile = "gfx/interface/technologies/M7.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_advanced_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/M19.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_modern_td_medium"
+		texturefile = "gfx/interface/technologies/M36.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_modern_art_medium"
+		texturefile = "gfx/interface/technologies/M12.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_modern_spaa_medium"
+		texturefile = "gfx/interface/technologies/M19.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_super_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/M36.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_super_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/M12.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_super_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/M19.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_basic_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/M36.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_basic_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/M12.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_basic_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/M19.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_improved_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/M36.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_improved_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/M12.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_improved_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/M19.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_advanced_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/M36.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_advanced_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/M12.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_advanced_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/M19.dds"
+	}
+
+		### PRC ###	
+
+	spriteType = {
+		name = "GFX_idea_PRC_bogu"
+		texturefile = "gfx/interface/ideas/PRC_bogu"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_chengeng"
+		texturefile = "gfx/interface/ideas/PRC_chengeng"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_dengxiaoping"
+		texturefile = "gfx/interface/ideas/PRC_dengxiaoping"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_likenong"
+		texturefile = "gfx/interface/ideas/PRC_likenong"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_linbiao"
+		texturefile = "gfx/interface/ideas/PRC_linbiao"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_linboqu"
+		texturefile = "gfx/interface/ideas/PRC_linboqu"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_liubocheng"
+		texturefile = "gfx/interface/ideas/PRC_liubocheng"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_liushaoqi"
+		texturefile = "gfx/interface/ideas/PRC_liushaoqi"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_liuyalou"
+		texturefile = "gfx/interface/ideas/PRC_liuyalou"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_pengdehuai"
+		texturefile = "gfx/interface/ideas/PRC_pengdehuai"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_suyu"
+		texturefile = "gfx/interface/ideas/PRC_suyu"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_xiaohua"
+		texturefile = "gfx/interface/ideas/PRC_xiaohua"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_xiaojingguang"
+		texturefile = "gfx/interface/ideas/PRC_xiaojingguang"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_xuguangda"
+		texturefile = "gfx/interface/ideas/PRC_xuguangda"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_xuxiangqian"
+		texturefile = "gfx/interface/ideas/PRC_xuxiangqian"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_zhouenlai"
+		texturefile = "gfx/interface/ideas/PRC_zhouenlai"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_zhude"
+		texturefile = "gfx/interface/ideas/PRC_zhude"
+	}
+	spriteType = {
+		name = "GFX_idea_RPC_zhangaiping"
+		texturefile = "gfx/interface/ideas/RPC_zhangaiping"
+	}
+}
