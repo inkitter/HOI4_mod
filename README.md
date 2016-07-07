@@ -73,9 +73,8 @@ Github： <https://github.com/inkitter/HOI4_mod>
 
 * !!More Equipment 更多的装备 我做的大型mod 测试版。详见 http://bbs.3dmgame.com/thread-5229400-1-1.html
 * -CHI Focus 民国焦点树。**高兼容性版**。
-* -CHC Focus 中共焦点树。
-* -CH icon 头像包，但修改了common里的文件。
-* -CH Name 各种名称汉化扩展，影响成就
+* -CH Enchance CH增强包，增加一些CH的内容。将领、飞机图片等。
+* -CH UnitName 各种单位名称汉化扩展，影响成就
 * -Glory to Arstotzka 《请出示证件》自建国-阿托兹卡
 
 ### 测试包
