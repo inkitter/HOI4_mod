@@ -10,6 +10,12 @@ md "%mydoc%\Paradox Interactive\Hearts of Iron IV\mod"
 mklink /j "%mydoc%\Paradox Interactive\Hearts of Iron IV\mod\_Inkitmod" _Inkitmod
 mklink /j "%mydoc%\Paradox Interactive\Hearts of Iron IV\mod\_InkitSEL" _InkitSEL
 mklink /j "%mydoc%\Paradox Interactive\Hearts of Iron IV\mod\_morechn" _morechn
+
+del "%mydoc%\Paradox Interactive\Hearts of Iron IV\mod\!*.mod"
+del "%mydoc%\Paradox Interactive\Hearts of Iron IV\mod\%%*.mod"
+del "%mydoc%\Paradox Interactive\Hearts of Iron IV\mod\+*.mod"
+del "%mydoc%\Paradox Interactive\Hearts of Iron IV\mod\-*.mod"
+del "%mydoc%\Paradox Interactive\Hearts of Iron IV\mod\~*.mod"
 copy *.mod "%mydoc%\Paradox Interactive\Hearts of Iron IV\mod" /y
 
 @echo ----链接已建立：mod文件夹与本文件夹的链接，删除本文件夹内容会使mod失效----
