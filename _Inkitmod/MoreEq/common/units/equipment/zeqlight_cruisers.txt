@@ -119,19 +119,65 @@ equipments = {
 		}
 		manpower = 15000
 	}
-  # 微型巡洋
-  	light_cruiserl_1 = {
-		archetype = light_cruiser
-		priority = 30
+  # 微型航母
+  	light_cruiserl = {
+		is_archetype = yes
+		is_buildable = no
+		type = { 
+			screen_ship
+			carrier
+		}
+
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_gun_upgrade
+			ship_anti_air_upgrade
+		}
+
+		interface_category = interface_category_screen_ships
+
 		carrier_size = 2
-		build_cost_ic = 4300
+
+		ap_attack = 5.5
+		attack = 6
+		fire_range = 18
+		torpedo_attack = 5
+		sub_attack = 2
+		
+		anti_air_attack = 3
+		
+		armor_value = 5
+		evasion = 60
+		
+		surface_detection = 15
+		sub_detection = 20
+		surface_visibility = 15
+		naval_speed = 28
+		reliability = 0.8
+		
+		naval_range = 2400
+		
+		max_strength = 100		
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 3200
 		resources = {
 			oil = 1
 			steel = 3
 		}
 	}
+  	light_cruiserl_1 = {
+		archetype = light_cruiserl
+		priority = 30
+		type = { 
+			screen_ship
+			carrier
+		}
+	}
 	light_cruiserl_2 = {
-		archetype = light_cruiser
+		archetype = light_cruiserl
 		parent = light_cruiserl_1
 		priority = 30
 
@@ -159,18 +205,18 @@ equipments = {
 		
 		type = { 
 			screen_ship
-			anti_air
+			carrier
 		}
 
 		carrier_size = 4
-		build_cost_ic = 4500
+		build_cost_ic = 3600
 		resources = {
 			oil = 1
 			steel = 4
 		}
 	}
 	light_cruiserl_3 = {
-		archetype = light_cruiser
+		archetype = light_cruiserl
 		parent = light_cruiserl_2
 		priority = 30
 
@@ -198,18 +244,18 @@ equipments = {
 		
 		type = { 
 			screen_ship
-			anti_air
+			carrier
 		}
 
 		carrier_size = 7
-		build_cost_ic = 4700
+		build_cost_ic = 4000
 		resources = {
 			oil = 2
 			steel = 5
 		}
 	}
 	light_cruiserl_4 = {
-		archetype = light_cruiser
+		archetype = light_cruiserl
 		parent = light_cruiserl_3
 		priority = 30
 
@@ -237,11 +283,11 @@ equipments = {
 		
 		type = { 
 			screen_ship
-			anti_air
+			carrier
 		}
 		
 		carrier_size = 10
-		build_cost_ic = 5000
+		build_cost_ic = 4500
 		resources = {
 			oil = 3
 			steel = 5

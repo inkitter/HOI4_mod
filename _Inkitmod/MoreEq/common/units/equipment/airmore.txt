@@ -107,8 +107,14 @@ equipments = {
 		reliability = 0.8
 
 		lend_lease_cost = 1.5
+
+		air_range = 2000
+		maximum_speed = 10000
+		air_attack = 200
+		air_agility = 10
+		air_defence = 5
 		
-		build_cost_ic = 2
+		build_cost_ic = 4
 		resources = {
 			oil = 1
 			knowledge = 1
@@ -119,14 +125,6 @@ equipments = {
 		one_use_only = yes
 		carrier_capable = yes
 		sprite = missile_default
-		
-		air_range = 2000
-		maximum_speed = 10000
-		air_attack = 200
-		air_agility = 10
-		air_defence = 5
-		
-		# build_cost_ic = 36
 	}
 	# as missile
   	as_missile_equipment = {
@@ -142,8 +140,15 @@ equipments = {
 		reliability = 0.8
 
 		lend_lease_cost = 1.5
+
+		air_range = 2000
+		maximum_speed = 1500
+		naval_strike_attack = 50
+		naval_strike_targetting = 0.9
+		air_agility = 10
+		air_defence = 5
 		
-		build_cost_ic = 2
+		build_cost_ic = 10
 		resources = {
 			oil = 1
 			knowledge = 1
@@ -154,14 +159,5 @@ equipments = {
 		one_use_only = yes
 		carrier_capable = yes
 		sprite = missile_default
-		
-		air_range = 2000
-		maximum_speed = 1500
-		naval_strike_attack = 50
-		naval_strike_targetting = 0.9
-		air_agility = 10
-		air_defence = 5
-		
-		# build_cost_ic = 36
 	}
 }
