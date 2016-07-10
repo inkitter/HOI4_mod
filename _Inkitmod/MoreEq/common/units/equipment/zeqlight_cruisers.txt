@@ -124,7 +124,6 @@ equipments = {
 		is_archetype = yes
 		is_buildable = no
 		type = { 
-			screen_ship
 			carrier
 		}
 
@@ -162,7 +161,7 @@ equipments = {
 		
 		port_capacity_usage = 1
 		
-		build_cost_ic = 3200
+		build_cost_ic = 3200 #3200
 		resources = {
 			oil = 1
 			steel = 3
@@ -171,10 +170,6 @@ equipments = {
   	light_cruiserl_1 = {
 		archetype = light_cruiserl
 		priority = 30
-		type = { 
-			screen_ship
-			carrier
-		}
 	}
 	light_cruiserl_2 = {
 		archetype = light_cruiserl
@@ -203,11 +198,6 @@ equipments = {
 		
 		port_capacity_usage = 1
 		
-		type = { 
-			screen_ship
-			carrier
-		}
-
 		carrier_size = 4
 		build_cost_ic = 3600
 		resources = {
@@ -242,11 +232,6 @@ equipments = {
 		
 		port_capacity_usage = 1
 		
-		type = { 
-			screen_ship
-			carrier
-		}
-
 		carrier_size = 7
 		build_cost_ic = 4000
 		resources = {
@@ -280,11 +265,6 @@ equipments = {
 		max_strength = 130
 		
 		port_capacity_usage = 1
-		
-		type = { 
-			screen_ship
-			carrier
-		}
 		
 		carrier_size = 10
 		build_cost_ic = 4500

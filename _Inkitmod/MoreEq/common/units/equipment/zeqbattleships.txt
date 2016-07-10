@@ -1,20 +1,63 @@
 equipments = {
   # 航空战舰
-  	battleshipl_1 = {
-		archetype = battleship
-		priority = 60
-
-		carrier_size = 10
+    battleshipl ={
+		is_archetype = yes
+		is_buildable = no
+		type = {
+			capital_ship
+			carrier
+		}
+		group_by = archetype
 		
-		build_cost_ic = 15000
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_armor_upgrade
+			ship_gun_upgrade
+		}
+		
+		carrier_size = 10
+
+		ap_attack = 21
+		attack = 18
+		fire_range = 32
+		torpedo_attack = 0
+		shore_bombardment = 10
+		
+		anti_air_attack = 4
+		
+		armor_value = 16
+		evasion = 10
+		
+		surface_detection = 152
+		sub_detection = 5
+		surface_visibility = 30
+		naval_speed = 20
+		reliability = 0.80
+
+		naval_range = 3000
+		
+		max_strength = 350
+		port_capacity_usage = 2
+		
+		build_cost_ic = 12000
+
 		resources = {
 			oil = 2
 			steel = 5
 			chromium = 1
 		}
+
+		manpower = 6000
+	}
+  	battleshipl_1 = {
+		archetype = battleshipl
+		priority = 60
 	}
 	battleshipl_2 = {
-		archetype = battleship
+		archetype = battleshipl
 		parent = battleshipl_1
 		priority = 60
 
@@ -42,7 +85,7 @@ equipments = {
 		max_strength = 450		
 		port_capacity_usage = 2
 
-		build_cost_ic = 16000
+		build_cost_ic = 14000
 		resources = {
 			oil = 2
 			steel = 5
@@ -50,7 +93,7 @@ equipments = {
 		}
 	}
 	battleshipl_3 = {
-		archetype = battleship
+		archetype = battleshipl
 		parent = battleshipl_2
 		priority = 60
 		
@@ -78,7 +121,7 @@ equipments = {
 		
 		port_capacity_usage = 2
 
-		build_cost_ic = 17000
+		build_cost_ic = 16000
 		resources = {
 			oil = 2
 			steel = 6
@@ -86,7 +129,7 @@ equipments = {
 		}
 	}
 	battleshipl_4 = {
-		archetype = battleship
+		archetype = battleshipl
 		parent = battleshipl_3
 		priority = 60
 

@@ -5,6 +5,7 @@ sub_units = {
 		priority = 5
 		active = yes
 		type = { 
+			screen_ship
             carrier 
         }
 		need = { light_cruiserl = 1 }
@@ -14,5 +15,23 @@ sub_units = {
 		
 		
 		supply_consumption = 0.04
+	}
+
+	battleshipl = {
+		sprite = battleship
+		map_icon_category = ship
+		priority = 9
+		active = yes
+		type = { 
+			capital_ship
+			carrier
+	    }
+		need = { battleshipl = 1 }
+
+		
+		max_organisation = 40
+
+
+		supply_consumption = 0.2
 	}
 }
