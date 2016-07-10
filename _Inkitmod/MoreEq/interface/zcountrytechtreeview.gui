@@ -1375,7 +1375,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "naval_year6"
+					name = "naval_year7"
 					position = { x = 2744 y = 20 }
 					textureFile = ""
 					font = "hoi_36header"

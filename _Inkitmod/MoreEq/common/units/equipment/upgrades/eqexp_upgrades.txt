@@ -6,8 +6,8 @@ upgrades = {
 		
 		soft_attack = 0.1
 		hard_attack = 0.05
-		reliability = -0.05
-		build_cost_ic = 0.05
+		reliability = -0.01
+		build_cost_ic = 0.02
 	}
 	# 步兵防御
 	infantry_defense_upgrade = {
@@ -15,14 +15,14 @@ upgrades = {
 		cost = land
 
 		defense = 0.1
-		build_cost_ic = 0.05
+		build_cost_ic = 0.02
 	}
 	infanrb_defense_upgrade = {
 		max_level = 5
 		cost = land
 
 		defense = -0.1
-		build_cost_ic = 0.05
+		build_cost_ic = 0.02
 	}
 	# 步兵突破
 	infantry_breakthrough_upgrade = {
@@ -46,8 +46,8 @@ upgrades = {
 		
 		soft_attack = 0.1
 		hard_attack = 0.1
-		build_cost_ic = 0.05
-		reliability = -0.05
+		build_cost_ic = 0.02
+		reliability = -0.02
 	}
 	#火炮隐蔽
 	artillery_hide_upgrade = {
@@ -56,21 +56,17 @@ upgrades = {
 		
 		defense = 0.1
 		breakthrough = 0.1
-		soft_attack = -0.05
-		hard_attack = -0.05
-		build_cost_ic = 0.05
+		soft_attack = -0.02
+		hard_attack = -0.02
+		build_cost_ic = 0.02
 	}
 	#火炮价格
 	artillery_cost_upgrade = {
 		max_level = 5
 		cost = land
 
-		soft_attack = -0.05
-		hard_attack = -0.05
-		air_attack = -0.05
-		ap_attack = -0.05
-		build_cost_ic = -0.15
-		reliability = -0.03
+		reliability = 0.05
+		build_cost_ic = 0.02
 	}
     # 防空升级
 	anti_air_upgrade = {
@@ -78,7 +74,7 @@ upgrades = {
 		cost = land
 		
 		air_attack = 0.2
-		build_cost_ic = 0.05
+		build_cost_ic = 0.02
 	}
     # 机械化防御
 	mechanized_def_upgrade = {
@@ -87,7 +83,7 @@ upgrades = {
 		
 		defense = 0.1
 		breakthrough = 0.1
-		build_cost_ic = 0.07
+		build_cost_ic = 0.04
 	} 
 	# 机械化速度
 	mechanized_spd_upgrade = {
@@ -97,35 +93,36 @@ upgrades = {
 		maximum_speed = 0.1
 		reliability = -0.03
         defense = -0.05
+		breakthrough = -0.01
 	}
 	mechanized_cost_upgrade = {
 		max_level = 5
 		cost = land
 		
-		maximum_speed = -0.03
-		reliability = -0.03
-        defense = -0.06
-		build_cost_ic = -0.1
+		maximum_speed = -0.02
+		reliability = -0.01
+        defense = -0.03
+		build_cost_ic = -0.07
 	}
 	mechanized_reliab_upgrade = {
 		max_level = 5
 		cost = land
 		
 		reliability = 0.05
-		build_cost_ic = 0.1
+		build_cost_ic = 0.05
 	}
 	support_cost_upgrade = {
 		max_level = 5
 		cost = land
 
-		reliability = -0.06
-		build_cost_ic = -0.1
+		reliability = -0.03
+		build_cost_ic = -0.07
 	}
 	support_reliab_upgrade = {
 		max_level = 5
 		cost = land
 
 		reliability = 0.05
-		build_cost_ic = 0.2
+		build_cost_ic = 0.05
 	}
 }
