@@ -1,0 +1,312 @@
+﻿###########################
+# Persia Events
+###########################
+
+add_namespace = persia
+
+# Persians Demand (Syria)
+country_event = {
+	id = persia.1
+	title = persia.1.t
+	desc = persia.1.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = persia.1.a
+		ai_chance = { 
+			factor = 90 
+		}
+
+		PER = { 
+			transfer_state = 680
+			transfer_state = 677
+			transfer_state = 554
+			transfer_state = 553
+		}
+		hidden_effect = {
+			news_event = { id = news.500 days = 1 }
+		}
+	}
+	
+	option = { # Refuse demands
+		name = persia.1.b
+		ai_chance = { 
+			factor = 10 
+		}
+		effect_tooltip = {
+			PER = {
+				create_wargoal = {
+				type = take_state_focus
+				target = FRA
+				generator = { 554 }
+				}
+			}
+		}
+		hidden_effect = {
+			news_event = { id = news.501 hours = 6 }
+			PER = {
+				country_event = { id = persia.2 days = 1 }
+			}
+		}
+	}
+}
+
+
+# France Refuses Demands
+country_event = {
+	id = persia.2
+	title = persia.2.t
+	desc = persia.2.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = persia.2.a
+		create_wargoal = {
+			type = take_state
+			target = FRA
+			generator = { 554 }
+		}				
+	}
+}
+
+# Iranian Civil War
+country_event = {
+	id = persia.3
+	title = persia.3.t
+	desc = persia.3.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { 
+		name = persia.3.a
+		hidden_effect = {
+			set_capital = 411
+			start_civil_war = {
+				ideology = neutrality
+				capital = 266
+				states = { 266 417 420 418 416 419 }
+			}
+			random_country = {
+				limit = {
+					original_tag = PER
+					has_government = neutrality
+				}
+				set_equipment_fraction = 0.5
+				set_national_unity = 0.9
+				add_popularity = {
+					ideology = neutrality
+					popularity = 1
+				}
+			# Tehran
+			266 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 6
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 10
+				}
+			# Khorasan
+			416 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+				}
+			# Gilan
+			420 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				}
+			# Azerbaijan
+			419 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+				}
+				load_oob = "PER_Civil_War"
+			}
+			news_event = { hours = 6 id = news.502 }
+			set_country_flag = iranian_civil_war
+		}
+		custom_effect_tooltip = reformation_chosen
+	}
+}
+
+###########################
+# Persian World News Events
+###########################
+
+# France Accepts Demands (Syria)
+news_event = {
+	id = news.500
+	title = news.500.t
+	desc = news.500.d
+	picture = GFX_news_event_012
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.500.a
+		trigger = {
+			NOT = {
+				TAG = PER
+				TAG = FRA
+				is_in_faction_with = PER
+			}
+		}
+	}
+	option = {
+		name = news.500.b
+		trigger = { TAG = PER }
+	}
+	option = {
+		name = news.500.c
+		trigger = { TAG = FRA }
+	}
+	option = {
+		name = news.500.f
+		trigger = {
+			NOT = {
+				TAG = PER
+				TAG = FRA
+			}
+			is_in_faction_with = PER
+		}
+	}
+}	
+
+# France Refuses Demands
+news_event = {
+	id = news.501
+	title = news.501.t
+	desc = news.501.d
+	picture = GFX_news_event_011
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.501.a
+		trigger = {
+			NOT = {
+				TAG = PER
+				TAG = FRA
+				is_in_faction_with = PER
+			}
+		}
+	}
+	
+	option = {
+		name = news.501.b
+		trigger = { TAG = PER }
+	}
+	
+	option = {
+		name = news.501.c
+		trigger = { TAG = FRA }
+	}
+	
+	option = {
+		name = news.501.f
+		trigger = {
+			NOT = {
+				TAG = PER
+				TAG = FRA
+			}
+			is_in_faction_with = PER
+		}
+	}
+}
+
+# The Iranian Civil War
+news_event = {
+	id = news.502
+	title = news.502.t
+	desc = news.502.d
+	picture = GFX_news_event_032
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.502.a
+		trigger = {
+			NOT = { original_tag = PER }
+		}
+	}
+	
+	option = {
+		name = news.502.b
+		trigger = { 
+			original_tag = PER
+		}
+	}
+}
+
+# End of the Iranian Civil War (Victory)
+news_event = {
+	id = news.503
+	title = news.503.t
+	desc = news.503.d
+	picture = GFX_news_event_033
+	
+	major = yes
+	
+	trigger = {
+		has_country_flag = iranian_civil_war
+		PER = { has_civil_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	fire_only_once = yes
+	
+	immediate = {
+		clr_country_flag = iranian_civil_war
+		set_country_flag = reformist_victory
+	}
+	
+	option = {
+		name = news.503.a
+		trigger = {
+			NOT = { original_tag = PER }
+		}
+	}
+	
+	option = {
+		name = news.503.b
+		trigger = { original_tag = PER }
+	}
+}

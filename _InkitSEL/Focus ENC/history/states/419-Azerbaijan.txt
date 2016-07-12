@@ -1,0 +1,27 @@
+
+state={
+	id=419
+	name="STATE_419"
+	manpower = 2500000
+	
+	state_category = large_town
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			1896 20 
+		}
+		victory_points = {
+			7604 2 
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		1636 1822 1896 2071 4755 4825 7604 12793 12861 13120 
+	}
+}

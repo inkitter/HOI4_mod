@@ -1,0 +1,22 @@
+﻿####################
+# Sweden MOD Focus #
+####################
+
+add_namespace = sweModNews
+
+#Facism Focus News
+	news_event = {
+
+	id = sweModNews.1
+	title = sweModNews.1.t
+	desc = sweModNews.1.d
+	picture = GFX_news_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sweModNews.1.a
+		add_political_power = 50
+		
+	}
+	}

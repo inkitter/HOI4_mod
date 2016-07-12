@@ -1,0 +1,66 @@
+﻿l_english:
+
+ news.1.per.d:0 "Speaking to the Muslim population along the Gulf coast, [From.GetLeader] has announced that [From.GetName] fully considers all Gulf territory in the Middle East to be a rightful part of [From.GetName]. \n\nAn official statement backed up the claims, making it clear that [From.GetName] is prepared to take the territory by force, if need be."
+ news.1.per.t:0 "Persia Claims the Persian Gulf"
+ news.1.per.a:0 "Those lands are protectorates of the British Empire!"
+ news.1.per.b:0 "They are upsetting the already fragile balance in the region."
+ news.1.per.c:0 "What utter nonsense."
+ news.2.per.d:0 "In a shocking wave of news, [From.GetLeader] stated that the Iranian people can no longer accept the unreasonable demands of the British; that the needs of the people come before the greed of the imperialists. \n\nAn official statement reitered the claims, making it clear that [From.GetName] is not afraid of retaliation."  
+ news.2.per.t:0 "Persia Nationalizes Oil"
+ news.2.per.a:0 "Self determination is a growing trend"
+ news.2.per.b:0 "We cannot let this go unpunished!"
+ news.3.per.d:0 "The Allies are heavily investing in Persia, a desperate attempt to find new avenues of supplying their allies."  
+ news.3.per.t:0 "Allies Construct the Persian Corridor"
+ news.3.per.a:0 "Desperate times call for desperate measures."
+ news.3.per.b:0 "The Persians have agreed to build the corridor."
+ news.3.per.c:0 "We need to deal with this!"
+ 
+ persia.1.t:0 "Persian Demands"
+ persia.1.d:0 "The Persian Empire is pressuring us to sign a treaty with them, which would give them our Middle Eastern territories! This is nothing but a thinly veiled attempt to annex our country, but we can offer little resistance to the forces they have stationed on our border."
+ persia.1.a:0 "Accept the inevitable..."
+ persia.1.b:0 "They will have to take our land by force!"
+
+ persia.2.t:0 "France Refuses Our Demand"
+ persia.2.d:0 "France has outrageously decided to refuse our demand! The imperialists and sycophants in Paris have further had the gall to issue a statement demanding that we respect the territorial integrity of their nation!"
+ persia.2.a:0 "We will take the land by force."
+ 
+ news.500.t:0 "[FRA.GetNameDef] Accepts Persian Demands"
+ news.500.d:0 "After much debate, the government of [FRA.GetNameDef] has decided to accept Persian demands for territory transfer in the region of Syria. \n\n[PER.GetNameDef] has cited the need to unite it's historical lands and all muslime people."
+ news.500.a:0 "Peace, but at what cost?"
+ news.500.b:0 "Now we can focus our efforts elsewhere."
+ news.500.c:0 "We had no choice, metropolitan France is more important than the colonies."
+ news.500.f:0 "Our allies show their strength!"
+ 
+ news.501.t:0 "[FRA.GetNameDef] Rejects Persian Demands"
+ news.501.d:0 "Persian diplomats have presented an ultimatum to the government of [FRA.GetNameDef], demanding territory in the region of Syria. \n\nDespite a significant build-up of Persian forces on the border, Paris has rejected these demands, stating that "not a single foot of French soil will be given willingly to the Persian aggressors." \n\nInternational observers fear that a Persian invasion may be imminent."
+ 
+ news.501.a:0 "This will not end well."
+ news.501.b:0 "They should not have rejected our demands."
+ news.501.c:0 "We must see to our defenses."
+ news.501.f:0 "They will soon recognize their error."
+
+ persia.3.t:0 "Civil War!"
+ persia.3.d:0 "Too much radical change has caused harsh backlash amongst certain sectors of our society! Everyone is demanding their political views to be heard coalitions of Fascists, Democrats, Monarchists and Communists are all vying for power, we need to put an end to this and restore our nationa!"
+ persia.3.a:0 "Forward, to glory!"
+ 
+ reformation_chosen:0 "Reformation Chosen"
+ iranian_civil_war:0 "Iranian Civil War"
+ reformist_victory:0 "Reformist Victory"
+ 
+ news.502.t:0 "Iranian Civil War"
+ news.502.d:0 "A civil war has erupted in Iran! Powerful entities within the government have pushed radical reform through society changing the old order of the country. The Shah called for support and a large portion of the Iranian Armed Forces have answered the call to arms. The war for Persia has begun!"
+ news.502.a:0 "What will this mean for Iran?"
+ news.502.b:0 "Marg Bar Shah!"
+
+ news.503.t:0 "The End of the Iranian Civil War"
+ news.503.d:0 "With the surrender of the last Monarchist strongholds, the Iranian Civil War has come to an end. \n\nThe Nationalists stand victorious, and a new era has begun for Iran. \n\nThe war-torn country has suffered greatly in the fighting, and there is much rebuilding to be done."
+ news.503.a:1 "An interesting development."
+ news.503.b:0 "Now to heal our nation."
+
+
+
+
+
+
+
+ 

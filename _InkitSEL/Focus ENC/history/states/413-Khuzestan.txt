@@ -1,0 +1,32 @@
+
+state={
+	id=413
+	name="STATE_413"
+	manpower = 797356
+	resources={
+		oil=42
+		steel=4
+	}
+	
+	state_category = town
+	
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			5005 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			7953 10 
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		1922 5005 5089 7953 
+	}
+}

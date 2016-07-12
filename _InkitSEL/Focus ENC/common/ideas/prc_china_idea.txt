@@ -1,0 +1,475 @@
+ideas = {
+    country = { 
+        libiration_china_idea = {
+            allowed = {
+                always = no
+            }
+            picture = generic_intel_bonus
+            modifier = {
+                research_time_factor = -0.05
+                production_factory_efficiency_gain_factor = 0.10
+            }
+        }
+		#中国共产党宣言
+		Manifesto_cpc_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = socialist_science_focus
+			
+			modifier = {
+				POLITICAL_POWER_FACTOR = 0.2
+			}
+		}
+		#团结抗战
+		United_resistance_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				conscription = 0.03
+			}
+		}
+		#整顿作风
+		style_rectified_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = trotskyite_plot_purged
+			
+			modifier = {
+				army_org = 5
+				army_morale_factor = 0.05
+			}
+		}
+		#民族主义
+		nationalism_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		#人民政权
+		people_regime_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				unity_factor = 0.05
+				communism_drift = 0.2
+			}
+		}
+		#人民的胜利
+		people_victory_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			modifier = {
+				army_morale_factor = 0.05
+			}
+		}
+		#主人翁精神
+		ownership_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = 0.03
+				army_org = 5
+			}
+		}
+		#自力更生
+		self_reliance_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				local_resources_factor = 0.1
+			}
+		}
+		#公有制经济
+		public_economy_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = danieli
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+
+		#超英赶美
+		surpass_eu_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.3
+				conscription = -0.05
+				global_building_slots_factor = 0.3
+			}
+		}
+		#游击战方针
+		guerrilla_policy_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = FRA_army_of_aggression_focus
+			modifier = {
+				NO_SUPPLY_GRACE = 120
+				army_speed_factor = 0.1
+			}
+		}
+		#使命的召唤
+		call_of_duty_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				training_time_factor = -0.15
+			}
+		}
+
+		#国土防卫
+		homeland_defence_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				production_speed_bunker_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.2
+				production_speed_anti_air_building_factor = 0.2
+				army_core_defence_factor = 0.1
+			}
+		}
+		#振奋民族
+		promote_national_spirits_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = FRA_scw_intervention_nationalists_focus
+			modifier = {
+				army_morale_factor = 0.1
+				unity_factor = 0.1
+			}
+		}
+		#振奋民族2
+		promote_national_spirits_idea2 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = FRA_scw_intervention_nationalists_focus
+			modifier = {
+				ARMY_ORG_FACTOR = 0.1
+			}
+		}
+		#三光
+		base_damaged_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = anti_soviet_pact
+			modifier = {
+				industrial_capacity_factory = -0.2
+				local_resources_factor = -0.2
+			}
+		}
+		#大扫荡
+		base_sweeped_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_wall_line
+			modifier = {
+				ARMY_ATTACK_FACTOR = 0.1
+				enemy_partisan_effect = -0.2
+			}
+		}
+		#党的号召力
+		appeal_communist_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = socialist_science_focus
+			
+			modifier = {
+				POLITICAL_POWER_FACTOR = 0.2
+			}
+		}
+		#内部分裂
+		internal_division_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_wall_line
+			
+			modifier = {
+				unity_factor = -0.1
+			}
+		}
+
+		#抗美援朝
+		anti_usa_helf_kor_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_wall_line
+			
+			modifier = {
+				training_time_factor = -0.1
+				conscription = 0.1
+			}
+		}
+    }
+
+	#计划经济
+	economy = {
+		planned_economy_policy = {
+
+			allowed = {
+				original_tag = "PRC"
+			}
+			available = {
+				has_completed_focus = planned_economy_focus
+				has_government = communism
+			}
+			cost = 300
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_arms_factory_factor = 0.3
+				conversion_cost_civ_to_mil_factor= -0.3
+				conversion_cost_mil_to_civ_factor = -0.3
+			}
+			cancel_if_invalid = yes
+		}
+	}
+
+	tank_manufacturer = {
+	
+		designer = yes
+
+		China_North_Industries_Group = {
+			allowed = {
+				original_tag = "PRC"
+			}
+			available = {
+				has_completed_focus = future_black_tech_focus
+			}
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { cheap_tank_manufacturer }
+		}
+	}
+	
+
+	materiel_manufacturer = {
+		designer = yes
+		guantian_millitary_factory = {
+				
+			allowed = {
+				original_tag = PRC
+			}
+
+			available = {
+				has_completed_focus = guantian_millitary_factory_focus
+			}
+			cost = 450
+			traits = { infantry_equipment_manufacturer }	
+			modifier = { industrial_capacity_factory = 0.05 }
+		}
+	}
+
+	#理论家
+	theorist = {
+
+		liu_dean = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			available = {
+				has_completed_focus = war_experience_focus
+			}
+			cost = 150
+			traits = { PLA_military_academy }
+			research_bonus = {
+				land_doctrine = 0.1
+				naval_doctrine = 0.1
+				air_doctrine = 0.1
+			}
+		}
+
+		zhang_zhaozhong = {
+				
+			allowed = {
+				original_tag = PRC
+			}
+			available = {
+				has_completed_focus = Strategic_Foolyou_focus
+			}
+			cost = 250
+			traits = { Strategic_Foolyou_Agency }
+			modifier = {
+				experience_gain_army_unit_factor = 0.2
+				experience_gain_navy_unit_factor = 0.2
+			}
+		}
+	}
+}

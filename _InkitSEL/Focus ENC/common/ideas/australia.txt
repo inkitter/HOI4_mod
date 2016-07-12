@@ -1,0 +1,469 @@
+ideas = {
+	country = {
+
+			AST_early_keynesian_economics_adoption = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			modifier = {
+				industrial_capacity_factory =  -0.1
+				unity_factor = +0.1
+				production_speed_arms_factory_factor = 0.1
+				production_speed_infrastructure_factor = 0.2
+			}
+		}
+			cmf = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+				}
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription = 0.01
+				training_time_army_factor = -0.1
+			}
+		}
+
+			keynesian_economics = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			modifier = {
+				industrial_capacity_factory =  0.05
+				unity_factor = +0.1
+				production_speed_arms_factory_factor = 0.15
+				production_speed_infrastructure_factor = 0.2
+			}
+		}
+
+		wartime_economics = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			modifier = {
+				industrial_capacity_factory =  0.10
+			}
+		}
+
+			economic_reform = {
+			picture = generic_pp_unity_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			modifier = {
+				unity_factor = +0.1
+				production_speed_bunker_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
+			}
+		}
+
+ 	lithgow_small_arms = {
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+		
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+}
+}
+
+ 	automotive_production = {
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+		
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+}
+}
+
+ 	tank_production = {
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+		
+			equipment_bonus = {
+				medium_tank_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				 mechanized_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+}
+}
+
+
+        cac_local_production = {
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+		
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				heavy_fighter_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				CAS_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
+}
+}
+}
+			
+
+	political_advisor = {
+
+	AST_alexander_hore_ruthven = {
+
+		picture = generic_political_advisor_europe_1
+		
+		allowed = {
+			original_tag = AST
+		}
+		
+		traits = { quartermaster_general }
+	}
+
+	AST_robert_g_menzies = {
+
+		picture = generic_political_advisor_europe_2
+			
+		allowed = {
+			original_tag = AST
+		}
+		
+		traits = { backroom_backstabber }
+	}
+
+	AST_ben_chiffley = {
+
+		picture = generic_political_advisor_europe_3
+		
+		allowed = {
+			original_tag = AST
+		}
+		
+		traits = { smooth_talking_charmer }
+	}
+
+	AST_herbert_v_evatt = {
+
+		picture = generic_political_advisor_europe_2
+		
+		allowed = {
+			original_tag = AST
+		}
+		
+		traits = { silent_workhorse }
+	}
+}
+
+theorist = {
+
+	AST_norman_makin = {
+				
+		picture = generic_political_advisor_europe_3
+
+		allowed = {
+			original_tag = AST
+		}
+		
+		research_bonus = {
+			naval_doctrine = 0.07
+		}
+		
+		traits = { naval_theorist }
+	}
+
+	AST_james_fairbairn = {
+				
+		picture = generic_political_advisor_europe_2
+			
+		allowed = {
+			original_tag = AST
+		}
+		
+		research_bonus = {
+			air_doctrine = 0.07
+		}
+		
+		traits = { air_warfare_theorist }
+	}
+}
+
+high_command = {
+
+	AST_arthur_allen = {
+
+		picture = generic_army_europe_2
+		
+		allowed = {
+			original_tag = AST
+		}
+		
+		traits = { army_infantry_3 }
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	AST_clive_caldwell = {
+
+		picture = generic_air_europe_1
+		
+		allowed = {
+			original_tag = AST
+		}
+		
+		traits = { air_air_superiority_3 }
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	AST_john_collins = {
+
+		picture = generic_navy_europe_1
+		
+		allowed = {
+			original_tag = AST
+		}
+		
+		traits = { navy_capital_ship_2 }
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	AST_edmund_herring = {
+
+		picture = generic_army_europe_1
+		
+		allowed = {
+			original_tag = AST
+		}
+		
+		traits = { army_artillery_2 }
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+	# MILITARY
+	army_chief = {
+
+		AST_john_lavarack = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = AST
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		AST_sydney_rowell = {
+			
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = AST
+			}
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		AST_vernon_sturdee = {
+			
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = AST
+			}
+			
+			traits = { army_chief_offensive_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+
+		AST_richard_williams = {
+			
+			picture = generic_air_europe_1
+			
+			allowed = {
+				original_tag = AST
+			}
+			
+			traits = { air_chief_safety_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		AST_charles_burnett = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = AST
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		AST_ragnar_colvin = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = AST
+			}
+			
+			traits = { navy_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		AST_jack_crace = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = AST
+			}
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	aircraft_manufacturer = {
+			
+		designer = yes
+		
+		CAC = {
+			
+			allowed = {
+				always = no
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+}

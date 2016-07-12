@@ -1,0 +1,64 @@
+leader_traits = {
+	
+	COL_raspar_olla = {
+		sprite = 10
+		random = no
+		local_resources_factor = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+		
+	infantry_equipment_designer = {
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}	
+		equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+		}
+	}
+	
+	cheap_tank_manufacturer = {
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}	
+		equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.1 instant = yes
+					reliability = -0.05
+					maximum_speed = -0.05
+					armor_value = -0.05
+				}
+		}
+	}
+	own_business = {
+		random = no
+		
+		ai_get_ally_desire_factor = -100
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Strategic_Foolyou_Agency = {
+		sprite = 14	
+		ai_will_do = {
+			factor = 1000
+		}
+	}
+
+	PLA_military_academy = {
+		sprite = 14	
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}

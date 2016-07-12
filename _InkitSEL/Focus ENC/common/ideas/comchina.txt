@@ -1,0 +1,388 @@
+ideas = {
+
+	political_advisor = {
+
+		PRC_zhouenlai = {
+
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { silent_workhorse }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_bogu = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { ideological_crusader }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_dengxiaoping = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { captain_of_industry }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_likenong = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { prince_of_terror }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_linboqu = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { war_industrialist }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_liushaoqi = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { backroom_backstabber }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	army_chief = {
+		
+		PRC_zhude = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_chief_morale_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_linbiao = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_chief_organizational_3 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_pengdehuai = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_concealment_3 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_suyu = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_commando_1 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	air_chief = {
+		
+
+		PRC_liuyalou = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { air_chief_ground_support_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_xiaohua = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { air_bomber_interception_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	navy_chief = {
+		
+
+		PRC_xiaojingguang = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { navy_chief_naval_aviation_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		RPC_zhangaiping = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { navy_chief_decisive_battle_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		PRC_xiaojingguang1 = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { navy_amphibious_assault_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+		PRC_liuyalou1 = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { air_air_combat_training_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+		PRC_chengeng = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_chief_offensive_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+		PRC_liubocheng = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_chief_reform_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+		PRC_pengdehuai1 = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_chief_offensive_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+		PRC_xuxiangqian = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_chief_defensive_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+		PRC_linbiao1 = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_infantry_3 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+		PRC_suyu1 = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_commando_3 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+		PRC_xuguangda = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_armored_1 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+
+	theorist = {
+		PRC_linbiao2 = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		PRC_xiaohua1 = {
+
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+
+	}
+
+
+
+}

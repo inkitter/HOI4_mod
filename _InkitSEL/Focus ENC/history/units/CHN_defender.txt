@@ -1,0 +1,185 @@
+﻿division_template = {
+	name = "和平建国军"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+
+##### OOB #####
+units = {
+	##### Eighth Route Army (CO: Mao Zedong, Zhu De) #####
+	division = {
+		name = "第1方面军1师"
+		location = 12019
+		division_template = "和平建国军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第1方面军2师"
+		location = 10044
+		division_template = "和平建国军"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第1方面军3师"
+		location = 7035
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第1方面军4师"
+		location = 4203
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第1方面军5师"
+		location = 4158
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第1方面军6师"
+		location = 9937
+		division_template = "和平建国军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第1方面军7师"
+		location = 10079
+		division_template = "和平建国军"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第1方面军8师"
+		location = 10040
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第2方面军5师"
+		location = 11973
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第2方面军6师"
+		location = 7025
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "独立第8旅"
+		location = 11913
+		division_template = "和平建国军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第2方面军1师"
+		location = 9956
+		division_template = "和平建国军"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第2方面军2师"
+		location = 7200
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第2方面军3师"
+		location = 1029
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第2方面军4师"
+		location = 7014
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第3方面军1师"
+		location = 1125
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第3方面军2师"
+		location = 4173
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第3方面军3师"
+		location = 4105
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第3方面军4师"
+		location = 7120
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第3方面军5师"
+		location = 10034
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第3方面军6师"
+		location = 12076
+		division_template = "和平建国军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+}

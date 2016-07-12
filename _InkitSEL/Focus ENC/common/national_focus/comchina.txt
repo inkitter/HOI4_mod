@@ -1,0 +1,1044 @@
+focus_tree = {
+	id = comchian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+
+	default = no
+
+	#共产党宣言
+	focus = {
+		id = declaration_communist_focus
+		icon = GFX_goal_support_communism
+		x = 1
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_political_power = 120
+			add_ideas = Manifesto_cpc_idea		#每日政治力量+20%
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#统一战线
+	focus = {
+		id = united_front_focus
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = declaration_communist_focus }
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_political_power = 150
+			add_ideas = United_resistance_idea	#可征召人口+3%
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#整风运动
+	focus = {
+		id = rectification_campaign_focus
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = united_front_focus }
+		x = 0
+		y = 2
+		cost = 10
+		completion_reward = {
+			add_ideas = style_rectified_idea	#部队组织+5，部队恢复+5%的理论灌输
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#毛泽东思想
+	focus = {
+		id = mao_thought_focus
+		icon = GFX_goal_generic_soviet_construction
+		prerequisite = { focus = rectification_campaign_focus }
+		x = 0
+		y = 3
+		cost = 10
+		completion_reward = {
+			add_political_power = 200
+			add_ideas = idea_political_correctness	#境外颠覆-75%
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#政治协商
+	focus = {
+		id = political_consultation_focus
+		icon = GFX_goal_support_fascism
+		prerequisite = { focus = mao_thought_focus }
+		x = 0
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_ideas = nationalism_idea		#核心领土上攻防+10%
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#人民民主专政
+	focus = {
+		id = mocratic_dictatorship_focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = political_consultation_focus }
+		x = 0
+		y = 5
+		cost = 10
+		completion_reward = {
+			add_ideas = people_regime_idea			#团结+5%；每日共产主义支援+0.02
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#国际支援
+	focus = {
+		id = international_support_focus
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = united_front_focus }
+		x = 2
+		y = 2
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.50
+				uses = 1
+				technology = motorised_infantry
+				technology = tech_field_hospital
+				technology = tech_field_hospital2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#击退反共高潮
+	focus = {
+		id = against_anti-communism_focus
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = international_support_focus }
+		x = 2
+		y = 3
+		cost = 10
+		completion_reward = {
+			add_political_power = 200
+			add_ideas = people_victory_idea			#部队恢复+5%
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#推翻三座大山
+	focus = {
+		id = china_liberation_focus
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = against_anti-communism_focus }
+		x = 2
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_ideas = ownership_idea		#可征召人口+5%；部队组织+5
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#国际共产主义
+	focus = {
+		id = international_communism_focus
+		icon = GFX_goal_generic_war_with_comintern
+		available = { is_puppet = no is_in_faction = no }
+		prerequisite = { focus = china_liberation_focus }
+		x = 2
+		y = 5
+		cost = 10
+		completion_reward = {
+			set_rule = { can_create_factions = yes CAN_JOIN_OPPOSITE_FACTIONS = yes }
+			create_faction = "The_third_world_countries"
+			add_political_power = 150
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#天朝大国
+	focus = {
+		id = china_power_focus
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = international_communism_focus focus = mocratic_dictatorship_focus }
+		x = 1
+		y = 6
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#土地革命
+	focus = {
+		id = agrarian_revolutionary_focus
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 6
+		y = 0
+		cost = 10
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = agrarian_revolutionary_focus_1IC }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = agrarian_revolutionary_focus_1IC
+			}
+			random_owned_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = agrarian_revolutionary_focus_1IC
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#根据地建设
+	focus = {
+		id = base_development_focus
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = agrarian_revolutionary_focus }
+		x = 6
+		y = 1
+		cost = 10
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = base_development_focus_1IC }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = base_development_focus_1IC
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = base_development_focus_1IC
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#三大改造
+	focus = {
+		id = three_great_remou_focus
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = base_development_focus }
+		x = 6
+		y = 2
+		cost = 10
+		completion_reward = {
+			add_ideas = public_economy_idea		#效率+10%；效率增加+10%
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#石油工业
+	focus = {
+		id = petroleum_industry_focus1
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = three_great_remou_focus }
+		available = {
+			owns_state = 287
+		}
+		x = 8
+		y = 3
+		cost = 10
+		completion_reward = {
+			287 = { add_resource = { type = oil amount = 15 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = petroleum_industry_focus2
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = petroleum_industry_focus1 }
+		available = {
+			owns_state = 714
+		}
+		x = 8
+		y = 4
+		cost = 10
+		completion_reward = {
+			714 = { add_resource = { type = oil amount = 15 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#发展橡胶产业
+	focus = {
+		id = prc_rubber_industry_focus
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = three_great_remou_focus }
+		available = {
+			owns_state = 591
+		}
+		x = 4
+		y = 3
+		cost = 10
+		completion_reward = {
+			591 = { add_resource = { type = rubber amount = 10 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#计划经济
+	focus = {
+		id = planned_economy_focus
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = three_great_remou_focus }
+		x = 6
+		y = 3
+		cost = 10
+		completion_reward = {
+			custom_effect_tooltip = available_economy_policy
+			show_ideas_tooltip = planned_economy_policy
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#大跃进
+	focus = {
+		id = great_leap_forward_focus
+		icon = GFX_goal_generic_cavalry
+		prerequisite = { focus = planned_economy_focus }
+		x = 6
+		y = 4
+		cost = 10
+		available = {
+			num_of_factories > 50
+		}
+		completion_reward = {
+			random_owned_state = {
+				limit = { is_in_home_area = yes	}
+				add_resource = {
+					type = steel
+					amount = 5
+				}
+			}
+			random_owned_state = {
+				limit = { is_in_home_area = yes	}
+				add_resource = {
+					type = steel
+					amount = 5
+				}
+			}
+			random_owned_state = {
+				limit = { is_in_home_area = yes	}
+				add_resource = {
+					type = steel
+					amount = 5
+				}
+			}
+			random_owned_state = {
+				limit = { is_in_home_area = yes	}
+				add_resource = {
+					type = steel
+					amount = 5
+				}
+			}
+			add_ideas =	surpass_EU_idea		#生产效率-30%；可征兆人口-5%，地区内工厂+30%
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#反思
+	focus = {
+		id = rethink_focus
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = great_leap_forward_focus }
+		x = 6
+		y = 5
+		cost = 10
+		completion_reward = {
+			remove_ideas = surpass_EU_idea	#移除
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#革命队伍
+	focus = {
+		id = revolutionary_ranks_focus
+		icon = GFX_goal_generic_army_artillery2
+		x = 10
+		y = 0
+		cost = 10
+		completion_reward = {
+			army_experience = 20
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#敌后根据地
+	focus = {
+		id = base_area_focus
+		icon = GFX_goal_generic_wolf_pack
+		prerequisite = { focus = revolutionary_ranks_focus }
+		x = 10
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_ideas = guerrilla_policy_idea	#补给天数+30；部队移动+10%
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#官田中央兵工厂
+	focus = {
+		id = guantian_millitary_factory_focus
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = base_area_focus }
+		x = 8
+		y = 2
+		cost = 10
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = guantian_millitary_factory
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#人民解放军
+	focus = {
+		id = peoples_liberation_army_focus
+		icon = GFX_goal_generic_allies_build_infantry
+		available = { is_puppet = no }
+		prerequisite = { focus = base_area_focus }
+		x = 10
+		y = 2
+		cost = 10
+		completion_reward = {
+			add_ideas = call_of_duty_idea	#训练时间-15%
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#军队转型
+	focus = {
+		id = military_transformation_focus
+		icon = GFX_focus_research
+		available = {
+			is_puppet = no
+			has_army_manpower = { size > 999999 }
+		}
+		prerequisite = { focus = peoples_liberation_army_focus }
+		x = 10
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#刘院长
+	focus = {
+		id = war_experience_focus
+		icon = GFX_goal_generic_production2
+		prerequisite = { focus = military_transformation_focus }
+		x = 8
+		y = 5
+		cost = 10
+		completion_reward = {
+			custom_effect_tooltip = available_theorist
+			show_ideas_tooltip = liu_dean
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#军备研发
+	focus = {
+		id = arms_development_focus
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = war_experience_focus }
+		x = 8
+		y = 6
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 4
+				category = armor
+				category = artillery
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#发展多兵种
+	focus = {
+		id = combined_arms_focus
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = military_transformation_focus }
+		x = 10
+		y = 5
+		cost = 10
+		completion_reward = {
+			air_experience = 25
+			navy_experience = 25
+			set_rule = { can_generate_female_aces = yes	}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#国土防卫
+	focus = {
+		id = homeland_defense_focus
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = combined_arms_focus }
+		x = 10
+		y = 6
+		cost = 10
+		completion_reward = {
+			add_ideas = homeland_defence_idea	#核心领土防御+10%，要塞防空修建速度+20%
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#发展尖端技术
+	focus = {
+		id = develop_technology_focus
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = military_transformation_focus }
+		x = 12
+		y = 5
+		cost = 10
+		completion_reward = {
+				add_tech_bonus = {
+					name = electronics_bonus
+					bonus = 0.5
+					uses = 2
+					category = electronics
+				}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#第二炮兵
+	focus = {
+		id = PLASAF_focus
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = develop_technology_focus }
+		x = 12
+		y = 6
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 2
+				category = rocketry
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#两弹一星
+	focus = {
+		id = bombs_satellite_focus
+		icon = GFX_goal_generic_air_naval_bomber
+		prerequisite = { focus = arms_development_focus }
+		prerequisite = { focus = homeland_defense_focus }
+		prerequisite = { focus = PLASAF_focus }
+		x = 10
+		y = 7
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 2
+				category = nuclear
+			}
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#战略忽悠
+	focus = {
+		id = Strategic_Foolyou_focus
+		icon = GFX_focus_wonderweapons
+		prerequisite = { focus = bombs_satellite_focus }
+		x = 8
+		y = 8
+		cost = 10
+		completion_reward = {
+			custom_effect_tooltip = available_theorist
+			show_ideas_tooltip = zhang_zhaozhong
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#黑科技
+	focus = {
+		id = future_black_tech_focus
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = bombs_satellite_focus }
+		x = 10
+		y = 8
+		cost = 10
+		completion_reward = {
+			custom_effect_tooltip = new_ideas
+			show_ideas_tooltip = China_North_Industries_Group
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#打击侵略者的嚣张气焰
+	focus = {
+		id = beat_jap_invaders_focus
+		icon = GFX_goal_generic_small_arms
+		available = {
+			608 = { is_controlled_by = JAP }
+			has_country_flag = PRC_joined_CHI_against_JAP
+			is_in_faction_with = CHI
+			has_war_with = JAP
+			is_puppet = no
+		}
+		x = 14
+		y = 0
+		cost = 10
+		completion_reward = {
+			country_event = { id = chiterritoryevent.4 days = 3 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	#打击侵略者的嚣张气焰2
+	focus = {
+		id = beat_jap_invaders_focus2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = beat_jap_invaders_focus }
+		available = {
+			614 = { is_controlled_by = JAP }
+			615 = { is_controlled_by = JAP }
+			has_war_with = JAP
+			is_puppet = no
+		}
+		x = 14
+		y = 1
+		cost = 10
+		completion_reward = {
+			country_event = { id = chiterritoryevent.5 days = 10 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	#大生产运动
+	focus = {
+		id = large_production_campaign_focus
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = beat_jap_invaders_focus2 }
+		available = {
+			has_idea = base_damaged_idea
+			has_country_flag = sweep_base_area
+		}
+		x = 12
+		y = 2
+		cost = 10
+		completion_reward = {
+			remove_ideas = base_damaged_idea
+			add_ideas = self_reliance_idea		#资源获取+10%;产出+10%
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	#北上抗日
+	focus = {
+		id = move_to_north_focus
+		icon = GFX_goal_generic_military_deal
+		available = {
+			has_army_manpower = { size > 299999 }
+			has_country_flag = PRC_joined_CHI_against_JAP
+			is_in_faction_with = CHI
+			has_war_with = JAP
+			USA = { NOT = {has_war_with = JAP }}
+			is_puppet = no
+		}
+		x = 14
+		y = 3
+		cost = 10
+		completion_reward = {
+			CHI = {
+				country_event = { id = chiterritoryevent.7 }
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	#抢占胜利果实
+	focus = {
+		id = incorporat_puppet_troops_focus
+		icon = GFX_goal_anschluss
+		available = {
+			country_exists = CHI
+			JAP = { surrender_progress > 0.7 }
+			has_war_with = JAP
+			CHI = { has_war_with = JAP }
+			is_puppet = no
+		}
+		x = 14
+		y = 4
+		cost = 10
+		completion_reward = {
+			set_country_flag = ready_incorporate_puppet
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	#向新疆宣示主权
+	focus = {
+		id = declaration_sovereignty_SIK_focus
+		icon = GFX_goal_generic_demand_territory
+		will_lead_to_war_with = SIK
+		available = {
+			is_puppet = no
+			country_exists = SIK
+			NOT = { has_war_with = SOV }
+			NOT = { has_war_with = SIK }
+			#SIK = { is_in_faction_with = SOV }
+			is_neighbor_of = SIK
+			OR = {
+				SIK = { owns_state = 287 }
+				SIK = { owns_state = 619 }
+				SIK = { owns_state = 617 }
+				SIK = { owns_state = 618 }
+			}
+		}
+		x = 16
+		y = 0
+		cost = 10
+		completion_reward = {
+			set_country_flag = declaration_sovereignty_SIK
+			declare_war_on = { target = SIK type = annex_everything }
+			PRC = { add_opinion_modifier = { target = SOV modifier = protest_action_strong } }
+			SOV = { add_opinion_modifier = { target = PRC modifier = condemn_aggression } }
+			add_named_threat = { threat = 1 name = declaration_sovereignty_SIK_focus }
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+	}
+
+	#向新疆宣示主权
+	focus = {
+		id = declaration_sovereignty_SIK_focus
+		icon = GFX_goal_generic_demand_territory
+		available = {
+			is_puppet = no
+			country_exists = SIK
+			NOT = { has_war_with = SOV }
+			NOT = { has_war_with = SIK }
+			#SIK = { is_in_faction_with = SOV }
+			is_neighbor_of = SIK
+			OR = {
+				SIK = { owns_state = 287 }
+				SIK = { owns_state = 619 }
+				SIK = { owns_state = 617 }
+				SIK = { owns_state = 618 }
+			}
+		}
+		x = 16
+		y = 0
+		cost = 10
+		completion_reward = {
+			set_country_flag = declaration_sovereignty_SIK
+			declare_war_on = { target = SIK type = take_core_goal }
+			PRC = { add_opinion_modifier = { target = SOV modifier = protest_action_strong } }
+			SOV = { add_opinion_modifier = { target = PRC modifier = condemn_aggression } }
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+	}
+
+	#解放全中国
+	focus = {
+		id = china_liberty_focus
+		icon = GFX_goal_generic_amphibious_assault
+		available = {
+			has_war = no
+			has_government = communism
+			controls_state = 283
+			controls_state = 287
+			controls_state = 322
+			controls_state = 325
+			controls_state = 328
+			#controls_state = 524	#台湾
+			controls_state = 591
+			controls_state = 592
+			controls_state = 593
+			controls_state = 594
+			controls_state = 595
+			controls_state = 596
+			controls_state = 597
+			controls_state = 598
+			controls_state = 599
+			controls_state = 600
+			controls_state = 601
+			controls_state = 602
+			controls_state = 603
+			controls_state = 604
+			controls_state = 605
+			controls_state = 606
+			controls_state = 607
+			controls_state = 608
+			controls_state = 609
+			controls_state = 610
+			controls_state = 611
+			controls_state = 612
+			controls_state = 613
+			controls_state = 614
+			controls_state = 615
+			controls_state = 616
+			controls_state = 617
+			controls_state = 618
+			controls_state = 619
+			controls_state = 620
+			controls_state = 621
+			controls_state = 622
+			controls_state = 714
+			controls_state = 715
+			controls_state = 716
+			controls_state = 717
+			is_puppet = no
+			SHX = { exists = no }
+			XSM = { exists = no }
+			GXC = { exists = no }
+			YUN = { exists = no }
+			SIK = { exists = no }
+			TIB = { exists = no }
+		}
+		x = 16
+		y = 1
+		cost = 10
+		completion_reward = {
+			SET_CAPITAL = 608
+			news_event = { days = 1 id = chinanews.2 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	#回收殖民地
+	focus = {
+		id = recover_colony_territory_focus
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = china_liberty_focus }
+		will_lead_to_war_with = ENG
+		available = {
+			is_puppet = no
+			has_war = no
+			ENG = { owns_state = 326 }
+		}
+		x = 16
+		y = 2
+		cost = 10
+		completion_reward = {
+			set_global_flag = PRC_abrogate_unequal_treaties
+			if = {
+				limit = {
+					not = { PRC = { owns_state = 728 } }
+				}
+				728 = { owner = { country_event = { id = chiterritoryevent.13 } } }
+			}
+			if = {
+				limit = { PRC = { owns_state = 728 } }
+				set_country_flag = guangzhou_bay_responded
+			}
+			if = {
+				limit = {
+					not = { PRC = { owns_state = 729 } }
+				}
+				729 = { owner =  { country_event = { id = chiterritoryevent.14 } } }
+			}
+			if = {
+				limit = { PRC = { owns_state = 729 } }
+				set_country_flag = macao_responded
+			}
+			ENG = { country_event = { id = chiterritoryevent.15 } }
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 100
+				OR = {
+					has_government = communism
+					is_in_faction_with = PRC
+					RAJ = { exists = no }
+					RAJ = { has_civil_war = yes }
+				}
+			}
+		}
+	}
+}

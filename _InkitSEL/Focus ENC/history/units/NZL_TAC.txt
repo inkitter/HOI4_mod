@@ -1,0 +1,13 @@
+﻿
+
+air_wings = {
+	### Royal New Zealand Air Force (RNZAF)
+	284 = {
+		# RNZAF Station Auckland -- Wellingtons
+		tac_bomber_equipment_1 =  {
+			owner = "NZL" 
+			amount = 30
+		}
+	}
+}
+

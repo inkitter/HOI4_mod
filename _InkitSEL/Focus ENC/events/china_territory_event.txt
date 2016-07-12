@@ -1,0 +1,1244 @@
+﻿add_namespace = chiterritoryevent
+#成立傀儡
+country_event = {
+	id = chiterritoryevent.1
+	title = chiterritoryevent.1.t
+	desc = chiterritoryevent.1.d
+	picture = GFX_capitulationist_clique
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		has_global_flag = fall_of_nanjing
+		613 = { is_controlled_by = JAP }
+		country_exists = CHI
+		CHI = { has_civil_war = no }
+		has_war_with = CHI
+	}
+
+	option = {
+		name = chiterritoryevent.1.a
+		ai_chance = { factor = 80 }
+		news_event = { id = chinanews.3 days = 3 }
+		effect_tooltip = { CHI = { add_manpower = -100000 add_ideas = internal_division_idea } }
+	}
+	option = {
+		name = chiterritoryevent.1.b
+		ai_chance = { factor = 20 }
+	}
+}
+
+
+#平型关大捷
+country_event = {
+    id = chiterritoryevent.4
+    title = chiterritoryevent.4.t
+    desc = chiterritoryevent.4.d
+    picture = GFX_victory_pingxing_pass
+
+	is_triggered_only = yes
+	immediate = {
+        ROOT = { set_country_flag = victory_pingxing_pass }
+	}
+    option = {
+        name = chiterritoryevent.4.a
+        ROOT = { add_timed_idea = { idea = promote_national_spirits_idea days = 200 }}
+		hidden_effect = {
+			if = {
+				limit = { country_exists = CHI }
+				CHI = { country_event = { id = chiterritoryevent.4.1} }
+			}
+		}
+    }
+}
+
+country_event = {
+    id = chiterritoryevent.41
+    title = chiterritoryevent.41.t
+    desc = chiterritoryevent.41.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+    option = {
+        name = chiterritoryevent.41.a
+        CHI = {	add_timed_idea = { idea = promote_national_spirits_idea days = 200 }}
+    }
+}
+
+#百团大战
+country_event = {
+    id = chiterritoryevent.5
+    title = chiterritoryevent.5.t
+    desc = chiterritoryevent.5.d
+    picture = GFX_hundred_regiment
+
+	is_triggered_only = yes
+	immediate = {
+        #ROOT = { set_country_flag = hundred_regiment }
+		hidden_effect = {
+			ROOT = { country_event = { id = chiterritoryevent.6 days = 30 }}
+		}
+	}
+    option = {
+        name = chiterritoryevent.5.a
+		ROOT = { add_timed_idea = { idea = promote_national_spirits_idea2 days = 200 }}
+	}
+}
+
+#根据地大扫荡
+country_event = {
+    id = chiterritoryevent.6
+    title = chiterritoryevent.6.t
+    desc = chiterritoryevent.6.d
+    picture = GFX_base_sweeped
+
+	is_triggered_only = yes
+	immediate = {
+		ROOT = {
+			set_country_flag = sweep_base_area
+			add_timed_idea = { idea = base_damaged_idea days = 300 }
+			random_owned_state = {
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			random_owned_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+		JAP = {
+			add_ideas = base_sweeped_idea
+		}
+	}
+    option = {
+        name = chiterritoryevent.6.a
+	}
+}
+
+#第二次反共高潮
+country_event = {
+    id = chiterritoryevent.7
+    title = chiterritoryevent.7.t
+    desc = chiterritoryevent.7.d
+    picture = GFX_anti_communist
+
+	is_triggered_only = yes
+
+    option = {
+        name = chiterritoryevent.7.a
+		ai_chance = { factor = 100 }
+		PRC = { add_manpower = -50000 }
+		hidden_effect = {
+			news_event = { days = 7 id = chinanews.1 }
+		}
+	}
+	option = {
+        name = chiterritoryevent.7.b
+		ai_chance = { factor = 0 }
+		add_political_power = 200
+	}
+}
+
+#反击国民党顽固派
+country_event = {
+    id = chiterritoryevent.8
+    title = chiterritoryevent.8.t
+    desc = chiterritoryevent.8.d
+    picture = GFX_counter_anti_communist
+
+	is_triggered_only = yes
+
+    option = {
+        name = chiterritoryevent.8.a
+		ai_chance = { factor = 100 }
+		set_country_flag = chiterritoryevent.8_politics
+		hidden_effect = {
+			country_event = { days = 3 id = chiterritoryevent.9 }
+		}
+	}
+	option = {
+        name = chiterritoryevent.8.b
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			country_event = { days = 3 id = chiterritoryevent.9 }
+		}
+	}
+}
+
+#反击国民党顽固派2
+country_event = {
+    id = chiterritoryevent.9
+    title = chiterritoryevent.9.t
+	desc = {
+		text = chiterritoryevent.9.d
+		trigger = { has_country_flag = chiterritoryevent.8_politics }
+	}
+	desc = {
+		text = chiterritoryevent.9.p
+		trigger = { NOT = { has_country_flag = chiterritoryevent.8_politics } }
+	}
+    picture = GFX_end_incident
+
+	is_triggered_only = yes
+
+    option = {
+        name = chiterritoryevent.9.a
+		ai_chance = { factor = 100 }
+		trigger = { has_country_flag = chiterritoryevent.8_politics }
+		add_ideas = appeal_communist_idea
+	}
+	option = {
+        name = chiterritoryevent.9.b
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { has_country_flag = chiterritoryevent.8_politics } }
+	}
+}
+
+#收编日伪军
+country_event = {
+    id = chiterritoryevent.10
+    title = chiterritoryevent.10.t
+	desc = chiterritoryevent.10.d
+
+    picture = GFX_puppet_troops_incorporated
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PRC
+		JAP = { has_capitulated = yes }
+		has_country_flag = ready_incorporate_puppet
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+    option = {
+        name = chiterritoryevent.10.a
+		ai_chance = { factor = 90 }
+		custom_effect_tooltip = chiterritoryevent.10.puppet_troops_incorporated
+		hidden_effect = {
+			load_oob = "PRC_puppet_troops_incorporated"
+		}
+	}
+	option = {
+        name = chiterritoryevent.10.b
+		ai_chance = { factor = 10 }
+		add_manpower = 400000
+	}
+}
+
+#与苏联停战
+country_event = {
+	id = chiterritoryevent.11
+	title = chiterritoryevent.11.t
+	desc = chiterritoryevent.11.d
+	picture = GFX_sov_nagotiation
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PRC
+		has_war_with = SOV
+		has_war_with = SIK
+		has_country_flag = declaration_sovereignty_SIK
+		surrender_progress < 0.1
+		SIK = { has_capitulated = yes }
+		SOV = { has_capitulated = no }
+		SIK = { is_in_faction_with = SOV }
+	}
+
+	option = {
+		name = chiterritoryevent.11.a
+		ai_chance = { factor = 100 }
+		clr_country_flag = declaration_sovereignty_SIK
+		hidden_effect = {
+			PRC = {
+				country_event = {
+					id = chiterritoryevent.12
+					hours = 12
+				}
+			}
+		}
+	}
+	option = {
+		name = chiterritoryevent.11.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = chiterritoryevent.12
+	title = chiterritoryevent.12.t
+	desc = chiterritoryevent.12.d
+	picture = GFX_SIK_liberty
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			white_peace = SIK
+			if = {
+				limit = {SIK = { owns_state = 287 }}
+				transfer_state = 287
+			}
+			if = {
+				limit = {SIK = { owns_state = 619 }}
+				transfer_state = 619
+			}
+			if = {
+				limit = {SIK = { owns_state = 618 }}
+				transfer_state = 618
+			}
+			if = {
+				limit = {SIK = { owns_state = 617 }}
+				transfer_state = 617
+			}
+		}
+	}
+	option = { name = chiterritoryevent.12.a }
+}
+
+#广州湾殖民者选择
+country_event = {
+	id = chiterritoryevent.13
+	title = chiterritoryevent.13.t
+	desc = {
+		text = chiterritoryevent.13.d
+		trigger = {
+			not = { PRC = { has_country_flag = break_war_with_ENG } }
+		}
+	}
+	desc = {
+		text = chiterritoryevent.13.sec
+		trigger = {
+			PRC = { has_country_flag = break_war_with_ENG }
+		}
+	}
+	picture = GFX_prc_claim_core
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiterritoryevent.13.a
+		ai_chance = { 
+			factor = 0
+			modifier = {
+				factor = 100
+				OR = {
+					has_government = communism
+					is_in_faction_with = PRC
+				}
+			}
+		}
+		effect_tooltip = {
+			PRC = { transfer_state = 728 }
+		}
+		PRC = { set_country_flag = guangzhou_bay_responded }
+		hidden_effect = {
+			PRC = {
+				country_event = { id = chiterritoryevent.18 }
+			}
+		}
+	}
+
+	option = {
+		name = chiterritoryevent.13.b
+		trigger = {
+			not = { PRC = { has_country_flag = break_war_with_ENG } }
+		}
+		effect_tooltip = {
+			PRC = {
+				create_wargoal = {
+					type = take_core_state
+					target = ROOT
+					generator = { 728 }
+				}
+			}
+		}
+		PRC = { set_country_flag = guangzhou_bay_responded }
+		ai_chance = { 
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = communism
+					is_in_faction_with = PRC
+				}
+			}
+		}
+	}
+}
+
+#澳门殖民者选择
+country_event = {
+	id = chiterritoryevent.14
+	title = chiterritoryevent.14.t
+	desc = {
+		text = chiterritoryevent.14.d
+		trigger = {
+			not = { PRC = { has_country_flag = break_war_with_ENG } }
+		}
+	}
+	desc = {
+		text = chiterritoryevent.14.sec
+		trigger = {
+			PRC = { has_country_flag = break_war_with_ENG }
+		}
+	}
+	picture = GFX_prc_claim_core
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiterritoryevent.14.a
+		ai_chance = { 
+			factor = 0
+			modifier = {
+				factor = 100
+				OR = {
+					has_government = communism
+					is_in_faction_with = PRC
+				}
+			}
+		}
+		effect_tooltip = {
+			PRC = { transfer_state = 729 }
+		}
+		PRC = { set_country_flag = macao_responded }
+		hidden_effect = {
+			PRC = {
+				country_event = { id = chiterritoryevent.19 }
+			}
+		}
+	}
+
+	option = {
+		name = chiterritoryevent.14.b
+		trigger = {
+			not = { PRC = { has_country_flag = break_war_with_ENG } }
+		}
+		PRC = { set_country_flag = macao_responded }
+		effect_tooltip = {
+			PRC = {
+				create_wargoal = {
+					type = take_core_state
+					target = ROOT
+					generator = { 729 }
+				}
+			}
+		}
+		ai_chance = { 
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = communism
+					is_in_faction_with = PRC
+				}
+			}
+		}
+	}
+}
+
+#英国选择是否归还香港
+country_event = {
+	id = chiterritoryevent.15
+	title = chiterritoryevent.15.t
+
+	desc = {
+		text = chiterritoryevent.15.nowar
+		trigger = {
+			not = {
+				has_war_with = PRC
+				PRC = { has_country_flag = break_war_with_ENG }
+			}
+		}
+	}
+
+	desc = {
+		text = chiterritoryevent.15.atwar
+		trigger = {
+			has_war_with = PRC
+			PRC = { has_country_flag = break_war_with_ENG }
+		}
+	}
+
+	picture = GFX_prc_claim_core
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiterritoryevent.15.a
+		trigger = {
+			not = {
+				has_war_with = PRC
+				PRC = { has_country_flag = break_war_with_ENG }
+			}
+		}
+		ai_chance = { 
+			factor = 0
+			modifier = {
+				factor = 50
+				RAJ = { has_civil_war = yes }
+			}
+			modifier = {
+				factor = 100
+				OR = {
+					has_government = communism
+					is_in_faction_with = PRC
+					RAJ = { exists = no }
+				}
+			}
+		}
+		effect_tooltip = {
+			PRC = { transfer_state = 326 }
+		}
+		PRC = { set_country_flag = hk_responded }
+		hidden_effect = {
+			PRC = {
+				country_event = { id = chiterritoryevent.20 }
+			}
+		}
+	}
+
+	option = {
+		name = chiterritoryevent.15.b
+		trigger = {
+			has_war_with = PRC
+			PRC = { has_country_flag = break_war_with_ENG }
+		}
+		ai_chance = { 
+			factor = 100
+		}
+		effect_tooltip = {
+			white_peace = PRC
+			PRC = { transfer_state = 326 }
+		}
+		hidden_effect = {
+			PRC = {
+				country_event = { id = chiterritoryevent.20 days = 3 }
+			}
+		}
+	}
+	option = {
+		name = chiterritoryevent.15.c
+		ai_chance = { 
+			factor = 100
+			modifier = {
+				factor = 50
+				RAJ = { has_civil_war = yes }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = communism
+					is_in_faction_with = PRC
+					RAJ = { exists = no }
+					RAJ = { has_capitulated = yes }
+				}
+			}
+		}
+		effect_tooltip = {
+			if = {
+				limit = { not = { has_war_with = PRC } }
+				PRC = {
+					create_wargoal = {
+						type = take_core_state
+						target = ROOT
+						generator = { 326 }
+					}
+				}
+			}
+		}
+		PRC = { set_country_flag = hk_responded }
+		hidden_effect = {
+			if = {
+				limit = { has_war_with = PRC }
+				PRC = {
+					country_event = { id = chiterritoryevent.21 }
+				}
+			}
+		}
+	}
+}
+
+#广州湾回归
+country_event = {
+	id = chiterritoryevent.18
+	title = chiterritoryevent.18.t
+	desc = chiterritoryevent.18.d
+	picture = GFX_guangzhou_bay_return
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			transfer_state = 728
+		}
+	}
+	option = {
+		name = chiterritoryevent.18.a
+		trigger = {
+			PRC = { has_country_flag = break_war_with_ENG }
+		}
+	}
+	option = {
+		name = chiterritoryevent.18.b
+		trigger = {
+			NOT = {
+				PRC = { has_country_flag = break_war_with_ENG }
+			}
+		}
+	}
+}
+
+#澳门回归
+country_event = {
+	id = chiterritoryevent.19
+	title = chiterritoryevent.19.t
+	desc = chiterritoryevent.19.d
+	picture = GFX_macao_return
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			transfer_state = 729
+		}
+	}
+	option = {
+		name = chiterritoryevent.19.a
+		trigger = {
+			PRC = { has_country_flag = break_war_with_ENG }
+		}
+	}
+	option = {
+		name = chiterritoryevent.19.b
+		trigger = {
+			NOT = {
+				PRC = { has_country_flag = break_war_with_ENG }
+			}
+		}
+	}
+}
+
+#香港回归
+country_event = {
+	id = chiterritoryevent.20
+	title = chiterritoryevent.20.t
+	desc = chiterritoryevent.20.d
+	picture = GFX_hk_return_declaration
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { has_war_with = ENG }
+				white_peace = ENG
+			}
+			transfer_state = 326
+			news_event = { days = 1 id = chinanews.4 }
+		}
+	}
+	option = {
+		name = chiterritoryevent.20.a
+		trigger = {
+			PRC = { has_country_flag = break_war_with_ENG }
+		}
+	}
+	option = {
+		name = chiterritoryevent.20.b
+		trigger = {
+			NOT = {
+				PRC = { has_country_flag = break_war_with_ENG }
+			}
+		}
+	}
+}
+
+#英国拒绝归还
+country_event = {
+	id = chiterritoryevent.16
+	title = chiterritoryevent.16.t
+
+	desc = {
+		text = chiterritoryevent.16.all
+		trigger = {
+			OR = {
+				not = { owns_state = 728 }
+				not = { owns_state = 729 }
+			}
+		}
+	}
+	desc = {
+		text = chiterritoryevent.16.sin
+		trigger = {
+			owns_state = 728
+			owns_state = 729
+		}
+	}
+
+	picture = GFX_report_event_FDR_speech
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PRC
+		has_country_flag = guangzhou_bay_responded
+		has_country_flag = hk_responded
+		has_country_flag = macao_responded
+		not = {
+			has_war_with = ENG
+			owns_state = 326
+		}
+	}
+
+	option = {
+		name = chiterritoryevent.16.a
+		create_wargoal = {
+			type = take_core_state
+			target = ENG
+			generator = { 326 }
+		}
+		add_named_threat = { threat = 2 name = recover_colony_territory_focus }
+		set_country_flag = break_war_with_ENG
+		ai_chance = { 
+			factor = 100
+		}
+	}
+	option = {
+		name = chiterritoryevent.16.b
+		add_political_power = -200
+		ai_chance = { 
+			factor = 0
+		}
+	}
+}
+
+#与英国停战
+country_event = {
+	id = chiterritoryevent.17
+	title = chiterritoryevent.17.t
+	desc = chiterritoryevent.17.d
+	picture = GFX_sov_nagotiation
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PRC
+		has_war_with = ENG
+		surrender_progress < 0.1
+		has_country_flag = break_war_with_ENG
+		OR = {
+			RAJ = { has_capitulated = yes }
+			RAJ = { exists = no }
+			ENG = { surrender_progress > 0.5 }
+		}
+	}
+
+	option = {
+		name = chiterritoryevent.17.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			ENG = {
+				country_event = {
+					id = chiterritoryevent.15
+					hours = 6
+				}
+			}
+		}
+	}
+	option = {
+		name = chiterritoryevent.17.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = chiterritoryevent.21
+	title = chiterritoryevent.21.t
+	desc = chiterritoryevent.21.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+
+	option = { name = chiterritoryevent.21.a }
+}
+
+#朝鲜半岛控制权转交苏联
+country_event = {
+	id = chiterritoryevent.22
+	title = chiterritoryevent.22.t
+	desc = chiterritoryevent.22.d
+	picture = GFX_cross_the_yalu
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PRC
+		controls_state = 527
+		controls_state = 525
+		SOV = {
+			exists = yes
+			has_war_with = JAP
+		}
+		USA = {
+			exists = yes
+			has_war_with = JAP
+		}
+		has_global_flag = had_yalta_conference
+	}
+
+	option = {
+		name = chiterritoryevent.22.a
+		ai_chance = { factor = 100 }
+
+		SOV = {
+			transfer_state = 527
+			transfer_state = 525
+		}
+	}
+	option = {
+		name = chiterritoryevent.22.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+#美帝向苏联要求朝鲜半岛的控制权
+country_event = {
+	id = chiterritoryevent.23
+	title = chiterritoryevent.23.t
+	desc = chiterritoryevent.23.d
+	picture = GFX_report_event_soviet_tanks
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		has_war_with = JAP
+		SOV = {
+			exists = yes
+			has_war_with = JAP
+		}
+		527 = { is_controlled_by = SOV }
+		525 = { is_controlled_by = SOV }
+		JAP = { surrender_progress > 0.5 }
+		has_global_flag = had_yalta_conference
+	}
+
+	option = {
+		name = chiterritoryevent.23.a
+		ai_chance = { factor = 100 }
+
+		SOV = {
+			country_event = { id = chiterritoryevent.24 hours = 12 }
+		}
+	}
+	option = {
+		name = chiterritoryevent.23.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+#苏联选择是否接受
+country_event = {
+	id = chiterritoryevent.24
+	title = chiterritoryevent.24.t
+	desc = chiterritoryevent.24.d
+	picture = GFX_report_event_finnish_letter
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiterritoryevent.24.a
+		ai_chance = { factor = 95 }
+		hidden_effect = {
+			transfer_state = 527
+		}
+		USA = { transfer_state = 525 }
+	}
+	option = {
+		name = chiterritoryevent.24.b
+		ai_chance = { factor = 5 }
+	}
+}
+
+#美国成立李鬼子政府
+country_event = {
+	id = chiterritoryevent.33
+	title = chiterritoryevent.33.t
+	desc = chiterritoryevent.33.d
+	picture = GFX_south_kor_president
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		SOV = {
+			exists = yes
+			owns_state = 527
+			has_war = no
+		}
+		USA = {
+			exists = yes
+			owns_state = 525
+			has_war = no
+		}
+		JAP = {
+			OR = {
+				has_capitulated = yes
+				exists = no
+				has_war = no
+			}
+		}
+	}
+
+	option = {
+		name = chiterritoryevent.33.a
+		hidden_effect = {
+			SOV = {
+				country_event = { id = chiterritoryevent.34 hours = 12 }
+			}
+		}
+	}
+}
+
+#苏联成立金将军政府
+country_event = {
+	id = chiterritoryevent.34
+	title = chiterritoryevent.34.t
+	desc = chiterritoryevent.34.d
+	picture = GFX_south_kor_president
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiterritoryevent.34.a
+		hidden_effect = {
+			news_event = { id = chinanews.6 days = 3 }
+		}
+	}
+}
+
+#朝鲜向prc和苏联寻求统一的协助
+country_event = {
+	id = chiterritoryevent.250
+	title = chiterritoryevent.250.t
+	desc = chiterritoryevent.250.d
+	picture = GFX_kim_il-sung_askfor_help
+
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = korea_divided_two
+		KOR = {
+			exists = yes
+			has_war = no
+			NOT = { controls_state = 525 }
+		}
+		PRC = { exists = yes has_government = communism is_puppet = no }
+		525 = {
+			controller = { original_tag = KOR }
+		}
+		tag = KOR
+	}
+	option = {
+		name = chiterritoryevent.250.a
+		ai_chance = { factor = 100 }
+		PRC = { country_event = { id = chiterritoryevent.25 days = 1 } }
+		SOV = { country_event = { id = chiterritoryevent.25 days = 1 } }
+	}
+	option = {
+		name = chiterritoryevent.250.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+#prc&sov的回应
+country_event = {
+	id = chiterritoryevent.25
+	title = chiterritoryevent.25.t
+	desc = chiterritoryevent.25.d
+	picture = GFX_kim_il-sung_askfor_help
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiterritoryevent.25.a
+		trigger = {	tag = SOV }
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = chiterritoryevent.25.build
+		KOR = {
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = agrarian_revolutionary_focus_1IC
+			}
+			random_owned_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = got_SOV_promise
+		}
+	}
+	option = {
+		name = chiterritoryevent.25.a
+		trigger = {	tag = PRC }
+		ai_chance = { factor = 100 }
+		add_manpower = -100000
+		custom_effect_tooltip = chiterritoryevent.25.army
+		hidden_effect = {
+			KOR = {
+				load_oob = "KOR_return_army"
+				set_country_flag = got_PRC_promise
+			}
+		}
+	}
+	option = {
+		name = chiterritoryevent.25.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+#苏联撤军&解放傀儡
+country_event = {
+	id = chiterritoryevent.26
+	title = chiterritoryevent.26.t
+	desc = chiterritoryevent.26.d
+	picture = GFX_report_event_soviet_soldiers
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = SOV
+		KOR = { has_country_flag = got_SOV_promise }
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+		name = chiterritoryevent.26.a
+		end_puppet = KOR
+		USA = {
+			country_event = { id = chiterritoryevent.27 days = 2 }
+		}
+	}
+}
+
+#美帝撤军&释放傀儡
+country_event = {
+	id = chiterritoryevent.27
+	title = chiterritoryevent.27.t
+	desc = chiterritoryevent.27.d
+	picture = GFX_report_event_soviet_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiterritoryevent.27.a
+		random_country = {
+			limit = {
+				original_tag = KOR
+				has_government = democratic
+			}
+			USA = { end_puppet = PREV }
+		}
+	}
+}
+
+#朝鲜内战
+country_event = {
+	id = chiterritoryevent.28
+	title = chiterritoryevent.28.t
+	desc = chiterritoryevent.28.d
+	picture = GFX_kor_ready_tofight
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = KOR
+		KOR = {
+			is_puppet = no
+			has_war = no
+			NOT = { controls_state = 525 }
+		}
+		525 = {
+			controller = { original_tag = KOR }
+		}
+		has_country_flag = got_PRC_promise
+		has_country_flag = got_SOV_promise
+		has_global_flag = new_china_liberated
+	}
+
+	option = {
+		name = chiterritoryevent.28.a
+		ai_chance = { factor = 100 }
+		if = {
+			limit = { is_in_faction_with = SOV }
+			SOV = {	remove_from_faction = KOR }
+		}
+		random_country = {
+			limit = {
+				original_tag = KOR
+				has_government = democratic
+			}
+			KOR = { declare_war_on = { target = PREV type = take_core_goal } }	
+		}
+		set_global_flag = korea_civil_war_breakout
+	}
+	option = {
+		name = chiterritoryevent.28.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+#向PRC求援&回应
+country_event = {
+	id = chiterritoryevent.29
+	title = chiterritoryevent.29.t
+	desc = chiterritoryevent.29.d
+	picture = GFX_help_kor_antiusa
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PRC
+		PRC = { has_war = no }
+		KOR = { has_war_with = USA }
+		has_global_flag = korea_civil_war_breakout
+		USA = {
+			OR = {
+				divisions_in_state = {	
+					state = 527
+					size > 0
+				}
+				divisions_in_state = {	
+					state = 525
+					size > 0
+				}
+			}
+		}
+	}
+
+	option = {
+		name = chiterritoryevent.29.a
+		ai_chance = { factor = 100 }
+
+		EVERY_COUNTRY = {
+			limit = { has_war_with = KOR }
+			PRC = {
+				add_to_war = {
+					targeted_alliance = KOR
+					enemy = PREV
+				}
+			}
+		}
+		PRC = { country_event = { id = chiterritoryevent.30 days = 3 } }
+	}
+	option = {
+		name = chiterritoryevent.29.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+#组成援朝志愿军
+country_event = {
+	id = chiterritoryevent.30
+	title = chiterritoryevent.30.t
+	desc = chiterritoryevent.30.d
+	picture = GFX_kor_volunteers
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiterritoryevent.30.a
+		hidden_effect = {
+			load_oob = "PRC_anti_usa_volunteers"
+		}
+		add_timed_idea = { idea = anti_usa_helf_kor_idea days = 900 }
+		custom_effect_tooltip = chiterritoryevent.30.volunteers
+	}
+}
+
+#美帝和谈
+country_event = {
+	id = chiterritoryevent.31
+	title = chiterritoryevent.31.t
+	desc = chiterritoryevent.31.d
+	picture = GFX_chinese_fighting
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		has_war_with = KOR
+		has_war_with = PRC
+		has_global_flag = korea_civil_war_breakout
+		525 = { is_controlled_by = KOR }
+		527 = { is_controlled_by = KOR }
+	}
+
+	option = {
+		name = chiterritoryevent.31.a
+		ai_chance = { factor = 100 }
+		effect_tooltip = {
+			white_peace = PRC
+		}
+		PRC = {
+			country_event = { id = chiterritoryevent.32 }
+		}
+	}
+	option = {
+		name = chiterritoryevent.31.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+#PRC的回应&朝鲜半岛统一
+country_event = {
+	id = chiterritoryevent.32
+	title = chiterritoryevent.32.t
+	desc = chiterritoryevent.32.d
+	picture = GFX_usa_askfor_peace
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiterritoryevent.32.a
+		ai_chance = { factor = 100 }
+		effect_tooltip = {
+			white_peace = USA
+		}
+		hidden_effect = {
+			news_event = { id = chinanews.5 days = 3}
+		}
+	}
+	option = {
+		name = chiterritoryevent.32.b
+		ai_chance = { factor = 0 }
+	}
+}

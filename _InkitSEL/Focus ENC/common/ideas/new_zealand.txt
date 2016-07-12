@@ -1,0 +1,755 @@
+ideas = {
+	country = 
+	{
+		NZL_social_security = 
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war = 
+			{
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			modifier =
+			{
+				conscription = 0.005
+			}
+		}
+		NZL_OND =
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war = 
+			{	
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_democratic_drift_bonus
+			modifier =
+			{
+				democratic_drift = 0.05
+				production_factory_max_efficiency_factor = 0.05
+
+			}
+		}
+		
+		NZL_KB
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war = 
+			{	
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_communism_drift_bonus
+			modifier =
+			{
+				communism_drift = 0.05
+				production_speed_buildings_factor = 0.10
+			}
+		}
+		
+		NZL_EPWA
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war = 
+			{	
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier =
+			{
+				production_speed_buildings_factor = 0.10
+			}
+		}
+		
+		NZL_MLDS = {
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war = 
+			{	
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_wall_line
+			modifier = {
+				local_resources_factor = 0.10
+			}
+		}
+		
+		NZL_MA
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war = 
+			{	
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier =
+			{
+				production_factory_max_efficiency_factor = 0.10
+				conscription = 0.0025
+			}
+		}
+		
+		NZL_MAA
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war = 
+			{	
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			modifier =
+			{
+				local_resources_factor = 0.10
+				production_speed_buildings_factor = 0.10
+				unity_factor = -0.05
+			}
+		}
+		
+		NZL_MAAE
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war = 
+			{	
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			modifier =
+			{
+				local_resources_factor = 0.20
+				production_speed_buildings_factor = 0.20
+				production_factory_max_efficiency_factor = 0.05
+				unity_factor = -0.1
+			}
+		}
+		NZL_AWR
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war = 
+			{	
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+			modifier =
+			{
+				unity_factor = 0.05
+				conscription = 0.003
+			}
+		}
+		
+		NZL_RWK
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war = 
+			{	
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_morale_bonus
+			modifier =
+			{
+				unity_factor = 0.05
+				conscription = 0.007
+			}
+		}
+		NZL_CS
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war = 
+			{	
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = SOV_scientist_defect
+			modifier =
+			{
+				unity_factor = 0.05
+				local_resources_factor = 0.05
+			}
+		}
+		NZL_MWWL
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war = 
+			{	
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = FRA_fortification_bonus
+			modifier =
+			{
+				production_factory_max_efficiency_factor = 0.01
+				conscription = 0.03
+			}
+		}
+		NZL_FWT
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war = 
+			{	
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = nuetrality_idea
+			modifier =
+			{
+				conscription = 0.04
+				local_resources_factor = -0.05
+				production_speed_buildings_factor = -0.1
+				
+				
+			}
+		}
+		
+		NZL_IWC
+		{
+			allowed = 
+			{
+				always = no
+				is_in_faction_with = ENG
+			}
+			allowed_civil_war=
+			{	
+				always = yes
+			}
+			removal_cost = -1
+			picture = british_stoicism
+			modifier =
+			{
+				research_time_factor = -0.03
+				experience_gain_army = 0.02
+				experience_gain_navy = 0.02
+				experience_gain_air = 0.02
+				
+			}
+		}
+		
+		NZL_CMT
+		{
+			allowed = 
+			{
+				always = no
+				is_in_faction_with = ENG
+			}
+			allowed_civil_war=
+			{	
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier =
+			{
+			training_time_army_factor = -0.1		
+			}
+		}
+		
+		NZL_NAV
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war=
+			{	
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_air_bonus
+			modifier =
+			{
+				production_speed_buildings_factor = -0.25		
+			}
+		}
+		
+		NZL_TAC
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war=
+			{	
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_air_bonus
+			modifier =
+			{
+				production_speed_buildings_factor = -0.25		
+			}
+		}
+		
+		NZL_INT
+		{
+			allowed = 
+			{
+				always = no
+				original_tag = NZL
+			}
+			allowed_civil_war=
+			{	
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_air_bonus
+			modifier =
+			{
+				production_speed_buildings_factor = -0.25		
+			}
+		}
+	}
+
+
+	political_advisor = {
+	
+		NZL_generic_communist_revolutionary = {
+
+			picture = dolores_ibarruri
+				
+			allowed = {
+				original_tag = NZL			
+			}
+			
+			traits = { communist_revolutionary }
+		} 
+
+		NZL_a_e_davy = {
+
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+			traits = { ideological_crusader }
+		}
+
+		NZL_w_a_veitch_milne = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = NZL
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		NZL_walter_nash = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+			traits = { armaments_organizer }
+		}
+	}
+
+	theorist = {
+
+		NZL_howard_kippenberger = {
+					
+			picture = generic_army_europe_1
+
+			allowed = {
+				original_tag = NZL
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+
+		NZL_r_a_cochrane = {
+					
+			picture = generic_air_europe_1
+				
+			allowed = {
+				original_tag = NZL
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+		NZL_arthur_dawes = {
+					
+					
+			allowed = {
+				original_tag = NZL
+			}
+			
+			picture = generic_political_advisor_europe_1
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}
+	}
+
+	high_command = {
+
+		NZL_norris_stephen_falla = {
+
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NZL_j_c_nichols = {
+
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+			traits = { army_cavalry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NZL_h_d_mcgregor = {
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+			traits = { air_airborne_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NZL_trevor_handley = {
+
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+			traits = { navy_naval_air_defense_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		NZL_william_sinclair_burgess = {
+			
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		NZL_edward_puttick = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NZL_j_e_duigan = {
+			
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+
+			
+			traits = { army_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NZL_n_weir = {
+			
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+
+			
+			traits = { army_chief_morale_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		NZL_a_j_stallworthy = {
+			
+			picture = generic_air_europe_1
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+
+			
+			traits = { navy_chief_naval_aviation_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NZL_l_p_peterson = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	navy_chief = {
+
+		NZL_h_e_horan = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+
+			
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NZL_w_h_stratton = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+
+			
+			traits = { navy_chief_naval_aviation_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		NZL_eric_prendergast = {
+			
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		NZL_philip_charlton = {
+			
+			allowed = {
+				original_tag = NZL
+			}
+			available = {
+				has_completed_focus = NZL_charlton
+			}
+			
+			picture = generic_army_europe_3
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_designer }
+		}
+	}
+	
+	tank_manufacturer = {
+		NZL_bob_semple = {
+			
+			allowed = {
+				original_TAG = NZL
+			}
+			picture = generic_army_europe_2
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { cheap_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		NZL_E_J_schofield = {
+			
+			allowed = {
+				original_TAG = NZL
+			}
+			picture = generic_army_europe_1
+
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+}

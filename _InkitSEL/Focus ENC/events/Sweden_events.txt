@@ -1,0 +1,6 @@
+﻿####################
+# Sweden MOD Focus #
+####################
+
+add_namespace = sweModEvents
+

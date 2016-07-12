@@ -1,0 +1,13 @@
+buildings = {
+	
+	immature_steelmaking_furnace = {
+		show_on_map = 5
+		base_cost = 5
+		icon_frame = 14
+		local_resources_steel = 1
+		refinery = yes
+		max_level = 5
+		shares_slots = yes
+		value = 5
+	}
+}

@@ -43,11 +43,6 @@ set_convoys = 40
 		closed_economy
 
 		#ministers
-		CHI_xie_juezai
-		CHI_deng_xiaoping
-		CHI_bo_yibo
-		CHI_xiao_yisu
-		CHI_chen_shaokuan
 		jiangnan_shipyard_group
 	}
 	

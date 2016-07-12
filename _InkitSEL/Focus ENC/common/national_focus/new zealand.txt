@@ -1,0 +1,1424 @@
+focus_tree = {
+	id = new_zealand_focus
+	
+	country = 
+	{
+		factor = 0
+	
+		modifier = 
+		{
+			add = 10
+			tag = NZL
+		}
+	}
+	
+	default = no
+
+#political focus line
+	focus = 
+	{
+		id = NZL_social_security_act
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 2
+		y = 0
+		cost = 10
+		completion_reward = 
+		{
+			add_political_power = 120
+			add_ideas = NZL_social_security
+		}
+	}
+
+	focus = 
+	{
+		id = NZL_industrial_efficiency
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = NZL_social_security_act }
+		x = 2
+		y = 1
+		cost = 10
+		completion_reward = 
+		{
+			random_owned_state = 
+			{
+				limit = 
+				{
+					free_building_slots = 
+					{
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = 
+					{
+						is_in_home_area = yes
+						NOT = 
+						{
+							owner = 
+							{
+								any_owned_state = 
+								{
+									free_building_slots = 
+									{
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = 
+				{
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = 
+	{
+		id = NZL_fraser_succeeds
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = NZL_industrial_efficiency}
+		mutually_exclusive = { focus = NZL_lee_succeeds }
+		bypass = {has_country_flag = Savage_dead}
+		x = 1
+		y = 2
+		cost = 10
+		completion_reward =
+		{
+			add_ideas = democratic_influence
+		}
+	}
+
+	focus = 
+	{
+		id = NZL_lee_succeeds
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = NZL_industrial_efficiency}
+		mutually_exclusive = { focus = NZL_fraser_succeeds }
+		available = { NOT = {has_country_flag = Savage_dead}}
+		x = 3
+		y = 2
+		cost = 10
+		completion_reward = 
+		{
+			add_ideas = internationalism
+			set_country_flag = lee
+		}
+	}
+	
+	focus = 
+	{
+		id = NZL_organisation_of_national_development
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = NZL_fraser_succeeds }
+		x = 1
+		y = 3
+		cost = 10
+		completion_reward =
+		{
+			add_ideas = NZL_OND
+		}
+	}
+
+	focus =
+	{
+		id = NZL_nationalise_the_banks
+		icon = GFX_goal_generic_soviet_construction
+		prerequisite = { focus = NZL_lee_succeeds }
+		x = 3
+		y = 3
+		cost = 10
+		completion_reward =
+		{
+			add_ideas = NZL_KB
+		}
+	}
+	focus = 
+	{
+		id = NZL_relationship_with_UN
+		icon = GFX_goal_generic_improve_relations
+		available = {
+			is_in_faction_with = USA
+			is_in_faction_with = ENG
+			has_war = no
+			}
+		prerequisite = { 
+			focus = NZL_organisation_of_national_development
+			}
+		x = 1
+		y = 4
+		cost = 10
+		completion_reward =
+		{
+			country_event = { id = nzl.1 days = 1}
+		}
+	}
+	focus = 
+	{
+		id = NZL_international_communism
+		icon = GFX_goal_tripartite_pact
+		available = {
+			has_government = communism
+			}
+		prerequisite = {
+			focus = NZL_nationalise_the_banks
+			}
+		x=3
+		y=4
+		cost = 10
+		completion_reward =
+		{
+			country_event = { id = nzl.2 days = 1}
+		}
+	}
+
+#Colonialism Line
+
+	focus =
+	{
+		id = NZL_maori_land_development_scheme
+		icon = GFX_goal_generic_construct_civilian
+		x = 5
+		y = 0
+		cost = 10
+		completion_reward =
+		{
+			add_ideas = NZL_MLDS
+		}
+	}
+	
+	focus =
+	{
+		id = NZL_exploit_the_public_works_act
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = NZL_maori_land_development_scheme
+			}
+		x = 5
+		y = 1
+		cost = 10
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = air_focus_bypass_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = air_base
+						size < 2
+					}
+				}
+			}
+		}
+		completion_reward =
+		{
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			add_ideas = NZL_EPWA
+		}
+	}
+	
+	focus =
+	{
+		id = NZL_Manpower_Act
+		icon = GFX_goal_generic_consumer_goods
+		available = 
+		{
+			has_war = yes
+		}
+		prerequisite = {
+			focus = NZL_exploit_the_public_works_act
+			}
+		x = 5
+		y = 2
+		cost = 10
+		completion_reward =
+		{
+			add_ideas = NZL_MA
+		}
+	}
+	
+	focus =
+	{
+		id = NZL_maori_affairs_act
+		icon = GFX_goal_generic_demand_territory
+		
+		prerequisite = {
+			focus = NZL_Manpower_Act
+			}
+		mutually_exclusive = { focus = NZL_maori_womens_welfare_league }
+		x = 5
+		y = 3
+		cost = 10
+		completion_reward =
+		{
+			random_owned_state = 
+			{
+				add_extra_state_shared_building_slots = 2
+			}
+			add_ideas = NZL_MAA
+		}
+	}
+	
+	focus =
+	{
+		id = NZL_maori_affairs_act_expansion
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = {
+			focus = NZL_maori_affairs_act
+			}
+		available = {
+			NZL = {
+				controls_state = 284
+				controls_state = 723
+			}
+		}
+		x = 5
+		y = 4
+		cost = 10
+		completion_reward =
+		{
+			284 =
+			{
+				add_extra_state_shared_building_slots = 2
+			}
+			723 =
+			{
+				add_extra_state_shared_building_slots = 1
+			}
+			add_ideas = NZL_MAAE
+			remove_ideas = NZL_MAA
+			remove_ideas = NZL_AWR
+			remove_ideas = NZL_RWK
+			remove_ideas = NZL_CS
+		}
+	}
+	
+#Anti-Colonialism line
+	focus =
+	{
+		id = NZL_alliance_with_ratana
+		icon = GFX_goal_generic_major_alliance
+		
+		x = 7
+		y = 0
+		cost = 10
+		completion_reward =
+		{
+			add_ideas = NZL_AWR
+		}
+	}
+	
+	focus =
+	{
+		id = NZL_kingitanga
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = {focus = NZL_alliance_with_ratana}
+		x = 7
+		y = 1
+		cost = 10
+		completion_reward =
+		{
+			add_ideas = NZL_RWK
+		}
+	}
+	
+	focus =
+	{
+		id = NZL_confiscation_payments
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = {focus = NZL_kingitanga}
+		x = 7
+		y = 2
+		cost = 10
+		completion_reward =
+		{
+			add_ideas = NZL_CS
+		}
+	}
+	
+	focus =
+	{
+		id = NZL_maori_womens_welfare_league
+		icon = GFX_goal_generic_national_unity
+		available = {num_of_factories > 11}
+		prerequisite = {focus = NZL_confiscation_payments}
+		mutually_exclusive = { focus = NZL_maori_affairs_act }
+		x = 7
+		y = 3
+		cost = 10
+		completion_reward =
+		{
+			add_ideas = NZL_MWWL
+		}
+	}
+	
+	focus =
+	{
+		id = NZL_Waitangi_Tribunal
+		icon = GFX_goal_generic_neutrality_focus
+		available = {has_war = no}
+		prerequisite = {focus = NZL_maori_womens_welfare_league}
+		x = 7
+		y = 4
+		cost = 10
+		completion_reward =
+		{
+			add_ideas = NZL_FWT
+			remove_ideas = NZL_MLDS
+			remove_ideas = NZL_EPWA
+			remove_ideas = NZL_MA
+		}
+	}
+#Industry Line
+	focus =
+	{
+		id = NZL_State_Housing
+		icon = GFX_goal_generic_construct_civilian
+		x = 10
+		y = 0
+		cost = 10
+		completion_reward =
+		{
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 2
+				category = construction_tech
+			}
+		}
+	}
+	
+	focus =
+	{
+		id = NZL_state_highways
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {focus = NZL_State_Housing}
+		available = {
+			NZL = {
+				controls_state = 284
+				controls_state = 723
+			}
+		}
+		x = 10
+		y = 1
+		cost = 10
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				284 = {
+					free_building_slots = {
+						building = infrastructure
+						size < 2
+					}
+				}
+				723= {
+					free_building_slots = {
+						building = infrastructure
+						size < 2
+					}
+				}
+			}
+		}
+		completion_reward =
+		{
+			284 = 
+			{
+				add_building_construction = 
+				{
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			723 = 
+			{
+				add_building_construction = 
+				{
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus =
+	{
+		id = NZL_oil_exploration
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = {focus = NZL_state_highways}
+		available = {
+			NZL = {
+				controls_state = 284
+			}
+		}
+		x = 9
+		y = 2
+		cost = 10
+		completion_reward =
+		{
+			add_resource = {
+				type = oil
+				amount = 3
+				state = 284
+			}
+		}
+	}
+	
+	focus =
+	{
+		id = NZL_iron_sands
+		icon = GFX_goal_generic_construction
+		prerequisite = {focus = NZL_oil_exploration}
+		available = {
+			NZL = {
+				controls_state = 284
+			}
+		}
+		x = 9
+		y = 3
+		cost = 10
+		completion_reward =
+		{
+			add_resource = {
+				type = steel
+				amount = 5
+				state = 284
+			}
+		}
+	}
+	focus =
+	{
+		id = NZL_repair_the_coastal_forts
+		icon = GFX_goal_generic_construct_military
+		prerequisite = {focus = NZL_state_highways}
+		available = {
+			NZL = {
+				controls_state = 284
+				controls_state = 723
+			}
+		}
+		x = 11
+		y = 2
+		cost = 10
+		completion_reward =
+		{
+			284 = 
+			{
+				add_building_construction = 
+				{
+					type = coastal_bunker
+					level = 2
+					province=4543
+					instant_build = yes
+				}
+				add_building_construction = 
+				{
+					type = coastal_bunker
+					level = 2
+					province=1814
+					instant_build = yes
+				}
+			}
+			723 = 
+			{
+				add_building_construction = 
+				{
+					type = coastal_bunker
+					level = 2
+					province=2197
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus =
+	{
+		id = NZL_landward_defences
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = {focus = NZL_repair_the_coastal_forts}
+		available = {
+			NZL = {
+				controls_state = 284
+				controls_state = 723
+			}
+		}
+		x = 11
+		y = 3
+		cost = 10
+		completion_reward =
+		{
+			284 = 
+			{
+				add_building_construction = 
+				{
+					type = bunker
+					level = 2
+					province=4543
+					instant_build = yes
+				}
+				add_building_construction = 
+				{
+					type = bunker
+					level = 2
+					province=1814
+					instant_build = yes
+				}
+			}
+			723 = 
+			{
+				add_building_construction = 
+				{
+					type = bunker
+					level = 2
+					province=2197
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	
+	focus =
+	{
+		id = NZL_full_employment
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = NZL_iron_sands}
+		prerequisite = {focus = NZL_landward_defences}
+		x = 10
+		y = 4
+		cost = 10
+		completion_reward =
+		{
+			random_owned_state = 
+			{
+				limit = 
+				{
+					free_building_slots = 
+					{
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = 
+					{
+						is_in_home_area = yes
+						NOT = 
+						{
+							owner = 
+							{
+								any_owned_state = 
+								{
+									free_building_slots = 
+									{
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = 
+				{
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = 
+			{
+				limit = 
+				{
+					free_building_slots = 
+					{
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = 
+					{
+						is_in_home_area = yes
+						NOT = 
+						{
+							owner = 
+							{
+								any_owned_state = 
+								{
+									free_building_slots = 
+									{
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = 
+				{
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = 
+			{
+				limit = 
+				{
+					free_building_slots = 
+					{
+						building = dockyard
+						size > 0
+						include_locked = yes
+					}
+					OR = 
+					{
+						is_in_home_area = yes
+						NOT = 
+						{
+							owner = 
+							{
+								any_owned_state = 
+								{
+									free_building_slots = 
+									{
+										building = dockyard
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = 
+				{
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+	
+	focus = 
+	{
+		id = NZL_extra_research
+		icon = GFX_focus_research
+		prerequisite = {focus = NZL_full_employment}
+		x = 10
+		y = 5
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	
+	
+#Commonwealth line
+	focus = 
+	{
+		id = NZL_Commonwealth
+		icon = GFX_goal_generic_major_alliance
+		x = 14
+		y = 0
+		cost = 10
+		completion_reward = {
+			CAN = {
+				if = {
+					limit = { is_in_faction_with = NZL }
+					add_opinion_modifier = { target = NZL modifier = democratic_leanings_good }
+				}
+			}
+			AST = {
+				if = {
+					limit = { is_in_faction_with = NZL }
+					add_opinion_modifier = { target = NZL modifier = democratic_leanings_good }
+				}
+			}
+			RAJ = {
+				if = {
+					limit = { is_in_faction_with = NZL }
+					add_opinion_modifier = { target = NZL modifier = democratic_leanings_good }
+				}
+			}
+			ENG = {
+				if = {
+					limit = { is_in_faction_with = NZL }
+					add_opinion_modifier = { target = NZL modifier = democratic_leanings_good }
+				}
+			}
+			SAF = {
+				if = {
+					limit = { is_in_faction_with = NZL }
+					add_opinion_modifier = { target = NZL modifier = democratic_leanings_good }
+				}
+			}
+		}
+	}
+	
+	focus = 
+	{
+		id = NZL_millitary_exchanges
+		icon = GFX_goal_generic_military_deal
+		Available = {
+			is_in_faction_with = ENG
+			ENG = {has_completed_focus = uk_service_focus}
+		}
+		prerequisite = {focus = NZL_Commonwealth}
+		x = 13
+		y = 1
+		cost = 10
+		completion_reward = {
+			air_experience = 10
+			navy_experience = 25
+			army_experience = 25
+			add_tech_bonus = {
+				name =  land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	
+	focus =
+	{
+		id = NZL_forward_defence
+		icon = GFX_goal_generic_position_armies
+		Available = {
+			is_in_faction_with = ENG
+			JAP = { 
+				exists = yes
+				has_offensive_war = yes 
+				NOT = { is_in_faction_with = NZL }
+			}
+			ENG = {
+				controls_state = 326
+				controls_state = 336
+			}
+		}
+		prerequisite = {focus = NZL_Commonwealth}
+		x = 14
+		y = 2
+		cost = 10
+		completion_reward = {
+			326 = 
+			{
+				add_building_construction = 
+				{
+					type = coastal_bunker
+					level = 2
+					province=10062
+					instant_build = yes
+				}
+			}
+
+			336 = 
+			{
+				add_building_construction = 
+				{
+					type = coastal_bunker
+					level = 2
+					province=12299
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus =
+	{
+		id = NZL_imperial_war_council
+		icon = GFX_goal_generic_alliance
+		Available = {
+			is_in_faction_with = ENG
+			has_war = yes
+			ENG = {has_completed_focus = uk_colonial_focus}
+			}
+		prerequisite = {focus = NZL_millitary_exchanges}
+		prerequisite = {focus = NZL_forward_defence}
+		x = 13
+		y = 3
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name =  land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			country_event = { id = nzl.3 days = 1}
+		}
+	}
+	
+	focus = 
+	{
+		id = NZL_expand_dsir
+		icon = GFX_focus_research
+		prerequisite = {focus = NZL_Commonwealth}
+		x = 15
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	
+	focus = 
+	{
+		id = NZL_radar_research
+		icon = GFX_goal_generic_radar
+		available = {
+			is_in_faction_with = ENG
+			threat > 0.10
+			ENG = {has_completed_focus = radar_focus}
+			}
+		prerequisite = {focus = NZL_expand_dsir}
+		x = 15
+		y = 3
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = radar_tech_bonus
+				bonus = 0.5
+				uses = 2
+				category = radar_tech
+			}
+			
+			add_tech_bonus = {
+				name = electronics_bonus
+				bonus = 0.5
+				uses = 1
+	            category = computing_tech
+			}
+		}
+	}
+
+	focus = 
+	{
+		id = NZL_project_seal
+		icon = GFX_focus_wonderweapons
+		available = {
+			is_in_faction_with = ENG
+			has_war_with = JAP
+			ENG = {has_completed_focus = UK_secret_focus}
+			OR = {
+				has_idea = NZL_IWC
+				is_in_faction_with = USA
+				}
+			}
+		prerequisite = {focus = NZL_radar_research}
+		x = 14
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				bonus = 0.5
+				uses = 1
+				category = nuclear
+			}
+		}
+	}
+	
+	focus = 
+	{
+		id = NZL_technology_sharing
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite ={focus = NZL_project_seal}
+		prerequisite ={focus = NZL_imperial_war_council}
+		available = {
+			is_in_faction = yes
+		}		
+		x = 13
+		y = 5
+		cost = 10
+		completion_reward = {
+				add_research_slot = 1
+		}
+	}
+	
+	focus = 
+	{
+		id = NZL_imperial_federation
+		icon = GFX_goal_generic_major_alliance
+		prerequisite =
+		{ 
+			focus = NZL_project_seal 
+		}
+		available = {
+			has_idea = NZL_IWC
+		}		
+		x = 15
+		y = 5
+		cost = 10
+		completion_reward = {
+				country_event = { id =nzl.9 days = 1}
+		}
+	}
+
+#Army Tree
+	focus = {
+		id = NZL_expand_regular_forces
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 20
+		y = 0
+		cost = 10
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = NZL_charlton
+		icon = GFX_goal_generic_small_arms
+		available = {
+			threat > 0.25
+		}
+		prerequisite = { focus = NZL_expand_regular_forces }
+		x = 17
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+			
+			custom_effect_tooltip = available_materiel_manufacturer
+			show_ideas_tooltip = NZL_philip_charlton	
+		}
+	}
+
+	focus = {
+		id = NZL_equipment_effort_2
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = NZL_charlton}
+		x = 17
+		y = 3
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = NZL_mechanization_effort
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = NZL_expand_regular_forces }
+		x = 19
+		y = 2
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.5
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
+
+	focus = {
+		id = NZL_compulsory_millitary_training
+		icon = GFX_goal_generic_army_doctrines
+		available = {
+			threat > 0.50
+		}
+		prerequisite = { focus = NZL_expand_regular_forces }
+		x = 20
+		y = 1
+		cost = 10
+		completion_reward = {
+			army_experience = 5
+			add_ideas = NZL_CMT
+		}
+	}
+
+
+	focus = {
+		id = NZL_armor_effort
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = NZL_mechanization_effort }
+		x = 19
+		y = 3
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 2
+				category = armor
+			}
+		}
+	}
+
+	focus = {
+		id = NZL_special_forces
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = NZL_equipment_effort_2 }
+		prerequisite = { focus = NZL_armor_effort }
+		x = 18
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 0.5
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
+		}
+	}
+
+#Air Force Tree
+	focus = {
+		id = NZL_rnzaf
+		icon = GFX_goal_generic_build_airforce
+		prerequisite = { focus = NZL_expand_regular_forces }
+		x = 22
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}			
+			air_experience = 25
+			country_event = { id =nzl.14 days = 1}			
+		}
+	}
+	
+	focus = {
+		id = NZL_bomber
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = NZL_rnzaf }
+		mutually_exclusive = { focus = NZL_fighters }
+		available = {
+			threat > 0.10
+		}
+		x = 21
+		y = 2
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 1
+				technology = strategic_bomber1
+				technology = strategic_bomber2
+				technology = strategic_bomber3
+				category = tactical_bomber
+			}		
+			air_experience = 25
+			country_event = { id =nzl.15 days = 1}
+		}
+	}
+	
+	focus = {
+		id = NZL_fighters
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = NZL_rnzaf }
+		mutually_exclusive = { focus = NZL_bomber }
+		available = {
+			threat > 0.10
+		}
+		x = 23
+		y = 2
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 1
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+				technology = heavy_fighter1
+				technology = heavy_fighter2
+				technology = heavy_fighter3
+			}		
+			air_experience = 25
+			country_event = { id =nzl.16 days = 1}
+		}
+	}
+	
+	focus = {
+		id = NZL_aviation_effort
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = NZL_bomber focus = NZL_fighters }
+		x = 22
+		y = 3
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = air_doctrine
+			}
+		}			
+	}
+#Navy Tree
+	focus = {
+		id = NZL_light_cruiser
+		icon = GFX_goal_generic_navy_cruiser
+		mutually_exclusive = { focus = NZL_heavy_cruiser }
+		x = 24
+		y = 0
+		cost = 10
+		completion_reward = {
+			custom_effect_tooltip = nzl.leander
+			navy_experience = 25
+			hidden_effect = {load_oob = "NZL_Leander"}
+		}
+	}
+	
+	focus = {
+		id = NZL_heavy_cruiser
+		icon = GFX_goal_generic_navy_battleship
+		mutually_exclusive = { focus = NZL_light_cruiser }
+		x = 26
+		y = 0
+		cost = 10
+		completion_reward = {
+			custom_effect_tooltip = nzl.kent
+			navy_experience = 25
+			hidden_effect = {load_oob = "NZL_Kent"}
+		}
+	}
+	
+	focus = {
+		id = NZL_rnzn
+		icon = GFX_goal_generic_amphibious_assault
+		prerequisite = { focus = NZL_light_cruiser
+						 focus = NZL_heavy_cruiser}
+		available = {has_war = yes}
+		x = 25
+		y = 1
+		cost = 10
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = naval_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = NZL_naval_expansion
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = NZL_rnzn}
+		x = 25
+		y = 2
+		cost = 10
+		completion_reward = {
+			navy_experience = 25
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					NOT = {
+						any_owned_state = {
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+				}
+				random_state = {
+					limit = {
+						controller = { tag = ROOT }
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = NZL_ships
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = NZL_naval_expansion}
+		x = 25
+		y = 3
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = navy_bonus
+				bonus = 0.5
+				uses = 3
+				category = naval_doctrine
+				category = dd_tech
+				category = cv_tech
+				category = bb_tech
+				category = ca_tech
+				category = cl_tech
+				category = ss_tech
+				category = bc_tech
+			}
+		}
+	}
+
+}

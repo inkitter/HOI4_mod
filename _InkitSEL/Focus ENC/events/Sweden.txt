@@ -1,0 +1,750 @@
+﻿###########################
+# Swedish Events
+###########################
+
+add_namespace = sweden
+
+
+
+
+#
+# Aland events
+#
+
+# Sweden Demand (Åland)
+country_event = {
+	id = sweden.1
+	title = sweden.1.t
+	desc = sweden.1.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = sweden.1.a
+		ai_chance = { 
+			factor = 95 
+		}
+
+		SWE = { 
+			transfer_state = 145
+		}
+
+		145 = { add_core_of = SWE}
+	
+		hidden_effect = {
+			news_event = { id = news.600 hours = 12 }
+			SWE = {
+				country_event = { id = sweden.3 hours = 1 }
+			}
+		}
+	}
+	
+	option = { # Refuse demands
+		name = sweden.1.b
+		ai_chance = { 
+			factor = 5 
+		}
+		effect_tooltip = {
+			SWE = {
+				create_wargoal = {
+				type = take_state_focus
+				target = FIN
+				generator = { 145 }
+				}
+			}
+		}
+
+		hidden_effect = {
+			news_event = { id = news.601 hours = 12 }
+			SWE = {
+				country_event = { id = sweden.2 hours = 1 }
+			}
+		}
+	}
+}
+
+
+# SWE: Finland Refuses Demands
+country_event = {
+	id = sweden.2
+	title = sweden.2.t
+	desc = sweden.2.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sweden.2.o
+		create_wargoal = {
+			type = take_state
+			target = FIN
+			generator = { 145 }
+		}			
+	}
+}
+
+# SWE: Finland Accept Demands
+country_event = {
+	id = sweden.3
+	title = sweden.3.t
+	desc = sweden.3.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sweden.3.o
+
+		effect_tooltip = {
+		SWE = { 
+			transfer_state = 145
+		}
+
+		145 = { add_core_of = SWE}
+		}		
+	}
+}
+
+
+# News Event: Finland Accepts Demands (Aland)
+news_event = {
+	id = news.600
+	title = news.600.t
+	desc = news.600.d
+	picture = GFX_news_event_012
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.600.o
+	}
+}	
+
+# News Event: Finland Refuses Demands (Aland)
+news_event = {
+	id = news.601
+	title = news.601.t
+	desc = news.601.d
+	picture = GFX_news_event_011
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.601.o
+	}
+	
+}
+
+#
+# Join Axis
+#
+
+# GER: Sweden wants to join axis
+country_event = {
+	id = sweden.10
+	title = sweden.10.t
+	desc = sweden.10.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept request
+		name = sweden.10.a
+		ai_chance = { 
+			factor = 90 
+		}
+
+		add_to_faction = SWE
+	
+		hidden_effect = {
+			news_event = { id = news.610 hours = 12 }
+			SWE = {
+				country_event = { id = sweden.12 hours = 1 }
+			}
+		}
+	}
+	
+	option = { # Refuse request
+		name = sweden.10.b
+		ai_chance = { 
+			factor = 10 
+		}
+
+
+		hidden_effect = {
+			news_event = { id = news.611 hours = 12}
+			SWE = {
+				country_event = { id = sweden.11 hours = 1 }
+			}
+		}
+	}
+}
+
+
+# SWE: Germany Refuses Request
+country_event = {
+	id = sweden.11
+	title = sweden.11.t
+	desc = sweden.11.d
+	picture = GFX_report_event_fascist_gathering
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sweden.11.o	
+	}
+}
+
+# SWE: Germany Accepts Request
+country_event = {
+	id = sweden.12
+	title = sweden.12.t
+	desc = sweden.12.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sweden.12.o
+	}
+}
+
+
+# News Event: Germany Invite Sweden to Axis
+news_event = {
+	id = news.610
+	title = news.610.t
+	desc = news.610.d
+	picture = GFX_news_event_hitler_speech
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.610.o
+	}
+}	
+
+# News Event: Germany Refuses Axis Join Request
+news_event = {
+	id = news.611
+	title = news.611.t
+	desc = news.611.d
+	picture = GFX_news_event_011
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.611.o
+	}
+}
+
+
+#
+# Join Comintern
+#
+
+# SOV: Sweden wants to join comintern
+country_event = {
+	id = sweden.20
+	title = sweden.20.t
+	desc = sweden.20.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept request
+		name = sweden.20.a
+		ai_chance = { 
+			factor = 90 
+		}
+
+		add_to_faction = SWE
+	
+		hidden_effect = {
+			news_event = { id = news.620 hours = 12 }
+			SWE = {
+				country_event = { id = sweden.22 hours = 1 }
+			}
+		}
+	}
+	
+	option = { # Refuse request
+		name = sweden.20.b
+		ai_chance = { 
+			factor = 10 
+		}
+
+
+		hidden_effect = {
+			news_event = { id = news.621 hours = 12}
+			SWE = {
+				country_event = { id = sweden.21 hours = 1 }
+			}
+		}
+	}
+}
+
+
+# SWE: Soviet Refuses Request
+country_event = {
+	id = sweden.21
+	title = sweden.21.t
+	desc = sweden.21.d
+	picture = GFX_report_event_stalin_02
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sweden.21.o	
+	}
+}
+
+# SWE: Soviet Accepts Request
+country_event = {
+	id = sweden.22
+	title = sweden.22.t
+	desc = sweden.22.d
+	picture = GFX_report_event_stalin_02
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sweden.22.o
+	}
+}
+
+
+# News Event: Soviet Invite Sweden to Faction
+news_event = {
+	id = news.620
+	title = news.620.t
+	desc = news.620.d
+	picture = GFX_news_event_012
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.620.o
+	}
+}	
+
+# News Event: Soviet Refuses Faction Join Request
+news_event = {
+	id = news.621
+	title = news.621.t
+	desc = news.621.d
+	picture = GFX_news_event_011
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.621.o
+	}
+}
+
+#
+# Join Allies
+#
+
+# ENG: Sweden wants to join the allies
+country_event = {
+	id = sweden.30
+	title = sweden.30.t
+	desc = sweden.30.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept request
+		name = sweden.30.a
+		ai_chance = { 
+			factor = 90 
+		}
+
+		add_to_faction = SWE
+	
+		hidden_effect = {
+			news_event = { id = news.630 hours = 12 }
+			SWE = {
+				country_event = { id = sweden.32 hours = 1 }
+			}
+		}
+	}
+	
+	option = { # Refuse request
+		name = sweden.30.b
+		ai_chance = { 
+			factor = 10 
+		}
+
+
+		hidden_effect = {
+			news_event = { id = news.631 hours = 12}
+			SWE = {
+				country_event = { id = sweden.31 hours = 1 }
+			}
+		}
+	}
+}
+
+
+# SWE: ENG Refuses Request
+country_event = {
+	id = sweden.31
+	title = sweden.31.t
+	desc = sweden.31.d
+	picture = GFX_report_event_stalin_02
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sweden.31.o	
+	}
+}
+
+# SWE: ENG Accepts Request
+country_event = {
+	id = sweden.32
+	title = sweden.32.t
+	desc = sweden.32.d
+	picture = GFX_report_event_stalin_02
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sweden.32.o
+	}
+}
+
+
+# News Event: ENG Invite Sweden to Faction
+news_event = {
+	id = news.630
+	title = news.630.t
+	desc = news.630.d
+	picture = GFX_news_event_012
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.630.o
+	}
+}	
+
+# News Event: ENG Refuses Faction Join Request
+news_event = {
+	id = news.631
+	title = news.631.t
+	desc = news.631.d
+	picture = GFX_news_event_011
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.631.o
+	}
+}
+
+#
+# Demand Norway events
+#
+
+# NOR: Sweden Demand Norway
+country_event = {
+	id = sweden.40
+	title = sweden.40.t
+	desc = sweden.40.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = sweden.40.a
+		ai_chance = { 
+			factor = 95 
+		}
+
+		SWE = { 
+			transfer_state = 144
+			transfer_state = 143
+			transfer_state = 110
+
+		}
+
+		143 = { add_core_of = SWE }
+		144 = { add_core_of = SWE }
+		110 = { add_core_of = SWE }
+	
+		hidden_effect = {
+			news_event = { id = news.640 hours = 12 }
+			SWE = {
+				country_event = { id = sweden.43 hours = 1 }
+			}
+		}
+	}
+	
+	option = { # Refuse demands
+		name = sweden.40.b
+		ai_chance = { 
+			factor = 5 
+		}
+		effect_tooltip = {
+			SWE = {
+				create_wargoal = {
+				type = take_state_focus
+				target = NOR
+				generator = { 110 }
+				}
+			}
+		}
+
+		hidden_effect = {
+			news_event = { id = news.641 hours = 12 }
+			SWE = {
+				country_event = { id = sweden.42 hours = 1 }
+			}
+		}
+	}
+}
+
+
+# SWE: Norway Refuses Demands
+country_event = {
+	id = sweden.42
+	title = sweden.42.t
+	desc = sweden.42.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sweden.42.o
+		create_wargoal = {
+			type = take_state
+			target = NOR
+			generator = { 110 }
+		}			
+	}
+}
+
+# SWE: Norway Accept Demands
+country_event = {
+	id = sweden.43
+	title = sweden.43.t
+	desc = sweden.43.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sweden.43.o
+
+		effect_tooltip = {
+		SWE = { 
+			transfer_state = 144
+			transfer_state = 143
+			transfer_state = 110
+		}
+
+		143 = { add_core_of = SWE }
+		144 = { add_core_of = SWE }
+		110 = { add_core_of = SWE }
+
+		}		
+	}
+}
+
+
+# News Event: Norway Accepts Demands 
+news_event = {
+	id = news.640
+	title = news.640.t
+	desc = news.640.d
+	picture = GFX_news_event_013
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.640.o
+	}
+}	
+
+# News Event: Norway Refuses Demands
+news_event = {
+	id = news.641
+	title = news.641.t
+	desc = news.641.d
+	picture = GFX_news_event_011
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.641.o
+	}
+	
+}
+
+#
+# Demand Denmark events
+#
+
+# DEN: Sweden Demand Denmark
+country_event = {
+	id = sweden.50
+	title = sweden.50.t
+	desc = sweden.50.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = sweden.50.a
+		ai_chance = { 
+			factor = 95 
+		}
+
+		SWE = { 
+			transfer_state = 100
+			transfer_state = 101
+			transfer_state = 337
+		}
+
+		100 = { add_core_of = SWE }
+		101 = { add_core_of = SWE }
+		337 = { add_core_of = SWE }
+	
+		hidden_effect = {
+			news_event = { id = news.650 hours = 12 }
+			SWE = {
+				country_event = { id = sweden.53 hours = 1 }
+			}
+		}
+	}
+	
+	option = { # Refuse demands
+		name = sweden.50.b
+		ai_chance = { 
+			factor = 5 
+		}
+		effect_tooltip = {
+			SWE = {
+				create_wargoal = {
+				type = take_state_focus
+				target = DEN
+				generator = { 37 }
+				}
+			}
+		}
+
+		hidden_effect = {
+			news_event = { id = news.651 hours = 12 }
+			SWE = {
+				country_event = { id = sweden.52 hours = 1 }
+			}
+		}
+	}
+}
+
+
+# SWE: Denmark Refuses Demands
+country_event = {
+	id = sweden.52
+	title = sweden.52.t
+	desc = sweden.52.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sweden.52.o
+		create_wargoal = {
+			type = take_state
+			target = DEN
+			generator = { 37 }
+		}			
+	}
+}
+
+# SWE: Denmark Accept Demands
+country_event = {
+	id = sweden.53
+	title = sweden.53.t
+	desc = sweden.53.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sweden.53.o
+
+		effect_tooltip = {
+		SWE = { 
+			transfer_state = 100
+			transfer_state = 101
+			transfer_state = 337
+		}
+
+
+		100 = { add_core_of = SWE }
+		101 = { add_core_of = SWE }
+		337 = { add_core_of = SWE }
+
+
+		}		
+	}
+}
+
+
+# News Event: Denmark Accepts Demands 
+news_event = {
+	id = news.650
+	title = news.650.t
+	desc = news.650.d
+	picture = GFX_news_event_013
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.650.o
+	}
+}	
+
+# News Event: Denmark Refuses Demands
+news_event = {
+	id = news.651
+	title = news.651.t
+	desc = news.651.d
+	picture = GFX_news_event_011
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.651.o
+	}
+	
+}
