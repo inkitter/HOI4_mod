@@ -361,7 +361,7 @@ ideas = {
 			traits = { air_warfare_theorist }
 		}
 
-		CHI_chenshaokuan = {
+		CHI_chenshaokuan2 = {
 
 			
 			allowed = {

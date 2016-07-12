@@ -20,16 +20,15 @@ Github： <https://github.com/inkitter/HOI4_mod>
 ### 半自动安装
 
 1. 解压所有文件到某个妥当的文件夹 **（安装完也不要删除，会调用这个文件夹）**。
-1. 运行 1安装主包及可选包.bat。 选择性运行 2安装测试mod.bat。  （**若运行失败，用右键 “以管理员权限运行”**）
+1. 运行 1安装.bat。 （**若运行失败，用右键 “以管理员权限运行”**）
 1. 需要清理，则运行相应的清理的bat文件。
-1. 更新时运行一下 运行一下 9清理mod文件夹.bat 和 1安装主包及可选包.bat
 
 ### Github 安装（用这个方式安装，更新起来最省事，而且能用到最新的版本，不过需要学习一下）
 
 1. （已有的跳过）安装git软件： <https://git-scm.com/download/win> （安装时注意取消勾选windows explorer intergration以防在右键菜单加入不必要的功能）。 分流: <http://pan.baidu.com/s/1cLsbaI>
 1. 命令提示符使用git安装： `git clone https://github.com/inkitter/HOI4_mod.git` 或者使用我提供的 使用git安装.bat 文件。
 1. 比如将 bat 文件放在 D:\Game 文件夹里，运行之后会有个窗口显示下载进度。 同时会在 D:\Game 文件夹里创建一个HOI4_mod 文件夹，所有的mod文件都在这里。 之后就可以删除这个 使用git安装.bat 了
-1. 然后依次运行 1安装主包及可选包.bat 选择性运行 2安装测试mod.bat。安装就完成了。
+1. 运行 1安装.bat 
 1. 更新方法： 运行 使用Git更新.bat 会将本地文件夹与我的github项目同步，你在本地做的任何修改都会被同步成远程的，同时会更新你的游戏mod文件夹里的.mod文件。
 
 --------
@@ -71,17 +70,8 @@ Github： <https://github.com/inkitter/HOI4_mod>
 
 #### 综合类
 
-* !!More Equipment 更多的装备 我做的大型mod 测试版。详见 http://bbs.3dmgame.com/thread-5229400-1-1.html
-* -CHI Focus 民国焦点树。**高兼容性版**。
+* !!More Equipment 更多的装备 我做的多方面扩展mod 测试版。详见 http://bbs.3dmgame.com/thread-5229400-1-1.html
+* -Focus ENC 各国焦点树整合：民国、中共、瑞典、西班牙、荷兰、哥伦比亚、南斯拉夫、新西兰、芬兰等。。。**焦点树容易造成各种意外bug，慎用**。
 * -CH Enchance CH增强包，增加一些CH的内容。将领、飞机图片等。
 * -CH UnitName 各种单位名称汉化扩展，影响成就
 * -Glory to Arstotzka 《请出示证件》自建国-阿托兹卡
-
-### 测试包
-
-暂无
-
-### 大文件独立包
-
-* %%HOI2 music 钢铁雄心2的音乐包。
-* %%Songs of the Soviet Union 苏联歌曲包
