@@ -57,11 +57,11 @@ buildings = {
 	# 建筑工队 开发区
 	buildingteam = {
 		show_on_map = 1
-		base_cost = 1500 
+		base_cost = 1200 
 		icon_frame = 14
 		max_level = 5
 		value = 5
-		production_speed_buildings_factor = 0.02
+		production_speed_buildings_factor = 0.01
 		#shares_slots = yes
 	}
 	# 学校
@@ -83,20 +83,20 @@ buildings = {
 		value = 5
 		shares_slots = yes
 	}
-	# 市级船厂
-	dockyardp = {
-		show_on_map = 1
-		show_on_map_meshes = 3
-		provincial = yes
-		base_cost = 5000
-		only_costal = yes
-		naval_production = 1
-		icon_frame = 4
-		only_costal = yes
-		max_level = 2
-		#shares_slots = yes
-		value = 5
-	}
+	#市级船厂
+	# dockyard = {
+	# 	show_on_map = 1
+	# 	show_on_map_meshes = 3
+	# 	provincial = yes
+	# 	base_cost = 5000
+	# 	only_costal = yes
+	# 	naval_production = 1
+	# 	icon_frame = 4
+	# 	only_costal = yes
+	# 	max_level = 2
+	# 	#shares_slots = yes
+	# 	value = 5
+	# }
 
 	# infrastructure = {
 	# 	base_cost = 3000

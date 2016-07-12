@@ -29,11 +29,6 @@ technologies = {
 			building = buildingteam
 			level = 1
 		}
-		enable_building = {
-			building = dockyardp
-			level = 1
-		}
-
 
 
 		path = {
@@ -123,10 +118,6 @@ technologies = {
 		}
 		enable_building = {
 			building = aluminiumfactory
-			level = 2
-		}
-		enable_building = {
-			building = dockyardp
 			level = 2
 		}
 
