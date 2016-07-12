@@ -51,15 +51,9 @@ Github： <https://github.com/inkitter/HOI4_mod>
 * Expand Theater Icon 更多的将军部队图标。每个带着部队的将军原来都是盾形标志，此mod做了扩展。
 * Clearer Unit Selection Mod 单位选择时的颜色对比度提高。
 * RGFX Border Overhaul 边境线对比度提高。
+* Better terrain view 更好的地形视觉。不同地形颜色反差更大。
 
 ### 可选包
-
-#### steam成就、界面及音效类 ( % )
-
-* %Adiya's Historical Flag Pack 历史国家旗帜。
-* %Tank Size Mod 坦克3D模型调大一些。原版的坦克3D模型有点太小了。
-* %Better terrain view 更好的地形视觉。不同地形颜色反差更大。
-* %DzK Better Counters 更好的地图部队图标。扩大了大地图上部队的图标，与hoi3格式相似。
 
 #### 常用类 ( + )
 
