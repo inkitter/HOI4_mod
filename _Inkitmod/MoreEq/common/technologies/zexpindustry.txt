@@ -1,6 +1,9 @@
 technologies = {
 	
 	secretmaterfactory = {
+		# allow = {
+		# 	tag = CHI
+		# }
 
 		enable_building = {
 			building = secretfactory

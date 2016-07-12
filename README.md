@@ -54,7 +54,8 @@ Github： <https://github.com/inkitter/HOI4_mod>
 * Better terrain view 更好的地形视觉。不同地形颜色反差更大。
 
 ### 可选包
-
+* Larger Tank
+* No Naval Battle Sound
 #### 常用类 ( + )
 
 * Easy buff 【自制】 作弊mod。 有制造核心的功能。
