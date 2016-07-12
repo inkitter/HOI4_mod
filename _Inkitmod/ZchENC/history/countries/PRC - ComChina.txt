@@ -156,14 +156,14 @@ create_country_leader = {
 create_field_marshal = {
 	name = "毛泽东"
 	portrait_path = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
-	traits = { defensive_doctrine fast_planner thorough_planner }
+	traits = { defensive_doctrine organisational_leader thorough_planner }
 	skill = 5
 }
 
 create_field_marshal = {
 	name = "朱德"
 	portrait_path = "gfx/leaders/PRC/zhude.dds"
-	traits = { fast_planner thorough_planner logistics_wizard  }
+	traits = { inspirational_leader offensive_doctrine logistics_wizard  }
 	skill = 4
 }
 
@@ -195,3 +195,62 @@ create_corps_commander = {
 	skill = 3
 }
 
+create_corps_commander = {
+	name = "聂荣臻"
+	portrait_path = "gfx/leaders/PRC/nierongzhen.dds"
+	traits = { bearer_of_artillery panzer_leader trait_mountaineer }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "邓小平"
+	portrait_path = "gfx/leaders/PRC/dengxiaoping.dds"
+	traits = { trickster }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "叶剑英"
+	portrait_path = "gfx/leaders/PRC/yajianying.dds"
+	traits = { trickster }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "贺龙"
+	portrait_path = "gfx/leaders/PRC/helong.dds"
+	traits = { trickster }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "陈毅"
+	portrait_path = "gfx/leaders/PRC/chenyi.dds"
+	traits = { trickster }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "周恩来"
+	portrait_path = "gfx/leaders/PRC/zhouenlai.dds"
+	traits = { trickster }
+	skill = 3
+}
+create_corps_commander = {
+	name = "刘少奇"
+	portrait_path = "gfx/leaders/PRC/liushaoqi.dds"
+	traits = { trickster }
+	skill = 3
+}
+create_corps_commander = {
+	name = "罗荣桓"
+	portrait_path = "gfx/leaders/PRC/luoronghuan.dds"
+	traits = { trickster }
+	skill = 3
+}
+create_corps_commander = {
+	name = "李先念"
+	portrait_path = "gfx/leaders/PRC/lixiannian.dds"
+	traits = { trickster }
+	skill = 3
+}
