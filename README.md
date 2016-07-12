@@ -42,7 +42,7 @@ Github： <https://github.com/inkitter/HOI4_mod>
 * !Chinese Localization 汉化包+修正：蛋蛋+3DM <http://bbs.3dmgame.com/thread-5108660-1-1.html>
 * !More Chinese 各种英文mod汉化。 详见 http://steamcommunity.com/sharedfiles/filedetails/?id=718761142
 
-### 主包 Inkitmod 整合以下mod 开启不会影响成就
+### !Inkitmod 整合以下mod 开启不会影响成就
 
 * Coloured Buttons 将主界面国家按钮旁边的按钮变成彩色的，更易辨识。
 * The Times 将《世界新闻》的报纸背景换成《The Times》。
@@ -52,10 +52,13 @@ Github： <https://github.com/inkitter/HOI4_mod>
 * Clearer Unit Selection Mod 单位选择时的颜色对比度提高。
 * RGFX Border Overhaul 边境线对比度提高。
 * Better terrain view 更好的地形视觉。不同地形颜色反差更大。
+* Better Plan View 准备计划的箭头视觉效果改善。
+* No Naval Battle Sound 移除海战提示音。
 
-### 可选包
-* Larger Tank
-* No Naval Battle Sound
+### !Inkitmod Plus扩展包 会影响成就
+* Larger Tank 
+* CH UnitName 各种单位名称汉化扩展，影响成就
+
 #### 常用类 ( + )
 
 * Easy buff 【自制】 作弊mod。 有制造核心的功能。
@@ -67,6 +70,4 @@ Github： <https://github.com/inkitter/HOI4_mod>
 
 * !!More Equipment 更多的装备 我做的多方面扩展mod 测试版。详见 http://bbs.3dmgame.com/thread-5229400-1-1.html
 * -Focus ENC 各国焦点树整合：民国、中共、瑞典、西班牙、荷兰、哥伦比亚、南斯拉夫、新西兰、芬兰等。。。**焦点树容易造成各种意外bug，慎用**。
-* -CH Enchance CH增强包，增加一些CH的内容。将领、飞机图片等。
-* -CH UnitName 各种单位名称汉化扩展，影响成就
 * -Glory to Arstotzka 《请出示证件》自建国-阿托兹卡
