@@ -1,5 +1,5 @@
 name="-CH Enchance"
-path="mod/_InkitSEL/ZchENC"
+path="mod/_Inkitmod/ZchENC"
 tags={
 	"Gameplay"
 }
