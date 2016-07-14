@@ -1,0 +1,22 @@
+
+state={
+	id=441
+	name="STATE_441"
+	manpower = 3539500
+	
+	state_category = rural
+
+	history={
+		owner = RAJ
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		1129 2041 5042 7273 7316 8005 10821 12884 
+	}
+}

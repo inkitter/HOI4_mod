@@ -69,5 +69,6 @@ Github： <https://github.com/inkitter/HOI4_mod>
 #### 综合类
 
 * !!More Equipment 更多的装备 我做的多方面扩展mod 测试版。详见 http://bbs.3dmgame.com/thread-5229400-1-1.html
+* CH Enchance 中国增强包。
 * -Focus ENC 各国焦点树整合：民国、中共、瑞典、西班牙、荷兰、哥伦比亚、南斯拉夫、新西兰、芬兰等。。。**焦点树容易造成各种意外bug，慎用**。
 * -Glory to Arstotzka 《请出示证件》自建国-阿托兹卡

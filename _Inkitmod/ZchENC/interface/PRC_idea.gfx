@@ -2,102 +2,102 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_PRC_bogu"
-		texturefile = "gfx/interface/ideas/PRC/PRC_bogu.dds"
+		texturefile = "gfx/interface/ideas/PRC_bogu.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_chengeng"
-		texturefile = "gfx/interface/ideas/PRC/PRC_chengeng.dds"
+		texturefile = "gfx/interface/ideas/PRC_chengeng.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_dengxiaoping"
-		texturefile = "gfx/interface/ideas/PRC/PRC_dengxiaoping.dds"
+		texturefile = "gfx/interface/ideas/PRC_dengxiaoping.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_likenong"
-		texturefile = "gfx/interface/ideas/PRC/PRC_likenong.dds"
+		texturefile = "gfx/interface/ideas/PRC_likenong.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_linbiao1"
-		texturefile = "gfx/interface/ideas/PRC/PRC_linbiao.dds"
+		texturefile = "gfx/interface/ideas/PRC_linbiao.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_linbiao2"
-		texturefile = "gfx/interface/ideas/PRC/PRC_linbiao.dds"
+		texturefile = "gfx/interface/ideas/PRC_linbiao.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_linbiao"
-		texturefile = "gfx/interface/ideas/PRC/PRC_linbiao.dds"
+		texturefile = "gfx/interface/ideas/PRC_linbiao.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_linboqu"
-		texturefile = "gfx/interface/ideas/PRC/PRC_linboqu.dds"
+		texturefile = "gfx/interface/ideas/PRC_linboqu.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_liubocheng"
-		texturefile = "gfx/interface/ideas/PRC/PRC_liubocheng.dds"
+		texturefile = "gfx/interface/ideas/PRC_liubocheng.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_liushaoqi"
-		texturefile = "gfx/interface/ideas/PRC/PRC_liushaoqi.dds"
+		texturefile = "gfx/interface/ideas/PRC_liushaoqi.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_liuyalou"
-		texturefile = "gfx/interface/ideas/PRC/PRC_liuyalou.dds"
+		texturefile = "gfx/interface/ideas/PRC_liuyalou.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_liuyalou1"
-		texturefile = "gfx/interface/ideas/PRC/PRC_liuyalou.dds"
+		texturefile = "gfx/interface/ideas/PRC_liuyalou.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_pengdehuai"
-		texturefile = "gfx/interface/ideas/PRC/PRC_pengdehuai.dds"
+		texturefile = "gfx/interface/ideas/PRC_pengdehuai.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_pengdehuai1"
-		texturefile = "gfx/interface/ideas/PRC/PRC_pengdehuai.dds"
+		texturefile = "gfx/interface/ideas/PRC_pengdehuai.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_suyu"
-		texturefile = "gfx/interface/ideas/PRC/PRC_suyu.dds"
+		texturefile = "gfx/interface/ideas/PRC_suyu.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_suyu1"
-		texturefile = "gfx/interface/ideas/PRC/PRC_suyu.dds"
+		texturefile = "gfx/interface/ideas/PRC_suyu.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_xiaohua"
-		texturefile = "gfx/interface/ideas/PRC/PRC_xiaohua.dds"
+		texturefile = "gfx/interface/ideas/PRC_xiaohua.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_xiaohua1"
-		texturefile = "gfx/interface/ideas/PRC/PRC_xiaohua.dds"
+		texturefile = "gfx/interface/ideas/PRC_xiaohua.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_xiaojingguang"
-		texturefile = "gfx/interface/ideas/PRC/PRC_xiaojingguang.dds"
+		texturefile = "gfx/interface/ideas/PRC_xiaojingguang.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_xiaojingguang1"
-		texturefile = "gfx/interface/ideas/PRC/PRC_xiaojingguang.dds"
+		texturefile = "gfx/interface/ideas/PRC_xiaojingguang.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_xuguangda"
-		texturefile = "gfx/interface/ideas/PRC/PRC_xuguangda.dds"
+		texturefile = "gfx/interface/ideas/PRC_xuguangda.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_xuxiangqian"
-		texturefile = "gfx/interface/ideas/PRC/PRC_xuxiangqian.dds"
+		texturefile = "gfx/interface/ideas/PRC_xuxiangqian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_zhouenlai"
-		texturefile = "gfx/interface/ideas/PRC/PRC_zhouenlai.dds"
+		texturefile = "gfx/interface/ideas/PRC_zhouenlai.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_zhude"
-		texturefile = "gfx/interface/ideas/PRC/PRC_zhude.dds"
+		texturefile = "gfx/interface/ideas/PRC_zhude.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_RPC_zhangaiping"
-		texturefile = "gfx/interface/ideas/PRC/RPC_zhangaiping.dds"
+		texturefile = "gfx/interface/ideas/RPC_zhangaiping.dds"
 	}
 }
