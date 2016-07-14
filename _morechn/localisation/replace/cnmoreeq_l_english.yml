@@ -96,7 +96,7 @@
  PRODUCTION_MATERIALS_SECRETMATER:0 "神秘材料"  # 振金
  secretmater:0 "神秘材料"
  secretfactory:0 "神秘材料工厂"
- secretfactory_desc:0 "新型神秘材料制造厂，用于制造秘密行动部队专用装备。"
+ secretfactory_desc:0 "§L新型神秘材料制造厂，用于制造秘密行动部队专用装备。\n这种新型材料或许可以用于各种装备的生产，提高它们的生产速度§!"
 
  secretmaterfactory:0 "新型建筑 I"
  secretmaterfactory2:0 "新型建筑 II"
@@ -110,19 +110,19 @@
  secretmaterfactory5_desc:0 "提供了许多种类型的新建筑"
 
  buildingteam:0 "建筑工队"
- buildingteam_desc:0 "用于开启更多的建筑格子"
+ buildingteam_desc:0 "§L用于开启更多的建筑格子\n或许组建更多的建筑工队可以提高我们的建设速度，也许……还能扩张建筑用地§!"
 
  PRODUCTION_MATERIALS_knowledge:0 "知识"
  local_resources_knowledge:0 "Knowledge"
  knowledge:0 "知识"
  schoolbuild:0 "学校"
- schoolbuild_desc:0 "学校可以提供知识资源，用于高级军官的培训和高级装备的制造。"
+ schoolbuild_desc:0 "§L学校可以提供知识资源，用于高级军官的培训和高级装备的制造。\n多建立一些学校可以提高研究速度！§!"
 
  memorialplaza:0 "纪念广场"
- memorialplaza_desc:0 "纪念战争与英雄，用于一些政治活动"
+ memorialplaza_desc:0 "§L纪念战争与英雄，用于一些政治活动\n用于政治活动§!"
 
  aluminiumfactory:0 "电解铝厂"
- aluminiumfactory_desc:0 "电解铝厂可以提供一些铝"
+ aluminiumfactory_desc:0 "§L电解铝厂可以提供一些铝\n金属总是混合在一起的§!"
 
  PRODUCTION_MATERIALS_CLONEMAN:0 "合成年人"
  cloneman:0 "合成年人"

@@ -26,6 +26,8 @@ buildings = {
 		value = 1
 		damage_factor = 0
 		local_resources_aluminium = 6
+		local_resources_tungsten = 0.5
+		local_resources_chromium = 0.5
 		# refinery = yes
 		value = 0
 		shares_slots = yes
@@ -39,6 +41,7 @@ buildings = {
 		max_level = 10
 		value = 5
 		local_resources_secretmater = 2
+		production_factory_max_efficiency_factor = 0.005
 		shares_slots = yes
 	}
 
@@ -50,7 +53,7 @@ buildings = {
 		max_level = 10
 		value = 5
 		local_resources_cloneman = 1
-		LOCAL_MANPOWER = 0.01
+		LOCAL_MANPOWER = 0.002
 		shares_slots = yes
 	}
 
@@ -71,7 +74,7 @@ buildings = {
 		base_cost = 1200
 		icon_frame = 23
 		max_level = 5
-		local_resources_knowledge = 0.2
+		local_resources_knowledge = 0.5
 		research_time_factor = -0.005
 		value = 5
 		# shares_slots = yes
