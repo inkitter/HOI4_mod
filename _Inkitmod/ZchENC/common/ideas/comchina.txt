@@ -2,20 +2,16 @@ ideas = {
 
 	political_advisor = {
 
-		PRC_lin_bojiu = {
-
-			picture = GFX_idea_PRC_linboqu
+		PRC_linboqu = {
 			
 			allowed = {
 				original_tag = PRC
 			}
 			
-			traits = { armaments_organizer }
+			traits = { silent_workhorse }
 		}
 
-		PRC_zhou_enlai = {
-
-			picture = GFX_idea_PRC_zhouenlai
+		PRC_zhouenlai = {
 				
 			allowed = {
 				original_tag = PRC
@@ -25,7 +21,6 @@ ideas = {
 		}
 
 		PRC_dengxiaoping = {
-
 			
 			allowed = {
 				original_tag = PRC
@@ -39,7 +34,6 @@ ideas = {
 		}
 		PRC_likenong = {
 
-			
 			allowed = {
 				original_tag = PRC
 			}
@@ -67,15 +61,13 @@ ideas = {
 
 	army_chief = {
 		
-		PRC_zhu_de = {
-			
-			picture = GFX_idea_PRC_zhude
+		PRC_zhude = {
 
 			allowed = {
 				original_tag = PRC
 			}
 			
-			traits = { army_chief_morale_2 }
+			traits = { army_chief_defensive_1 army_chief_offensive_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -90,7 +82,7 @@ ideas = {
 				original_tag = PRC
 			}
 			
-			traits = { army_chief_organizational_3 }
+			traits = { army_chief_drill_3 }
 
 			ai_will_do = {
 				factor = 1
@@ -104,7 +96,7 @@ ideas = {
 				original_tag = PRC
 			}
 			
-			traits = { army_concealment_3 }
+			traits = { army_chief_morale_2 army_chief_offensive_1 }
 
 			ai_will_do = {
 				factor = 1
@@ -112,13 +104,11 @@ ideas = {
 		}
 
 		PRC_suyu = {
-
-			
 			allowed = {
 				original_tag = PRC
 			}
 			
-			traits = { army_commando_1 }
+			traits = { army_chief_maneuver_3 }
 
 			ai_will_do = {
 				factor = 1
@@ -138,9 +128,7 @@ ideas = {
 				original_tag = PRC
 			}
 			
-
-			
-			traits = { air_chief_ground_support_2 }
+			traits = { air_close_air_support_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -158,7 +146,7 @@ ideas = {
 			
 
 			
-			traits = { air_chief_safety_2 }
+			traits = { air_chief_safety_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -171,7 +159,7 @@ ideas = {
 				original_tag = PRC
 			}
 			
-			traits = { air_bomber_interception_2 }
+			traits = { air_air_combat_training_3 }
 
 			ai_will_do = {
 				factor = 1
@@ -189,7 +177,7 @@ ideas = {
 				original_tag = PRC
 			}
 			
-			traits = { navy_chief_naval_aviation_2 }
+			traits = { navy_chief_naval_aviation_3 }
 
 			ai_will_do = {
 				factor = 1
@@ -205,7 +193,7 @@ ideas = {
 				original_tag = PRC
 			}
 					
-			traits = { navy_chief_decisive_battle_2 }
+			traits = { navy_screen_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -216,10 +204,8 @@ ideas = {
 
 	high_command = {
 
-		PRC_xu_xiangqian = {
+		PRC_xuxiangqian = {
 
-			picture = GFX_idea_PRC_xuxiangqian
-			
 			allowed = {
 				original_tag = PRC
 			}
@@ -288,19 +274,6 @@ ideas = {
 				factor = 1
 			}
 		}
-		PRC_xuxiangqian = {
-			picture = GFX_idea_PRC_xuxiangqian
-			
-			allowed = {
-				original_tag = PRC
-			}
-			
-			traits = { army_chief_defensive_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
 	}
 	
 
@@ -308,7 +281,6 @@ ideas = {
 	theorist = {
 		PRC_linbiao2 = {
 
-			
 			allowed = {
 				original_tag = PRC
 			}
