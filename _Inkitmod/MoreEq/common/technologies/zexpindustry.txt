@@ -17,23 +17,14 @@ technologies = {
 			building = aluminiumfactory
 			level = 1
 		}
-
 		enable_building = {
 			building = clonemanfactory
 			level = 1
 		}
-
 		enable_building = {
 			building = schoolbuild
 			level = 1
 		}
-
-		enable_building = {
-			building = buildingteam
-			level = 1
-		}
-
-
 		path = {
 			leads_to_tech = secretmaterfactory2 
 			research_cost_coeff = 1

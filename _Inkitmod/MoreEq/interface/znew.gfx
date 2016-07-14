@@ -261,4 +261,96 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/light_cruiser_7.dds"
 		alwaystransparent = yes
 	}
+
+  ### 新增飞机 ###
+	
+	SpriteType = {	#TECH
+		name = "GFX_jet_fighter3_medium"
+		texturefile = "gfx/interface/technologies/air/jet_fighter3.dds"
+	}	
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_fighter_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/air/jet_fighter3.dds"
+	}	
+	
+	SpriteType = {	#TECH
+		name = "GFX_jet_fighter4_medium"
+		texturefile = "gfx/interface/technologies/air/jet_fighter4.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_fighter_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/air/jet_fighter4.dds"
+	}
+	
+	SpriteType = {	#TECH
+		name = "GFX_jet_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/air/jet_strategic_bomber2.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_strat_bomber_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/air/jet_strategic_bomber2.dds"
+	}
+	
+	SpriteType = {	#TECH
+		name = "GFX_jet_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber3.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_tac_bomber_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber3.dds"
+	}
+
+	SpriteType = {	#TECH
+		name = "GFX_jet_tactical_bomber4_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber4.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_tac_bomber_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber4.dds"
+	}
+	
+	SpriteType = {	#TECH
+		name = "GFX_CAS4_medium"
+		texturefile = "gfx/interface/technologies/air/CAS4.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_CAS_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/air/CAS4.dds"
+	}
+
+	SpriteType = {	#TECH
+		name = "GFX_cv_CAS4_medium"
+		texturefile = "gfx/interface/technologies/air/cv_CAS4.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_cv_CAS_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/air/cv_CAS4.dds"
+	}
+
+	SpriteType = {	#TECH
+		name = "GFX_CAS5_medium"
+		texturefile = "gfx/interface/technologies/air/CAS5.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_CAS_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/air/CAS5.dds"
+	}
+
+	SpriteType = {	#TECH
+		name = "GFX_cv_CAS5_medium"
+		texturefile = "gfx/interface/technologies/air/cv_CAS5.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_cv_CAS_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/air/cv_CAS5.dds"
+	}
 }

@@ -109,7 +109,8 @@
  buildingteam:0 "Building Team"
  buildingteam_desc:0 "Building Team can be used to open more slots to build"
  
- PRODUCTION_MATERIALS_knowledge:0 "Knowledge"
+ PRODUCTION_MATERIALS_KNOWLEDGE:0 "Knowledge"
+ local_resources_knowledge:0 "Knowledge"
  knowledge:0 "Knowledge"
  schoolbuild:0 "School"
  schoolbuild_desc:0 "Schools provide knowledge which is useful in High-tech equipments"

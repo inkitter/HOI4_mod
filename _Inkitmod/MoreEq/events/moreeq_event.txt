@@ -1,37 +1,5 @@
 ﻿add_namespace = techexp
 
-# 增加资源事件 20~29
-country_event = {
-    id = techexp.20
-    title = techexp.20.t
-    desc = techexp.20.d
-    picture = GFX_report_event_german_inspect_troops
-    
-    is_triggered_only = yes
-
-    trigger = {
-        # is_ai = no
-    }
-
-    mean_time_to_happen = { days = 0 }
-
-    immediate = {
-        hidden_effect = { 
-            
-        }
-    }
-
-    option = {
-        name = techexp.20.a
-        ai_chance = { factor = 0 }
-    }
-  
-    option = {
-        name = techexp.20.c
-        ai_chance = { factor = 100 }
-    }
-}
-
 # 合成年人事件 30
 country_event = {
     id = techexp.30
@@ -40,12 +8,6 @@ country_event = {
     picture = GFX_report_event_german_inspect_troops
     
     is_triggered_only = yes
-
-    trigger = {
-       any_owned_state = {
-           clonemanfactory > 0
-       }
-    }
 
     mean_time_to_happen = { days = 0 }
 
@@ -87,45 +49,45 @@ country_event = {
     option = {
         name = techexp.30.b
         ai_chance = { factor = 0 }
-        add_political_power = 100
+        add_political_power = 60
     }
 }
 # 降低抵抗 31
-country_event = {
-    id = techexp.31
-    title = techexp.31.t
-    desc = techexp.31.d
-    picture = GFX_report_event_german_inspect_troops
+# country_event = {
+#     id = techexp.31
+#     title = techexp.31.t
+#     desc = techexp.31.d
+#     picture = GFX_report_event_german_inspect_troops
     
-    is_triggered_only = yes
+#     is_triggered_only = yes
 
-    trigger = {
-        has_idea = exp_lowerresist
-    }
+#     trigger = {
+#         has_idea = exp_lowerresist
+#     }
 
-    mean_time_to_happen = { days = 0 }
+#     mean_time_to_happen = { days = 0 }
 
-    immediate = {
-        hidden_effect = { 
-        	remove_ideas = exp_lowerresist
-        }
-    }
+#     immediate = {
+#         hidden_effect = { 
+#         	remove_ideas = exp_lowerresist
+#         }
+#     }
 
-    option = {
-        name = techexp.31.a
-        ai_chance = { factor = 0 }
-        add_timed_idea = {
-			idea = eqresistance_down
-            days = 180
-        }
-    }
+#     option = {
+#         name = techexp.31.a
+#         ai_chance = { factor = 0 }
+#         add_timed_idea = {
+# 			idea = eqresistance_down
+#             days = 180
+#         }
+#     }
   
-    option = {
-        name = techexp.31.c
-        ai_chance = { factor = 100 }
-        add_political_power = 200
-    }
-}
+#     option = {
+#         name = techexp.31.c
+#         ai_chance = { factor = 100 }
+#         add_political_power = 200
+#     }
+# }
 
 # 建设格子 32
 country_event = {
@@ -135,12 +97,6 @@ country_event = {
     picture = GFX_report_event_german_inspect_troops
     
     is_triggered_only = yes
-
-    trigger = {
-       any_owned_state = {
-           buildingteam > 0
-       }
-    }
 
     mean_time_to_happen = { days = 0 }
 
@@ -210,11 +166,11 @@ country_event = {
     option = {
         name = techexp.32.b
         ai_chance = { factor = 0 }
-        add_political_power = 75
+        add_political_power = 20
     }
 }
 
-# 造核 33
+# 纪念广场造核 33
 country_event = {
     id = techexp.33
     title = techexp.33.t
@@ -222,12 +178,6 @@ country_event = {
     picture = GFX_report_event_german_inspect_troops
     
     is_triggered_only = yes
-
-    trigger = {
-       any_owned_state = {
-           memorialplaza > 0
-       }
-    }
 
     mean_time_to_happen = { days = 0 }
 

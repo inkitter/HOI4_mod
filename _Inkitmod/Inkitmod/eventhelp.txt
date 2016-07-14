@@ -152,6 +152,7 @@ country_event = {
                 any_owned_state = {}
                 any_neighbor_state = {
                     owner = { tag = ROOT }
+                    controller = {}
                 }
             }
             save_event_target_as = xxxxxxx

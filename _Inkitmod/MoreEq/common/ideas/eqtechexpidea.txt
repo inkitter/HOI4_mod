@@ -2,6 +2,7 @@ ideas = {
 	# col1
 	TechExpideas = {
 		law = yes
+		# 克隆人
 		exp_clonetoman = {
 			picture = GFX_trait_unknown
 			available = {
@@ -12,7 +13,7 @@ ideas = {
 			on_add = {
 				country_event = techexp.30
 			}
-			cost = 100
+			cost = 60
 			removal_cost = 0
 			ai_will_do = {
    				factor = 0
@@ -24,17 +25,20 @@ ideas = {
 				}
 			}
 		}
+		# 扩展格子
 		eqexp_moresharedslot = {
 			picture = GFX_trait_unknown
 			available = {
-				any_owned_state = {
-					buildingteam > 0
+				any_state = {
+					AND = {
+						buildingteam > 0
+					}
 				}
 			}
 			on_add = {
 				country_event = techexp.32
 			}
-			cost = 75
+			cost = 20
 			removal_cost = 0
 			ai_will_do = {
    				factor = 0
@@ -46,11 +50,15 @@ ideas = {
 				}
 			}
 		}
+		# 纪念广场
 		eqexp_plazatocore = {
 			picture = GFX_trait_unknown
 			available = {
-				any_owned_state = {
-					memorialplaza > 0
+				any_state = {
+					AND = {
+						controller = {tag = ROOT}
+						memorialplaza > 0
+					}
 				}
 			}
 			on_add = {
@@ -60,12 +68,6 @@ ideas = {
 			removal_cost = 0
 			ai_will_do = {
    				factor = 0
-				# modifier = {
-				# 	factor = 1
-				# 	any_owned_state = {
-				# 		memorialplaza > 0
-				# 	}
-				# }
 			}
 		}
 		

@@ -20,12 +20,12 @@ buildings = {
 	# 铝厂
 	aluminiumfactory = {
 		show_on_map = 1
-		base_cost = 9000 
+		base_cost = 3500 
 		icon_frame = 15
 		max_level = 3
 		value = 1
 		damage_factor = 0
-		local_resources_aluminium = 7
+		local_resources_aluminium = 6
 		# refinery = yes
 		value = 0
 		shares_slots = yes
@@ -34,18 +34,18 @@ buildings = {
 	# 神秘材料工厂
 	secretfactory = {
 		show_on_map = 1
-		base_cost = 3000 # 6000
+		base_cost = 2500 # 6000
 		icon_frame = 18
 		max_level = 10
 		value = 5
-		local_resources_secretmater = 1
+		local_resources_secretmater = 2
 		shares_slots = yes
 	}
 
 	# 克隆人工厂
 	clonemanfactory = {
 		show_on_map = 1
-		base_cost = 7000
+		base_cost = 5000
 		icon_frame = 17
 		max_level = 10
 		value = 5
@@ -61,18 +61,20 @@ buildings = {
 		icon_frame = 14
 		max_level = 5
 		value = 5
-		production_speed_buildings_factor = 0.01
+		production_speed_buildings_factor = 0.008
+		local_building_slots = 0.5
 		#shares_slots = yes
 	}
 	# 学校
 	schoolbuild = {
 		show_on_map = 1
-		base_cost = 5000
+		base_cost = 1200
 		icon_frame = 23
 		max_level = 5
-		local_resources_knowledge = 1
+		local_resources_knowledge = 0.2
+		research_time_factor = -0.005
 		value = 5
-		shares_slots = yes
+		# shares_slots = yes
 	}
 	# 纪念广场Memorial Plaza
 	memorialplaza = {
@@ -82,28 +84,7 @@ buildings = {
 		max_level = 1
 		value = 5
 		shares_slots = yes
+		LOCAL_MANPOWER = 0.01
+		POLITICAL_POWER_GAIN = 0.05
 	}
-	#市级船厂
-	# dockyard = {
-	# 	show_on_map = 1
-	# 	show_on_map_meshes = 3
-	# 	provincial = yes
-	# 	base_cost = 5000
-	# 	only_costal = yes
-	# 	naval_production = 1
-	# 	icon_frame = 4
-	# 	only_costal = yes
-	# 	max_level = 2
-	# 	#shares_slots = yes
-	# 	value = 5
-	# }
-
-	# infrastructure = {
-	# 	base_cost = 3000
-	# 	icon_frame = 3
-	# 	local_building_slots = 0.5
-	# 	infrastructure = yes
-	# 	max_level = 10
-	# 	value = 1
-	# }
 }

@@ -4,175 +4,175 @@ generic = {
 	# Ships
 	submarine = {
 		prefix = ""
-		generic = { "Submarine" }
+		generic = { "潜艇" }
 		unique = {}
 	}
 	destroyer = {
 		prefix = ""
-		generic = { "Destroyer" }
+		generic = { "驱逐舰" }
 		unique = {}
 	}
 	light_cruiser = {
 		prefix = ""
-		generic = { "Light Cruiser" }
+		generic = { "轻型巡洋舰" }
 		unique = {}
 	}
 	heavy_cruiser = {
 		prefix = ""
-		generic = { "Heavy Cruiser" }
+		generic = { "重型巡洋舰" }
 		unique = {}
 	}
 	battle_cruiser = {
 		prefix = ""
-		generic = { "Battle Cruiser" }
+		generic = { "战列巡洋舰" }
 		unique = {}
 	}
 	battleship = {
 		prefix = ""
-		generic = { "Battleship" }
+		generic = { "战列舰" }
 		unique = {}
 	}
 	SH_battleship = {
 		prefix = ""
-		generic = { "Super Heavy Battleship" }
+		generic = { "超重型战列舰" }
 		unique = {}
 	}
 	carrier = {
 		prefix = ""
-		generic = { "Carrier" }
+		generic = { "航空母舰" }
 		unique = {}
 	}
 	
 	# Land units
 	infantry = {
 		prefix = ""
-		generic = { "Infantry Division" }
+		generic = { "步兵师" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
-		unique = {}
+		unique = {"第1步兵师"}
 	}
 	marine = {
 		prefix = ""
-		generic = { "Marine Division" }
+		generic = { "海军陆战队" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	mountaineers = {
 		prefix = ""
-		generic = { "Mounaineer Division" }
+		generic = { "山地旅" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	paratrooper = {
 		prefix = ""
-		generic = { "Paratrooper Division" }
+		generic = { "伞兵师" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	motorized = {
 		prefix = ""
-		generic = { "Motorized Division" }
+		generic = { "摩托化部队" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	mechanized = {
 		prefix = ""
-		generic = { "Mechanized Division" }
+		generic = { "机械化师" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	artillery_brigade = {
 		prefix = ""
-		generic = { "Artillery Brigade" }
+		generic = { "炮兵旅" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	anti_tank_brigade = {
 		prefix = ""
-		generic = { "Anti-Tank Brigade" }
+		generic = { "反坦克旅" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	anti_air_brigade = {
 		prefix = ""
-		generic = { "Anti-Air Brigade" }
+		generic = { "防空旅" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	engineer = {
 		prefix = ""
-		generic = { "Engineer Division" }
+		generic = { "工程部队" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	recon = {
 		prefix = ""
-		generic = { "Recon Division" }
+		generic = { "侦查部队" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	field_hospital = {
 		prefix = ""
-		generic = { "Medical Division" }
+		generic = { "野战医院" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	logistics_company = {
 		prefix = ""
-		generic = { "Logistics Division" }
+		generic = { "后勤部队" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	military_police = {
 		prefix = ""
-		generic = { "Police Division" }
+		generic = { "治安部队" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}	
 	signal_company = {
 		prefix = ""
-		generic = { "Signal Division" }
+		generic = { "通讯兵" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}	
 	maintenance_company = {
 		prefix = ""
-		generic = { "Maintenance Division" }
+		generic = { "维修部队" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}	
 	cavalry = {
 		prefix = ""
-		generic = { "Cavalry Brigade" }
+		generic = { "骑兵团" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	light_armor = {
 		prefix = ""
-		generic = { "Light Tank Brigade" }
+		generic = { "轻型装甲旅" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	medium_armor = {
 		prefix = ""
-		generic = { "Medium Tank Brigade" }
+		generic = { "中型装甲旅" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	heavy_armor = {
 		prefix = ""
-		generic = { "Heavy Tank Brigade" }
+		generic = { "重型坦克旅" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	modern_armor = {
 		prefix = ""
-		generic = { "Modern Tank Brigade" }
+		generic = { "现代坦克旅" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	super_heavy_armor = {
 		prefix = ""
-		generic = { "Super Heavy Tank Brigade" }
+		generic = { "超重型坦克旅" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
