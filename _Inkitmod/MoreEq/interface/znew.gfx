@@ -150,12 +150,35 @@ spriteTypes = {
 			legacy_lazy_load = no
 			noOfFrames = 2		
 		}	
+  # 特种部队SP
+	# 中图标
+		spriteType = {
+			name = "GFX_unit_specialinfantrysp_icon_medium"
+			textureFile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+	# 中图标
+		spriteType = {
+			name = "GFX_unit_specialinfantrysp_icon_medium_white"
+			textureFile = "gfx/interface/counters/division_templates_small/custom_template_019.dds"
+		}
+	# NATO
+		spriteType = {
+			name = "GFX_nato_unit_specialinfantrysp_icon_small"
+			texturefile = "gfx/texticons/nato_unit_motorized_icon_small.dds"
+			legacy_lazy_load = no
+		}
+	# 小图标
+		spriteType = {
+			name = "GFX_unit_specialinfantrysp_icon_small"
+			texturefile = "gfx/texticons/unit_motorized_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2		
+		}	
 
   # 火箭
 		spriteType = {
 			name = "GFX_unit_rocketinfantry_icon_medium"
-			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_rocket_artillery_icon.dds"
-			noOfFrames = 2
+			textureFile = "gfx/interface/counters/division_templates_large/rocketicon.dds"
 		}
 		spriteType = {
 			name = "GFX_unit_rocketinfantry_icon_medium_white"
