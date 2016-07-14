@@ -224,6 +224,9 @@ technologies = {
 		enable_subunits = {
 			specialinfantry
 		}
+		enable_subunits = {
+			specialinfantrysp
+		}
 		path = {
 			leads_to_tech = spec_teckt1
 			research_cost_coeff = 1

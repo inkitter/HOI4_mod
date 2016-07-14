@@ -40,6 +40,8 @@
  spinfty_equipment_1_desc:0 "Special forces Weapon"
  spinfty_equipment_2_desc:0 "Special forces Weapon"
  spinfty_equipment_3_desc:0 "Special forces Weapon"
+ specialinfantrysp:0 "Leader Group"
+ specialinfantrysp_desc:0 "Leader Group provides great support to a battle force."
 
  spec_teck0:0 "Special forces Weapon Basic"
  spec_teck1:0 "Special forces Weapon I"

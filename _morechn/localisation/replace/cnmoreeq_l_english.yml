@@ -40,6 +40,9 @@
  spinfty_equipment_1_desc:0 "再次接受特殊训练，学会了使用十字弩来杀死敌人。"
  spinfty_equipment_2_desc:0 "我们都是007，我们都爱勃朗宁。"
  spinfty_equipment_3_desc:0 "这才是真正称手的武器。"
+ specialinfantrysp:0 "指挥团"
+ specialinfantrysp_desc:0 "指挥团可以给军队作战能力带来巨大提升"
+
 
  spec_teck0:0 "特种部队装备技术"
  spec_teck1:0 "特种部队装备研究 I"
@@ -110,6 +113,7 @@
  buildingteam_desc:0 "用于开启更多的建筑格子"
 
  PRODUCTION_MATERIALS_knowledge:0 "知识"
+ local_resources_knowledge:0 "Knowledge"
  knowledge:0 "知识"
  schoolbuild:0 "学校"
  schoolbuild_desc:0 "学校可以提供知识资源，用于高级军官的培训和高级装备的制造。"
@@ -128,8 +132,8 @@
  metalfactory:0 "钢铁工厂"
  metalfactory_desc:0 "可以生产一些钢铁。"
 
- dockyardp:0 "市级造船厂"
- dockyardp_desc:0 "市级造船厂"
+ dockyardp:0 "Provincial Dockyard"
+ dockyardp_desc:0 "Provincial Dockyard"
 
 # 海军系列
  # 扩展型
