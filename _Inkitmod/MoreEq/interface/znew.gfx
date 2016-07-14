@@ -154,11 +154,13 @@ spriteTypes = {
   # 火箭
 		spriteType = {
 			name = "GFX_unit_rocketinfantry_icon_medium"
-			textureFile = "gfx/interface/counters/division_templates_large/rocketicon.dds"
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_rocket_artillery_icon.dds"
+			noOfFrames = 2
 		}
 		spriteType = {
 			name = "GFX_unit_rocketinfantry_icon_medium_white"
-			textureFile = "gfx/interface/counters/division_templates_large/rocketicon.dds"
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_rocket_artillery_icon.dds"
+			noOfFrames = 2
 		} # NEED Small icon
 
   # 爆破
@@ -262,7 +264,27 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 
-  ### 新增飞机 ###
+  # 运输机
+    SpriteType = {	#TECH
+		name = "GFX_jet_transport_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber3.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_transport_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber3.dds"
+	}
+
+	SpriteType = {	#TECH
+		name = "GFX_jet_transport2_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber4.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_transport_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber4.dds"
+	}
+  ## 新增飞机 ###
 	
 	SpriteType = {	#TECH
 		name = "GFX_jet_fighter3_medium"

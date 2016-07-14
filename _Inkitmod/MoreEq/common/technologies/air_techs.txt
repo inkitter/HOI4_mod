@@ -285,7 +285,7 @@ technologies = {
 		}
 	}
 
-	jet_fighter3 = {	#新加喷气3
+	jet_fighter3 = {	# 鏂板
 
 		enable_equipments = {
 			jet_fighter_equipment_3
@@ -314,7 +314,7 @@ technologies = {
 		}
 	}
 
-	jet_fighter4 = {	#新加喷气4
+	jet_fighter4 = {	#鏂板
 
 		enable_equipments = {
 			jet_fighter_equipment_4
@@ -497,7 +497,7 @@ technologies = {
 		}
 	}
 
-	CAS4 = {	#新加
+	CAS4 = {	#锟铰硷拷
 
 		enable_equipments = {
 			CAS_equipment_4
@@ -554,7 +554,7 @@ technologies = {
 		}
 	}
 
-	CAS5 = {	#新加
+	CAS5 = {	#鏂板
 
 		enable_equipments = {
 			CAS_equipment_5
@@ -1038,7 +1038,7 @@ technologies = {
 		}
 	}
 
-	jet_tactical_bomber3 = {	#新加战术轰炸机
+	jet_tactical_bomber3 = {	#锟铰硷拷战锟斤拷锟斤拷炸锟斤拷
 
 		enable_equipments = {
 			jet_tac_bomber_equipment_3
@@ -1067,7 +1067,7 @@ technologies = {
 		}
 	}
 
-	jet_tactical_bomber4 = {	#新加战术轰炸机
+	jet_tactical_bomber4 = {	#鏂板
 
 		enable_equipments = {
 			jet_tac_bomber_equipment_4
@@ -1212,7 +1212,7 @@ technologies = {
 		}
 	}
 
-	jet_strategic_bomber2 = {	#新加1960战略轰炸机
+	jet_strategic_bomber2 = {	#鏂板
 
 		enable_equipments = {
 			jet_strat_bomber_equipment_2

@@ -431,7 +431,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1965
+		start_year = 1960
 		
 		folder = {
 			name = naval_folder
@@ -456,7 +456,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1985
+		start_year = 1965
 		
 		folder = {
 			name = naval_folder
@@ -750,7 +750,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1965
+		start_year = 1960
 		
 		folder = {
 			name = naval_folder
@@ -775,7 +775,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1985
+		start_year = 1965
 		
 		folder = {
 			name = naval_folder
@@ -986,7 +986,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1965
+		start_year = 1960
 		
 		folder = {
 			name = naval_folder
@@ -1011,7 +1011,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1985
+		start_year = 1965
 		
 		folder = {
 			name = naval_folder

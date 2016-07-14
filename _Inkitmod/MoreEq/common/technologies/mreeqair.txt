@@ -30,9 +30,6 @@ technologies = {
         enable_equipments = {
 			tactic_missile_equipment_1
 		}
-        # enable_subunits = {
-		# 	airship
-		# }
 		path = {
 			leads_to_tech = aamissile_tech0 
 			research_cost_coeff = 1
@@ -61,9 +58,6 @@ technologies = {
 		enable_equipments = {
 			aa_missile_equipment_1
 		}
-		# enable_subunits = {
-		# 	airship
-		# }
 		research_cost = 0.4
 		start_year = 1942
 
@@ -82,9 +76,6 @@ technologies = {
 		enable_equipments = {
 			as_missile_equipment_1
 		}
-		# enable_subunits = {
-		# 	airship
-		# }
 		research_cost = 0.4
 		start_year = 1942
 
@@ -99,4 +90,49 @@ technologies = {
 			factor = 0
 		}
 	}
+
+	jet_transport = {
+        enable_equipments = {
+			jet_transport_equipment_1
+		}
+		path = {
+			leads_to_tech = jet_transport2
+			research_cost_coeff = 1
+		}
+        research_cost = 0.6
+		start_year = 1945
+
+        folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 0 }
+		}
+        categories = {
+			jet_technology
+            heavy_air
+			air_equipment
+		}
+        ai_will_do = {
+			factor = 0
+		}
+    }
+	jet_transport2 = {
+        enable_equipments = {
+			jet_transport_equipment_2
+		}
+        research_cost = 0.6
+		start_year = 1950
+
+        folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 2 }
+		}
+        categories = {
+			jet_technology
+            heavy_air
+			air_equipment
+		}
+        ai_will_do = {
+			factor = 0
+		}
+    }
 }

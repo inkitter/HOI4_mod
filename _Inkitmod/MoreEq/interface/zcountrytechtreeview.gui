@@ -1681,17 +1681,17 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}			
 			instantTextBoxType = {
-					name = "airtech_year8"
-					position = { x = 60 y = 1138 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = {x = 0 y = 4}
-					text = "1955"
-					maxWidth = 170
-					maxHeight = 32
-					format = right
-					Orientation = "UPPER_LEFT"
-				}
+				name = "airtech_year8"
+				position = { x = 60 y = 1138 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = {x = 0 y = 4}
+				text = "1955"
+				maxWidth = 170
+				maxHeight = 32
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
 
 			containerWindowType = {
 				name = "airtech_year_left"
@@ -1876,11 +1876,11 @@ guiTypes = {
 				pdx_tooltip = "strat_bomber_equipment_desc"
 			}
 			
-			
+		# jet engine 框
 			containerWindowType = {
 				name = "tiled_research_bg"
-				position = { x=390 y=807 }
-				size = { width = 1475 height = 350 }
+				position = { x=120 y=807 }
+				size = { width = 1730 height = 600 }
 				clipping = no
 	
 				background = {
@@ -1924,6 +1924,14 @@ guiTypes = {
 			gridboxtype = {
 				name = "experimental_rockets_tree"
 				position = { x = 640 y = 0 }
+				size = { width = 400 height = 400 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "jet_transport_tree"
+				position = { x = 640 y = 910 }
 				size = { width = 400 height = 400 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
