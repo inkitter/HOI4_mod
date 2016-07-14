@@ -13,6 +13,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/PRC_dengxiaoping.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_PRC_dengxiaoping2"
+		texturefile = "gfx/interface/ideas/PRC_dengxiaoping.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_PRC_likenong"
 		texturefile = "gfx/interface/ideas/PRC_likenong.dds"
 	}
@@ -54,6 +58,10 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_pengdehuai1"
+		texturefile = "gfx/interface/ideas/PRC_pengdehuai.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_pengdehuai2"
 		texturefile = "gfx/interface/ideas/PRC_pengdehuai.dds"
 	}
 	spriteType = {

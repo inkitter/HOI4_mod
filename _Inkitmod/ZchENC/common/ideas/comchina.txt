@@ -274,6 +274,18 @@ ideas = {
 				factor = 1
 			}
 		}
+		PRC_pengdehuai2 = {
+			
+			allowed = {
+				original_tag = PRC
+			}
+			cost = 300
+			traits = { massarmy_1 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	
 
@@ -320,6 +332,8 @@ ideas = {
 			
 			traits = { naval_theorist }
 		}
+
+		
 
 	}
 

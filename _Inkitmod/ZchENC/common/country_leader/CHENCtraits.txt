@@ -1,7 +1,8 @@
 leader_traits = {
-    massarmy_doctrine = { 
+    massarmy_1 = { 
 		sprite = 7
-        combat_width_factor = -0.1
+		combat_width_factor = -0.1
+
 		ai_will_do = {
 			factor = 1
 		}
