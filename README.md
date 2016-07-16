@@ -55,20 +55,20 @@ Github： <https://github.com/inkitter/HOI4_mod>
 * Better Plan View 准备计划的箭头视觉效果改善。
 * No Naval Battle Sound 移除海战提示音。
 
-### !Inkitmod Plus扩展包 会影响成就
+### !Inkitmod Plus扩展包 整合内容 会影响成就
 * Larger Tank 
 * CH UnitName 各种单位名称汉化扩展，影响成就
 
-#### 常用类 ( + )
+#### 调整类 ( + )
 
 * Easy buff 【自制】 作弊mod。 有制造核心的功能。
-* End Date 【自制】 重定义游戏结束时间至2017.1.1。
+* End Date 【自制】 重定义游戏结束时间至9999.1.1。
 * No Cost Design 【自制】 军队设计方案无消耗。
 * More Variants 可以用经验提高陆军装备的性能。
 
 #### 综合类
 
-* !!More Equipment 更多的装备 我做的多方面扩展mod 测试版。详见 http://bbs.3dmgame.com/thread-5229400-1-1.html
-* CH Enchance 中国增强包。
+* !!More Equipment 更多的装备 自制的多方面扩展mod（测试版）。详见 http://bbs.3dmgame.com/thread-5229400-1-1.html
+* -CH Enchance 中国增强包。
 * -Focus ENC 各国焦点树整合：民国、中共、瑞典、西班牙、荷兰、哥伦比亚、南斯拉夫、新西兰、芬兰等。。。**焦点树容易造成各种意外bug，慎用**。
 * -Glory to Arstotzka 《请出示证件》自建国-阿托兹卡
