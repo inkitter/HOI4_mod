@@ -5,4 +5,4 @@ tags={
 }
 picture="more_variants.jpg"
 remote_file_id="704622378"
-supported_version="1.1"
+supported_version="1.2"

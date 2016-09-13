@@ -3,4 +3,4 @@ path="mod/_Inkitmod/Focus ENC"
 tags={
 	"Gameplay"
 }
-supported_version="1.1"
+supported_version="1.2"

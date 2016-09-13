@@ -121,6 +121,7 @@ country_event = {
     immediate = {
         hidden_effect = { 
             remove_ideas = cheat_event1_test3
+            
         }
     }
     
@@ -134,5 +135,38 @@ country_event = {
     option = {
         name = Easybuffe.12.c
         ai_chance = { factor = 100 }
+    }
+}
+country_event = {
+    id = Easybuffe.20
+    title = Easybuffe.20.t
+    desc = Easybuffe.20.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+        is_ai = no
+        has_idea = cheat_ai_enc
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            remove_ideas = cheat_ai_enc
+            
+        }
+    }
+    option = {
+     name = Easybuffe.20.a
+        ai_chance = { factor = 0 }
+        set_global_flag = cflag_aienc
+    }
+  
+    option = {
+        name = Easybuffe.20.c
+        ai_chance = { factor = 100 }
+        clr_global_flag = cflag_aienc
     }
 }

@@ -5,4 +5,4 @@ tags={
 }
 picture="hoi4 thumb.png"
 remote_file_id="710062898"
-supported_version="1.1"
+supported_version="1.2"

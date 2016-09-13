@@ -10,3 +10,4 @@ Github： https://github.com/inkitter/HOI4_mod
 * More Equipments http://steamcommunity.com/sharedfiles/filedetails/?id=714790353
 * China National Focus http://steamcommunity.com/sharedfiles/filedetails/?id=715497831 styleshare@3dm
 * 少量汉化补漏
+* 部分国家焦点
