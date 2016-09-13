@@ -1,5 +1,5 @@
 name="-Focus ENC"
-path="mod/_Inkitmod/Focus ENC"
+path="mod/_InkitSEL/Focus ENC"
 tags={
 	"Gameplay"
 }
