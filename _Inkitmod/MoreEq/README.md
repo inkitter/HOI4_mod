@@ -1,4 +1,4 @@
-[b]Now TESTING. Alpha2 Version. FOR Preview[/b]
+[b]Update 161222: Change version label to 1.3, bug may exist.[/b]
 # More Equipments
 
 Github： https://github.com/inkitter/HOI4_mod

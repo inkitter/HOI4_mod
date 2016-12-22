@@ -1,6 +1,6 @@
 name="+End Date"
-path="mod/_InkitSEL/End Date"
+path="mod/_Inkitmod/End Date"
 tags={
 	"Gameplay"
 }
-supported_version="1.2"
+supported_version="1.3"

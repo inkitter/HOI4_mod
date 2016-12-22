@@ -1,2 +1,0 @@
-
-ASK = "countries/Arstotzka.txt"

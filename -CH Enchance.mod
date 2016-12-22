@@ -3,4 +3,4 @@ path="mod/_Inkitmod/ZchENC"
 tags={
 	"Gameplay"
 }
-supported_version="1.2"
+supported_version="1.3"
