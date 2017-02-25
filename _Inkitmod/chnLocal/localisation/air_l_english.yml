@@ -215,7 +215,7 @@
  AIR_WING_STATS:0 "空军联队详情"
  CLICK_AIR_WING_SEE_DETAILS:0 "§G点击阅览详情.§!"
  AIR_RESERVES_BASE_ITEM_NAME:0 "库存 (未使用的战机)"
- AIR_CAN_NOT_PERFORM_PORT_STRIKE:0 "§R任务无法执行§!\敌人的§Y空中优势§!在 $CURRENT|H2%$.\n执行此任务最低需要 $REQUIRED|H2%$."
+ AIR_CAN_NOT_PERFORM_PORT_STRIKE:0 "§R任务无法执行§!\n敌人的§Y空中优势§!在 $CURRENT|H2%$.\n执行此任务最低需要 $REQUIRED|H2%$."
  RESERVES_TOOLTIP:0 "库存包括了那些未投入使用的战机.选中一个空军基地并点击创建新空军联队来部署这些战机."
  AIR_NO_RESERVES:0 "§R库存中没有任何可以部署在这里的战机.§!"
  ACE_PILOT_WING_SIZE_EFFECT_SMALLER:0 "王牌飞行员被分配到了一个小于 $DEFINE|0Y$ 架飞机的联队，因此所有加成提高了 $MOD|0%Y$ 作为补偿."
