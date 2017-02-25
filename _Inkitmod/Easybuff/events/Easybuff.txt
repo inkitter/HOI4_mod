@@ -441,7 +441,7 @@ country_event = {
         random_country = {
             limit = {
                 AND = {
-                    is_in_faction_with = FRA
+                    is_in_faction_with = ENG
                     is_faction_leader = yes
                 }
             }
@@ -866,7 +866,7 @@ country_event = {
     }
 }
 
-# add manpower
+# white_peace
 country_event = {
     id = Easybuff.63
     title = Easybuff.63.t

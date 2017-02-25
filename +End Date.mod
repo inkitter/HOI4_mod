@@ -1,4 +1,4 @@
-name="+End Date"
+﻿name="+End Date"
 path="mod/_Inkitmod/End Date"
 tags={
 	"Gameplay"

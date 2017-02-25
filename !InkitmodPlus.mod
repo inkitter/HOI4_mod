@@ -1,4 +1,4 @@
-name="!Inkitmod Plus"
+﻿name="!Inkitmod Plus"
 path="mod/_Inkitmod/InkitmodPlus"
 tags={
 	"Gameplay"

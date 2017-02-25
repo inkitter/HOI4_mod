@@ -322,6 +322,7 @@ ideas = {
 				line_change_production_efficiency_factor = 0.5
 				industrial_capacity_factory = 0.2
 				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 0.5
+				industrial_capacity_dockyard = 0.3
 			}
 			removal_cost = 0
 			ai_will_do = {
@@ -335,6 +336,7 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.5
 				line_change_production_efficiency_factor = 1
 				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 1
+				industrial_capacity_dockyard = 1
 			}
 			removal_cost = 0
 			ai_will_do = {
@@ -348,6 +350,7 @@ ideas = {
 				industrial_capacity_factory = 0.8
 				line_change_production_efficiency_factor = 2
 				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 2
+				industrial_capacity_dockyard = 2
 			}
 			removal_cost = 0
 			ai_will_do = {
@@ -357,12 +360,13 @@ ideas = {
 		cheat_equipment_insane = {
 			picture = generic_goods_red_bonus
 			modifier = {
-				industrial_capacity_factory = 3
+				industrial_capacity_factory = 5
 				INDUSTRY_REPAIR_FACTOR = 3
-				production_factory_max_efficiency_factor = 5
+				production_factory_max_efficiency_factor = 10
 				line_change_production_efficiency_factor = 1
 				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 10
 				CONSUMER_GOODS_FACTOR = -0.8
+				industrial_capacity_dockyard = 10
 			}
 			removal_cost = 0
 			ai_will_do = {
@@ -488,7 +492,7 @@ ideas = {
 				ATTRITION = -0.5
 
 				EXPERIENCE_LOSS_FACTOR = -1
-				TRAINING_TIME_FACTOR = -0.85
+				TRAINING_TIME_FACTOR = -0.8
 				
 				JUSTIFY_WAR_GOAL_TIME = -1
 				ENEMY_JUSTIFY_WAR_GOAL_TIME = 10

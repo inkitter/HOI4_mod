@@ -1,4 +1,4 @@
-name="-CH Enchance"
+﻿name="-CH Enchance"
 path="mod/_Inkitmod/ZchENC"
 tags={
 	"Gameplay"

@@ -1,4 +1,4 @@
-name="More Equipment"
+﻿name="More Equipment"
 path="mod/_Inkitmod/MoreEq"
 tags={
 	"Gameplay"

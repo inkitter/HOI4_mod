@@ -1,0 +1,589 @@
+bitmapfonts = {
+	textcolors = {
+		M = { 35 206 255 }
+		L = { 195 176 145 }
+		W = { 255 255 255 }
+		B = { 0 0 255 }
+		G = { 0 159 3 }
+		R = { 255 50 50 }
+		b = { 0 0 0 }
+		g = { 176 176 176 }
+		Y = { 255 189 0 }
+		H = { 251 170 41 }
+		T = { 255 255 255 }
+	}
+ # 14   16较好
+ # 22   22~24较好
+ # 32   32~36均可
+ # 48   48即可
+ # map  最好是 60~80
+ 	bitmapfont = {
+		name = "tahoma_60"   #地图字体
+		path = "gfx/fonts/map"	
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "hoi_24header"  # 按钮字体
+		path = "gfx/fonts/22"
+		cursor_offset = { 0 4 }
+		color = 0xffffffff
+		textcolors = {
+			G = { 86 172 20 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}
+
+	bitmapfont = {
+		name = "hoi_30header"  # 加载信息
+		path = "gfx/fonts/32"	
+		color = 0xffffffff
+		textcolors = {
+			G = { 86 172 20 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "hoi_36header"  # 各页面标题
+		path = "gfx/fonts/32"
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 86 172 20 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}
+
+	bitmapfont = {
+		name = "hoi_33"   # 装备科技分类等。
+		path = "gfx/fonts/32"
+		color = 0x44ffffff
+
+		textcolors = {
+			G = { 86 172 20 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}	
+
+	bitmapfont = {
+		name = "hoi_16mbs"  # 各种正文字体，量最大
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+		textcolors = {
+			G = { 52 128 23  }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+
+		}
+	}	
+
+	bitmapfont = {
+		name = "hoi_18"   # 稍大的正文，标题较多
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+		textcolors = {
+			G = { 86 172 20 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}		
+	
+	bitmapfont = {
+		name = "hoi_18b"  # 稍大的正文，标题较多
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+		textcolors = {
+			G = { 86 172 20 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}	
+	
+	bitmapfont = {
+		name = "hoi_18mbs"  # 稍大的正文，标题较多 人口 研发时间
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+		textcolors = {
+			G = { 86 172 20 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}	
+	bitmapfont = {
+		name = "hoi_22tech"
+		path = "gfx/fonts/22"
+		color = 0x44ffffff
+
+		textcolors = {
+			G = { 86 172 20 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}	
+
+
+
+	bitmapfont = {
+		name = "hoi_arrow_font"  # 26 部队计划？
+		path = "gfx/fonts/22"
+		color = 0x44ffffff
+
+		textcolors = {
+			G = { 86 172 20 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}	
+
+	bitmapfont = {
+		name = "hoi_20b"   # 各种标题
+		path = "gfx/fonts/22"
+		color = 0xffffffff
+		textcolors = {
+			G = { 86 172 20 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}		
+
+	bitmapfont = {
+		name = "hoi_20bs"  # 各种标题，城市名 科研树项目名
+		path = "gfx/fonts/22"	
+		color = 0xffffffff
+		textcolors = {
+			G = { 86 172 20 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}		
+
+
+	bitmapfont = {
+		name = "hoi4_typewriter16"   # 单位属性与数值 写在黄纸上的字
+		path = "gfx/fonts/14"	
+		color = 0xff000000
+		textcolors = {
+			G = { 0 105 14 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+			H = { 0 0 160 }   # 绿色77 153 0
+		}
+	}
+	
+	bitmapfont = {
+		name = "hoi4_typewriter22"   # 单位属性标题 写在黄纸上的字
+		path = "gfx/fonts/22"	
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 77 153 0 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}
+
+	bitmapfont = {
+		name = "hoi_80"
+		path = "gfx/fonts/map"
+		color = 0x44ffffff
+
+		textcolors = {
+			G = { 86 172 20 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}	
+
+	bitmapfont = {
+		name = "gar_35"
+		path = "gfx/fonts/32"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "gar_40"
+		path = "gfx/fonts/32"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "garamond_12"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "cw_3d_debug"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "standard_font"  #14
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+		
+	}
+
+	bitmapfont = {
+		name = "chat_input_font"  # 14
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "ToolTip_Font"
+		path = "gfx/fonts/14"
+		color = 0xffffffff	
+	}
+	
+	bitmapfont = {
+		name = "ToolTip_Font_Big"
+		path = "gfx/fonts/14"
+		color = 0xffffffff	
+	}
+
+	bitmapfont = {
+		name = "standard_18"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+	}
+	
+	bitmapfont = {
+		name = "standard_22"
+		path = "gfx/fonts/22"
+		color = 0xffffffff
+	}
+	
+	bitmapfont = {
+		name = "mapfont_small"
+		path = "gfx/fonts/14"
+		color = 0xff000000	
+	}
+	
+	bitmapfont = {
+		name = "AnimatedMapText"
+		path = "gfx/fonts/14"
+		color = 0xff7799ff
+	}
+
+	bitmapfont = {
+		name = "Main_24"
+		path = "gfx/fonts/22"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "Main_24_black"
+		path = "gfx/fonts/22"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "pie_headline_20"
+		path = "gfx/fonts/22"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "messagelog"
+		path = "gfx/fonts/14"
+		color = 0xffffff99
+	}
+
+	bitmapfont = {
+		name = "Main_16"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "Main_16_white_bold"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "Main_16_black"
+		path = "gfx/fonts/14"
+		color = 0xff000000
+	}
+
+
+	bitmapfont = {
+		name = "Main_14"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+		border_color = 0x00000000
+	}
+	bitmapfont = {
+		name = "Main_14_plain"
+		path = "gfx/fonts/14"
+		color = 0xff000000
+	}
+
+
+	bitmapfont = {
+		name = "Main_14_grey"
+		path = "gfx/fonts/14"
+		color = 0xffbbbbbb
+	}
+
+	bitmapfont = {
+		name = "Main_16_plain"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "Main_14_black"
+		path = "gfx/fonts/14"
+		color = 0xff000000
+	}
+	bitmapfont = {
+		name = "Main_14_red"
+		path = "gfx/fonts/14"
+		color = 0xffff0000
+	}
+	bitmapfont = {
+		name = "Main_14_bold"
+		path = "gfx/fonts/14"	
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "Main_14_orange"
+		path = "gfx/fonts/14"
+		color = 0xffffbb00
+	}
+
+	bitmapfont = {
+		name = "Main_14_eu"
+		path = "gfx/fonts/14"
+		color = 0xffaaffff
+	}
+
+
+	bitmapfont = {
+		name = "garamond_14"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "garamond_14_bold"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "garamond_14_bold_orange"
+		path = "gfx/fonts/14"
+		color = 0xffffc000
+	}
+
+	bitmapfont = {
+		name = "ledger"
+		path = "gfx/fonts/14"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "ledger_headline"
+		path = "gfx/fonts/14"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "vic_18_black"
+		path = "gfx/fonts/14"
+		color = 0xff000000	
+		textcolors = {
+			G = { 24 112 26 }
+			R = { 124 24 24 }
+			Y = { 0 0 0 }
+			H = { 219 203 71 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "vic_18"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+		textcolors = {
+			G = { 44 171 50 }
+			R = { 181 61 61 }
+			Y = { 219 203 71 }
+			H = { 77 153 0 }
+		}
+	}
+	bitmapfont = {
+		name = "vic_18s"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+		textcolors = {
+			G = { 44 171 50 }
+			R = { 181 61 61 }
+			Y = { 219 203 71 }
+			H = { 77 153 0 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "vic_18_grey"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+		textcolors = {
+			G = { 44 171 50 }
+			R = { 181 61 61 }
+			Y = { 219 203 71 }
+			H = { 77 153 0 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "vic_22_black"
+		path = "gfx/fonts/22"
+		color = 0xff000000	
+
+		textcolors = {
+			G = { 24 112 26 }
+			R = { 124 24 24 }
+			Y = { 0 0 0 }
+			H = { 77 153 0 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "vic_22"
+		path = "gfx/fonts/22"
+		color = 0xffffffff
+		textcolors = {
+			G = { 44 171 50 }
+			R = { 181 61 61 }
+			Y = { 219 203 71 }
+			H = { 77 153 0 }
+		}
+	}
+	bitmapfont = {
+		name = "vic_22s"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+		textcolors = {
+			G = { 44 171 50 }
+			R = { 181 61 61 }
+			Y = { 219 203 71 }
+			H = { 77 153 0 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "vic_29_black"
+		path = "gfx/fonts/22"
+		color = 0xff000000	
+		textcolors = {
+			G = { 24 112 26 }
+			R = { 124 24 24 }
+			Y = { 0 0 0 }
+			H = { 77 153 0 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "vic_29"
+		path = "gfx/fonts/22"
+		color = 0xffffffff
+		textcolors = {
+			G = { 44 171 50 }
+			R = { 181 61 61 }
+			Y = { 219 203 71 }
+			H = { 77 153 0 }
+		}
+	}
+
+
+	
+	bitmapfont = {
+		name = "vic_29s"
+		path = "gfx/fonts/22"	
+		color = 0xffffffff
+		textcolors = {
+			G = { 44 171 50 }
+			R = { 181 61 61 }
+			Y = { 219 203 71 }
+			H = { 77 153 0 }
+		}
+	}
+
+	bitmapfont = {
+		name = "vic_36_black"
+		path = "gfx/fonts/32"
+		color = 0xff000000
+		textcolors = {
+			G = { 24 112 26 }
+			R = { 124 24 24 }
+			Y = { 0 0 0 }
+			H = { 77 153 0 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "vic_36"
+		path = "gfx/fonts/32"
+		color = 0xffffffff
+		textcolors = {
+			G = { 44 171 50 }
+			R = { 181 61 61 }
+			Y = { 219 203 71 }
+			H = { 77 153 0 }
+		}
+	}
+	bitmapfont = {
+		name = "vic_36s"
+		path = "gfx/fonts/32"
+		color = 0xffffffff
+		textcolors = {
+			G = { 44 171 50 }
+			R = { 181 61 61 }
+			Y = { 219 203 71 }
+			H = { 77 153 0 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "Arial12"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+		
+		textcolors = {
+			G = { 44 171 50 }
+			R = { 181 61 61 }
+			Y = { 219 203 71 }
+			H = { 77 153 0 }
+		}
+	}
+
+	bitmapfont = {
+		name = "FPS_Font"  # 12
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+	
+		textcolors = {
+			G = { 44 171 50 }
+			R = { 181 61 61 }
+			Y = { 219 203 71 }
+			H = { 77 153 0 }
+		}
+	}
+
+	bitmapfont = {
+		name = "cg_16b"
+		path = "gfx/fonts/14"	
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "cg_18b"
+		path = "gfx/fonts/14"
+		color = 0xffffffff
+	}
+
+}

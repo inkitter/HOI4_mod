@@ -1,4 +1,4 @@
-name="+Easybuff"
+﻿name="+Easybuff"
 path="mod/_Inkitmod/Easybuff"
 tags={
 	"Gameplay"
