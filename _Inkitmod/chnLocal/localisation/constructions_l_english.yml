@@ -69,6 +69,8 @@
  RESOURCE_TRADE_LINE_PLURAL:0 "$PARTNER|Y$：用 $FACTORIES|R$ 个§Y民用工厂§!交换 $NUM|G$ 单位 $RESOURCE|Y$"
  CONSTRUCTION_FACTORIES_TRADE_DESC:0 "我们可以用民用工厂的使用权和其他国家交易战略资源。海外贸易需要运输舰。"
  CONVERSION_SPEED_MODIFIERS:1 "改造花费修正："
+ INFRASTRUCTURE_COST_EFFECT:0 "基础设施效果: x$VAL|2H$"
+ INFRA_VAL:0 "£infrastructure_texticon $VAL|0%+=$"
  STATE_BUILDINGS:0 "地区建筑"
  STATE_BUILDINGS_DESC:0 "地区内建造的建筑。每个建筑都有自己的等级上限。"
  SHARED_BUILDINGS:0 "公用建筑"

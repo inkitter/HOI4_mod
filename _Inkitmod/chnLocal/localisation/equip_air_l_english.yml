@@ -965,6 +965,14 @@
  FRA_cv_fighter_equipment_2_short:0 "D.790"
  FRA_cv_fighter_equipment_3:0 "德瓦蒂纳D.525"
  FRA_cv_fighter_equipment_3_short:0 "D.525"
+ GER_transport_plane_equipment_1:0 "Ju 52"
+ USA_transport_plane_equipment_1:0 "DC-3"
+ JAP_transport_plane_equipment_1:0 "Ki-56"
+ SOV_transport_plane_equipment_1:0 "Li-2"
+ ENG_transport_plane_equipment_1:0 "Bristol Bombay"
+ ITA_transport_plane_equipment_1:0 "Caproni Ca.133"
+ FRA_transport_plane_equipment_1:0 "MB. 220"
+ SWE_transport_plane_equipment_1:0 "Trp2"
 
  ###Planes###
  # Australia
@@ -1033,6 +1041,12 @@
  BEL_jet_fighter_equipment_2:0 "萨布卡猎人式"
  BEL_jet_fighter_equipment_2_short:0 "猎人式"
  
+ #Bulgarian
+
+ BUL_CAS_equipment_1:0 "DAR 10"
+ BUL_CAS_equipment_1_short:0 "DAR 10"
+ BUL_CAS_equipment_2:0 "KB-11 Fazan"
+ BUL_CAS_equipment_2_short:0 "KB-11"
  # canadian
  
  CAN_jet_fighter_equipment_1:0 "德哈维兰吸血鬼式"
@@ -1043,6 +1057,9 @@
  #Czech 
  CZE_CAS_equipment_1:0 "沃多乔迪A.101"
  CZE_CAS_equipment_1_short:0 "Aero A.101"
+ CZE_CAS_equipment_2:0 "Letov S-28"
+ CZE_CAS_equipment_2_short:0 "S-28"
+
  CZE_fighter_equipment_0:0 "阿维亚B-34.1"
  CZE_fighter_equipment_0_short:0 "阿维亚B-34.1"
  CZE_fighter_equipment_1:0 "阿维亚B-534.1"
@@ -1065,13 +1082,15 @@
  #Romania
  ROM_CAS_equipment_1:0 "IAR 37"
  ROM_CAS_equipment_1_short:0 "IAR 37"
+ ROM_CAS_equipment_2:0 "IAR 81"
+ ROM_CAS_equipment_2_short:0 "IAR 81"
  ROM_CAS_equipment_3:0 "IAR 471"
  ROM_CAS_equipment_3_short:0 "IAR 471"
  
- ROM_fighter_equipment_0:0 "IAR 14"
- ROM_fighter_equipment_0_short:0 "IAR 14"
- ROM_fighter_equipment_1:0 "IAR P.24E"
- ROM_fighter_equipment_1_short:0 "IAR P.24E"
+ ROM_fighter_equipment_0:0 "IAR 12"
+ ROM_fighter_equipment_0_short:0 "IAR 12"
+ ROM_fighter_equipment_1:0 "IAR 14"
+ ROM_fighter_equipment_1_short:0 "IAR 14"
  ROM_fighter_equipment_2:0 "IAR 80"
  ROM_fighter_equipment_2_short:0 "IAR 80"
  ROM_fighter_equipment_3:0 "IAR 109G"
@@ -1150,18 +1169,26 @@
  NOR_tac_bomber_equipment_0_short:0 "Kj.-F. C.V"
  
  #Hungary
- HUN_heavy_fighter_equipment_2:0 "DRR Me 201Ca-1"
+ HUN_heavy_fighter_equipment_2:0 "DRR Me 210Ca-1"
  HUN_heavy_fighter_equipment_2_short:0 "Me 210Ca-1"
+ HUN_heavy_fighter_equipment_3:1 "RMI-8 X/V"
+ HUN_heavy_fighter_equipment_3_short:1 "RMI-8 X/V"
  
- HUN_CAS_equipment_1:0 "Weiss WM-21 Sólyom"
- HUN_CAS_equipment_1_short:0 "WM-21"
+ HUN_CAS_equipment_1:1 "Weiss WM-16 Budapest"
+ HUN_CAS_equipment_1_short:0 "WM-16"
+ HUN_CAS_equipment_2:0 "Weiss WM-21 Sólyom"
+ HUN_CAS_equipment_2_short:0 "WM-21"
+ HUN_CAS_equipment_3:0 "RMI-3 Z/G"
+ HUN_CAS_equipment_3_short:0 "RMI-3 Z/G"
  
  HUN_fighter_equipment_0:0 "AVIS III"
  HUN_fighter_equipment_0_short:0 "AVIS III"
- HUN_fighter_equipment_2:0 "Weiss WM-23 Ezustnyil"
- HUN_fighter_equipment_2_short:0 "WM-23"
- HUN_fighter_equipment_3:0 "MÁVAG Héja"
- HUN_fighter_equipment_3_short:0 "Héja"
+ HUN_fighter_equipment_1:0 "Weiss WM-23 Ezustnyil"
+ HUN_fighter_equipment_1_short:0 "WM-23"
+ HUN_fighter_equipment_2:1 "MÁVAG Héja"
+ HUN_fighter_equipment_2_short:1 "Héja"
+ HUN_fighter_equipment_3:0 "MÁVAG Héja II"
+ HUN_fighter_equipment_3_short:0 "Héja II"
 
  #British Raj
 
@@ -1214,7 +1241,10 @@
  SWE_fighter_equipment_3_short:0 "SAAB J21"
  
  #switzerland
- 
+  
+ SWI_fighter_equipment_0:0 "Dewoitine D.27"
+ SWI_fighter_equipment_0_short:0 "D.27"
+
  SWI_tac_bomber_equipment_0:0 "K+W Thun 福克C.V.-E"
  SWI_tac_bomber_equipment_0_short:0 "K+W C.V.-E"
  
@@ -1263,9 +1293,13 @@
  YUG_heavy_fighter_equipment_1_short:0 "IK-5"
  YUG_heavy_fighter_equipment_2:0 "洛格萨斯基R-313"
  YUG_heavy_fighter_equipment_2_short:0 "R-313"
+ YUG_heavy_fighter_equipment_3:0 "Nenadovic-Mitrovic"
+ YUG_heavy_fighter_equipment_3_short:0 "NEMI"
  
  YUG_CAS_equipment_1:0 "伊卡鲁斯飓风式"
  YUG_CAS_equipment_1_short:0 "伊卡鲁斯飓风式"
+ YUG_CAS_equipment_2:0 "Ikarus Orkan"
+ YUG_CAS_equipment_2_short:0 "Ikarus Orkan"
  
  YUG_tac_bomber_equipment_0:0 "DFA-Breguet Br. 19 A2"
  YUG_tac_bomber_equipment_0_short:0 "Br. 19 A2"
@@ -1273,6 +1307,8 @@
  YUG_tac_bomber_equipment_1_short:0 "Do-17 Ka"
  YUG_tac_bomber_equipment_2:0 "DFA-布里斯托布伦海姆式"
  YUG_tac_bomber_equipment_2_short:0 "布伦海姆式"
+ YUG_tac_bomber_equipment_3:0 "Zmaj R-1"
+ YUG_tac_bomber_equipment_3_short:0 "R-1"
  
  YUG_nav_bomber_equipment_1:0 "洛格萨斯基SIM-XIV-H"
  YUG_nav_bomber_equipment_1_short:0 "SIM-XIV-H"

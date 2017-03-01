@@ -39,6 +39,7 @@
  PEACE_DONE_DESC:0 "一旦您单击此按钮，您会退出和平谈判，并向其他派系成员分发您剩余的£victory_points点数。任何您已提出的要求将被执行，如果您很满意目前收益即可使用此按钮，并可将剩余£victory_points点数留给其他玩家。"
  PEACE_PASS:0 "£victory_points $GAIN|Y$ 跳过" 
  PEACE_PASS_DESC:0 "如果你跳过此轮，其他玩家将开始使用他们的£victory_points点数下达命令，你将会获得 £victory_points $GAIN|Y$ 的£victory_points胜利点数, 这样可以积累额外£victory_points点数供下一轮使用"
+ PEACE_PASS_EMPTY:0 "§R此回合已没有剩余可选§!"
  PEACE_CONFERENCE_RESET:0 "重置" 
  PEACE_CONFERENCE_PASS:0 "结束此轮会议" 
  PEACE_CONFERENCE_PASS_DESC:0 "你仍有 §Y$VALUE$§! £victory_points点数未使用。\n 你可能不会再有机会消耗该£victory_points点数。"
