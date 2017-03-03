@@ -6,6 +6,5 @@
         "*.gfx": "coffeescript",
         "*.gui": "coffeescript",
         "*.txt": "coffeescript"
-    },
-    "editor.wrappingColumn": 0
+    }
 }
