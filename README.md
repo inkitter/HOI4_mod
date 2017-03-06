@@ -26,7 +26,7 @@ Github： <https://github.com/inkitter/HOI4_mod>
 ### Github 安装（用这个方式安装，更新起来最省事，而且能用到最新的版本，不过需要学习一下）
 
 1. （已有的跳过）安装git软件： <https://git-scm.com/download/win> （安装时注意取消勾选windows explorer intergration以防在右键菜单加入不必要的功能）。 分流: <http://pan.baidu.com/s/1cLsbaI>
-1. 命令提示符使用git安装： `git clone https://github.com/inkitter/HOI4_mod.git` 或者使用我提供的 使用git安装.bat 文件。
+1. 命令提示符使用git安装： `git clone --depth=1 https://github.com/inkitter/HOI4_mod.git` 或者使用我提供的 使用git安装.bat 文件。
 1. 比如将 bat 文件放在 D:\Game 文件夹里，运行之后会有个窗口显示下载进度。 同时会在 D:\Game 文件夹里创建一个HOI4_mod 文件夹，所有的mod文件都在这里。 之后就可以删除这个 使用git安装.bat 了
 1. 运行 1安装.bat 
 1. 更新方法： 运行 使用Git更新.bat 会将本地文件夹与我的github项目同步，你在本地做的任何修改都会被同步成远程的，同时会更新你的游戏mod文件夹里的.mod文件。

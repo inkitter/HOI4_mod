@@ -15,6 +15,7 @@ upgrades = {
 		cost = land
 
 		defense = 0.1
+		reliability = 0.01
 		build_cost_ic = 0.02
 	}
 	infanrb_defense_upgrade = {
@@ -29,7 +30,7 @@ upgrades = {
 		max_level = 5
 		cost = land
 		
-		breakthrough = 0.1
+		breakthrough = 0.2
 		build_cost_ic = 0.05
 	}
 	# 步兵穿甲
@@ -72,7 +73,7 @@ upgrades = {
 		max_level = 5
 		cost = land
 
-		reliability = 0.05
+		reliability = 0.08
 		build_cost_ic = 0.02
 	}
     # 防空升级
@@ -98,7 +99,7 @@ upgrades = {
 		cost = land
 		
 		maximum_speed = 0.1
-		reliability = -0.03
+		reliability = -0.02
         defense = -0.05
 		breakthrough = -0.01
 	}
@@ -115,21 +116,21 @@ upgrades = {
 		max_level = 5
 		cost = land
 		
-		reliability = 0.05
+		reliability = 0.08
 		build_cost_ic = 0.05
 	}
 	support_cost_upgrade = {
 		max_level = 5
 		cost = land
 
-		reliability = -0.03
+		reliability = -0.01
 		build_cost_ic = -0.07
 	}
 	support_reliab_upgrade = {
 		max_level = 5
 		cost = land
 
-		reliability = 0.06
+		reliability = 0.08
 		build_cost_ic = 0.05
 	}
 	transport_speed_upgrade = {

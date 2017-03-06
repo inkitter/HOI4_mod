@@ -73,7 +73,6 @@ equipments = {
 		build_cost_ic = 2
 		resources = {
 			oil = 1
-			knowledge = 1
 		}
 	  }
 	  tactic_missile_equipment_1 = {
@@ -117,7 +116,6 @@ equipments = {
 		build_cost_ic = 4
 		resources = {
 			oil = 1
-			knowledge = 1
 		}
 	  }
     aa_missile_equipment_1 = {
@@ -151,7 +149,6 @@ equipments = {
 		build_cost_ic = 10
 		resources = {
 			oil = 1
-			knowledge = 1
 		}
 	  }
 	  as_missile_equipment_1 = {
