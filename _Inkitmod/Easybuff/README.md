@@ -1,8 +1,11 @@
 [h1]Update 170225: fixed some bugs | add dockyard modifier[/h1]
 
+Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
+
 # Features:
 
-* For Single Players（Muti can join when others use this）. No steam archievements in Ironman.
+* For Single Players（Muti can join when others use this）. 
+* No steam archievements in Ironman.
 
 1. Cheat mod that AI doesn't use. 
 2. Different Levels of modifiers that can be canceled ingame.
@@ -32,8 +35,6 @@
 6. "Adjust Threat"
 7. "Add Manpower 500,000"
 
-
-Thinking of more items too add...
 
 
 --------

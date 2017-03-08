@@ -1,4 +1,4 @@
-﻿name="!More Chinese"
+﻿name="zMore Chinese"
 path="mod/_Inkitmod/chnMore"
 tags={
 	"Localisation"
