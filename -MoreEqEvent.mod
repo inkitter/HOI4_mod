@@ -1,4 +1,4 @@
-﻿name="More Equipment"
+﻿name="More Equipment Event"
 path="mod/_Inkitmod/MoreEqEvent"
 tags={
 	"Gameplay"
