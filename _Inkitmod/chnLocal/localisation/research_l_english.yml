@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  RESEARCH_BONUSES_TOOLTIP:0 "我们拥有的有限技术加成:"
  RESEARCH_BONUSES_EMPTY_TOOLTIP:0 "有限技术加成将在这里列出"
  RESEARCH_BONUS_SPEED_DESC:0 "§Y$COUNT$x§! $VALUE|G%0$研发速度$NAME$"
