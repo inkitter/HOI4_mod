@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  WHILE_FOCUSING:0 "执行这条国策会带来以下效果：\n$EFF$"
  generic_focus:0 "国策"
  army_effort:0 "重视陆军"
