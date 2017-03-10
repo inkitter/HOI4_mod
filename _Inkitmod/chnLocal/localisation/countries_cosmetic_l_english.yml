@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  INS_HOL_democratic:0 "荷属东印度"
  INS_HOL_democratic_DEF:0 "荷属东印度"
  INS_subject:0 "$OVERLORDADJ$属东印度"
@@ -219,8 +219,8 @@
  NOR_GER_fascism_autonomy_colony_DEF:0 "挪威帝国属地"
  CZE_GER_fascism_autonomy_puppet_DEF:0 "波希米亚摩拉维亚帝国保护领"
  POL_GER_fascism_autonomy_puppet_DEF:0 "波兰总督府"
- FRA_FREE:0 "自由法国"
- FRA_FREE_DEF:0 "自由法国"
+ FRA_FREE_democratic:0 "自由法国"
+ FRA_FREE_democratic_DEF:0 "自由法国"
  FRA_GER_fascism_autonomy_puppet:0 "Vichy France"
  FRA_GER_fascism_autonomy_puppet_DEF:0 "Vichy France"
  FRA_UK_democratic:0 "Franco-British Union"
@@ -235,3 +235,5 @@
  CZE_ONLY_fascism_DEF:0 "The Bohemian Empire"
  CZE_ONLY_communism:0 "Czech People's Republic"
  CZE_ONLY_communism_DEF:0 "The Czech People's Republic"
+ FRA_FREE:0 "自由法国"
+ FRA_FREE_DEF:0 "自由法国"

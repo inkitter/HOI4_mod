@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  RESEARCH_BONUSES_TOOLTIP:0 "我们拥有的有限技术加成:"
  RESEARCH_BONUSES_EMPTY_TOOLTIP:0 "有限技术加成将在这里列出"
  RESEARCH_BONUS_SPEED_DESC:0 "§Y$COUNT$x§! $VALUE|G%0$研发速度$NAME$"
@@ -162,7 +162,7 @@
  infiltration_in_depth:0 "深入渗透"
  infiltration_in_depth_desc:0 "我们的部队现在被训练绕过和孤立敌人据点并向纵深渗透，理想情况下使我们的突击部队到达敌人后防并完全切断敌人力量。"
  mass_assault:0 "集团攻击"
- mass_assault_desc_desc:0 "'完美'的武器是被高估的，大量的'足够好'的武器是制胜之道！\n\n"
+ mass_assault_desc:0 "'完美'的武器是被高估的，大量的'足够好'的武器是制胜之道！\n\n"
  pocket_defence:0 "口袋防御"
  pocket_defence_desc:0 "在防御中，我们的部队可能会被包在口袋里。他们需要做的仅仅是坚守至一场不可避免的反击来削弱他们。"
  defence_in_depth:0 "纵深防御"
@@ -821,4 +821,4 @@
  INDUSTRY_TITLE_CONSTRUCTION:0 "建设"
  JET_ENGINES_RESEARCHED:0 "允许研究需要喷气式发动机的科技，比如喷气式飞行器。"
  cat_fleet_in_being:0 "存在舰队学说"
- 
+ air_equipment:0 "飞行器"

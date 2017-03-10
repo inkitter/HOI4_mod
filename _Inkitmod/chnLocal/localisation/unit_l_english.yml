@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  night:0 "夜晚"
  fort:0 "要塞"
  river:0 "河流"
@@ -285,9 +285,9 @@
  NAV_ENEMY_AIR_SUPERIORITY:0 "敌方制空权：$VALUE|%+$"
  NAV_SUPREMACY_INTEL:0 "§R我们对该地区一无所知!§!($VAL|%+$)"
  NAVAL_INVASION_CAN_NOT_TRANSFER_THROUGH:0 "$NAME|Y$ - 我们只拥有$SUP|0%R$制海权,但我们需要$NEEDED|0%Y$"
- NAVAL_INVASION_CAN_NOT_TRANSFER_THROUGH_NO_INTEL:0 "$NAME|Y$ - §R我们缺乏必要的情报,因此无法冒险发动登陆作战.请为该任务分配更多的舰队和飞机,或者让目标地点处于雷达范围内。§!\n"
+ NAVAL_INVASION_CAN_NOT_TRANSFER_THROUGH_TITLE:0 "§R以下区域没有足够的制海权:§!\n"
  NAVAL_INVASION_WE:0 "我们"
- NAVAL_INVASION_CAN_NOT_TRANSFER_THROUGH_NO_INTEL:2 "\n§R$WHO$ 缺乏足够的信息，因此不能登陆:§!"
+ NAVAL_INVASION_CAN_NOT_TRANSFER_THROUGH_NO_INTEL:0 "$NAME|Y$ - §R我们缺乏必要的情报,因此无法冒险发动登陆作战.请为该任务分配更多的舰队和飞机,或者让目标地点处于雷达范围内。§!\n"
  NAVAL_INVASION_CAN_NOT_TRANSFER_THROUGH_NO_INTEL_HINT:0 "\n\n§R使用更多的海军或空军进行侦查，或者建设覆盖到此地区的雷达.§!\n"
  NAVAL_INVASION_CANT_TRANSFER:0 "\n发动登陆作战须要在沿途海域确保制海权。制海权可以通过以下方式获得：\n - 制空权\n - 执行任务的舰船"
  CLICK_TO_ASSIGN_COMMANDER:0 "§G点击分配指挥官。§!"
@@ -307,3 +307,4 @@
  PREPERATION_BASE_MAX:0 "基础最大值：$VALUE|0%Y$"
  PLAN_PREPERATION_BREAKDOWN:0 "$MAX_DESC$\n$SPEED_DESC$"
  CLICK_TO_ASSIGN:0 "点击进行分配。"
+ NAVAL_INVASION_CAN_NOT_TRANSFER_THROUGH_NO_INTEL:2 "\n§R$WHO$ 缺乏足够的信息，因此不能登陆:§!"

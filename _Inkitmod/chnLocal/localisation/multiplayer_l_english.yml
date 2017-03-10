@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  MULTIPLAYER_LOBBY:0 "多人游戏大厅"
  START:0 "开始"
  ABANDON_GAME:0 "放弃游戏 "
@@ -37,6 +37,7 @@
  FE_PLAYERS:0 "玩家"
  LEDGER_COUNTRY:0 "国家"
  FE_ACCEPT:0 "接受"
+ FE_CONFIRM:0 "确认"
  FE_DECLINE:0 "拒绝"
  FE_CANCEL:0 "取消"
  TIP_MUTE:0 "屏蔽"
