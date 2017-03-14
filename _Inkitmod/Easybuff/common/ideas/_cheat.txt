@@ -104,7 +104,7 @@ ideas = {
 		cheat_technology_lv1 = {
 			picture = generic_intel_bonus
 			modifier = {
-				research_time_factor = -0.2
+				research_time_factor = -0.3
 			}
 			removal_cost = 0
 			ai_will_do = {
@@ -114,7 +114,7 @@ ideas = {
 		cheat_technology_lv2 = {
 			picture = generic_intel_bonus
 			modifier = {
-				research_time_factor = -0.4
+				research_time_factor = -0.6
 			}
 			removal_cost = 0
 			ai_will_do = {
@@ -124,7 +124,7 @@ ideas = {
 		cheat_technology_lv3 = {
 			picture = generic_intel_bonus
 			modifier = {
-				research_time_factor = -0.8
+				research_time_factor = -1.2
 			}
 			removal_cost = 0
 			ai_will_do = {
@@ -134,7 +134,7 @@ ideas = {
 		cheat_technology_insane = {
 			picture = generic_intel_bonus
 			modifier = {
-				research_time_factor = -2
+				research_time_factor = -4
 			}
 			removal_cost = 0
 			ai_will_do = {
