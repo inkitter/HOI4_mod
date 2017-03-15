@@ -1,0 +1,353 @@
+# 本文件用于图标索引
+spriteTypes = {
+
+  # 特种装备科技图标
+		SpriteType = {
+			name = "GFX_spec_teck0_medium"
+			texturefile = "gfx/interface/technologies/specinfantry_equipment_0.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teck1_medium"
+			texturefile = "gfx/interface/technologies/specinfantry_equipment_1.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teck2_medium"
+			texturefile = "gfx/interface/technologies/specinfantry_equipment_2.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teck3_medium"
+			texturefile = "gfx/interface/technologies/specinfantry_equipment_3.dds"
+		}
+
+   # 特种兵科技树
+		SpriteType = {
+			name = "GFX_spec_teckt0_medium"
+			texturefile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teckt1_medium"
+			texturefile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teckt2_medium"
+			texturefile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teckt3_medium"
+			texturefile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+		SpriteType = {
+			name = "GFX_spec_teckt4_medium"
+			texturefile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+
+  # 爆破装备科技图标
+		SpriteType = {
+			name = "GFX_bomb_tech0_medium"
+			texturefile = "gfx/interface/technologies/bombinfantry_equipment_0.dds"
+		}
+		SpriteType = {
+			name = "GFX_bomb_tech1_medium"
+			texturefile = "gfx/interface/technologies/bombinfantry_equipment_1.dds"
+		}
+		SpriteType = {
+			name = "GFX_bomb_tech2_medium"
+			texturefile = "gfx/interface/technologies/bombinfantry_equipment_2.dds"
+		}
+		SpriteType = {
+			name = "GFX_bomb_tech3_medium"
+			texturefile = "gfx/interface/technologies/bombinfantry_equipment_3.dds"
+		}
+
+  # 火箭筒科技图标
+		SpriteType = {
+			name = "GFX_rocket_tech0_medium"
+			texturefile = "gfx/interface/technologies/rocketinfantry_equipment_0.dds"
+		}
+		SpriteType = {
+			name = "GFX_rocket_tech1_medium"
+			texturefile = "gfx/interface/technologies/rocketinfantry_equipment_1.dds"
+		}
+		SpriteType = {
+			name = "GFX_rocket_tech2_medium"
+			texturefile = "gfx/interface/technologies/rocketinfantry_equipment_2.dds"
+		}
+		SpriteType = {
+			name = "GFX_rocket_tech3_medium"
+			texturefile = "gfx/interface/technologies/rocketinfantry_equipment_3.dds"
+		}
+
+# 新兵种图标
+  # 特种部队
+	# 中图标
+		spriteType = {
+			name = "GFX_unit_specialinfantry_icon_medium"
+			textureFile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+	# 中图标
+		spriteType = {
+			name = "GFX_unit_specialinfantry_icon_medium_white"
+			textureFile = "gfx/interface/counters/division_templates_small/custom_template_019.dds"
+		}
+	# NATO
+		spriteType = {
+			name = "GFX_nato_unit_specialinfantry_icon_small"
+			texturefile = "gfx/texticons/nato_unit_motorized_icon_small.dds"
+			legacy_lazy_load = no
+		}
+	# 小图标
+		spriteType = {
+			name = "GFX_unit_specialinfantry_icon_small"
+			texturefile = "gfx/texticons/unit_motorized_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2		
+		}	
+  # 特种部队SP
+	# 中图标
+		spriteType = {
+			name = "GFX_unit_specialinfantrysp_icon_medium"
+			textureFile = "gfx/interface/counters/division_templates_large/custom_template_019.dds"
+		}
+	# 中图标
+		spriteType = {
+			name = "GFX_unit_specialinfantrysp_icon_medium_white"
+			textureFile = "gfx/interface/counters/division_templates_small/custom_template_019.dds"
+		}
+	# NATO
+		spriteType = {
+			name = "GFX_nato_unit_specialinfantrysp_icon_small"
+			texturefile = "gfx/texticons/nato_unit_motorized_icon_small.dds"
+			legacy_lazy_load = no
+		}
+	# 小图标
+		spriteType = {
+			name = "GFX_unit_specialinfantrysp_icon_small"
+			texturefile = "gfx/texticons/unit_motorized_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2		
+		}	
+
+  # 火箭
+		spriteType = {
+			name = "GFX_unit_rocketinfantry_icon_medium"
+			textureFile = "gfx/interface/counters/division_templates_large/rocketicon.dds"
+		}
+		spriteType = {
+			name = "GFX_unit_rocketinfantry_icon_medium_white"
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_rocket_artillery_icon.dds"
+			noOfFrames = 2
+		} # NEED Small icon
+
+  # 爆破
+		spriteType = {
+			name = "GFX_unit_bombinfantry_icon_medium"
+			textureFile = "gfx/interface/counters/division_templates_large/custom_template_029.dds"
+		}
+		spriteType = {
+			name = "GFX_unit_bombinfantry_icon_medium_white"
+			textureFile = "gfx/interface/counters/division_templates_small/custom_template_029.dds"
+		}
+  # 飞艇
+  	SpriteType = {
+		name = "GFX_airship_tech0_medium"
+		texturefile = "gfx/interface/technologies/airship.dds"
+	}	
+	SpriteType = {
+		name = "GFX_airship_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/airship.dds"
+	}
+  # 战术导弹
+	SpriteType = {
+		name = "GFX_tacticmissile_tech0_medium"
+		texturefile = "gfx/interface/technologies/experimental_rockets.dds"
+	}
+	SpriteType = {
+		name = "GFX_tactic_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/guided_missile_2.dds"
+	}	
+	
+  # 对空导弹
+	SpriteType = {
+		name = "GFX_aamissile_tech0_medium"
+		texturefile = "gfx/interface/technologies/experimental_rockets.dds"
+	}
+	SpriteType = {
+		name = "GFX_aa_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/guided_missile_2.dds"
+	}	
+  # 反舰导弹
+	SpriteType = {
+		name = "GFX_asmissile_tech0_medium"
+		texturefile = "gfx/interface/technologies/experimental_rockets.dds"
+	}
+	SpriteType = {
+		name = "GFX_as_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/guided_missile_2.dds"
+	}	
+  # 船-航母
+	SpriteType = {
+		name = "GFX_tech_carrier_5_medium"
+		texturefile = "gfx/interface/technologies/carrier_5.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_tech_carrier_6_medium"
+		texturefile = "gfx/interface/technologies/carrier_6.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_tech_carrier_7_medium"
+		texturefile = "gfx/interface/technologies/carrier_7.dds"
+		alwaystransparent = yes
+	}
+  # 船-驱逐
+	SpriteType = {
+		name = "GFX_tech_destroyer_5_medium"
+		texturefile = "gfx/interface/technologies/destroyer_5.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_tech_destroyer_6_medium"
+		texturefile = "gfx/interface/technologies/destroyer_6.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_tech_destroyer_7_medium"
+		texturefile = "gfx/interface/technologies/destroyer_7.dds"
+		alwaystransparent = yes
+	}
+  # 船-轻巡
+	SpriteType = {
+		name = "GFX_tech_light_cruiser_5_medium"
+		texturefile = "gfx/interface/technologies/light_cruiser_5.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_tech_light_cruiser_6_medium"
+		texturefile = "gfx/interface/technologies/light_cruiser_6.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_tech_light_cruiser_7_medium"
+		texturefile = "gfx/interface/technologies/light_cruiser_7.dds"
+		alwaystransparent = yes
+	}
+
+  # 运输机
+    SpriteType = {	#TECH
+		name = "GFX_jet_transport_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber3.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_transport_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber3.dds"
+	}
+
+	SpriteType = {	#TECH
+		name = "GFX_jet_transport2_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber4.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_transport_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber4.dds"
+	}
+  ## 新增飞机 ###
+	
+	SpriteType = {	#TECH
+		name = "GFX_jet_fighter3_medium"
+		texturefile = "gfx/interface/technologies/air/jet_fighter3.dds"
+	}	
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_fighter_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/air/jet_fighter3.dds"
+	}	
+	
+	SpriteType = {	#TECH
+		name = "GFX_jet_fighter4_medium"
+		texturefile = "gfx/interface/technologies/air/jet_fighter4.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_fighter_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/air/jet_fighter4.dds"
+	}
+	
+	SpriteType = {	#TECH
+		name = "GFX_jet_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/air/jet_strategic_bomber2.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_strat_bomber_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/air/jet_strategic_bomber2.dds"
+	}
+	
+	SpriteType = {	#TECH
+		name = "GFX_jet_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber3.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_tac_bomber_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber3.dds"
+	}
+
+	SpriteType = {	#TECH
+		name = "GFX_jet_tactical_bomber4_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber4.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_jet_tac_bomber_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/air/jet_tactical_bomber4.dds"
+	}
+	
+	SpriteType = {	#TECH
+		name = "GFX_CAS4_medium"
+		texturefile = "gfx/interface/technologies/air/CAS4.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_CAS_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/air/CAS4.dds"
+	}
+
+	SpriteType = {	#TECH
+		name = "GFX_cv_CAS4_medium"
+		texturefile = "gfx/interface/technologies/air/cv_CAS4.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_cv_CAS_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/air/cv_CAS4.dds"
+	}
+
+	SpriteType = {	#TECH
+		name = "GFX_CAS5_medium"
+		texturefile = "gfx/interface/technologies/air/CAS5.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_CAS_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/air/CAS5.dds"
+	}
+
+	SpriteType = {	#TECH
+		name = "GFX_cv_CAS5_medium"
+		texturefile = "gfx/interface/technologies/air/cv_CAS5.dds"
+	}
+
+	SpriteType = {	#EQ
+		name = "GFX_cv_CAS_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/air/cv_CAS5.dds"
+	}
+}
