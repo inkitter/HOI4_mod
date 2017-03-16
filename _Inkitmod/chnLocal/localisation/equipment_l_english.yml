@@ -37,7 +37,7 @@
  support_equipment_desc:0 "无线电，吉普车，浮桥等装备用于支援部队."
  support_equipment_1:0 "支援装备"
  support_equipment_1_desc:0 "无线电，吉普车，浮桥等装备用于支援部队."
- EQUIPMENT_DESIGNER_DESC:0 "Designed by: $DESIGNER|Y$"
+ EQUIPMENT_DESIGNER_DESC:0 "设计者: $DESIGNER|Y$"
  EQUIPMENT_ARMOR:0 "装甲"
  EQUIPMENT_MOTORIZED:0 "机动化装备"
  EQUIPMENT_MECHANIZED:0 "机械化装备"
@@ -65,7 +65,7 @@
  EQUIPMENT_NAVAL:0 "海战装备"
  EQUIPMENT_AIR:0 "空战装备"
  EQUIPMENT_VERSION:0 "Mk$VERSION|0$"
- EQUIPMENT_VEHICLE:0 "Vehicle"
+ EQUIPMENT_VEHICLE:0 "车辆"
  UNIT_GENERIC_NAME_GENERIC_INFANTRY:0 "$NR$. $NAME$"
  UNIT_GENERIC_NAME_GER:0 "$NR$. $NAME$"
  UNIT_GENERIC_NAME_FRA:0 "$NR$ème $NAME$"
@@ -83,10 +83,10 @@
  GER_EQUIPMENT_VERSION_8:0 "H"
  GER_EQUIPMENT_VERSION_9:0 "I"
  GER_EQUIPMENT_VERSION_10:0 "J"
- GER_EQUIPMENT_VERSION_11:0 "J"
- GER_EQUIPMENT_VERSION_12:0 "K"
- GER_EQUIPMENT_VERSION_13:0 "L"
- GER_EQUIPMENT_VERSION_14:0 "M"
+ GER_EQUIPMENT_VERSION_11:0 "K"
+ GER_EQUIPMENT_VERSION_12:0 "L"
+ GER_EQUIPMENT_VERSION_13:0 "M"
+ GER_EQUIPMENT_VERSION_14:0 "N"
  GER_EQUIPMENT_VERSION_15:0 "O"
  GER_EQUIPMENT_VERSION_16:0 "P"
 
@@ -1371,7 +1371,7 @@
  heavy_tank_equipment:0 "重型坦克"
  heavy_tank_equipment_desc:0 "重型坦克是一个大型装甲怪兽，用于摧毁敌方坦克及工事."
  heavy_tank_equipment_1:0 "重型坦克 I"
- heavy_tank_equipment_1_short:0 "H. Tank I"
+ heavy_tank_equipment_1_short:0 "重坦 I"
  heavy_tank_equipment_1_desc:0 "重型坦克是一个大型装甲怪兽，用于摧毁敌方坦克及工事."
  GER_heavy_tank_equipment_1:0 "大型拖拉机"
  GER_heavy_tank_equipment_1_short:0 "大型拖拉机"
@@ -1644,7 +1644,7 @@
  USA_mechanized_equipment_2_short:0 "M3 Half-Track"
  USA_mechanized_equipment_3:0 "M5 Half-Track"
  USA_mechanized_equipment_3_short:0 "M5 Half-Track"
-
+ 
  JAP_mechanized_equipment_1:0 "Type 1 Ho-Ki"
  JAP_mechanized_equipment_1_short:0 "Type 1 Ho-Ki"
  JAP_mechanized_equipment_2:0 "Type 1 Ho-Ha"
@@ -1707,14 +1707,14 @@
  AST_mechanized_equipment_2_short:0 "Universal Carrier"
  AST_mechanized_equipment_3:0 "Windsor Carrier LP"
  AST_mechanized_equipment_3_short:0 "Windsor Carrier"
- 
+
  SAF_mechanized_equipment_1:0 "Bren Carrier LP"
  SAF_mechanized_equipment_1_short:0 "Bren Carrier"
  SAF_mechanized_equipment_2:0 "Universal Carrier LP"
  SAF_mechanized_equipment_2_short:0 "Universal Carrier"
  SAF_mechanized_equipment_3:0 "Windsor Carrier LP"
  SAF_mechanized_equipment_3_short:0 "Windsor Carrier"
-
+ 
  NZL_mechanized_equipment_1:0 "Bren Carrier LP"
  NZL_mechanized_equipment_1_short:0 "Bren Carrier"
  NZL_mechanized_equipment_2:0 "Universal Carrier LP"
@@ -1728,7 +1728,7 @@
  ITA_mechanized_equipment_2_short:0 "Fiat 727"
  ITA_mechanized_equipment_3:0 "Breda 61"
  ITA_mechanized_equipment_3_short:0 "Breda 61"
- 
+
  anti_air_equipment:0 "防空炮"
  anti_air_equipment_short:0 "防空炮"
  anti_air_equipment_desc:0 "指用以从地面向空中目标射击的火炮，高射炮的特征是炮管长、射击准确、射速高、通常可360度回转，主要对付空中目标，口径一般不超过128毫米."
@@ -1736,12 +1736,12 @@
  anti_tank_equipment_short:0 "反坦克炮"
  anti_tank_equipment_desc:0 "反坦克炮，又称“战车防御炮”，是指主要使用穿甲弹摧毁坦克或其他装甲目标的火炮."
 
-
+#anti-tank
  FRA_anti_tank_equipment_1:0 "Canon de 25 mm"
  FRA_anti_tank_equipment_1_short:0 "Canon de 25 mm"
  FRA_anti_tank_equipment_2:0 "47mm SA 37"
  FRA_anti_tank_equipment_3:0 "Canon de 76 mm modèle 1943"
-#anti-tank
+ 
  CZE_anti_tank_equipment_1:0 "3,7cm KPÚV vz. 34"
  CZE_anti_tank_equipment_1_short:0 "3,7cm KPÚV vz. 34"
  CZE_anti_tank_equipment_2:0 "4,7cm KPÚV vz. 38"
@@ -1770,12 +1770,12 @@
  NZL_anti_tank_equipment_1_short:0 "QF 2-pounder"
  NZL_anti_tank_equipment_2:0 "QF 6-pounder"
  NZL_anti_tank_equipment_3:0 "QF 17-pounder"
- 
+
  SAF_anti_tank_equipment_1:0 "QF 2-pounder"
  SAF_anti_tank_equipment_1_short:0 "QF 2-pounder"
  SAF_anti_tank_equipment_2:0 "QF 6-pounder"
  SAF_anti_tank_equipment_3:0 "QF 17-pounder"
-
+ 
  GER_anti_tank_equipment_1:0 "3,7 cm PaK 36"
  GER_anti_tank_equipment_1_short:0 "3,7 cm PaK 36"
  GER_anti_tank_equipment_2:0 "7,5 cm PaK 40"
@@ -1840,17 +1840,17 @@
  CHI_anti_tank_equipment_1_short:0 "37mm Type 14"
  CHI_anti_tank_equipment_2:0 "37 mm Type 30"
  CHI_anti_tank_equipment_3:0 "75 mm Type 43"
- 
+
  anti_air_equipment_1:0 "防空炮"
  anti_air_equipment_1_short:0 "防空炮"
  anti_air_equipment_1_desc:0 "指用以从地面向空中目标射击的火炮，高射炮的特征是炮管长、射击准确、射速高、通常可360度回转，主要对付空中目标，口径一般不超过128毫米."
-
  
+#anti-air
  FRA_anti_air_equipment_1:0 "Hotchkiss 25mm"
  FRA_anti_air_equipment_1_short:0 "Hotchkiss 25 mm"
  FRA_anti_air_equipment_2:0 "Schneider 37 mm"
  FRA_anti_air_equipment_3:0 "Canon de 75 CA modèle 1940"
-#anti-air
+ 
  GER_anti_air_equipment_1:0 "2 cm FlaK 30"
  GER_anti_air_equipment_1_short:0 "2 cm FlaK 30"
  GER_anti_air_equipment_2:0 "2 cm Flakvierling 38"
@@ -1885,12 +1885,12 @@
  NZL_anti_air_equipment_1_short:0 "QF 3-inch"
  NZL_anti_air_equipment_2:0 "QF 40 mm Bofors"
  NZL_anti_air_equipment_3:0 "QF 3.7-inch"
- 
+
  SAF_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
  SAF_anti_air_equipment_1_short:0 "QF 3-inch"
  SAF_anti_air_equipment_2:0 "QF 40 mm Bofors"
  SAF_anti_air_equipment_3:0 "QF 3.7-inch"
-
+ 
  ITA_anti_air_equipment_1:0 "Breda Model 35"
  ITA_anti_air_equipment_1_short:0 "Breda Model 35"
  ITA_anti_air_equipment_2:0 "Cannone-Mitragliera da 37/54"
@@ -1934,20 +1934,20 @@
  NOR_anti_air_equipment_1:0 "Colt mitraljöse m/29"
  NOR_anti_air_equipment_2:0 "40mm maskinkanon m/36"
  NOR_anti_air_equipment_3:0 "7.5 cm luftvernkanon m/32"
- 
+
  anti_tank_equipment_1:0 "拖曳式反坦克炮"
  anti_tank_equipment_1_short:0 "反坦克炮"
  anti_tank_equipment_1_desc:0 "反坦克炮，又称“战车防御炮”（即“反击坦克炮”，英文作反坦克炮 gun，德文则称为Panzerabwehrkanone，一般简写为PAK），是指主要使用穿甲弹摧毁坦克或其他装甲目标的火炮."
  artillery_equipment:0 "拖曳式火炮"
  artillery_equipment_short:0 "火炮"
  artillery_equipment_desc:0 "火炮发射大口径炮弹，例如加农炮和榴弹炮，在小口径武器射程外向敌方目标投射弹药."
-
  
+ #artillery
  FRA_artillery_equipment_1:0 "Canon de 75 modèle 1897"
  FRA_artillery_equipment_1_short:0 "Canon de 75 modèle 1897"
  FRA_artillery_equipment_2:0 "Canon de 105 L mle 1936"
  FRA_artillery_equipment_3:0 "Canon de 155mm GPF"
- #artillery
+ 
  CZE_artillery_equipment_1:0 "8 cm kanon vz. 30"
  CZE_artillery_equipment_1_short:0 "8 cm kanon vz. 30"
  CZE_artillery_equipment_2:0 "10.5 cm hruby kanon vz. 35"
@@ -1982,12 +1982,12 @@
  NZL_artillery_equipment_1_short:0 "QF 18-pounder"
  NZL_artillery_equipment_2:0 "QF 25-pounder"
  NZL_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
- 
+
  SAF_artillery_equipment_1:0 "QF 18-pounder"
  SAF_artillery_equipment_1_short:0 "QF 18-pounder"
  SAF_artillery_equipment_2:0 "QF 25-pounder"
  SAF_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
-
+ 
  USA_artillery_equipment_1:0 "75 mm Gun M1897"
  USA_artillery_equipment_1_short:0 "75 mm Gun M1897"
  USA_artillery_equipment_2:0 "105 mm M101A1"
@@ -2051,11 +2051,11 @@
  
  HUN_artillery_equipment_1:0 "1905 ös mintáju 8 cm"
  HUN_artillery_equipment_1_short:0 "8 cm M1905"
- 
+
  rocket_artillery_equipment:0 "拖曳式火箭发射器"
  rocket_artillery_equipment_short:0 "火箭炮"
  rocket_artillery_equipment_desc:0 "火箭炮或称喷进炮是炮兵装备的火箭弹射装置，通常为多发联装式，主要作为火箭弹的发射点火具，同时为火箭弹提供一定的初始射角和方向。由于火箭弹由自己携带的燃料通过发动机产生的推力飞行，该装置无须考虑像身管式火炮那样承担如巨大的后坐力等问题，故该装置较简单。并且能以大口径多发联装的方式提高发射速度和火力。主要配用杀伤爆破火箭弹以压制、杀伤有生目标和其他弱防护目标。由于火箭弹的口径比较大，发射时弹丸所受的加速度和撞击力较小，也可以发射特种火箭弹（如扫雷火箭、布雷火箭、照明火箭等）。相比于身管式火炮，火箭炮的火力密集度比较高。缺点是再装填速度慢、射击精度不如身管式火炮。但随着军事科学技术的发展，部分发达国家的军队已经装备了带有自动再装填设备的火箭弹运输/装填两用车辆，协同火箭炮一起作战；同时为火箭弹装备各种各样的制导装置来提高精度."
-
+ 
  GER_rocket_artillery_equipment_1:0 "28/32 cm Nebelwerfer 41"
  GER_rocket_artillery_equipment_1_short:0 "Nebelwerfer 41"
  GER_rocket_artillery_equipment_2:0 "21 cm Nebelwerfer 42"
@@ -2094,7 +2094,7 @@
  RAJ_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
  RAJ_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armor-Piercing"
  RAJ_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
- 
+
  artillery_equipment_1:0 "拖曳式火炮"
  artillery_equipment_1_short:0 "火炮"
  artillery_equipment_1_desc:0 "火炮发射大口径炮弹，例如加农炮和榴弹炮，在小口径武器射程外向敌方目标投射弹药."
@@ -2116,9 +2116,9 @@
  infantry_equipment_3:0 "步兵装备 III"
  infantry_equipment_3_short:0 "步兵装备 III"
  infantry_equipment_3_desc:0 "提供给步兵及班组成员的个人装备. 提供突击步枪和反坦克火箭弹."
-
  
  # small arms
+ 
  GER_infantry_equipment_0:0 "Gewehr 98"
  GER_infantry_equipment_0_short:0 "Gewehr 98"
  GER_infantry_equipment_1:0 "Karabiner 98k"
@@ -2133,7 +2133,7 @@
  GER_support_weapons2:0 "MG 34 & 5 cm Granatwerfer 36"
  GER_support_weapons3:0 "MG 42 & 8 cm Granatwerfer 34"
  GER_support_weapons4:0 "MG 45 & 12 cm Granatwerfer 42"
- 
+
  SOV_infantry_equipment_0:0 "M-N M1891/30"
  SOV_infantry_equipment_0_short:0 "M-N 1891/30"
  SOV_infantry_equipment_1:0 "SVT-38/40"
@@ -2332,7 +2332,7 @@
  SWI_infantry_equipment_2_short:0 "Hispano-Suiza MP43/44"
  SWI_infantry_equipment_3:0 "SIG MP46"
  SWI_infantry_equipment_3_short:0 "SIG MP46"
-
+ 
  SPR_infantry_equipment_0:0 "Mauser M93"
  SPR_infantry_equipment_0_short:0 "Mauser M93"
  SPR_infantry_equipment_1:0 "Destroyer Carbine"
@@ -2341,7 +2341,7 @@
  SPR_infantry_equipment_2_short:0 "Labora Fontbernat M38"
  SPR_infantry_equipment_3:0 "EMP-Coruña"
  SPR_infantry_equipment_3_short:0 "EMP-Coruña"
- 
+
  BEL_infantry_equipment_0:0 "Mauser M89"
  BEL_infantry_equipment_0_short:0 "Mauser M89"
  BEL_infantry_equipment_1:0 "Mauser M35"
@@ -2549,7 +2549,7 @@
  ARG_infantry_equipment_3:0 "Halcón M-43"
  ARG_infantry_equipment_3_short:0 "Halcón M-43"
 
- 
+
 
  tank_armor_upgrade:0 "装甲"
  tank_armor_upgrade_desc:0 "给坦克提供更好的保护，但是会拖慢行进速度."
@@ -2613,7 +2613,7 @@
  plane_tac_bomb_upgrade_desc:0 "更大的炸弹需要更大的载弹量."
  plane_cas_upgrade:0 "攻击效率"
  plane_cas_upgrade_desc:0 "更好的武器来攻击地面目标"
- ACTUAL_EQUIPMENT_HEADER:0 "\n\nEquipment:\n"
+ ACTUAL_EQUIPMENT_HEADER:0 "\n\n装备:\n"
  ACTUAL_EQUIPMENT_ENTRY:0 " - $NUM|Y0$ of $NAME|Y$"
  ACTUAL_EQUIPMENT_ENTRY_PERCENT:0 " - $NUM|Y0%$ from their production of $NAME|Y$"
  REQUESTED_REINFORCEMENT_DELIVERING_TO:0 "\n交付给 $UNIT|Y$ ($PROG|G%$):"
