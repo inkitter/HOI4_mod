@@ -1,0 +1,224 @@
+﻿l_english:
+
+ news.1.per.d:0 "[From.GetLeader]向波斯湾地区的穆斯林民众宣布，[From.GetName]正式将海湾周边土地整体主张为[From.GetName]的合法领土。\n\n[From.GetName]通过一份官方声明明确了这项要求，以及在必要情况下以武力手段取得这片领土的可能性。"
+ news.1.per.t:0 "伊朗声索波斯湾"
+ news.1.per.a:0 "这片领土是英帝国的保护领地！"
+ news.1.per.b:0 "他们在扰乱这片地区已然脆弱的平衡。"
+ news.1.per.c:0 "荒谬透顶。"
+ 
+ news.3.per.d:0 "同盟国在绝望中尝试寻找新的支援盟友的途径，他们为此在伊朗付出了巨大投入。"
+ news.3.per.t:0 "同盟国建立波斯走廊"
+ news.3.per.a:0 "绝望的时刻下绝望的做法。"
+ news.3.per.b:0 "波斯人同意了建立走廊。"
+ news.3.per.c:0 "我们需要对此作出决定。"
+ 
+ persia.1.t:0 "伊朗的主权要求"
+ persia.1.d:0 "波斯帝国正在为了索要我们的中东的领土向我们施压！他们露骨地表达了将其强行兼并的意图，但我们几乎无法抵抗他们部署在我们边境的大军。"
+ persia.1.a:0 "我们除了接受外别无选择……"
+ persia.1.b:0 "想要我们的土地，就靠武力来拿吧！"
+
+ persia.2.t:0 "法国拒绝了我们的要求"
+ persia.2.d:0 "法国不知天高地厚地拒绝了我们的需求！这些躲在巴黎的只会拍马屁的帝国主义者进一步地要求我们“尊重他们的领土完整”，这简直是奇耻大辱！"
+ persia.2.a:0 "那我们就要用力量拿到它。"
+ 
+ news.500.t:0 "[FRA.GetNameDef]接受了波斯的要求"
+ news.500.d:0 "经历了漫长的辩论之后，[FRA.GetNameDef]政府决定接受波斯人对叙利亚地区领土的要求。\n\n[PER.GetNameDef]正一步步践行了他们统一其历史领土和全体穆斯林人民的意愿。"
+ news.500.a:0 "和平收场。但为此付出的代价呢？"
+ news.500.b:0 "现在可以着眼于另一个目标了。"
+ news.500.c:0 "我们别无选择，比起殖民地来说，法国本土对我们来说更为重要。"
+ news.500.f:0 "我们的盟友展现了他们的力量！"
+ 
+ news.501.t:0 "[FRA.GetNameDef]驳回了波斯的要求"
+ news.501.d:0 "伊朗外交官向[FRA.GetNameDef]提出了最后通牒，要求其割让叙利亚地区的领土。\n\n尽管伊朗在伊叙边境集结了大量军队，巴黎依然拒绝了他们的要求，并声明“法国没有任何一寸土地是可以拱手让给波斯侵略者的”。\n\n国际观察员担忧伊朗对叙利亚的武力入侵已迫在眉睫。"
+ 
+ news.501.a:0 "这件事不会就此平息。"
+ news.501.b:0 "他们不该拒绝我们的要求。"
+ news.501.c:0 "我们必须准备好保卫疆土了。"
+ news.501.f:0 "他们迟早会承认自己犯下的错误。"
+
+ persia.3.t:0 "内战！"
+ persia.3.d:0 "我国过于激进的社会变革引发了强烈反弹！保王派、民主派、法西斯主义者和共产主义者围绕政治话语权与实际权力的竞争已经浮上台面，我们必须要遏止这个势头，让国家重回正轨！"
+ persia.3.a:0 "为了荣誉前进！"
+ 
+ reformation_chosen:0 "走向改革"
+ iranian_civil_war:0 "伊朗内战"
+ reformist_victory:0 "改革派胜利"
+ 
+ news.502.t:0 "伊朗内战"
+ news.502.d:0 "伊朗爆发了内战！一些强大的政治实体在政府内部推行了激进的改革以图改变国内的旧有秩序。大部分的伊朗军队已经响应号召，宣誓效忠国王。决定伊朗命运的战争开始了！"
+ news.502.a:0 "这对伊朗意味着什么？"
+ news.502.b:0 "为了国王！"
+
+ news.503.t:0 "伊朗内战的结束"
+ news.503.d:0 "随着最后一座由保王派占据的要塞的投降，伊朗内战结束了。\n\n民族主义者取得了胜利，属于伊朗的新纪元开始了。\n\n饱受战火洗礼的国家已经承受了太多，大量的重建工作正等待完成。"
+ news.503.a:1 "有趣的进展。"
+ news.503.b:0 "现在该治愈我们的祖国了。"
+ 
+ news.504.t:0 "卡尔巴拉的陷落"
+ news.504.d:0 "什叶派圣城卡尔巴拉已被我们所控制，同时，我们也保证了前往阿舒拉节的朝圣者的安全。这是一个哀悼与反思的节日，愿侯赛因（伊斯兰教先知穆罕默德的外孙）的殉难给予我们启示。"
+ news.504.a:1 "我们迎来了一个神圣的日子。"
+ 
+ news.505.t:0 "征服麦加"
+ news.505.d:0 "圣城麦加已在波斯人的管理之下。对于团结伊斯兰世界的进程来说，这是一个巨大的进展。[PER.GetLeader]在圣城中发表了演说，申明这只是统一伊斯兰世界与驱逐外国势力的其中一步。此刻定将被历史所铭记。"
+ news.505.a:1 "安拉胡阿克巴！"
+ news.505.b:1 "有趣的进展。"
+
+ news.506.t:0 "英国放弃英伊石油公司"
+ news.506.d:0 "冲击性的新闻！[PER.GetLeader]声明伊朗人民已经无法忍受英帝国主义对伊朗人民的贪婪行为。\n\n[PER.GetLeader]通过一份官方声明宣布了这项主张，并明确申告其绝不惧怕任何报复。英国官方表示，由于总体紧张的国际形势，英国不愿也不能继续围绕伊朗油田寻求利益。"
+ news.506.a:0 "未来属于我们！"
+ news.506.b:0 "这只是一个小小的挫折。"
+ news.506.c:0 "民族自决的趋势在成长。"
+ 
+ news.507.t:0 "英国对伊朗油田的现状做出了反制"
+ news.507.d:0 "冲击性的新闻！[PER.GetLeader]声明伊朗人民已经无法忍受英帝国主义对伊朗人民的贪婪行为。\n\n[PER.GetLeader]通过一份官方声明宣布了这项主张，并明确申告其绝不惧怕任何报复。英国官方表示，他们不会对伊朗近期的行为坐视不管。"
+ news.507.a:0 "未来属于我们！"
+ news.507.b:0 "他们会受到惩罚。"
+ news.507.c:0 "民族自决的趋势在成长。"
+ 
+ news.508.t:0 "也门和阿曼的命运"
+ news.508.d:0 "[PER.GetLeader]声明伊朗确信也门和阿曼的人民希望能成为波斯帝国的一部分，伊朗政府是能够提供他们所渴望的安全与自由的唯一人选。\n\n一份官方声明已经宣布了这项主张，并明确申告[PER.GetLeader]绝不惧怕任何报复。"
+ news.508.a:0 "未来属于我们！"
+ news.508.c:0 "这意味着什么？"
+ 
+ news.509.t:0 "The Fall of Baku"
+ news.509.d:0 "Earlier today, Persian forces successfully occupied the city of Baku, a vital strategic objective in their war against the Soviet Union. \n\nLocated on the shores of the Caspian Sea, the city is the key to the Caucasus, and its many oil fields are sure to benefit the Persian war effort.\n\nIts capture puts Persia in a position to expand the war further into Russia and possibly even Eastern Europe."
+ news.509.a:0 "Another victory for Persia."
+ 
+ news.510.t:0 "The Fall of Cairo"
+ news.510.d:0 "Forces from the Persian Armed Forces have fought their way to Cairo, the capital city of Egypt. \n\nAs Allied forces retreated further into the desert in disarray, Persian soldiers marching through Cairo were cheered as liberators by many citizens who had come to view the British as oppressors.\n\nThe fall of Cairo is a significant loss to the Allied war effort, and several experts have speculated that all of Africa now lies open to Persian conquest."
+ 
+ news.511.t:0 "The Fall of Washington"
+ news.511.d:0 "Fighting in the area of Washington D.C. came to an end today, when the last pockets of resistance in the city were eliminated by Persian forces advancing along the Potomac. \n\nA dense layer of smoke hangs over the city, and at least some of it reportedly comes from OSS agents who were burning sensitive documents up until the very last moment. A SAVAK detachment secured the White House after a brief firefight with members of the US Secret Service, but it is believed that the President was safely evacuated several days ago.\n\nThe fall of the American capital illustrates the terrible might of the Persian war machine."
+ 
+ news.512.t:0 "The Fall of New York"
+ news.512.d:0 "After hours of street warfare, much of it reportedly against armed irregulars, Persian spearheads have advanced into New York City and taken control of the city. \n\nImprovised anti-tank barriers placed along Fifth Avenue proved ineffective, and Sepaah Brigades fought their way through Manhattan, block by block.\n\nFires have been raging out of control in the eastern parts of the city for several days now, lighting up the skyline at night. \n\nThe Statue of Liberty was decapitated by a stray artillery round, though which side fired it remains a matter of dispute."
+ 
+ news.513.t:0 "The Fall of Gibraltar"
+ news.513.d:0 "After several conflicting reports, it has now been confirmed that Gibraltar has fallen to Persia. \n\nThis strategic port city guards the entrance to the Mediterranean, and it was widely regarded as impregnable before the war started. The British garrison retreated into the tunnels running underneath the Rock, but were eventually dislodged by flamethrowers and grenades. \n\nWith Gibraltar in Persian hands, there has been a dramatic shift in power in the Battle of the Mediterranean."
+ 
+ news.514.t:0 "The Fall of Singapore"
+ news.514.d:0 "Singapore, the 'Gibraltar of the East,' has been seized by Persian Forces despite having been considered an impregnable fortress by its former British owners.\n\nThe Persian Military Administration of Singapore has chosen the Fullerton Building as its headquarters. The Sepaah can be seen patrolling the streets en masse to hammer in the message that the Persians are here to stay."
+ news.514.b:0 "For Persia!"
+ 
+ news.515.t:0 "The Fall of Ankara"
+ news.515.d:0 "Earlier today, Persian forces successfully occupied the city of Ankara, a vital strategic objective in their war against Turkey. \n\nLocated in the center of Asia Minor, the city is the key to the Persian route to Europe.\n\nIts capture puts Persia in a position to expand the war further into the Mediterranean."
+ 
+ news.516.t:0 "Crossing of the Bosphorus"
+ news.516.d:0 "After several conflicting reports, it has now been confirmed that Istanbul has fallen to Persia. \n\nThis strategic port city guards the entrance to the Mediterranean and Black Sea, and it was widely regarded as impregnable before the war started. The Turkish garrison retreated into the tunnels running underneath the city, but were eventually dislodged by flamethrowers and grenades. \n\nWith Istanbul in Persian hands, there has been a dramatic shift in power in the Battle of the Mediterranean & Black Sea."
+ 
+ news.517.t:0 "The Fall of Kiev"
+ news.517.d:0 "Kiev, capital of the Ukrainian SSR, has been captured by the advancing Persian armies in the Soviet Union. \n\nThe capture of one of their most important cities is a serious blow to the Soviets, but the question still remains whether the Persians can keep up their momentum. Moments after the Persians had occupied the city, thousands of mines planted by the NKVD were apparently detonated in buildings along the Khreshchatyk main street, causing even more damage to the already ruined city.\n\nNow the invading forces look to the west."
+ 
+ news.518.t:0 "The Fall of Stalingrad"
+ news.518.d:0 "Advancing Persian spearheads have seized Stalingrad, Stalin's namesake city on the banks of the Volga. \n\nAfter fighting their way through the ruined Stalingrad Tractor Factory and seizing the strategically vital Mamayev Kurgan heights, the Persians have forced the last Soviet defenders across the Volga to its eastern shore. According to unconfirmed reports, holdouts from the Red Army fighting together with partisans have retreated into sewers and basements to continue their struggle. \n\nNo significant organized resistance is believed to remain, however."
+ 
+ news.519.t:0 "The Fall of Moscow"
+ news.519.d:0 "At dawn today, Persian tanks smashed through hastily erected barriers on the streets of Moscow and half-tracks were seen unloading Sepaah Brigades on Red Square. \nThick, billowing smoke from the many fires raging in the suburbs could be seen rising into the air as Persian infantry stormed the Kremlin. Grenades and flamethrowers were reportedly needed to fight stubborn NKVD holdouts intent on defending every inch of the complex. The Russian capital is now in Persian hands, but has been left a burning ruin. \n\nUnconfirmed reports indicate Lenin's embalmed corpse was safely evacuated east."
+ news.519.a:0 "Is this the end of the Soviet Union?"
+ news.519.b:0 "At last, Moskau is ours!"
+ news.519.c:0 "The fascists must be driven from Moscow!"
+ 
+ news.520.t:0 "The Fall of Sevastopol"
+ news.520.d:0 "The heavily fortified city of Sevastopol, base of the Soviet Black Sea Fleet, has finally succumbed to Persian attacks. \n\nIts loss will severely hamper any Soviet attempt to contest the Black Sea, and the fall of the city is regarded as a significant Persian victory.\n\nAn edict has already been issued from Tehran, stating that the city shall henceforth be known as 'Koroosh-shahr' after Cyrus the Great."
+ 
+ news.521.t:0 "波斯拒绝英国访问"
+ news.521.d:0 "Early in the morning [PER.GetLeader] stated that the Iranian people will not accept the unreasonable demands of the British; that Iranian land will not host foreign entities. \n\nAn official statement reitered the statement, making it clear that [PER.GetLeader] is not afraid of retaliation. British officials have stated that the recent Persian actions will not go unpunished."
+ news.521.a:0 "未来属于我们！"
+ news.521.b:0 "我们不能让这逍遥法外！"
+ news.521.c:0 "Self determination is a growing trend"
+ 
+ news.522.t:0 "波斯接受英国的要求"
+ news.522.d:0 "Early in the morning [PER.GetLeader] stated that Iran will accept the requests of the British and remove all military forces from Iranian Oil Fields and promise to uphold their end of the deal. \n\nBritish officials have stated that the outcome of this deal with greatly benefit the people of England and Persia."
+ news.522.a:0 "我们别无选择…"
+ news.522.b:0 "太棒了！"
+ news.522.c:0 "British dominatition grows."
+ 
+ persia.4.t:0 "海归精英"
+ persia.4.d:0 "我们的精英子弟前往诸如法国、英国、澳大利亚和美国这样的国家留学。他们带着自由的思想与信念归国，并且试图将他们新的意识形态付诸行动。如果这一趋势继续下去，我们也许会见证社会剧变的形成。"
+ persia.4.a:0 "如果他们只重视他们自己的文化……"
+
+ persia.5.t:0 "苏联特工"
+ persia.5.d:0 "苏联人在吉兰省策动的“丛林行动”在几十年之后依然残留着影响。苏联的长期特工在向伊朗境内输入翻译过的共产主义小册子，并且播出广播节目以宣传他们的观点。软弱的下层民众正在被他们的意识形态所蒙骗。"
+ persia.5.a:0 "基层的的运动也许是不可预料的。"
+
+ persia.6.t:0 "净化之夜"
+ persia.6.d:0 "年轻的民族主义者正聚集于全国的大学中，颂唱着“Esteghlal, Azadi, Dolat-e Irani”（独立、自由、政府）的口号。由于煽动家的言辞所刺激，我们的社会被推到了刀尖之上，可见的是这个夜晚将永远改变我们的历史。抱有相对意识形态的社会精英表达了合理的担忧，一次小小的煽动使得今晚成为了波斯有史以来最血腥的晚上。"
+ persia.6.a:0 "把我们的社会自衰落中净化！"
+ persia.6.b:0 "也许我们应该采取更温和的做法……"
+ 
+ persia.7.t:0 "《领袖报》成立"
+ persia.7.d:0 "共产主义者已经占据了议会中的大多数席位，由此在我国的政治体制内取得了足够的立足之处。由此，他们建立了自己的喉舌媒体《领袖报》（Rahbar）"
+ persia.7.a:0 "为“领袖”而欢呼！"
+ 
+ persia.8.t:0 "《世界报》成立"
+ persia.8.d:0 "民主主义分子已经占据了议会中的大多数席位，由此在我国的政治体制内取得了足够的立足之处。由此，他们建立了自己的喉舌媒体《世界报》（Kayhan）。"
+ persia.8.a:0 "嗯，出版自由。"
+
+ persia.9.t:0 "学运爆发"
+ persia.9.d:0 "年轻人们渴望改变，他们渴望力量与权威。一个更光明的未来需要一个更强大的伊朗！"
+ persia.9.a:0 "同一条血脉，同一个帝国！"
+ 
+ persia.10.t:0 "德黑兰大学"
+ persia.10.d:0 "作为几代社会精英前往西方国家留学的后果，我国的精英阶层已经出现了所谓“西方国家的优越性”的认知。通过建立真正立足本土的精英教育，我们就能扭转潮流并修复其造成的危害，让持续数代的脑力流失停止。"
+ persia.10.a:0 "一刻不停地学习。"
+ 
+ persia.11.t:0 "伊朗的命运"
+ persia.11.d:0 "波斯人撕毁了协议，将我们的石油企业收归国有，由此我国在伊朗乃至周边地区的影响力都会被削弱。现在整个世界都在注视着我们的反应……"
+ persia.11.a:0 "我们注定无计可施。"
+ persia.11.b:0 "惩罚他们！"
+ 
+ persia.12.t:0 "也门和阿曼的命运"
+ persia.12.d:0 "我们已经控制了包括圣城麦加和麦地那在内的阿拉伯半岛大部。波斯人在此之前从未占据过这片土地，但我们的使命不仅仅在于不停追寻先祖的道路，甚至有机会把帝国扩大到前所未有的地步。我们可以统一所有穆斯林的土地！"
+ persia.12.a:0 "不，我们无能为力。"
+ persia.12.b:0 "准备战斗。"
+ 
+ persia.13.t:0 "阿富汗的光复"
+ persia.13.d:0 "伊朗人民与诸多阿富汗人民正要求统一。阿富汗人和伊朗人非常相似，他们和我们一样说波斯语，他们中的大多数也属于波斯民族。而他们堕落而被西方控制的政府不希望统一，这让我们别无选择。"
+ persia.13.a:0 "随他们去吧。"
+ persia.13.b:0 "我们要顺应人民的愿望！"
+ 
+ persia.14.t:0 "库尔德人的加入"
+ persia.14.d:0 "库尔德人是一群如我们一般高尚的人民！他们的语言比我们更加纯正，他们的血统和我们同出一源。伊朗是属于所有伊朗人的国家，是时候让我们迷路的兄弟们回家了！"
+ persia.14.a:0 "兄弟们，欢迎回家！"
+ 
+ persia.15.t:0 "停止对外出口！"
+ persia.15.d:0 "The intellectual elite of our party have been discussing the possibility of changing our countries economic policies. They state that we are being taken advantage of in the international stage on trade, we need to keep our resources in our land and keep our people employed. We need to achieve autarky! Persia only relies on Persia, Persia only provides for Persia!"
+ persia.15.a:0 "什么都不做"
+ persia.15.b:0 "也许妥协。"
+ persia.15.c:0 "改变我们的经济！"
+ 
+ persia.16.t:0 "Etelaat Take-over"
+ persia.16.d:0 "Fascist sympathizers have stormed the building of "Etelaat" the oldest newspaper in the country. Fascist ideaologs and demagogues have started controlling the message of the newspaper to spread their beliefs in the most popular and mainstream newspaper of the country."
+ persia.16.a:0 "印刷中的真相！"
+ 
+ persia.17.t:0 "阿塞拜疆设立"
+ persia.17.d:0 "The Azeris are culturally Persian, we share the same Shi'ite heritage and legacy of Shah Ismail I. They where ripped away from us by the savage godless Slavs, it is time to bring back our lost brothers!"
+ persia.17.a:0 "欢迎回家兄弟！"
+ 
+ persia.18.t:0 "Tajik & Uzbek Incorporation"
+ persia.18.d:0 "The Tajiks are Iranic people, they speak Farsi and follow Islam, they are the legacy of Persian civilization furthest to the east. Uzbekistan was once the seat of Persian control in Central Asia after the Islamic Conquest, Persians flocked to the open fields and built grand cities, a testament to our great people! Over the years savage Turks and Mongols took control from us, but now like a vengeful Angel we have come with divine fury to purge the degenerates and take back our land!"
+ persia.18.a:0 "欢迎回家兄弟！"
+ 
+ persia.19.t:0 "高加索并入"
+ persia.19.d:0 "Armenians have been historically seen as lost brothers to the Persians, western linguists put Armenian in the same language family as Farsi. The strongest Armenian dynasty ever was the Afsharids, a Persian blood dynasty, and for countless centuries Armenia was a vassal of Persian Empires, they are honorary Persians!"
+ persia.19.a:0 "欢迎回家兄弟！"
+ 
+ persia.20.t:0 "努力扩大开采"
+ persia.20.d:0 "Our engineers and surveryors have gained valuable experience in our first push for resource discovery. They now feel confident enough to search even further to find what else awaits us!"
+ persia.20.a:0 "寻找钨"
+ persia.20.b:0 "寻找铝"
+ persia.20.c:0 "寻找钢"
+ 
+ persia.21.t:0 "需要新首都"
+ persia.21.d:0 "The city of Tehran is far too liberal for our tastes ; there are far too many political factions, minor ethnic groups and royalist sympathizers. We believe the best path forward for our glorious nation is moving our nation to countries old capital of Isfahan, where we have overwhelming support."
+ persia.21.a:0 "迁都"
+ persia.21.b:0 "这是浪费时间。"
+ 
+ persia.22.t:0 "油田的敌对行动"
+ persia.22.d:0 "The British believe that their interests in the Persian Gulf is dependant on them continuing to enjoy sole drilling rights in our oil fields. They have sent us an offer, they wish to establish a non-military zone in the souther coast of our country, and in return they will give us their gurantee of non-aggresion. If we refuse they will have no choice but to take matters into their own hands."
+ persia.22.a:0 "拒绝"
+ persia.22.b:0 "投降"
+ 
+ 
+ 
+#Added_Line_Nombers: 83,84,85,87,88,90,91,93,94,96,97,99,100,101,103,104,106,107,109,110,112,113,115,116,117,118,119,121,122,124,125,126,127,128,130,131,132,133,134,160,164,169,174,179,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,

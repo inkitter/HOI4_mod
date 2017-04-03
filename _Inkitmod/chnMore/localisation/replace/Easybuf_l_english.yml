@@ -1,6 +1,6 @@
 ﻿l_english:
  Zcheat_idea:0 "作弊"
- 
+
  cheat_construction:0 "建设"
  cheat_technology:0 "科技"
  cheat_politics:0 "政治"
@@ -14,33 +14,33 @@
  cheat_construction_lv3:0 "Lv3建设"
  cheat_construction_insane:0 "疯狂建设"
 
- cheat_technology_lv1:0 "Lv1科技" 
- cheat_technology_lv2:0 "Lv2科技" 
- cheat_technology_lv3:0 "Lv3科技'" 
- cheat_technology_insane:0 "疯狂科技" 
+ cheat_technology_lv1:0 "Lv1科技"
+ cheat_technology_lv2:0 "Lv2科技"
+ cheat_technology_lv3:0 "Lv3科技"
+ cheat_technology_insane:0 "疯狂科技"
 
 
- cheat_politics_lv1:0 "Lv1政治" 
- cheat_politics_lv2:0 "Lv2政治" 
- cheat_politics_lv3:0 "Lv3政治" 
- cheat_politics_insane:0 "疯狂政治" 
+ cheat_politics_lv1:0 "Lv1政治"
+ cheat_politics_lv2:0 "Lv2政治"
+ cheat_politics_lv3:0 "Lv3政治"
+ cheat_politics_insane:0 "疯狂政治"
 
 
- cheat_equipment_lv1:0 "Lv1装备" 
- cheat_equipment_lv2:0 "Lv2装备" 
- cheat_equipment_lv3:0 "Lv3装备" 
- cheat_equipment_insane:0 "疯狂装备" 
+ cheat_equipment_lv1:0 "Lv1装备"
+ cheat_equipment_lv2:0 "Lv2装备"
+ cheat_equipment_lv3:0 "Lv3装备"
+ cheat_equipment_insane:0 "疯狂装备"
 
- cheat_land_lv1:0 "Lv1陆军" 
- cheat_land_lv2:0 "Lv2陆军" 
- cheat_land_lv3:0 "Lv3陆军" 
- cheat_land_insane:0 "疯狂陆军" 
+ cheat_land_lv1:0 "Lv1陆军"
+ cheat_land_lv2:0 "Lv2陆军"
+ cheat_land_lv3:0 "Lv3陆军"
+ cheat_land_insane:0 "疯狂陆军"
  cheat_land_quicktrain:0 "快速训练"
 
- cheat_navyair_lv1:0 "Lv1海空" 
- cheat_navyair_lv2:0 "Lv2海空" 
- cheat_navyair_lv3:0 "Lv3海空" 
- cheat_navyair_insane:0 "疯狂海空" 
+ cheat_navyair_lv1:0 "Lv1海空"
+ cheat_navyair_lv2:0 "Lv2海空"
+ cheat_navyair_lv3:0 "Lv3海空"
+ cheat_navyair_insane:0 "疯狂海空"
 
  cheat_politics_buildinfra:0 "建筑升级"
  Easybuff.10:0 "建筑升级"
@@ -164,6 +164,13 @@
  Easybuff.61.a:0 "增加政治点数"
  Easybuff.61.c:0 "取消"
 
+ cheat_add_manpower:0 "增加人力"
+ Easybuff.62:0 "增加人力"
+ Easybuff.62.t:0 "增加人力"
+ Easybuff.62.d:0 "增加人力 (500,000)"
+ Easybuff.62.a:0 "增加人力"
+ Easybuff.62.c:0 "取消"
+
  cheat_politics_setcapital:0 "设置首都"
  Easybuffe.10:0 "设置首都"
  Easybuffe.10.t:0 "设置首都"
@@ -179,3 +186,4 @@
  Easybuffe.11.a:0 "增加"
  Easybuffe.11.b:0 "减少"
  Easybuffe.11.c:0 "取消"
+#Added_Line_Nombers: 167,168,169,170,171,172,181,

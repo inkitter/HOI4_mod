@@ -1,5 +1,5 @@
 ﻿l_english:
-# 陆军系列
+
  rocketinfantry:0 "火箭兵"
  rocketinfantry_equipment:0 "火箭筒"
  rocketinfantry_equipment_0:0 "试制型火箭筒"
@@ -29,7 +29,7 @@
  bomb_tech1:0 "爆破技术 I"
  bomb_tech2:0 "爆破技术 II"
  bomb_tech3:0 "爆破技术 III"
- 
+
  specialinfantry:0 "特种部队"
  spinfty_equipment:0 "特种部队装备"
  spinfty_equipment_0:0 "试制型特种部队装备"
@@ -42,7 +42,6 @@
  spinfty_equipment_3_desc:0 "这才是真正称手的武器。"
  specialinfantrysp:0 "指挥团"
  specialinfantrysp_desc:0 "指挥团可以给军队作战能力带来巨大提升"
-
 
  spec_teck0:0 "特种部队装备技术"
  spec_teck1:0 "特种部队装备研究 I"
@@ -67,14 +66,14 @@
  mpinf_tech2:0 "轻武器量产技术 II"
  mpinf_tech3:0 "轻武器量产技术 III"
 
-# 空军系列
- # 空艇
+
+
  airship:0 "飞艇"
  airship_tech0:0 "飞艇科技"
  airship_equipment:0 "飞艇"
  airship_equipment_1:0 "飞艇"
  airship_equipment_1_desc:0 "飞艇主要用于侦查，虽然它可以执行简单的轰炸任务……"
- # 导弹
+
  tactic_missile:0 "战术导弹"
  tacticmissile_tech0:0 "战术导弹技术"
  tactic_missile_equipment:0 "战术导弹技术"
@@ -83,17 +82,17 @@
  aa_missile:0 "对空导弹"
  aamissile_tech0:0 "对空导弹技术"
  aa_missile_equipment:0 "对空导弹"
- aa_missile_equipment_1:0 "对空导弹" 
- aa_missile_equipment_1_desc:0 "对空导弹有着极快的速度，主要用于拦截导弹与飞机，使用时务必注意它的消耗。" 
+ aa_missile_equipment_1:0 "对空导弹"
+ aa_missile_equipment_1_desc:0 "对空导弹有着极快的速度，主要用于拦截导弹与飞机，使用时务必注意它的消耗。"
  as_missile:0 "反舰导弹"
  asmissile_tech0:0 "反舰导弹技术"
  as_missile_equipment:0 "反舰导弹"
- as_missile_equipment_1:0 "反舰导弹" 
- as_missile_equipment_1_desc:0 "反舰导弹主要用于舰队与港口，使用时务必注意它的消耗速度。" 
+ as_missile_equipment_1:0 "反舰导弹"
+ as_missile_equipment_1_desc:0 "反舰导弹主要用于舰队与港口，使用时务必注意它的消耗速度。"
 
-# 建筑与资源系列
 
- PRODUCTION_MATERIALS_SECRETMATER:0 "神秘材料"  # 振金
+
+ PRODUCTION_MATERIALS_SECRETMATER:0 "神秘材料"
  secretmater:0 "神秘材料"
  secretfactory:0 "神秘材料工厂"
  secretfactory_desc:0 "§L新型神秘材料制造厂，用于制造秘密行动部队专用装备。\n这种新型材料或许可以用于各种装备的生产，提高它们的生产速度§!"
@@ -112,7 +111,7 @@
  buildingteam:0 "建筑工队"
  buildingteam_desc:0 "§L用于开启更多的建筑格子\n或许组建更多的建筑工队可以提高我们的建设速度，也许……还能扩张建筑用地§!"
 
- PRODUCTION_MATERIALS_knowledge:0 "知识"
+ PRODUCTION_MATERIALS_KNOWLEDGE:0 "Knowledge"
  local_resources_knowledge:0 "Knowledge"
  knowledge:0 "知识"
  schoolbuild:0 "学校"
@@ -132,11 +131,9 @@
  metalfactory:0 "钢铁工厂"
  metalfactory_desc:0 "可以生产一些钢铁。"
 
- dockyardp:0 "Provincial Dockyard"
- dockyardp_desc:0 "Provincial Dockyard"
+ dockyardp:0 "省造船厂"
+ dockyardp_desc:0 "省造船厂"
 
-# 海军系列
- # 扩展型
  early_carrierl:0 "高容量航母技术 I"
  basic_carrierl:0 "高容量航母技术 II"
  improved_carrierl:0 "高容量航母技术 III"
@@ -175,6 +172,25 @@
  battleshipl_2_desc:0 "虽然它有着巨型火炮，而且能搭载飞机，不过似乎它的成本与能力的比例……"
  battleshipl_3_desc:0 "虽然它有着巨型火炮，而且能搭载飞机，不过似乎它的成本与能力的比例……"
  battleshipl_4_desc:0 "虽然它有着巨型火炮，而且能搭载飞机，不过似乎它的成本与能力的比例……"
+
+
+ infantry_gun_upgrade:0 "攻击"
+ infantry_defense_upgrade:0 "防御"
+ infanrb_defense_upgrade:0 "防御"
+ infantry_breakthrough_upgrade:0 "突破"
+ infantry_antitank_upgrade:0 "穿甲"
+ artillery_gun_upgrade:0 "攻击"
+ artillery_hide_upgrade:0 "防御"
+ artillery_cost_upgrade:0 "花费"
+ anti_air_upgrade:0 "防空"
+ mechanized_def_upgrade:0 "防御"
+ mechanized_spd_upgrade:0 "速度"
+ mechanized_cost_upgrade:0 "花费"
+ mechanized_reliab_upgrade:0 "可靠"
+ support_cost_upgrade:0 "花费"
+ support_reliab_upgrade:0 "可靠"
+ PRODUCTION_MATERIALS_knowledge:0 "知识"
+
 
  # 新增
  destroyer_5:0 "轻型驱逐舰V"
@@ -242,18 +258,5 @@
  jet_strat_bomber_equipment_2_desc:0 "喷气式战略轰炸机II"
 
 # 升级
- infantry_gun_upgrade:0 "攻击"
- infantry_defense_upgrade:0 "防御"
- infanrb_defense_upgrade:0 "防御"
- infantry_breakthrough_upgrade:0 "突破"
- infantry_antitank_upgrade:0 "穿甲"
- artillery_gun_upgrade:0 "攻击"
- artillery_hide_upgrade:0 "防御"
- artillery_cost_upgrade:0 "花费"
- anti_air_upgrade:0 "防空"
- mechanized_def_upgrade:0 "防御"
- mechanized_spd_upgrade:0 "速度"
- mechanized_cost_upgrade:0 "花费"
- mechanized_reliab_upgrade:0 "可靠"
- support_cost_upgrade:0 "花费"
- support_reliab_upgrade:0 "可靠"
+#Added_Line_Nombers: 114,
+#Same_as_Eng_LineNum: 2,17,45,55,68,99,110,114,115,119,130,133,134,135,136,149,
