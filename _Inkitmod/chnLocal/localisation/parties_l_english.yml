@@ -431,35 +431,35 @@
  PAL_democratic_party_long:0 "穆斯林最高理事会"
  PAL_neutrality_party:0 "保皇党"
  ISR_communism_party:0 "以色列共产党"
- ISR_democratic_party:0 "以色列地工人党"
- ISR_fascism_party:0 "Helpam"
+ ISR_democratic_party:0 "以色列民主党"
+ ISR_fascism_party:0 "以色列独裁党"
  ISR_neutrality_party:0 "中央议会"
- VIN_fascism_party:0 "越南光复会" #or Reformation Society   
- VIN_democratic_party:0 "勤劳党" #formed in early 50s
- VIN_communism_party:0 "越南共产党" #Viet Minh was more important in early years
+ VIN_fascism_party:0 "越南光复会"
+ VIN_democratic_party:0 "勤劳党"
+ VIN_communism_party:0 "越南共产党"
  VIN_neutrality_party:0 "越南国民党"
  CAM_fascism_party:0 "高棉党"
- CAM_democratic_party:0 "民主党" #formed in 1946 
- CAM_communism_party:0 "柬埔寨共产党" # aka Khmer Communist Party or a different party Krom Pracheachon aka Krom
- CAM_neutrality_party:0 "社会主义人民共同体" # or just Sangkum 1955, democratic but right leaning and anti communist
- INS_fascism_party:0 "新秩序" #inspired by right wingers from 1960s
- INS_democratic_party:0 "印度尼西亚国家党" #Indonesian National Party founded by Sukarno
- INS_communism_party:0 "印度尼西亚共产党" #Partai Komunis Indonesia
- INS_neutrality_party:0 "民主党" #made up, in reality this guy was a member of PNI 
+ CAM_democratic_party:0 "民主党"
+ CAM_communism_party:0 "柬埔寨共产党"
+ CAM_neutrality_party:0 "社会主义人民共同体"
+ INS_fascism_party:0 "新秩序"
+ INS_democratic_party:0 "印度尼西亚国家党"
+ INS_communism_party:0 "印度尼西亚共产党"
+ INS_neutrality_party:0 "民主党"
  MAL_fascism_party:0 "泛大洋洲联合"
- MAL_democratic_party:0 "马来民族统一机构" #or UMNO or PEKEMBAR
- MAL_communism_party:0 "马来亚共产党" #or MCP
- MAL_neutrality_party:0 "马来青年协会" #or KMM 
+ MAL_democratic_party:0 "马来民族统一机构"
+ MAL_communism_party:0 "马来亚共产党"
+ MAL_neutrality_party:0 "马来青年协会"
  LAO_fascism_party:0 "部落中央化党"
  LAO_democratic_party:0 "民主党"
  LAO_communism_party:0 "巴特寮"
  LAO_neutrality_party:0 "保皇党"
  MNT_fascism_party:0 "绿党"
  MNT_democratic_party:0 "民主联合"
- MNT_communism_party:0 "黑山共产党" #or KPCG
- MNT_neutrality_party:0 "联邦党" # Montenegrin ultra nationalists, start democtratic right wing but went full fascist collaboration in 41'
+ MNT_communism_party:0 "黑山共产党"
+ MNT_neutrality_party:0 "联邦党"
  UKR_fascism_party:0 "乌克兰民主主义者组织"
- UKR_democratic_party:0 "乌克兰国家民主联盟" # or UNDO
+ UKR_democratic_party:0 "乌克兰国家民主联盟"
  UKR_communism_party:0 "乌克兰共产党"
  UKR_neutrality_party:0 "乌克兰进步党"
  GEO_fascism_party:0 "第比利斯议会"
@@ -475,7 +475,7 @@
  AZR_communism_party:0 "阿塞拜疆共产党"
  AZR_neutrality_party:0 "伊蒂哈德"
  ARM_fascism_party:0 "亚美尼亚军团"
- ARM_democratic_party:0 "亚美尼亚革命联盟" #or ARF 
+ ARM_democratic_party:0 "亚美尼亚革命联盟"
  ARM_communism_party:0 "亚美尼亚共产党"
  ARM_neutrality_party:0 "中央权威"
  BLR_fascism_party:0 "白俄罗斯中央委员会 "
