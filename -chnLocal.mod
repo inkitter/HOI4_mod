@@ -1,4 +1,4 @@
-﻿name="ZChinese Localization[1.3.3]"
+﻿name="ZChinese Localization[1.4]"
 path="mod/_Inkitmod/chnLocal/"
 tags={
 	"Localisation"
