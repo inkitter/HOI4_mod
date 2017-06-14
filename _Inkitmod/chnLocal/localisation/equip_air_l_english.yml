@@ -34,6 +34,8 @@
  strat_bomber_equipment:0 "战略轰炸机"
  rocket_interceptor_equipment:0 "喷气式截击机"
  rocket_interceptor_equipment_desc:0 "由化学火箭引擎驱动的短程截击机。"
+ suicide_craft_equipment:0 "自杀艇"
+ suicide_craft_equipment_desc:0 "化学火箭发动机驱动的短程载人炸弹。"
  fighter_equipment_0:0 "战间期型战斗机"
  fighter_equipment_0_short:0 "战斗机"
  fighter_equipment_0_desc:0 "战斗机在大战期间经历了许多变化，战后，双翼设计被抛弃。我们必须将民用科技进展应用于军事。"
@@ -995,17 +997,17 @@
  #Argentinia
  
  ARG_heavy_fighter_equipment_3:0 "I.Ae 30巴塔哥尼亚鹰式P1型"
- ARG_heavy_fighter_equipment_3_short:0 ""
+ ARG_heavy_fighter_equipment_3_short:0 """"
  
  ARG_fighter_equipment_0:0 "FMA D.21"
  ARG_fighter_equipment_0_short:0 "D.21"
  ARG_fighter_equipment_2:0 "FMA鹰式75O"
- ARG_fighter_equipment_2_short:0 ""
+ ARG_fighter_equipment_2_short:0 """"
  
  ARG_CAS_equipment_2:0 "I.Ae 22 DL"
  ARG_CAS_equipment_2_short:0 "I.Ae 22 DL"
  ARG_CAS_equipment_3:0 "I.Ae 30巴塔哥尼亚鹰式P2型"
- ARG_CAS_equipment_3_short:0 ""
+ ARG_CAS_equipment_3_short:0 """"
  
  ARG_tac_bomber_equipment_0:0 "FMA AeMB.1"
  ARG_tac_bomber_equipment_0_short:0 "FMA AeMB.1"
@@ -1015,9 +1017,9 @@
  ARG_tac_bomber_equipment_3_short:0 "Calquin"
  
  ARG_jet_fighter_equipment_1:0 "FMA I.Ae. 27箭式I型"
- ARG_jet_fighter_equipment_1_short:0 ""
+ ARG_jet_fighter_equipment_1_short:0 """"
  ARG_jet_fighter_equipment_2:0 "FMA IAe 33箭式II型"
- ARG_jet_fighter_equipment_2_short:0 ""
+ ARG_jet_fighter_equipment_2_short:0 """"
  
  #Belgium
  
@@ -1040,7 +1042,7 @@
  
  BEL_jet_fighter_equipment_2:0 "萨布卡猎人式"
  BEL_jet_fighter_equipment_2_short:0 "猎人式"
- 
+
  #Bulgarian
 
  BUL_CAS_equipment_1:0 "DAR 10"
@@ -1059,13 +1061,24 @@
  CZE_CAS_equipment_1_short:0 "Aero A.101"
  CZE_CAS_equipment_2:0 "Letov S-28"
  CZE_CAS_equipment_2_short:0 "S-28"
-
+ CZE_CAS_equipment_3:0 "Letov S-615"
+ CZE_CAS_equipment_3_short:0 "S-615"
+ 
  CZE_fighter_equipment_0:0 "阿维亚B-34.1"
  CZE_fighter_equipment_0_short:0 "阿维亚B-34.1"
  CZE_fighter_equipment_1:0 "阿维亚B-534.1"
  CZE_fighter_equipment_1_short:0 "阿维亚B-534.1"
  CZE_fighter_equipment_2:0 "阿维亚B-135"
  CZE_fighter_equipment_2_short:0 "阿维亚B-135"
+ CZE_fighter_equipment_3:0 "Avia S-199"
+ CZE_fighter_equipment_3_short:0 "Avia S-199"
+
+ CZE_heavy_fighter_equipment_1:0 "Avia B-734.2"
+ CZE_heavy_fighter_equipment_1_short:0 "Avia B-734.2"
+ CZE_heavy_fighter_equipment_2:0 "Avia B-137"
+ CZE_heavy_fighter_equipment_2_short:0 "Avia B-137"
+ CZE_heavy_fighter_equipment_3:0 "Aero A.300 Stihacka"
+ CZE_heavy_fighter_equipment_3_short:0 "A.300 Stihacka"
 
  CZE_tac_bomber_equipment_0:0 "沃多乔迪A.100"
  CZE_tac_bomber_equipment_0_short:0 "Aero A.100"
@@ -1075,6 +1088,20 @@
  CZE_tac_bomber_equipment_2_short:0 "莱托夫Š-50"
  CZE_tac_bomber_equipment_3:0 "沃多乔迪A.300"
  CZE_tac_bomber_equipment_3_short:0 "Aero A.300"
+
+ CZE_strat_bomber_equipment_1:0 "Aero Vodochody C.301"
+ CZE_strat_bomber_equipment_1_short:0 "Aero C.301"
+ CZE_strat_bomber_equipment_2:0 "Aero Vodochody C.508"
+ CZE_strat_bomber_equipment_2_short:0 "Aero C.508"
+ CZE_strat_bomber_equipment_3:0 "Aero Vodochody A.711"
+ CZE_strat_bomber_equipment_3_short:0 "Aero A.711"
+
+ CZE_nav_bomber_equipment_1:0 "Letov S-502"
+ CZE_nav_bomber_equipment_1_short:0 "Letov S-502"
+ CZE_nav_bomber_equipment_2:0 "Letov S-655"
+ CZE_nav_bomber_equipment_2_short:0 "Letov S-655"
+ CZE_nav_bomber_equipment_3:0 "Avia A-298"
+ CZE_nav_bomber_equipment_3_short:0 "Avia A-298"
  
  CZE_jet_fighter_equipment_1:0 "阿维亚S-92"
  CZE_jet_fighter_equipment_1_short:0 "S-92"
@@ -1095,6 +1122,13 @@
  ROM_fighter_equipment_2_short:0 "IAR 80"
  ROM_fighter_equipment_3:0 "IAR 109G"
  ROM_fighter_equipment_3_short:0 "IAR 109G"
+
+ ROM_heavy_fighter_equipment_1:0 "IAR 214"
+ ROM_heavy_fighter_equipment_1_short:0 "IAR 214"
+ ROM_heavy_fighter_equipment_2:0 "IAR 380"
+ ROM_heavy_fighter_equipment_2_short:0 "IAR 380"
+ ROM_heavy_fighter_equipment_3:0 "IAR 410"
+ ROM_heavy_fighter_equipment_3_short:0 "IAR 410"
  
  ROM_tac_bomber_equipment_0:0 "IAR Potez 25TOE"
  ROM_tac_bomber_equipment_0_short:0 "IAR Potez 25TOE"
@@ -1104,11 +1138,22 @@
  ROM_tac_bomber_equipment_2_short:0 "Potez 633"
  ROM_tac_bomber_equipment_3:0 "IAR 79"
  ROM_tac_bomber_equipment_3_short:0 "IAR 79"
+
+ ROM_strat_bomber_equipment_0:0 "IAR 528"
+ ROM_strat_bomber_equipment_0_short:0 "IAR 528"
+ ROM_strat_bomber_equipment_1:0 "IAR 679"
+ ROM_strat_bomber_equipment_1_short:0 "IAR 679"
+ ROM_strat_bomber_equipment_2:0 "IAR 765"
+ ROM_strat_bomber_equipment_2_short:0 "IAR 765"
+ ROM_strat_bomber_equipment_3:0 "IAR 979"
+ ROM_strat_bomber_equipment_3_short:0 "IAR 979"
  
  ROM_nav_bomber_equipment_1:0 "萨沃亚·马尔凯蒂S.55"
  ROM_nav_bomber_equipment_1_short:0 "SM.S.55"
  ROM_nav_bomber_equipment_2:0 "亨克尔He.114B"
  ROM_nav_bomber_equipment_2_short:0 "He.114B"
+ ROM_nav_bomber_equipment_3:0 "IAR 117"
+ ROM_nav_bomber_equipment_3_short:0 "IAR 117"
 
  #Holland 
  # herr fokker wins the race, with a single Koolhoven interloper
@@ -1169,6 +1214,8 @@
  NOR_tac_bomber_equipment_0_short:0 "Kj.-F. C.V"
  
  #Hungary
+ HUN_heavy_fighter_equipment_1:0 "RMI-3 X/V"
+ HUN_heavy_fighter_equipment_1_short:0 "RMI-3 X/V"
  HUN_heavy_fighter_equipment_2:0 "DRR Me 210Ca-1"
  HUN_heavy_fighter_equipment_2_short:0 "Me 210Ca-1"
  HUN_heavy_fighter_equipment_3:1 "RMI-8 X/V"
@@ -1190,6 +1237,28 @@
  HUN_fighter_equipment_3:0 "MÁVAG Héja II"
  HUN_fighter_equipment_3_short:0 "Héja II"
 
+ HUN_strat_bomber_equipment_1:0 "RMI-5 X/G"
+ HUN_strat_bomber_equipment_1_short:0 "RMI-5"
+ HUN_strat_bomber_equipment_2:0 "RMI-12 Z/G"
+ HUN_strat_bomber_equipment_2_short:0 "RMI-12"
+ HUN_strat_bomber_equipment_3:0 "RMI-15 X/U"
+ HUN_strat_bomber_equipment_3_short:0 "RMI-15"
+
+ HUN_nav_bomber_equipment_1:0 "RMI-1 X/G"
+ HUN_nav_bomber_equipment_1_short:0 "RMI-1"
+ HUN_nav_bomber_equipment_2:0 "MÁVAG Sas"
+ HUN_nav_bomber_equipment_2_short:0 "Sas"
+ HUN_nav_bomber_equipment_3:0 "MÁVAG Holló"
+ HUN_nav_bomber_equipment_3_short:0 "Holló"
+ 
+ HUN_tac_bomber_equipment_0:0 "WM-35"
+ HUN_tac_bomber_equipment_0_short:0 "WM-35"
+ HUN_tac_bomber_equipment_1:0 "WM-37"
+ HUN_tac_bomber_equipment_1_short:0 "WM-37"
+ HUN_tac_bomber_equipment_2:0 "RMI-13 X/H"
+ HUN_tac_bomber_equipment_2_short:0 "RMI-13"
+ HUN_tac_bomber_equipment_3:0 "RMI-16 Z/H"
+ HUN_tac_bomber_equipment_3_short:0 "RMI-16"
  #British Raj
 
  RAJ_fighter_equipment_0:0 "霍克Hart"
@@ -1241,7 +1310,7 @@
  SWE_fighter_equipment_3_short:0 "SAAB J21"
  
  #switzerland
-  
+ 
  SWI_fighter_equipment_0:0 "Dewoitine D.27"
  SWI_fighter_equipment_0_short:0 "D.27"
 
@@ -1300,6 +1369,8 @@
  YUG_CAS_equipment_1_short:0 "伊卡鲁斯飓风式"
  YUG_CAS_equipment_2:0 "Ikarus Orkan"
  YUG_CAS_equipment_2_short:0 "Ikarus Orkan"
+ YUG_CAS_equipment_3:0 "Ikarus Tajfun"
+ YUG_CAS_equipment_3_short:0 "Ikarus Tajfun"
  
  YUG_tac_bomber_equipment_0:0 "DFA-Breguet Br. 19 A2"
  YUG_tac_bomber_equipment_0_short:0 "Br. 19 A2"
@@ -1309,6 +1380,19 @@
  YUG_tac_bomber_equipment_2_short:0 "布伦海姆式"
  YUG_tac_bomber_equipment_3:0 "Zmaj R-1"
  YUG_tac_bomber_equipment_3_short:0 "R-1"
+
+ YUG_strat_bomber_equipment_0:0 "Rogozarski R-401"
+ YUG_strat_bomber_equipment_0_short:0 "R-401"
+ YUG_strat_bomber_equipment_1:0 "Zmaj Q-12"
+ YUG_strat_bomber_equipment_1_short:0 "Zmaj Q-12"
+ YUG_strat_bomber_equipment_2:0 "Rogozarski R-522"
+ YUG_strat_bomber_equipment_2_short:0 "R-522"
+ YUG_strat_bomber_equipment_3:0 "Zmaj T-155"
+ YUG_strat_bomber_equipment_3_short:0 "T-155"
  
  YUG_nav_bomber_equipment_1:0 "洛格萨斯基SIM-XIV-H"
  YUG_nav_bomber_equipment_1_short:0 "SIM-XIV-H"
+ YUG_nav_bomber_equipment_2:0 "Rogozarski SIM-XIX-V"
+ YUG_nav_bomber_equipment_2_short:0 "SIM-XIX-V"
+ YUG_nav_bomber_equipment_3:0 "Ikarus IK-19"
+ YUG_nav_bomber_equipment_3_short:0 "IK-19"

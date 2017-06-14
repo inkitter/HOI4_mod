@@ -29,6 +29,8 @@
  alert_production_no_template_delayed:0 "§T你正在生产的装备无模板可用。§!"
  alert_production_no_template_xp:0 "§R你需要更多 陆军经验 创建包含装备的模板。§!"
  alert_production_no_template_equipments:0 "§T正在生产未设计模板的装备：§!"
+ alert_non_payed_license_instant:0 "§H未支付的许可证§!"
+ alert_non_payed_license_delayed:0 "有国家不提供民用工厂授权生产:\n$LIST$§G右键点击取消§!"
  alert_free_civilian_factories_instant:0 "§H闲置的民用工厂§!"
  alert_free_civilian_factories_delayed:0 "§T闲置民用工厂可用来贸易和建造设施。§!"
  alert_free_military_factories_instant:0 "§H闲置的军用工厂§!"

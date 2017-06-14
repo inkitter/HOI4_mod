@@ -176,3 +176,5 @@
  achievement_EGY_colony:0 "达到殖民地状态"
  achievement_EGY_dominion:0 "达到自治领状态"
  achievement_EGY_free:0 "达到自由状态"
+ ROM_lost_starting_state:0 "罗马尼亚失去了它的起始国之一。"
+ YUG_delcared_war_on_axis_allies:0 "在轴心国或同盟国对轴心国或同盟国宣战"

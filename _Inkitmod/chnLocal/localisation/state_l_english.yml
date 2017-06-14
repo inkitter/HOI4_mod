@@ -42,6 +42,7 @@
  UNLOCKED_SLOTS_BASE:0 "基础值: $NUM|Y$"
  UNLOCKED_SLOTS_STATE_EXTRA:0 "国家额外加成: $NUM|Y$"
  PROVINCE_STATE_CATERGORY_TOOLTIP:0 "$NAME$ 是 $CATEGORY|Y$.\n"
+ PROVINCE_STATE_IMPASSABLE:0 "§R不可通过区域 - 军队不可进入.§!"
  wasteland:0 "废墟"
  city:0 "城市"
  large_city:0 "大城市"
