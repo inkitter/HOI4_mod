@@ -36,6 +36,7 @@ Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 7. "Add Manpower 500,000"
 
 
+A pathch mod for Kaiserreich compatibility (thx MrBlazzar™) http://steamcommunity.com/sharedfiles/filedetails/?id=1156092472
 
 --------
 
