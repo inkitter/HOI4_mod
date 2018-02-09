@@ -243,6 +243,8 @@
  FRA_FREE_democratic_DEF:0 "自由法国"
  FRA_GER_fascism_autonomy_reichsprotectorate:0 "维希法国"
  FRA_GER_fascism_autonomy_reichsprotectorate_DEF:0 "维希法国"
+ FRA_GER_fascism_autonomy_puppet:0 "维希法国"
+ FRA_GER_fascism_autonomy_puppet_DEF:0 "维希法国"
  FRA_UK_democratic:0 "法英联盟"
  FRA_UK_democratic_DEF:0 "法英联盟"
  FRA_UK_fascism:0 "新诺曼帝国"

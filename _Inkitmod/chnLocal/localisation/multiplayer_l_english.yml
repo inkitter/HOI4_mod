@@ -129,7 +129,6 @@
  ACTIVATE_OBSERVER_MODE:0 "激活观察者模式"
  DEACTIVATE_OBSERVER_MODE:0 "关闭观察者模式"
  OBSERVER_MODE_DESC:0 "观察者模式允许你以其他玩家的视角观看游戏，但是无法控制任何东西。"
- # http://bbs.52pcgame.net/ 52pcgame汉化
  USER_NAME:0 "用户名：$USER|Y$"
  PLAYER_REMOVED_TITLE:0 "$PLAYER$退出了"
  PLAYER_REMOVED_DESC:0 "$PLAYER|Y$不幸退出了游戏。\n你希望$COUNTRY|Y$由AI接替控制么？"
