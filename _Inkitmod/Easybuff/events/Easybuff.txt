@@ -826,6 +826,12 @@ country_event = {
         ai_chance = { factor = 0 }
         add_political_power = 500
     }
+
+    option = {
+        name = Easybuff.61.b
+        ai_chance = { factor = 0 }
+        add_political_power = 100
+    }
   
     option = {
         name = Easybuff.61.c
@@ -858,6 +864,12 @@ country_event = {
         name = Easybuff.62.a
         ai_chance = { factor = 0 }
         add_manpower = 500000
+    }
+
+    option = {
+        name = Easybuff.62.b
+        ai_chance = { factor = 0 }
+        add_manpower = 100000
     }
   
     option = {
@@ -900,6 +912,157 @@ country_event = {
   
     option = {
         name = Easybuff.63.c
+        ai_chance = { factor = 100 }
+    }
+}
+
+# cheat_politics_puppetcountry 70
+country_event = {
+    id = Easybuff.70
+    title = Easybuff.70.t
+    desc = Easybuff.70.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    
+    trigger = {
+        is_ai = no
+        has_idea = cheat_politics_puppet
+    }
+    mean_time_to_happen = {    days = 0 }
+
+    immediate = {
+        hidden_effect = {
+            remove_ideas = cheat_politics_puppet
+        }
+    }
+
+    option = {
+        name = Easybuff.70.a
+        ai_chance = { factor = 0 }
+        random_country = {
+            limit = {
+                AND = {
+                    is_ai = yes
+                    NOT = { is_puppet_of = ROOT }
+                }
+            }
+            ROOT = { puppet = PREV }
+        }
+    }
+
+    option = {
+        name = Easybuff.70.b
+        ai_chance = { factor = 0 }
+        random_country = {
+            limit = {
+                AND = {
+                    is_neighbor_of = ROOT
+                    NOT = { is_puppet_of = ROOT }
+                }
+            }
+            ROOT = { puppet = PREV }
+        }
+    }
+
+    option = {
+        name = Easybuff.70.c
+        ai_chance = { factor = 0 }
+        random_country = {
+            limit = {
+                AND = {
+                    has_war_with = ROOT
+                    NOT = { is_puppet_of = ROOT }
+                }
+            }
+            ROOT = { puppet = PREV }
+        }
+    }
+
+    option = {
+        name = Easybuff.70.e
+        ai_chance = { factor = 100 }
+    }
+}
+
+# cheat_politics_getstate 71
+country_event = {
+    id = Easybuff.71
+    title = Easybuff.71.t
+    desc = Easybuff.71.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    
+    trigger = {
+        is_ai = no
+        has_idea = cheat_politics_getstate
+    }
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = {
+            remove_ideas = cheat_politics_getstate
+        }
+    }
+
+    option = {
+        name = Easybuff.71.a
+        ai_chance = { factor = 0 }
+        random_state = {
+            limit = {
+                AND = {
+                    any_neighbor_state = { owner = { tag = ROOT } }
+                    NOT = { is_controlled_by = ROOT }
+                    owner = { has_war_with = ROOT }
+                }
+            }
+            ROOT = {
+                transfer_state = PREV
+            }
+        }
+    }
+
+    option = {
+        name = Easybuff.71.b
+        ai_chance = { factor = 0 }
+        random_state = {
+            limit = {
+                AND = {
+                    any_neighbor_state = { owner = { tag = ROOT } }
+                    NOT = { is_controlled_by = ROOT }
+                }
+            }
+            ROOT = {
+                transfer_state = PREV
+            }
+        }
+    }
+
+    option = {
+        name = Easybuff.71.c
+        ai_chance = { factor = 0 }
+        random_state = {
+            limit = {
+                AND = {
+                    any_neighbor_state = { 
+                        is_owned_by = ROOT 
+                        ROOT = {
+                            divisions_in_state = {
+                                state = PREV
+                                size > 20
+                            }
+                        }
+                    }
+                    
+                    NOT = { is_controlled_by = ROOT }
+                }
+            }
+            ROOT = {
+                transfer_state = PREV
+            }
+        }
+    }
+    option = {
+        name = Easybuff.71.e
         ai_chance = { factor = 100 }
     }
 }

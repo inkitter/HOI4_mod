@@ -6,7 +6,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.63
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -17,7 +16,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuffe.12
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -27,7 +25,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuffe.20
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -61,7 +58,6 @@ ideas = {
 				CONSUMER_GOODS_FACTOR = -0.8
 			}
 
-			removal_cost = 0
 			ai_will_do = {
    				factor = 1
 			}

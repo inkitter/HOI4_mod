@@ -1,6 +1,11 @@
-[h1]Update 170225: fixed some bugs | add dockyard modifier[/h1]
+[h1]Update 180211: add some new functions[/h1]
 
 Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
+
+# Changelog 180211
+1. Puppet function.
+2. Control neighbor states function.
+3. Adjust some old function (Manpower etc.).
 
 # Features:
 
@@ -20,7 +25,7 @@ Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 3. "Control core States" to get control of a random core state.
 4. "Exit Faction"
 5. "Join Faction"
-6. "Force Ruling Party" to change ruling party of your country.  @Ƭʀoɉaɳ
+6. "Force Ruling Party" to change ruling party of your country.  thx @Ƭʀoɉaɳ
 
 ### Land idea
 1. "Add experience" in cheat_land idea to add 100 army/navy/air experience.
@@ -31,12 +36,12 @@ Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 2. "Force to Discard cores" Force every country discard their core and claim of your core states.
 3. "Add Unity"
 4. "Add Politic Power"
-5. "Set Capital (TEST)"
+5. "Set Capital"
 6. "Adjust Threat"
-7. "Add Manpower 500,000"
+7. "Add Manpower"
 
 
-A pathch mod for Kaiserreich compatibility (thx MrBlazzar™) http://steamcommunity.com/sharedfiles/filedetails/?id=1156092472
+A pathch mod for Kaiserreich compatibility (thx @MrBlazzar™) http://steamcommunity.com/sharedfiles/filedetails/?id=1156092472
 
 --------
 

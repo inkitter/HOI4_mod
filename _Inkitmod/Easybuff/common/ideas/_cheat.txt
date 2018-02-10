@@ -9,7 +9,6 @@ ideas = {
 				production_speed_buildings_factor = 0.2
 				LOCAL_RESOURCES_FACTOR = 0.2
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -26,7 +25,6 @@ ideas = {
 
 				LOCAL_MANPOWER = 0.1
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -43,7 +41,6 @@ ideas = {
 
 				LOCAL_MANPOWER = 0.4
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -62,7 +59,6 @@ ideas = {
 				LOCAL_MANPOWER = 10
 				industry_repair_factor = 100
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -72,7 +68,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.10
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -82,17 +77,33 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.20
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
 		}
 		cheat_politics_setcapital = {
-			picture = generic_production_bonus
+			picture = generic_communism_drift_bonus
 			on_add = {
 				country_event = Easybuffe.10
 			}
-			removal_cost = 0
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_puppet = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.70
+			}
+			ai_will_do = {
+   				factor = 0
+			}
+		}
+		cheat_politics_getstate = {
+			picture = generic_communism_drift_bonus
+			on_add = {
+				country_event = Easybuff.71
+			}
 			ai_will_do = {
    				factor = 0
 			}
@@ -106,7 +117,6 @@ ideas = {
 			modifier = {
 				research_time_factor = -0.3
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -116,7 +126,6 @@ ideas = {
 			modifier = {
 				research_time_factor = -0.6
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -126,7 +135,6 @@ ideas = {
 			modifier = {
 				research_time_factor = -1.2
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -136,7 +144,6 @@ ideas = {
 			modifier = {
 				research_time_factor = -4
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -146,7 +153,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.48
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -156,7 +162,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.40
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -175,7 +180,6 @@ ideas = {
 
 				TRADE_OPINION_FACTOR = 0.2
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -194,7 +198,6 @@ ideas = {
 				TRADE_OPINION_FACTOR = 0.5
 				OCCUPATION_COST = -0.05
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -214,7 +217,6 @@ ideas = {
 				TRADE_OPINION_FACTOR = 1
 				OCCUPATION_COST = -0.3
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -235,7 +237,6 @@ ideas = {
 				OCCUPATION_COST = -10
 				DRIFT_DEFENCE_FACTOR = 1
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -246,7 +247,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.42
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -256,7 +256,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.43
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -266,7 +265,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.44
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -276,7 +274,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.45
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -286,7 +283,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.46
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -296,7 +292,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.47
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -306,7 +301,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.49
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -324,7 +318,6 @@ ideas = {
 				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 0.5
 				industrial_capacity_dockyard = 0.3
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -338,7 +331,6 @@ ideas = {
 				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 1
 				industrial_capacity_dockyard = 1
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -352,7 +344,6 @@ ideas = {
 				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 2
 				industrial_capacity_dockyard = 2
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -368,7 +359,6 @@ ideas = {
 				CONSUMER_GOODS_FACTOR = -0.8
 				industrial_capacity_dockyard = 10
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -378,7 +368,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.60
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -388,7 +377,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.61
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -398,7 +386,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.62
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -414,7 +401,6 @@ ideas = {
 				ARMY_ORG_FACTOR = 0.1
 				ARMY_MORALE_FACTOR = 0.1
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -436,7 +422,6 @@ ideas = {
 
 				EXPERIENCE_LOSS_FACTOR = -0.4
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -463,7 +448,6 @@ ideas = {
 
 				EXPERIENCE_LOSS_FACTOR = -0.6
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -500,7 +484,6 @@ ideas = {
 				COMBAT_WIDTH_FACTOR = -0.8
 				MINIMUM_TRAINING_LEVEL = -0.9
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -510,7 +493,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.50
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -520,7 +502,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuff.51
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -530,7 +511,6 @@ ideas = {
 			on_add = {
 				country_event = Easybuffe.11
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -551,7 +531,6 @@ ideas = {
 				NAVAL_SPEED_FACTOR = 0.3
 				NAVY_MAX_RANGE_FACTOR = 0.3
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -576,7 +555,6 @@ ideas = {
 				NAVAL_SPEED_FACTOR = 0.5
 				NAVY_MAX_RANGE_FACTOR = 0.5
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -605,7 +583,6 @@ ideas = {
 
 				
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
@@ -640,7 +617,6 @@ ideas = {
 				AMPHIBIOUS_INVASION = 5
 				INVASION_PREPARATION = -1
 			}
-			removal_cost = 0
 			ai_will_do = {
    				factor = 0
 			}
