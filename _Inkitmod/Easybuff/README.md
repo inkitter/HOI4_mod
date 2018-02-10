@@ -1,3 +1,5 @@
+[h1]+Easy Buff [1.4.*][/h1]
+
 [h1]Update 180211: add some new functions[/h1]
 
 Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
