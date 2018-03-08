@@ -176,7 +176,7 @@ ideas = {
 				POLITICAL_POWER_GAIN = 0.5
 				stability_weekly = 0.05
 				war_support_weekly = 0.05
-				command_power_gain = 0.1
+				command_power_gain = 1
 				OPINION_GAIN_MONTHLY = 0.01
 
 				TRADE_OPINION_FACTOR = 0.2
@@ -194,7 +194,7 @@ ideas = {
 				RESISTANCE_TICK = -0.05
 				stability_weekly = 0.1
 				war_support_weekly = 0.1
-				command_power_gain = 0.2
+				command_power_gain = 3
 				OPINION_GAIN_MONTHLY = 0.02
 
 				TRADE_OPINION_FACTOR = 0.5
@@ -213,7 +213,7 @@ ideas = {
 				RESISTANCE_TICK = -0.2
 				stability_weekly = 0.4
 				war_support_weekly = 0.4
-				command_power_gain = 0.7
+				command_power_gain = 8
 				OPINION_GAIN_MONTHLY = 0.05
 				OPINION_GAIN_MONTHLY_FACTOR = 0.3
 
@@ -233,7 +233,7 @@ ideas = {
 				RESISTANCE_TICK = -1
 				stability_weekly = 10
 				war_support_weekly = 10
-				command_power_gain = 10
+				command_power_gain = 50
 				OPINION_GAIN_MONTHLY = 1
 				OPINION_GAIN_MONTHLY_FACTOR = 1
 

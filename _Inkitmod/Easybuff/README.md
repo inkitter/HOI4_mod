@@ -1,8 +1,13 @@
-[h1]+Easy Buff [1.4.*][/h1]
+[h1]+Easy Buff [1.5.*][/h1]
 
-[h1]Update 180211: add some new functions[/h1]
+[h1]Update 180308: Update for 1.5[/h1]
 
 Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
+
+# Changelog 180308
+1. Now Supports 1.5.*.
+2. Change Unity related functions to Stability and War support.
+3. Add Command power related functions. Add command power event or daily gain buff.
 
 # Changelog 180211
 1. Puppet function.
@@ -36,11 +41,12 @@ Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 ## Other country Event
 1. "Force Exit Faction" Force enemy contries exit faction.
 2. "Force to Discard cores" Force every country discard their core and claim of your core states.
-3. "Add Unity"
+3. "Add Stability and war support"
 4. "Add Politic Power"
 5. "Set Capital"
 6. "Adjust Threat"
 7. "Add Manpower"
+8. "Add Command Power"
 
 
 A pathch mod for Kaiserreich compatibility (thx @MrBlazzar™) http://steamcommunity.com/sharedfiles/filedetails/?id=1156092472
