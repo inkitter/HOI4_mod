@@ -150,11 +150,11 @@
  Easybuff.51.c:0 "Air Exp"
  Easybuff.51.e:0 "Cancel"
 
- cheat_add_unity:0 "Add Unity"
- Easybuff.60:0 "Add Unity"
- Easybuff.60.t:0 "Add Unity"
- Easybuff.60.d:0 "Add Unity"
- Easybuff.60.a:0 "Add Unity"
+ cheat_add_unity:0 "Add Stability and War support"
+ Easybuff.60:0 "Add Stability and War support"
+ Easybuff.60.t:0 "Add Stability and War support"
+ Easybuff.60.d:0 "Add Stability and War support"
+ Easybuff.60.a:0 "Add Stability and War support"
  Easybuff.60.c:0 "Cancel"
 
  cheat_add_politic:0 "Add Politic Power"
@@ -172,6 +172,14 @@
  Easybuff.62.a:0 "Add 500, 000"
  Easybuff.62.b:0 "Add 100, 000"
  Easybuff.62.c:0 "Cancel"
+
+ cheat_add_commandpower:0 "Add Command Power"
+ Easybuff.64:0 "Add Command Power"
+ Easybuff.64.t:0 "Add Command Power"
+ Easybuff.64.d:0 "Add Command Power"
+ Easybuff.64.a:0 "Add 500"
+ Easybuff.64.b:0 "Add 100"
+ Easybuff.64.c:0 "Cancel"
 
  cheat_politics_puppet:0 "Puppet Country"
  Easybuff.70:0 "Puppet Country"

@@ -792,7 +792,8 @@ country_event = {
     option = {
         name = Easybuff.60.a
         ai_chance = { factor = 0 }
-        add_national_unity = 0.1
+        add_stability = 0.1
+        add_war_support = 0.1
     }
   
     option = {
@@ -912,6 +913,44 @@ country_event = {
   
     option = {
         name = Easybuff.63.c
+        ai_chance = { factor = 100 }
+    }
+}
+
+country_event = {
+    id = Easybuff.64
+    title = Easybuff.64.t
+    desc = Easybuff.64.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    
+    trigger = {
+        is_ai = no
+        has_idea = cheat_add_commandpower
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            remove_ideas = cheat_add_commandpower
+        }
+    }
+    
+    option = {
+        name = Easybuff.64.a
+        ai_chance = { factor = 0 }
+        add_command_power = 500
+    }
+
+    option = {
+        name = Easybuff.64.b
+        ai_chance = { factor = 0 }
+        add_command_power = 100
+    }
+  
+    option = {
+        name = Easybuff.64.c
         ai_chance = { factor = 100 }
     }
 }

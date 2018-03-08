@@ -129,7 +129,6 @@ country_event = {
         name = Easybuffe.12.a
         ai_chance = { factor = 0 }
         add_political_power = 150
-        add_national_unity = 0.15
     }
   
     option = {
