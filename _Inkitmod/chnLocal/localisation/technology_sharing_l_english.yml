@@ -34,3 +34,5 @@
  YUG_naval_research_group_desc:0 "意大利海军专家援助南斯拉夫发展海军。"
  HUN_joint_tank_development_group_desc:0 "匈牙利和盟友们合作研发新型坦克。"
  HUN_joint_air_development_group_desc:0 "匈牙利和盟友们合作研发新型飞行器。"
+ ger_dem_research_name:0 "Central European Research"
+ ger_dem_research_desc:0 "Reduced research time for technologies researched by other Central European Alliance countries."

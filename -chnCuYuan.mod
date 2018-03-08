@@ -4,4 +4,4 @@ tags={
 	"Localisation"
 }
 picture="FontCuYuan.png"
-supported_version="1.4"
+supported_version="1.5"

@@ -95,3 +95,6 @@
  LOGISTICS_STORAGE_FOREIGN:0 "§T海外装备: $AMOUNT|Y$ 单位§!"
  LOGISTICS_STORAGE_PRODUCTION_POOL:0 "§T来自生产: $AMOUNT|Y$ 单位§!"
  PRODUCTION_OUTPUT:1 "物资储备"
+ LOGISTICS_DELETE_EQUIPMENT:0 "§RDestroy§!"
+ LOGISTICS_DELETE_EQUIPMENT_CONFIRM_TITLE:0 "§HDestroy Stockpiled Equipment§!"
+ LOGISTICS_DELETE_EQUIPMENT_CONFIRM_DESC:0 "\n\nAre you sure you want to §Rdestroy§! $EQUIPMENT|Y$?\n\nThe equipment will be removed from your stockpile and you won't be able to use it anymore. This process is irreversible.\n\nThe equipment will be still accessible for enemies for $NUM_DAYS|Y$ days in case of capitulation or annexation."

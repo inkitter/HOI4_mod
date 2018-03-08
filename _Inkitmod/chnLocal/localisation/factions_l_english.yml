@@ -1,6 +1,8 @@
 ﻿l_english:
  FACTION_LEADER:0 "阵营领导者：§Y$COUNTRY$§!"
  FACTION_MEMBER:0 "阵营成员：§Y$COUNTRY$§!"
+ FACTION_CREATED_UNDER_MASTER_TITLE:0 "Joined Master's Faction"
+ FACTION_CREATED_UNDER_MASTER_MESSAGE:0 "We have joined $FACTION|H$ faction together under our master"
  FACTION_NAME_GER_fascism:0 "轴心国"
  FACTION_NAME_GER_none:0 "轴心国"
  FACTION_NAME_IDEOLOGY_DEFAULT:0 "$IDEOLOGY$支持者"
@@ -26,3 +28,9 @@
  ROM_CORDON_SANITAIRE_FACTION:0 "隔离线"
  BALKAN_ENTENTE_FACTION:0 "巴尔干协约"
  CZE_little_entente:0 "捷克协约"
+ GER_central_powers_faction:0 "Central Powers"
+ GER_anti_communist_bloc:0 "Anti-Communist Bloc"
+ JAP_the_old_alliance:0 "The Old Alliance"
+ JAP_the_new_international:0 "The New International"
+ CHI_the_peoples_front:0 "The People's Front"
+ PRC_mao_faction:0 "Mutual Assistance Bloc"
