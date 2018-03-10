@@ -889,14 +889,14 @@ country_event = {
     
     trigger = {
         is_ai = no
-        has_idea = cheat_white_peace
+#        has_idea = cheat_white_peace
     }
 
     mean_time_to_happen = { days = 0 }
 
     immediate = {
         hidden_effect = { 
-            remove_ideas = cheat_white_peace
+#            remove_ideas = cheat_white_peace
         }
     }
     

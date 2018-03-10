@@ -1,20 +1,20 @@
 ideas = {
 	cheat_construction = {
-		law = yes
 		cheat_construction_lv1 = {
 			picture = generic_production_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				global_building_slots_factor = 0.1
 
 				production_speed_buildings_factor = 0.2
 				LOCAL_RESOURCES_FACTOR = 0.2
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_construction_lv2 = {
 			picture = generic_production_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				global_building_slots_factor = 0.2
 
@@ -25,12 +25,11 @@ ideas = {
 
 				LOCAL_MANPOWER = 0.1
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_construction_lv3 = {
 			picture = generic_production_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				global_building_slots_factor = 0.5
 
@@ -41,12 +40,11 @@ ideas = {
 
 				LOCAL_MANPOWER = 0.4
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_construction_insane = {
 			picture = generic_production_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				global_building_slots_factor = 2
 
@@ -59,119 +57,105 @@ ideas = {
 				LOCAL_MANPOWER = 10
 				industry_repair_factor = 100
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_politics_buildinfra = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.10
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_getres = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.20
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_setcapital = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuffe.10
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_puppet = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.70
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_getstate = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.71
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 	}
 
 	cheat_technology = {
-		law = yes
 		cheat_technology_lv1 = {
 			picture = generic_intel_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				research_time_factor = -0.3
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_technology_lv2 = {
 			picture = generic_intel_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				research_time_factor = -0.6
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_technology_lv3 = {
 			picture = generic_intel_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				research_time_factor = -1.2
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_technology_insane = {
 			picture = generic_intel_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				research_time_factor = -4
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_remfac = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.48
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_discore = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.40
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 	}
 
 	cheat_politics = {
-		law = yes
 		cheat_politics_lv1 = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				POLITICAL_POWER_GAIN = 0.5
 				stability_weekly = 0.05
@@ -181,12 +165,11 @@ ideas = {
 
 				TRADE_OPINION_FACTOR = 0.2
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_politics_lv2 = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				POLITICAL_POWER_GAIN = 1
 				POLITICAL_POWER_FACTOR = 0.1
@@ -200,12 +183,11 @@ ideas = {
 				TRADE_OPINION_FACTOR = 0.5
 				OCCUPATION_COST = -0.05
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_politics_lv3 = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				POLITICAL_POWER_GAIN = 2
 				POLITICAL_POWER_FACTOR = 0.2
@@ -220,12 +202,11 @@ ideas = {
 				TRADE_OPINION_FACTOR = 1
 				OCCUPATION_COST = -0.3
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_politics_insane = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				POLITICAL_POWER_GAIN = 100
 				POLITICAL_POWER_FACTOR = 1
@@ -241,80 +222,71 @@ ideas = {
 				OCCUPATION_COST = -10
 				DRIFT_DEFENCE_FACTOR = 1
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 
 		cheat_politics_makecore = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.42
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_morestate = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.43
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_losecore = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.44
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_exitfac = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.45
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_joinfac = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.46
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_creatparty = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.47
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_disbandfac = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.49
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 	}
 
 	cheat_equipment = {
-		law = yes
 		cheat_equipment_lv1 = {
 			picture = generic_goods_red_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				production_factory_max_efficiency_factor = 0.2
 				line_change_production_efficiency_factor = 0.5
@@ -322,12 +294,11 @@ ideas = {
 				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 0.5
 				industrial_capacity_dockyard = 0.3
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_equipment_lv2 = {
 			picture = generic_goods_red_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				industrial_capacity_factory = 0.5
 				production_factory_max_efficiency_factor = 0.5
@@ -335,12 +306,11 @@ ideas = {
 				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 1
 				industrial_capacity_dockyard = 1
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_equipment_lv3 = {
 			picture = generic_goods_red_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				production_factory_max_efficiency_factor = 1
 				industrial_capacity_factory = 0.8
@@ -348,12 +318,11 @@ ideas = {
 				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 2
 				industrial_capacity_dockyard = 2
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_equipment_insane = {
 			picture = generic_goods_red_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				industrial_capacity_factory = 5
 				INDUSTRY_REPAIR_FACTOR = 3
@@ -363,64 +332,57 @@ ideas = {
 				CONSUMER_GOODS_FACTOR = -0.8
 				industrial_capacity_dockyard = 10
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_add_unity = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.60
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_add_politic = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.61
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		
 		cheat_add_manpower = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.62
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_add_commandpower = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.64
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 	}
 
 	cheat_land = {
-		law = yes
 		cheat_land_lv1 = {
 			picture = generic_fascism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				land_reinforce_rate = 0.1
 				ARMY_ORG_FACTOR = 0.1
 				ARMY_MORALE_FACTOR = 0.1
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}		
 		cheat_land_lv2 = {
 			picture = generic_fascism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				land_reinforce_rate = 0.2
 				ARMY_ORG_FACTOR = 0.3
@@ -436,12 +398,11 @@ ideas = {
 
 				EXPERIENCE_LOSS_FACTOR = -0.4
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_land_lv3 = {
 			picture = generic_fascism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				land_reinforce_rate = 0.5
 				NO_SUPPLY_GRACE = 240
@@ -462,12 +423,11 @@ ideas = {
 
 				EXPERIENCE_LOSS_FACTOR = -0.6
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_land_insane = {
 			picture = generic_fascism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				land_reinforce_rate = 1
 				NO_SUPPLY_GRACE = 2400
@@ -498,43 +458,38 @@ ideas = {
 				COMBAT_WIDTH_FACTOR = -0.8
 				MINIMUM_TRAINING_LEVEL = -0.9
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_politics_getexp = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.50
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_getexpinsane = {
 			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.51
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 		cheat_politics_adjustthreat = {
 			picture = generic_production_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuffe.11
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 	}
 
 	cheat_navyair = {
-		law = yes
 		cheat_navyair_lv1 = {
 			picture = generic_air_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				AIR_ATTACK_FACTOR = 0.1
 				AIR_DEFENCE_FACTOR = 0.1
@@ -545,12 +500,11 @@ ideas = {
 				NAVAL_SPEED_FACTOR = 0.3
 				NAVY_MAX_RANGE_FACTOR = 0.3
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_navyair_lv2 = {
 			picture = generic_air_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				AIR_DETECTION = 1
 				NAVAL_DETECTION = 1
@@ -569,12 +523,11 @@ ideas = {
 				NAVAL_SPEED_FACTOR = 0.5
 				NAVY_MAX_RANGE_FACTOR = 0.5
 			}
-			ai_will_do = {
-   				factor = 0
-			}
 		}
 		cheat_navyair_lv3 = {
 			picture = generic_air_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				AIR_DETECTION = 4
 				NAVAL_DETECTION = 4
@@ -593,16 +546,13 @@ ideas = {
 				CARRIER_TRAFFIC = 0.5
 				NAVAL_SPEED_FACTOR = 0.8
 				SUBMARINE_ATTACK = 5
-				NAVY_MAX_RANGE_FACTOR = 1
-
-				
-			}
-			ai_will_do = {
-   				factor = 0
+				NAVY_MAX_RANGE_FACTOR = 1	
 			}
 		}
 		cheat_navyair_insane = {
 			picture = generic_air_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
 			modifier = {
 				AIR_DETECTION = 50
 				NAVAL_DETECTION = 50
@@ -630,9 +580,6 @@ ideas = {
 
 				AMPHIBIOUS_INVASION = 5
 				INVASION_PREPARATION = -1
-			}
-			ai_will_do = {
-   				factor = 0
 			}
 		}
 	}
