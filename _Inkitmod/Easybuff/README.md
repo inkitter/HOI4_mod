@@ -1,8 +1,11 @@
 [h1]+Easy Buff [1.5.*][/h1]
 
-[h1]Update 180308: Update for 1.5[/h1]
+[h1]Update 180311: fixed bug that AI do not rise default ideas; Update for 1.5[/h1]
 
 Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
+
+# Changelog 180311
+* Fixed bug that AI do not rise default ideas
 
 # Changelog 180308
 1. Now Supports 1.5.*.
