@@ -125,7 +125,7 @@
  SERVER_BOOKMARK:0 "剧本：$BOOKMARK$"
  SERVER_START_DATE:0 "开始时间：$DATE$"
  SERVER_LAUNCHING_MP:0 "*** 开始多人游戏 ***"
- OOS_CHECKS:0 "§G服务器设置了如下同步检查：$CHECKS|Y$."
+ OOS_CHECKS:0 "§G服务器设置了如下同步检查：$CHECKS|Y$。§!"
  ACTIVATE_OBSERVER_MODE:0 "激活观察者模式"
  DEACTIVATE_OBSERVER_MODE:0 "关闭观察者模式"
  OBSERVER_MODE_DESC:0 "观察者模式允许你以其他玩家的视角观看游戏，但是无法控制任何东西。"
@@ -134,3 +134,4 @@
  PLAYER_REMOVED_DESC:0 "$PLAYER|Y$不幸退出了游戏。\n你希望$COUNTRY|Y$由AI接替控制么？"
  MULTIPLAYER_RESYC:1 "重新同步"
  
+ FAILED_TO_CONNECT:0 "连接失败"
