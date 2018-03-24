@@ -4,6 +4,12 @@
 
 Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 
+# Changelog 180324
+* Bicycle Tech.
+* Add Factories out side map.
+* Add trait to leader.
+* Repair speed comes up with construction speed.
+
 # Changelog 180311
 * Fixed bug that AI do not rise default ideas
 
@@ -58,7 +64,7 @@ A pathch mod for Kaiserreich compatibility (thx @MrBlazzar™) http://steamcommu
 
 Below For Chinese  
 
-可以使用汉化包： http://steamcommunity.com/sharedfiles/filedetails/?id=718761142
+精力有限，汉化包暂时移除。
 
 # 主要功能
 

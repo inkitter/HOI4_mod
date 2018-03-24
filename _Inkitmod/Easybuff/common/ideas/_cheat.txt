@@ -9,6 +9,7 @@ ideas = {
 
 				production_speed_buildings_factor = 0.2
 				LOCAL_RESOURCES_FACTOR = 0.2
+				industry_repair_factor = 0.2
 			}
 		}
 		cheat_construction_lv2 = {
@@ -22,6 +23,7 @@ ideas = {
 				BUILDING_CONVERTION_FACTOR = 0.5
 				BUILDING_CONVERTION = 0.1
 				LOCAL_RESOURCES_FACTOR = 0.5
+				industry_repair_factor = 0.5
 
 				LOCAL_MANPOWER = 0.1
 			}
@@ -37,6 +39,7 @@ ideas = {
 				BUILDING_CONVERTION_FACTOR = 1
 				BUILDING_CONVERTION = 0.5
 				LOCAL_RESOURCES_FACTOR = 1.2
+				industry_repair_factor = 0.7
 
 				LOCAL_MANPOWER = 0.4
 			}
@@ -53,6 +56,7 @@ ideas = {
 				BUILDING_CONVERTION = 1
 				LOCAL_RESOURCES = 10
 				LOCAL_RESOURCES_FACTOR = 10
+				industry_repair_factor = 10
 
 				LOCAL_MANPOWER = 10
 				industry_repair_factor = 100
@@ -96,6 +100,14 @@ ideas = {
 			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.71
+			}
+		}
+		cheat_politics_getfactories = {
+			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			on_add = {
+				country_event = Easybuffe.16
 			}
 		}
 	}
@@ -147,6 +159,14 @@ ideas = {
 			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuff.40
+			}
+		}
+		cheat_politics_bicycle = {
+			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			on_add = {
+				country_event = Easybuffe.15
 			}
 		}
 	}
@@ -366,6 +386,14 @@ ideas = {
 				country_event = Easybuff.64
 			}
 		}
+		cheat_politics_getsupeq = {
+			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			on_add = {
+				country_event = Easybuffe.17
+			}
+		}
 	}
 
 	cheat_land = {
@@ -481,6 +509,14 @@ ideas = {
 			cancel_if_invalid = no
 			on_add = {
 				country_event = Easybuffe.11
+			}
+		}
+		cheat_politics_leaderenc = {
+			picture = generic_production_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			on_add = {
+				country_event = Easybuffe.18
 			}
 		}
 	}

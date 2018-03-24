@@ -30,7 +30,7 @@ country_event = {
                 type = infrastructure
                 level = 1
                 instant_build = yes
-            }    
+            }
         }
     }
     option = {
@@ -58,7 +58,7 @@ country_event = {
                 type = radar_station
                 level = 1
                 instant_build = yes
-            }    
+            }
         }
     }
     option = {

@@ -102,3 +102,184 @@ country_event = {
         ai_chance = { factor = 100 }
     }
 }
+
+# set_technology = { bicycle_infantry = 1 }
+
+country_event = {
+    id = Easybuffe.15
+    title = Easybuffe.15.t
+    desc = Easybuffe.15.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+        is_ai = no
+        has_idea = cheat_politics_bicycle
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            remove_ideas = cheat_politics_bicycle
+        }
+    }
+    
+    option = {
+        name = Easybuffe.15.a
+        ai_chance = { factor = 0 }
+        set_technology = { bicycle_infantry = 1 }
+    }
+    option = {
+        name = Easybuffe.15.b
+        ai_chance = { factor = 0 }
+        set_technology = { bicycle_infantry = 0 }
+    }
+  
+    option = {
+        name = Easybuffe.15.c
+        ai_chance = { factor = 100 }
+    }
+}
+
+country_event = {
+    id = Easybuffe.16
+    title = Easybuffe.16.t
+    desc = Easybuffe.16.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+        is_ai = no
+        has_idea = cheat_politics_getfactories
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            remove_ideas = cheat_politics_getfactories
+        }
+    }
+    
+    option = {
+        name = Easybuffe.16.a
+        ai_chance = { factor = 0 }
+        add_offsite_building = { type = industrial_complex level = 2 }
+    }
+    option = {
+        name = Easybuffe.16.b
+        ai_chance = { factor = 0 }
+        add_offsite_building = { type = arms_factory level = 2 }
+    }
+    option = {
+        name = Easybuffe.16.e
+        ai_chance = { factor = 0 }
+        random_owned_state = {
+            add_extra_state_shared_building_slots = 2
+        }
+    }
+  
+    option = {
+        name = Easybuffe.16.c
+        ai_chance = { factor = 100 }
+    }
+}
+
+country_event = {
+    id = Easybuffe.17
+    title = Easybuffe.17.t
+    desc = Easybuffe.17.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+        is_ai = no
+        has_idea = cheat_politics_getsupeq
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            remove_ideas = cheat_politics_getsupeq
+        }
+    }
+    
+    option = {
+        name = Easybuffe.17.a
+        ai_chance = { factor = 0 }
+        add_equipment_to_stockpile = {
+            type = infantry_equipment_0
+            amount = 1000
+        }
+    }
+    option = {
+        name = Easybuffe.17.b
+        ai_chance = { factor = 0 }
+        add_equipment_to_stockpile = {
+            type = support_equipment_1
+            amount = 1000
+        }
+    }
+    option = {
+        name = Easybuffe.17.e
+        ai_chance = { factor = 0 }
+        add_equipment_to_stockpile = {
+            type = artillery_equipment_1
+            amount = 1000
+        }
+    }
+  
+    option = {
+        name = Easybuffe.17.c
+        ai_chance = { factor = 100 }
+    }
+    
+}
+
+country_event = {
+    id = Easybuffe.18
+    title = Easybuffe.18.t
+    desc = Easybuffe.18.d
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    trigger = {
+        is_ai = no
+        has_idea = cheat_politics_leaderenc
+    }
+
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            remove_ideas = cheat_politics_leaderenc
+        }
+    }
+    
+    option = {
+        name = Easybuffe.18.a
+        ai_chance = { factor = 0 }
+        random_army_leader = {
+			add_unit_leader_trait = expert_improviser
+		}
+    }
+    option = {
+        name = Easybuffe.18.b
+        ai_chance = { factor = 0 }
+        every_army_leader = {
+            add_unit_leader_trait = expert_improviser
+        }
+    }
+
+  
+    option = {
+        name = Easybuffe.18.c
+        ai_chance = { factor = 100 }
+    }
+}
