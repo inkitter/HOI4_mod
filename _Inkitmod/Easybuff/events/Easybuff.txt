@@ -10,7 +10,7 @@ country_event = {
     mean_time_to_happen = { days = 0 }
 
     immediate = {
-        remove_ideas = cheat_open_easybuff
+        hidden_effect = { remove_ideas = cheat_open_easybuff }
     }
 
     option = {

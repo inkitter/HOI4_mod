@@ -2,7 +2,7 @@
 
 [h1] Update 180325: Change the way trigger events: open cheat menu in decision or air cheat idea. [/h1]
 
-[h1] Changes a lot this time. Please report if there is any problem. The cheat about leader's trait is just a trial at present. [/h1]
+[h1] Changes a lot this time. Please report if there is any problem or typos. The cheat about leader's trait is just a trial at present. [/h1]
 
 Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 
@@ -80,7 +80,7 @@ Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 2. Add traits to leaders immediately.
 
 
-A pathch mod for Kaiserreich compatibility (thx @MrBlazzar™) http://steamcommunity.com/sharedfiles/filedetails/?id=1156092472
+A patch mod for Kaiserreich compatibility (thx @MrBlazzar™) http://steamcommunity.com/sharedfiles/filedetails/?id=1156092472
 
 ## -----Below For Chinese-----
 
