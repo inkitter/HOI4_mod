@@ -1,98 +1,155 @@
 ﻿add_namespace = Easybuff
 
-# cheat_politics_buildinfra 10
+
 country_event = {
-    id = Easybuff.10
-    title = Easybuff.10.t
-    desc = Easybuff.10.d
+    id = Easybuff.1
+    title = Easybuff.1.t
+    desc = Easybuff.1.desc
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_buildinfra
-    }
     mean_time_to_happen = { days = 0 }
 
     immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_politics_buildinfra
-        }
+        remove_ideas = cheat_open_easybuff
+    }
+
+    option = {
+        name = Easybuff.1.a
+        country_event = Easybuff.10
     }
     option = {
+        name = Easybuff.1.b
+        country_event = Easybuff.20
+    }
+    option = {
+        name = Easybuff.1.c
+        country_event = Easybuff.30
+    }
+    option = {
+        name = Easybuff.1.d
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.1.e
+        country_event = Easybuff.50
+    }
+    option = {
+        name = Easybuff.1.f
+        country_event = Easybuff.60
+    }
+    option = {
+        name = Easybuff.1.g
+        country_event = Easybuff.70
+    }
+    option = {
+        name = Easybuff.1.h
+        country_event = Easybuff.80
+    }
+    option = {
+        name = Easybuff.1.i
+        country_event = Easybuff.90
+    }
+    option = {
+        name = Easybuffclose
+    }
+}
+
+# Buildings 10
+country_event = {
+    id = Easybuff.10
+    title = Easybuff.10.t
+    desc = Easybuff.10.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    
+    mean_time_to_happen = { days = 0 }
+
+    option = {
         name = Easybuff.10.a
-        ai_chance = { factor = 0 }
         every_state = {
-            limit = {
-                is_controlled_by = ROOT
-            }
+            limit = { is_controlled_by = ROOT }
             add_building_construction = {
                 type = infrastructure
                 level = 1
                 instant_build = yes
             }
         }
+        country_event = Easybuff.1
     }
     option = {
         name = Easybuff.10.b
-        ai_chance = { factor = 0 }
         every_state = {
-            limit = {
-                is_controlled_by = ROOT
-            }
+            limit = { is_controlled_by = ROOT }
             add_building_construction = {
                 type = anti_air_building
                 level = 1
                 instant_build = yes
             }    
         }
+        country_event = Easybuff.1
     }
     option = {
         name = Easybuff.10.c
-        ai_chance = { factor = 0 }
         every_state = {
-            limit = {
-                is_controlled_by = ROOT
-            }
+            limit = { is_controlled_by = ROOT }
             add_building_construction = {
                 type = radar_station
                 level = 1
                 instant_build = yes
             }
         }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.10.d
+        every_state = {
+            limit = { is_controlled_by = ROOT }
+            add_building_construction = {
+                type = air_base
+                level = 1
+                instant_build = yes
+            }
+        }
+        country_event = Easybuff.1
     }
     option = {
         name = Easybuff.10.e
-        ai_chance = { factor = 100 }
+        add_offsite_building = { type = industrial_complex level = 2 }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.10.f
+        add_offsite_building = { type = arms_factory level = 2 }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.10.g
+        every_state = {
+            limit = { is_controlled_by = ROOT }
+            add_extra_state_shared_building_slots = 2
+        }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.1
     }
 }
 
-# cheat_politics_getres 20
+# Resources 20
 country_event = {
     id = Easybuff.20
     title = Easybuff.20.t
-    desc = Easybuff.20.d
+    desc = Easybuff.20.desc
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
     
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_getres
-    }
-    mean_time_to_happen = {    days = 0 }
-    
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_politics_getres
-        }
-    }
+    mean_time_to_happen = { days = 0 }
+
     option = {
         name = Easybuff.20.a
-        ai_chance = { factor = 0 }
         every_state = {
-            limit = {
-                is_controlled_by = ROOT
-            }
+            limit = { is_controlled_by = ROOT }
             add_resource = {
                 type = rubber
                 amount = 8
@@ -118,14 +175,12 @@ country_event = {
                 amount = 8
             }
         }
+        country_event = Easybuff.1
     }
     option = {
         name = Easybuff.20.b
-        ai_chance = { factor = 0 }
         random_state = {
-            limit = {
-                is_controlled_by = ROOT
-            }
+            limit = { is_controlled_by = ROOT }
             add_resource = {
                 type = rubber
                 amount = 8
@@ -151,242 +206,403 @@ country_event = {
                 amount = 8
             }
         }
+        country_event = Easybuff.1
     }
     option = {
         name = Easybuff.20.c
-        ai_chance = { factor = 100 }
+        every_owned_state = {
+            add_resource = {
+                type = rubber
+                amount = 8
+            }
+            add_resource = {
+                type = oil
+                amount = 8
+            }
+            add_resource = {
+                type = aluminium
+                amount = 8
+            }
+            add_resource = {
+                type = tungsten
+                amount = 8
+            }
+            add_resource = {
+                type = steel
+                amount = 8
+            }
+            add_resource = {
+                type = chromium
+                amount = 8
+            }
+        }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.1
     }
 }
 
-# cheat_politics_discore 40
+# Technologies 30
 country_event = {
-    id = Easybuff.40
-    title = Easybuff.40.t
-    desc = Easybuff.40.d
+    id = Easybuff.30
+    title = Easybuff.30.t
+    desc = Easybuff.30.desc
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
     
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_discore
-    }
-    mean_time_to_happen = {    days = 0 }
+    mean_time_to_happen = { days = 0 }
 
-    immediate = {
-        hidden_effect = {
-            remove_ideas = cheat_politics_discore
-            every_state = {
-                limit= {
-                    is_core_of = ROOT
-                }
-                set_state_flag = player_state
-            }
-            set_country_flag = player_country
-        }
+    option = {
+        name = Easybuff.30.a
+        country_event = Easybuff.31
     }
+    option = {
+        name = Easybuff.30.b
+        country_event = Easybuff.32
+    }
+    option = {
+        name = Easybuff.30.c
+        country_event = Easybuff.33
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.1
+    }
+}
+# Bicycle 31
+country_event = {
+    id = Easybuff.31
+    title = Easybuff.31.t
+    desc = Easybuff.31.desc
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.31.a
+        set_technology = { bicycle_infantry = 1 }
+        country_event = Easybuff.30
+    }
+    option = {
+        name = Easybuff.31.b
+        set_technology = { bicycle_infantry = 0 }
+        country_event = Easybuff.30
+    }
+  
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.30
+    }
+}
+# 32
+country_event = {
+    id = Easybuff.32
+    title = Easybuff.32.t
+    desc = Easybuff.32.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.32.a
+        set_technology = { cv_fighter3 = 1 }
+        set_technology = { jet_fighter2 = 1 }
+        set_technology = { cv_CAS3 = 1 }
+        set_technology = { cv_naval_bomber3 = 1 }
+        set_technology = { jet_tactical_bomber2 = 1 }
+        set_technology = { jet_strategic_bomber1 = 1 }
+        country_event = Easybuff.30
+    }
+    option = {
+        name = Easybuff.32.b
+        set_technology = { main_battle_tank = 1 }
+        set_technology = { modern_art = 1 }
+        set_technology = { advanced_light_tank = 1 }
+        set_technology = { advanced_light_art = 1 }
+        set_technology = { advanced_medium_tank = 1 }
+        set_technology = { advanced_medium_art = 1 }
+        country_event = Easybuff.30
+    }
+    option = {
+        name = Easybuff.32.c
+        set_technology = { mechanised_infantry3 = 1 }
+        set_technology = { motorized_rocket_unit = 1 }
+        set_technology = { motorised_infantry = 1 }
+        set_technology = { tech_support = 1 }
+        set_technology = { advanced_infantry_weapons = 1 }
+        set_technology = { tech_mountaineers = 1 }
+        country_event = Easybuff.30
+    }
+    option = {
+        name = Easybuff.32.d
+        set_technology = { torpedo_cruiser = 1 }
+        set_technology = { advanced_submarine = 1 }
+        set_technology = { advanced_carrier = 1 }
+        set_technology = { heavy_battleship2 = 1 }
+        set_technology = { advanced_battleship = 1 }
+        set_technology = { advanced_heavy_cruiser = 1 }
+        country_event = Easybuff.30
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.30
+    }
+}
+# 33
+country_event = {
+    id = Easybuff.33
+    title = Easybuff.33.t
+    desc = Easybuff.33.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.33.a
+        country_event = Easybuff.30
+    }
+    option = {
+        name = Easybuff.33.b
+        country_event = Easybuff.30
+    }
+  
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.30
+    }
+}
+
+# Equipments 40
+country_event = {
+    id = Easybuff.40
+    title = Easybuff.40.t
+    desc = Easybuff.40.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
 
     option = {
         name = Easybuff.40.a
-        ai_chance = { factor = 0 }
-        
-        every_state = {
-            limit = {
-                is_core_of = ROOT
-                is_controlled_by = ROOT
-                is_owned_by = ROOT
-            }
-            every_country = {
-                limit = {
-                    NOT = { has_country_flag = player_country }
-                }
-                remove_state_core = PREV
-                remove_state_claim = PREV
-            }
-        }
+        country_event = Easybuff.41
     }
     option = {
         name = Easybuff.40.b
-        ai_chance = { factor = 100 }
+        country_event = Easybuff.42
     }
-    
+  
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.1
+    }
 }
 
-# cheat_politics_makecore 42
+# Infantry Equipments 41
+country_event = {
+    id = Easybuff.41
+    title = Easybuff.41.t
+    desc = Easybuff.41.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+    
+    option = {
+        name = Easybuff.41.a
+        add_equipment_to_stockpile = {
+            type = infantry_equipment_0
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.b
+        add_equipment_to_stockpile = {
+            type = support_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.c
+        add_equipment_to_stockpile = {
+            type = artillery_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.d
+        add_equipment_to_stockpile = {
+            type = motorized_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.e
+        add_equipment_to_stockpile = {
+            type = mechanized_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.f
+        add_equipment_to_stockpile = {
+            type = motorized_rocket_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    
+    option = {
+        name = Easybuff.41.g
+        add_equipment_to_stockpile = {
+            type = modern_tank_artillery_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.40
+    }
+}
+
+# Air Equipments 42
 country_event = {
     id = Easybuff.42
     title = Easybuff.42.t
     desc = Easybuff.42.d
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_makecore
-    }
     mean_time_to_happen = { days = 0 }
-
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_politics_makecore
-        }
-    }
+    
     option = {
         name = Easybuff.42.a
-        ai_chance = { factor = 0 }
-        every_state = {
-            limit = {
-                is_controlled_by = ROOT
-                NOT = { is_core_of = ROOT }
-            }
-            add_core_of = ROOT
+        add_equipment_to_stockpile = {
+            type = strat_bomber_equipment_1
+            amount = 1000
         }
+        country_event = Easybuff.40
     }
     option = {
         name = Easybuff.42.b
-        ai_chance = { factor = 0 }
-        every_state = {
-            limit = {
-                is_claimed_by = ROOT
-                NOT = { is_core_of = ROOT }
-            }
-            add_core_of = ROOT
+        add_equipment_to_stockpile = {
+            type = jet_strat_bomber_equipment_1
+            amount = 1000
         }
+        country_event = Easybuff.40
     }
     option = {
         name = Easybuff.42.c
-        ai_chance = { factor = 100 }
+        add_equipment_to_stockpile = {
+            type = transport_plane_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.42.d
+        add_equipment_to_stockpile = {
+            type = jet_fighter_equipment_2
+            amount = 1000
+        }
+        country_event = Easybuff.40
     }
     option = {
         name = Easybuff.42.e
-        ai_chance = { factor = 0 }
-        random_state = {
-            limit = {
-                AND = {
-                    any_neighbor_state = { owner = { tag = ROOT } }
-                    NOT = { is_core_of = ROOT }
-                }
-            }
-            add_core_of = ROOT
+        add_equipment_to_stockpile = {
+            type = cv_CAS_equipment_3
+            amount = 1000
         }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.40
     }
 }
 
-# cheat_politics_morestate 43
+# Points and Exps 50
 country_event = {
-    id = Easybuff.43
-    title = Easybuff.43.t
-    desc = Easybuff.43.d
+    id = Easybuff.50
+    title = Easybuff.50.t
+    desc = Easybuff.50.desc
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_morestate
-    }
-    mean_time_to_happen = {    days = 0 }
-
-    immediate = {
-        hidden_effect = {
-            remove_ideas = cheat_politics_morestate
-
-            random_state = {
-                limit = {
-                    AND = {
-                        is_core_of = ROOT
-                        NOT = { is_controlled_by = ROOT }
-                    }
-                }
-                save_event_target_as = ROOT_state
-            }
-        }
-    }
-
-    option = {
-        name = Easybuff.43.a
-        ai_chance = { factor = 0 }
-        ROOT = { transfer_state = event_target:ROOT_state }
-    }
-
-    option = {
-        name = Easybuff.43.b
-        ai_chance = { factor = 100 }
-    }
-
-    option = {
-        name = Easybuff.43.c
-        ai_chance = { factor = 0 }
-        every_state = {
-            limit = {
-                AND = {
-                    is_core_of = ROOT
-                    NOT = { is_controlled_by = ROOT }
-                }
-            }
-            ROOT = {
-                transfer_state = PREV
-            }
-        }
-    }
-}
-
-# cheat_politics_losecore 44
-country_event = {
-    id = Easybuff.44
-    title = Easybuff.44.t
-    desc = Easybuff.44.d
-    picture = GFX_report_event_german_inspect_troops
-    is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_losecore
-    }
     mean_time_to_happen = { days = 0 }
 
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_politics_losecore 
-        }
+    option = {
+        name = Easybuff.50.a
+        army_experience = 100
+        country_event = Easybuff.1
     }
     option = {
-        name = Easybuff.44.a
-        ai_chance = { factor = 0 }
-        every_state = {
-            limit = {
-                NOT = { is_controlled_by = ROOT }
-                AND = { is_core_of = ROOT }
-            }
-            remove_core_of = ROOT
-        }
+        name = Easybuff.50.b
+        navy_experience = 100
+        country_event = Easybuff.1
     }
     option = {
-        name = Easybuff.44.b
-        ai_chance = { factor = 100 }
+        name = Easybuff.50.c
+        air_experience = 100
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.50.d
+        add_political_power = 300
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.50.e
+        add_manpower = 500000
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.50.f
+        add_command_power = 100
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.50.g
+        add_stability = 0.1
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.50.h
+        add_war_support = 0.1
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.50.i
+        add_named_threat = { threat = 25 }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.50.j
+        add_named_threat = { threat = -25 }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.1
     }
 }
 
-# cheat_politics_exitfac 45
+# Faction and Parties 60
 country_event = {
-    id = Easybuff.45
-    title = Easybuff.45.t
-    desc = Easybuff.45.d
+    id = Easybuff.60
+    title = Easybuff.60.t
+    desc = Easybuff.60.desc
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_exitfac
-    }
     mean_time_to_happen = { days = 0 }
 
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_politics_exitfac
-        }
-    }
     option = {
-        name = Easybuff.45.a
-        ai_chance = { factor = 0 }
+        name = Easybuff.60.a
         random_country = {
             limit = {
                 AND = {
@@ -396,212 +612,15 @@ country_event = {
             }
             remove_from_faction = ROOT
         }
+        country_event = Easybuff.1
     }
     option = {
-        name = Easybuff.45.b
-        ai_chance = { factor = 100 }
+        name = Easybuff.60.b
+        country_event = Easybuff.61
     }
-}
 
-# cheat_politics_joinfac 46
-country_event = {
-    id = Easybuff.46
-    title = Easybuff.46.t
-    desc = Easybuff.46.d
-    picture = GFX_report_event_german_inspect_troops
-    is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_joinfac
-    }
-    mean_time_to_happen = { days = 0 }
-
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_politics_joinfac
-        }
-    }
     option = {
-        name = Easybuff.46.a
-        ai_chance = { factor = 0 }
-        random_country = {
-            limit = {
-                AND = {
-                    is_in_faction_with = SOV
-                    is_faction_leader = yes
-                }
-            }
-            add_to_faction = ROOT
-        }
-    }
-    option = {
-        name = Easybuff.46.b
-        ai_chance = { factor = 0 }
-        random_country = {
-            limit = {
-                AND = {
-                    is_in_faction_with = ENG
-                    is_faction_leader = yes
-                }
-            }
-            add_to_faction = ROOT
-        }
-    }
-    option = {
-        name = Easybuff.46.c
-        ai_chance = { factor = 0 }
-        random_country = {
-            limit = {
-                AND = {
-                    is_in_faction_with = GER
-                    is_faction_leader = yes
-                }
-            }
-            add_to_faction = ROOT
-        }
-    }
-    option = {
-        name = Easybuff.46.e
-        ai_chance = { factor = 0 }
-    }
-}
-
-# cheat_politics_creatparty 47
-country_event = {
-    id = Easybuff.47
-    title = Easybuff.47.t
-    desc = Easybuff.47.d
-    picture = GFX_report_event_german_inspect_troops
-    is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_creatparty
-    }
-    mean_time_to_happen = { days = 0 }
-
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_politics_creatparty
-        }
-    }
-    option = {
-        name = Easybuff.47.a
-        ai_chance = { factor = 0 }
-        set_politics = {
-            ruling_party = democratic
-            elections_allowed = yes
-            parties = {
-                democratic = { 
-                    popularity = 70
-                }
-                fascism = {
-                    popularity = 10
-                }
-                communism = {
-                    popularity = 10
-                }
-                neutrality = {
-                    popularity = 10
-                }
-            }
-        }
-    }
-    option = {
-        name = Easybuff.47.b
-        ai_chance = { factor = 0 }
-        set_politics = {
-            ruling_party = fascism
-            elections_allowed = no
-            parties = {
-                democratic = { 
-                    popularity = 10
-                }
-                fascism = {
-                    popularity = 70
-                }
-                communism = {
-                    popularity = 10
-                }
-                neutrality = {
-                    popularity = 10
-                }
-            }
-        }
-    }
-    option = {
-        name = Easybuff.47.c
-        ai_chance = { factor = 0 }
-        set_politics = {
-            ruling_party = communism
-            elections_allowed = no
-            parties = {
-                democratic = { 
-                    popularity = 10
-                }
-                fascism = {
-                    popularity = 10
-                }
-                communism = {
-                    popularity = 70
-                }
-                neutrality = {
-                    popularity = 10
-                }
-            }
-        }
-    }
-    option = {
-        name = Easybuff.47.e
-        ai_chance = { factor = 1 }
-    }
-    option = {
-        name = Easybuff.47.f
-        ai_chance = { factor = 0 }
-        set_politics = {
-            ruling_party = neutrality
-            elections_allowed = no
-            parties = {
-                democratic = { 
-                    popularity = 10
-                }
-                fascism = {
-                    popularity = 10
-                }
-                communism = {
-                    popularity = 10
-                }
-                neutrality = {
-                    popularity = 70
-                }
-            }
-        }
-    }
-}
-
-# cheat_politics_remfac 48
-country_event = {
-    id = Easybuff.48
-    title = Easybuff.48.t
-    desc = Easybuff.48.d
-    picture = GFX_report_event_german_inspect_troops
-    is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_remfac
-    }
-    mean_time_to_happen = { days = 0 }
-
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_politics_remfac
-        }
-    }
-    option = {
-        name = Easybuff.48.a
-        ai_chance = { factor = 0 }
+        name = Easybuff.60.c
         every_country = {
             limit = { 
                 AND = { 
@@ -620,34 +639,88 @@ country_event = {
                 remove_from_faction = PREV
             }
         }
+        country_event = Easybuff.1
     }
     option = {
-        name = Easybuff.48.b
-        ai_chance = { factor = 100 }
+        name = Easybuff.60.d
+        country_event = Easybuff.62
+    }
+    option = {
+        name = Easybuff.60.e
+        country_event = Easybuff.63
+    }
+  
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.1
     }
 }
-# disband faction
+
+# Join Faction 61
 country_event = {
-    id = Easybuff.49
-    title = Easybuff.49.t
-    desc = Easybuff.49.d
+    id = Easybuff.61
+    title = Easybuff.61.t
+    desc = Easybuff.61.desc
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_disbandfac
-    }
     mean_time_to_happen = { days = 0 }
 
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_politics_disbandfac
+    option = {
+        name = Easybuff.61.a
+        random_country = {
+            limit = {
+                AND = {
+                    is_in_faction_with = SOV
+                    is_faction_leader = yes
+                }
+            }
+            add_to_faction = ROOT
         }
+        country_event = Easybuff.60
     }
     option = {
-        name = Easybuff.49.a
-        ai_chance = { factor = 0 }
+        name = Easybuff.61.b
+        random_country = {
+            limit = {
+                AND = {
+                    is_in_faction_with = ENG
+                    is_faction_leader = yes
+                }
+            }
+            add_to_faction = ROOT
+        }
+        country_event = Easybuff.60
+    }
+    option = {
+        name = Easybuff.61.c
+        random_country = {
+            limit = {
+                AND = {
+                    is_in_faction_with = GER
+                    is_faction_leader = yes
+                }
+            }
+            add_to_faction = ROOT
+        }
+        country_event = Easybuff.60
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.60
+    }
+}
+
+# Disband Faction 62
+country_event = {
+    id = Easybuff.62
+    title = Easybuff.62.t
+    desc = Easybuff.62.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.62.a
         random_country = {
             limit = {
                 AND = {
@@ -657,20 +730,20 @@ country_event = {
             }
             dismantle_faction = yes
         }
+        country_event = Easybuff.60
     }
     option = {
-        name = Easybuff.49.b
-        ai_chance = { factor = 0 }
+        name = Easybuff.62.b
         every_country = {
             limit = {
                 is_faction_leader = yes
             }
             dismantle_faction = yes
         }
+        country_event = Easybuff.60
     }
     option = {
-        name = Easybuff.49.c
-        ai_chance = { factor = 0 }
+        name = Easybuff.62.c
         random_country = {
             limit = {
                 AND = {
@@ -679,373 +752,327 @@ country_event = {
             }
             dismantle_faction = yes
         }
+        country_event = Easybuff.60
     }
     option = {
-        name = Easybuff.49.e
-        ai_chance = { factor = 100 }
+        name = Easybuffback
+        country_event = Easybuff.60
     }
 }
 
-# cheat_politics_getexp 50
-country_event = {
-    id = Easybuff.50
-    title = Easybuff.50.t
-    desc = Easybuff.50.d
-    picture = GFX_report_event_german_inspect_troops
-    is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_getexp
-    }
-    mean_time_to_happen = { days = 0 }
-
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_politics_getexp
-        }
-    }
-    mean_time_to_happen = {    days = 0 }
-
-    option = {
-        name = Easybuff.50.a
-        ai_chance = { factor = 0 }
-        army_experience = 100
-    }
-    option = {
-        name = Easybuff.50.b
-        ai_chance = { factor = 0 }
-        navy_experience = 100
-    }
-    option = {
-        name = Easybuff.50.c
-        ai_chance = { factor = 0 }
-        air_experience = 100
-    }
-    option = {
-        name = Easybuff.50.e
-        ai_chance = { factor = 0 }
-    }
-}
-country_event = {
-    id = Easybuff.51
-    title = Easybuff.51.t
-    desc = Easybuff.51.d
-    picture = GFX_report_event_german_inspect_troops
-    is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_getexpinsane
-    }
-    mean_time_to_happen = { days = 0 }
-
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_politics_getexpinsane
-        }
-    }
-    mean_time_to_happen = {    days = 0 }
-
-    option = {
-        name = Easybuff.51.a
-        ai_chance = { factor = 0 }
-        army_experience = 500
-    }
-    option = {
-        name = Easybuff.51.b
-        ai_chance = { factor = 0 }
-        navy_experience = 500
-    }
-    option = {
-        name = Easybuff.51.c
-        ai_chance = { factor = 0 }
-        air_experience = 500
-    }
-    option = {
-        name = Easybuff.51.e
-        ai_chance = { factor = 0 }
-    }
-}
-
-# add_unity
-country_event = {
-    id = Easybuff.60
-    title = Easybuff.60.t
-    desc = Easybuff.60.d
-    picture = GFX_report_event_german_inspect_troops
-    is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_add_unity
-    }
-
-    mean_time_to_happen = { days = 0 }
-
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_add_unity
-        }
-    }
-    
-    option = {
-        name = Easybuff.60.a
-        ai_chance = { factor = 0 }
-        add_stability = 0.1
-        add_war_support = 0.1
-    }
-  
-    option = {
-        name = Easybuff.60.c
-        ai_chance = { factor = 100 }
-    }
-}
-# add politic
-country_event = {
-    id = Easybuff.61
-    title = Easybuff.61.t
-    desc = Easybuff.61.d
-    picture = GFX_report_event_german_inspect_troops
-    is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_add_politic
-    }
-
-    mean_time_to_happen = { days = 0 }
-
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_add_politic
-        }
-    }
-    
-    option = {
-        name = Easybuff.61.a
-        ai_chance = { factor = 0 }
-        add_political_power = 500
-    }
-
-    option = {
-        name = Easybuff.61.b
-        ai_chance = { factor = 0 }
-        add_political_power = 100
-    }
-  
-    option = {
-        name = Easybuff.61.c
-        ai_chance = { factor = 100 }
-    }
-}
-
-# add manpower
-country_event = {
-    id = Easybuff.62
-    title = Easybuff.62.t
-    desc = Easybuff.62.d
-    picture = GFX_report_event_german_inspect_troops
-    is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_add_manpower
-    }
-
-    mean_time_to_happen = { days = 0 }
-
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_add_manpower
-        }
-    }
-    
-    option = {
-        name = Easybuff.62.a
-        ai_chance = { factor = 0 }
-        add_manpower = 500000
-    }
-
-    option = {
-        name = Easybuff.62.b
-        ai_chance = { factor = 0 }
-        add_manpower = 100000
-    }
-  
-    option = {
-        name = Easybuff.62.c
-        ai_chance = { factor = 100 }
-    }
-}
-
-# white_peace
+# Re-Group party 63
 country_event = {
     id = Easybuff.63
     title = Easybuff.63.t
-    desc = Easybuff.63.d
+    desc = Easybuff.63.desc
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-#        has_idea = cheat_white_peace
-    }
+    mean_time_to_happen = { days = 0 }
 
+    option = {
+        name = Easybuff.63.a
+        set_politics = {
+            ruling_party = democratic
+            elections_allowed = yes
+            parties = {
+                democratic = { 
+                    popularity = 70
+                }
+                fascism = {
+                    popularity = 10
+                }
+                communism = {
+                    popularity = 10
+                }
+                neutrality = {
+                    popularity = 10
+                }
+            }
+        }
+        country_event = Easybuff.60
+    }
+    option = {
+        name = Easybuff.63.b
+        set_politics = {
+            ruling_party = fascism
+            elections_allowed = no
+            parties = {
+                democratic = { 
+                    popularity = 10
+                }
+                fascism = {
+                    popularity = 70
+                }
+                communism = {
+                    popularity = 10
+                }
+                neutrality = {
+                    popularity = 10
+                }
+            }
+        }
+        country_event = Easybuff.60
+    }
+    option = {
+        name = Easybuff.63.c
+        set_politics = {
+            ruling_party = communism
+            elections_allowed = no
+            parties = {
+                democratic = { 
+                    popularity = 10
+                }
+                fascism = {
+                    popularity = 10
+                }
+                communism = {
+                    popularity = 70
+                }
+                neutrality = {
+                    popularity = 10
+                }
+            }
+        }
+        country_event = Easybuff.60
+    }
+    option = {
+        name = Easybuff.63.d
+        set_politics = {
+            ruling_party = neutrality
+            elections_allowed = no
+            parties = {
+                democratic = { 
+                    popularity = 10
+                }
+                fascism = {
+                    popularity = 10
+                }
+                communism = {
+                    popularity = 10
+                }
+                neutrality = {
+                    popularity = 70
+                }
+            }
+        }
+        country_event = Easybuff.60
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.60
+    }
+}
+
+# Cores and Domain 70
+country_event = {
+    id = Easybuff.70
+    title = Easybuff.70.t
+    desc = Easybuff.70.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
     mean_time_to_happen = { days = 0 }
 
     immediate = {
-        hidden_effect = { 
-#            remove_ideas = cheat_white_peace
+        hidden_effect = {
+            every_state = {
+                limit= {
+                    is_core_of = ROOT
+                }
+                set_state_flag = player_state
+            }
+            set_country_flag = player_country
         }
     }
-    
+
     option = {
-        name = Easybuff.63.a
-        ai_chance = { factor = 0 }
+        name = Easybuff.70.a
+        every_state = {
+            limit = {
+                is_core_of = ROOT
+                is_controlled_by = ROOT
+                is_owned_by = ROOT
+            }
+            every_country = {
+                limit = {
+                    NOT = { has_country_flag = player_country }
+                }
+                remove_state_core = PREV
+                remove_state_claim = PREV
+            }
+        }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.70.b
+        country_event = Easybuff.71
+    }
+    option = {
+        name = Easybuff.70.c
+        every_state = {
+            limit = {
+                NOT = { is_controlled_by = ROOT }
+                AND = { is_core_of = ROOT }
+            }
+            remove_core_of = ROOT
+        }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.70.d
+        country_event = Easybuff.72
+    }
+    option = {
+        name = Easybuff.70.e
+        country_event = Easybuff.73
+    }
+    option = {
+        name = Easybuff.70.f
+        country_event = Easybuff.74
+    }
+    option = {
+        name = Easybuff.70.g
+        country_event = Easybuff.75
+    }
+    option = {
+        name = Easybuff.70.h
         every_country = {
             limit = {
                 has_war_with = ROOT
             }
             PREV =  { white_peace = ROOT }
         } 
+        country_event = Easybuff.1
     }
-  
     option = {
-        name = Easybuff.63.c
-        ai_chance = { factor = 100 }
+        name = Easybuffback
+        country_event = Easybuff.1
     }
 }
 
-country_event = {
-    id = Easybuff.64
-    title = Easybuff.64.t
-    desc = Easybuff.64.d
-    picture = GFX_report_event_german_inspect_troops
-    is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_add_commandpower
-    }
-
-    mean_time_to_happen = { days = 0 }
-
-    immediate = {
-        hidden_effect = { 
-            remove_ideas = cheat_add_commandpower
-        }
-    }
-    
-    option = {
-        name = Easybuff.64.a
-        ai_chance = { factor = 0 }
-        add_command_power = 500
-    }
-
-    option = {
-        name = Easybuff.64.b
-        ai_chance = { factor = 0 }
-        add_command_power = 100
-    }
-  
-    option = {
-        name = Easybuff.64.c
-        ai_chance = { factor = 100 }
-    }
-}
-
-# cheat_politics_puppetcountry 70
-country_event = {
-    id = Easybuff.70
-    title = Easybuff.70.t
-    desc = Easybuff.70.d
-    picture = GFX_report_event_german_inspect_troops
-    is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_puppet
-    }
-    mean_time_to_happen = {    days = 0 }
-
-    immediate = {
-        hidden_effect = {
-            remove_ideas = cheat_politics_puppet
-        }
-    }
-
-    option = {
-        name = Easybuff.70.a
-        ai_chance = { factor = 0 }
-        random_country = {
-            limit = {
-                AND = {
-                    is_ai = yes
-                    NOT = { is_puppet_of = ROOT }
-                }
-            }
-            ROOT = { puppet = PREV }
-        }
-    }
-
-    option = {
-        name = Easybuff.70.b
-        ai_chance = { factor = 0 }
-        random_country = {
-            limit = {
-                AND = {
-                    is_neighbor_of = ROOT
-                    NOT = { is_puppet_of = ROOT }
-                }
-            }
-            ROOT = { puppet = PREV }
-        }
-    }
-
-    option = {
-        name = Easybuff.70.c
-        ai_chance = { factor = 0 }
-        random_country = {
-            limit = {
-                AND = {
-                    has_war_with = ROOT
-                    NOT = { is_puppet_of = ROOT }
-                }
-            }
-            ROOT = { puppet = PREV }
-        }
-    }
-
-    option = {
-        name = Easybuff.70.e
-        ai_chance = { factor = 100 }
-    }
-}
-
-# cheat_politics_getstate 71
+# Make Controlled to Cores 71
 country_event = {
     id = Easybuff.71
     title = Easybuff.71.t
-    desc = Easybuff.71.d
+    desc = Easybuff.71.desc
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
-    
-    trigger = {
-        is_ai = no
-        has_idea = cheat_politics_getstate
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.71.a
+        random_state = {
+            limit = {
+                AND = {
+                    any_neighbor_state = { owner = { tag = ROOT } }
+                    NOT = { is_core_of = ROOT }
+                }
+            }
+            add_core_of = ROOT
+        }
+        country_event = Easybuff.70
     }
+    option = {
+        name = Easybuff.71.b
+        every_state = {
+            limit = {
+                AND = {
+                    is_controlled_by = ROOT
+                    NOT = { is_core_of = ROOT }
+                }
+            }
+            add_core_of = ROOT
+        }
+        country_event = Easybuff.70
+    }
+    option = {
+        name = Easybuff.71.c
+        every_state = {
+            limit = {
+                AND = {
+                    is_claimed_by = ROOT
+                    NOT = { is_core_of = ROOT }
+                }
+            }
+            add_core_of = ROOT
+        }
+        country_event = Easybuff.70
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.70
+    }
+}
+
+# Get Control of Core States 72
+country_event = {
+    id = Easybuff.72
+    title = Easybuff.72.t
+    desc = Easybuff.72.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
     mean_time_to_happen = { days = 0 }
 
     immediate = {
         hidden_effect = {
-            remove_ideas = cheat_politics_getstate
+            random_state = {
+                limit = {
+                    AND = {
+                        is_core_of = ROOT
+                        NOT = { is_controlled_by = ROOT }
+                    }
+                }
+                save_event_target_as = ROOT_state
+            }
         }
+    }
+    option = {
+        name = Easybuff.72.a
+        random_state = {
+            limit = {
+                AND = {
+                    is_core_of = ROOT
+                    NOT = { is_controlled_by = ROOT }
+                }
+            }
+            ROOT = {
+                transfer_state = PREV
+            }
+        }
+        country_event = Easybuff.70
     }
 
     option = {
-        name = Easybuff.71.a
-        ai_chance = { factor = 0 }
+        name = Easybuff.72.b
+        every_state = {
+            limit = {
+                AND = {
+                    is_core_of = ROOT
+                    NOT = { is_controlled_by = ROOT }
+                }
+            }
+            ROOT = {
+                transfer_state = PREV
+            }
+        }
+        country_event = Easybuff.70
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.70
+    }
+}
+
+# Get Control of Neighbor States 73
+country_event = {
+    id = Easybuff.73
+    title = Easybuff.73.t
+    desc = Easybuff.73.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.73.a
         random_state = {
             limit = {
                 AND = {
@@ -1058,11 +1085,11 @@ country_event = {
                 transfer_state = PREV
             }
         }
+        country_event = Easybuff.70
     }
 
     option = {
-        name = Easybuff.71.b
-        ai_chance = { factor = 0 }
+        name = Easybuff.73.b
         random_state = {
             limit = {
                 AND = {
@@ -1074,11 +1101,11 @@ country_event = {
                 transfer_state = PREV
             }
         }
+        country_event = Easybuff.70
     }
 
     option = {
-        name = Easybuff.71.c
-        ai_chance = { factor = 0 }
+        name = Easybuff.73.c
         random_state = {
             limit = {
                 AND = {
@@ -1099,9 +1126,220 @@ country_event = {
                 transfer_state = PREV
             }
         }
+        country_event = Easybuff.70
     }
     option = {
-        name = Easybuff.71.e
-        ai_chance = { factor = 100 }
+        name = Easybuffback
+        country_event = Easybuff.70
+    }
+}
+
+# Puppet Country 74
+country_event = {
+    id = Easybuff.74
+    title = Easybuff.74.t
+    desc = Easybuff.74.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.74.a
+        random_country = {
+            limit = {
+                AND = {
+                    is_ai = yes
+                    NOT = { is_puppet_of = ROOT }
+                }
+            }
+            ROOT = { puppet = PREV }
+        }
+        country_event = Easybuff.70
+    }
+
+    option = {
+        name = Easybuff.74.b
+        random_country = {
+            limit = {
+                AND = {
+                    is_neighbor_of = ROOT
+                    NOT = { is_puppet_of = ROOT }
+                }
+            }
+            ROOT = { puppet = PREV }
+        }
+        country_event = Easybuff.70
+    }
+
+    option = {
+        name = Easybuff.74.c
+        random_country = {
+            limit = {
+                AND = {
+                    has_war_with = ROOT
+                    NOT = { is_puppet_of = ROOT }
+                }
+            }
+            ROOT = { puppet = PREV }
+        }
+        country_event = Easybuff.70
+    }
+
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.70
+    }
+}
+
+# Set Capital 75
+country_event = {
+    id = Easybuff.75
+    title = Easybuff.75.t
+    desc = Easybuff.75.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            random_owned_state = {
+                limit = {
+                    AND = {
+                        is_owned_by = ROOT
+                        ROOT = {
+                            divisions_in_state = {
+                                state = PREV
+                                size > 10
+                            }
+                        }
+                    }
+                }
+                save_event_target_as = cap_state          
+            }
+            random_owned_state = {
+                limit = {
+                    AND = {
+                        is_owned_by = ROOT
+                        ROOT = {
+                            divisions_in_state = {
+                                state = PREV
+                                size > 20
+                            }
+                        }
+                    }
+                }
+                save_event_target_as = cap_states         
+            }
+            random_owned_state = {
+                save_event_target_as = cap_statess         
+            }
+        }
+    }
+
+    option = {
+        name = Easybuff.75.a
+        set_capital = event_target:cap_state
+        country_event = Easybuff.70
+    }
+    option = {
+        name = Easybuff.75.b
+        set_capital = event_target:cap_states
+        country_event = Easybuff.70
+    }
+    option = {
+        name = Easybuff.75.c
+        set_capital = event_target:cap_statess
+        country_event = Easybuff.70
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.70
+    }
+}
+
+# Static Modifiers 80
+country_event = {
+    id = Easybuff.80
+    title = Easybuff.80.t
+    desc = Easybuff.80.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.80.a
+        if = {
+            limit = { has_idea = de_combat_width }
+            remove_ideas = de_combat_width
+            else = { add_ideas = de_combat_width }
+        }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.80.b
+        if = {
+            limit = { has_idea = more_org }
+            remove_ideas = more_org
+            else = { add_ideas = more_org }
+        }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.80.c
+        if = {
+            limit = { has_idea = more_special }
+            remove_ideas = more_special
+            else = { add_ideas = more_special }
+        }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.80.d
+        if = {
+            limit = { has_idea = safety_eqs }
+            remove_ideas = safety_eqs
+            else = { add_ideas = safety_eqs }
+        }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.1
+    }
+}
+
+# Leaders 90
+country_event = {
+    id = Easybuff.90
+    title = Easybuff.90.t
+    desc = Easybuff.90.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.90.a
+        every_army_leader = {
+			add_unit_leader_trait = expert_improviser
+		}
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.90.b
+        every_army_leader = {
+            add_unit_leader_trait = lt_all_ability
+        }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.90.c
+        every_army_leader = {
+            add_unit_leader_trait = ctrl_more_troops
+        }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.1
     }
 }

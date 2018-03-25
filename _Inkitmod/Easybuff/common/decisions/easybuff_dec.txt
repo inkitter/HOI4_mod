@@ -1,0 +1,24 @@
+easybuff_decision = {
+#political_actions = {
+	easy_buff_dec = {
+
+		icon = generic_political_actions
+
+		fire_only_once = no
+
+		available = {
+			is_ai = no
+		}
+
+		cost = 0
+
+		visible = {
+			always = yes
+		}
+
+		complete_effect = {
+			country_event = Easybuff.1
+		}
+
+	}
+}

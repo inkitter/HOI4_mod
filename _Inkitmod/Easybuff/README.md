@@ -1,97 +1,102 @@
-[h1]+Easy Buff [1.5.*][/h1]
+[h1][b] +Easy Buff [1.5.*][/b][/h1]
 
-[h1]Update 180311: fixed bug that AI do not rise default ideas; Update for 1.5[/h1]
+[h1] Update 180325: Change the way trigger events: open cheat menu in decision or air cheat idea. [/h1]
+
+[h1] Changes a lot this time. Please report if there is any problem. The cheat about leader's trait is just a trial at present. [/h1]
 
 Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 
-# Changelog 180324
-* Bicycle Tech.
-* Add Factories out side map.
-* Add trait to leader.
-* Repair speed comes up with construction speed.
-
-# Changelog 180311
-* Fixed bug that AI do not rise default ideas
-
-# Changelog 180308
-1. Now Supports 1.5.*.
-2. Change Unity related functions to Stability and War support.
-3. Add Command power related functions. Add command power event or daily gain buff.
-
-# Changelog 180211
-1. Puppet function.
-2. Control neighbor states function.
-3. Adjust some old function (Manpower etc.).
+# Changelog 180325
+* Change Event Triggers: 
+  1. Open Cheat Menu in National idea (Air Cheats icon).
+  2. Or Open Cheat Menu in Decision Menu.
 
 # Features:
+* For Single Players (Useable in Muti when others use this mod). 
+* No steam archievements.
 
-* For Single Players（Muti can join when others use this）. 
-* No steam archievements in Ironman.
+## Modifier Buffs
+* Open Buffs in National Ideas.
+* Support different level Modifiers in Construction, Research Speed, Politics, Production, Land, Navy and Air.
 
-1. Cheat mod that AI doesn't use. 
-2. Different Levels of modifiers that can be canceled ingame.
+## Cheat Events
+* Open Cheat Menu in: 1. Air Idea. 2. Decisions.
 
-## Self Event
-### Building idea
-1. "Add Resources" can add 8 resources to whole country or only add in a random state. 
-2. "Building Lv UP" to lv UP Infrastructure or Land Fort or Radar.
-### Politics idea
-1. "Make Core" item in politics which can make all controlled and claimed states as your core states. You will get an event after activate. Click OK to get core states.
-2. "Lose Core" to discard your cores which is under control of other countries.
-3. "Control core States" to get control of a random core state.
-4. "Exit Faction"
-5. "Join Faction"
-6. "Force Ruling Party" to change ruling party of your country.  thx @Ƭʀoɉaɳ
+[h1]Type of event as follows:[/h1]
 
-### Land idea
-1. "Add experience" in cheat_land idea to add 100 army/navy/air experience.
-2. "Add experience insane". add 500 exps.
+### 1. Buildings
+1. Get Buildings immediately: Infrasturcture, Anti-Air, Radar, Air Base.
+2. Get Forgein Factories which is not on map and does not base on domain at all. (Industrial Complexes or Army Factories.)
+3. Open more Building Slots
+### 2. Resources
+* Add Resources in Controlled states.
 
-## Other country Event
-1. "Force Exit Faction" Force enemy contries exit faction.
-2. "Force to Discard cores" Force every country discard their core and claim of your core states.
-3. "Add Stability and war support"
-4. "Add Politic Power"
-5. "Set Capital"
-6. "Adjust Threat"
-7. "Add Manpower"
-8. "Add Command Power"
+### 3. Technologies
+1. Get Bicycle Technology or remove it.
+2. Get some late-game technologies immediately.
+
+* This is an interest direction, maybe more functions could come out if you have ideas.
+
+## 4. Equipments
+1. Get Basic Equipments Immediately. [b] !!! All Equipment needs the technology had been researched. !!! [/b] Or the event does not give you Eq.
+2. Infantry, Support, Artillery, Motorized, Mechanized, Motorized Rocket, Modern Tank Artillery.
+3. Bomber, Jet Bomber, Transport, Jet Fighter, CV CAS 3
+
+* Since Soft Attack and Air is all in HOI4, I just wrote codes on these Eq. (Artillery and Aircraft) Please leave a note if some other useful Eq. are necessary.
+
+### 5. Points and Experiments
+1. Army, Navy, Air Experience.
+2. Political Power.
+3. Man Power.
+4. Command Power.
+5. Stability.
+6. War Support.
+7. Increase or Decrease Threat.
+
+* Known Issues: The Experience can only be get once time per day. Please resume game to get more experience. This may due to core code of game if not controllable by mod.
+
+### 6. Faction and Parties
+1. Exit Faction
+2. Join Faction
+3. Force Enemy Exit Faction
+4. Disband Faction
+5. Re-Group Party  thx @Ƭʀoɉaɳ
+
+### 7. Cores and Domains
+1. Force All to Discard Cores: Force every country discard their core and claim on your core states.
+2. Make Controlled to Cores: Make all controlled and claimed states as your core states.
+3. Lose Cores: Discard your cores which is under control of other countries.
+4. Get Control of Core States
+5. Get Control of Neighbor States
+6. Puppet Country
+7. Set Capital
+8. White Peace
+
+### 8. Static Modifiers
+1. Some single modifiers.
+
+### 9. Leaders
+1. Just a trial at present.
+2. Add traits to leaders immediately.
 
 
 A pathch mod for Kaiserreich compatibility (thx @MrBlazzar™) http://steamcommunity.com/sharedfiles/filedetails/?id=1156092472
 
---------
+## -----Below For Chinese-----
 
-Below For Chinese  
+## 精力有限，汉化包暂时移除。
 
-精力有限，汉化包暂时移除。
+* 这是一个用于作弊的 mod ，类似 HOI3 (钢铁雄心3) 的水桶决议。
+1. 在国家界面能看到 Easybuff 的按钮，点击各类buf开启或关闭。
+2. 在 Air buff 处或在决议界面可以看到 Open Easy buff 选项，可以打开作弊菜单。
 
-# 主要功能
-
-1. AI不会用的作弊。
-2. 不同等级的作弊。游戏中可取消或激活。
-
-## 对本国事件
-### 建筑idea
-
-1. "添加资源" 功能。分为每个省份增加每种资源8个 或者是 随机某个省份获得每种资源8个。
-2. "建筑升级" 功能。全国基础建设提高1级。或者陆军要塞提高1级。
-### 政治idea
-1. "制造核心" 功能。可以将你控制的领土变为核心。或者将宣称的领土归为你的核心。
-2. "放弃核心" 功能。用于放弃被AI占领的核心。
-3. "获得核心控制权" 功能。 随机获得某个核心领土的控制权，多次使用可以获得所有核心领土。
-4. "退出阵营" 功能。强制退出当前阵营。
-5. "加入阵营" 功能。强制加入某阵营。
-6. "解散阵营" 功能。
-
-### 陆军idea
-1. "增加经验" 功能。 选择获得某种类型经验100/500。
-
-### 对他国 （科技idea）
-1. "强迫退出阵营"。 可以强迫敌国退出阵营。
-2. "强制放弃核心"。 可以强迫别国放弃在你核心领土的宣称和核心。
-3. "增加凝聚力"
-4. "增加政治点数"
-5. "设置首都"
-6. "调整紧张度"
-7. "增加人力50万"
+# 作弊菜单功能：
+1. 各类建筑物
+2. 添加资源
+3. 获得科技，有自行车科技
+4. 获得装备
+5. 获得各种点数、经验值
+6. 阵营和党派相关
+7. 核心和领土相关
+8. 其他的 buf
+9. 强化领袖

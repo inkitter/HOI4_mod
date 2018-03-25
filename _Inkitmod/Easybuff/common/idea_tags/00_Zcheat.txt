@@ -6,7 +6,6 @@ idea_categories = {
 		slot = cheat_equipment
 		slot = cheat_land
 		slot = cheat_navyair
-#		slot = cheat_event1
 
 		cost = 0
 		removal_cost = 0

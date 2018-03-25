@@ -62,54 +62,6 @@ ideas = {
 				industry_repair_factor = 100
 			}
 		}
-		cheat_politics_buildinfra = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.10
-			}
-		}
-		cheat_politics_getres = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.20
-			}
-		}
-		cheat_politics_setcapital = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuffe.10
-			}
-		}
-		cheat_politics_puppet = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.70
-			}
-		}
-		cheat_politics_getstate = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.71
-			}
-		}
-		cheat_politics_getfactories = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuffe.16
-			}
-		}
 	}
 
 	cheat_technology = {
@@ -143,30 +95,6 @@ ideas = {
 			cancel_if_invalid = no
 			modifier = {
 				research_time_factor = -4
-			}
-		}
-		cheat_politics_remfac = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.48
-			}
-		}
-		cheat_politics_discore = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.40
-			}
-		}
-		cheat_politics_bicycle = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuffe.15
 			}
 		}
 	}
@@ -243,63 +171,6 @@ ideas = {
 				DRIFT_DEFENCE_FACTOR = 1
 			}
 		}
-
-		cheat_politics_makecore = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.42
-			}
-		}
-		cheat_politics_morestate = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.43
-			}
-		}
-		cheat_politics_losecore = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.44
-			}
-		}
-		cheat_politics_exitfac = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.45
-			}
-		}
-		cheat_politics_joinfac = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.46
-			}
-		}
-		cheat_politics_creatparty = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.47
-			}
-		}
-		cheat_politics_disbandfac = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.49
-			}
-		}
 	}
 
 	cheat_equipment = {
@@ -351,47 +222,6 @@ ideas = {
 				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 10
 				CONSUMER_GOODS_FACTOR = -0.8
 				industrial_capacity_dockyard = 10
-			}
-		}
-		cheat_add_unity = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.60
-			}
-		}
-		cheat_add_politic = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.61
-			}
-		}
-		
-		cheat_add_manpower = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.62
-			}
-		}
-		cheat_add_commandpower = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.64
-			}
-		}
-		cheat_politics_getsupeq = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuffe.17
 			}
 		}
 	}
@@ -485,38 +315,6 @@ ideas = {
 				
 				COMBAT_WIDTH_FACTOR = -0.8
 				MINIMUM_TRAINING_LEVEL = -0.9
-			}
-		}
-		cheat_politics_getexp = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.50
-			}
-		}
-		cheat_politics_getexpinsane = {
-			picture = generic_communism_drift_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuff.51
-			}
-		}
-		cheat_politics_adjustthreat = {
-			picture = generic_production_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuffe.11
-			}
-		}
-		cheat_politics_leaderenc = {
-			picture = generic_production_bonus
-			available = { is_ai = no }
-			cancel_if_invalid = no
-			on_add = {
-				country_event = Easybuffe.18
 			}
 		}
 	}
@@ -616,6 +414,14 @@ ideas = {
 
 				AMPHIBIOUS_INVASION = 5
 				INVASION_PREPARATION = -1
+			}
+		}
+		cheat_open_easybuff = {
+			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			on_add = {
+				country_event = Easybuff.1
 			}
 		}
 	}

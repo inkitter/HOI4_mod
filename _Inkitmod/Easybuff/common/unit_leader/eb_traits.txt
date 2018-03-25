@@ -1,0 +1,27 @@
+leader_traits = {
+    ctrl_more_troops = { 
+        allowed = { always = no }
+		type = all
+		trait_type = personality_trait
+		
+		field_marshal_modifier = {
+			max_army_group_size = 15
+		}
+        corps_commander_modifier = {
+			max_commander_army_size = 76
+		}
+	}
+    lt_all_ability = { 
+        allowed = { always = no }
+		type = all
+		trait_type = personality_trait
+		
+		enable_ability = extra_suplies
+        enable_ability = siege_artillery
+        enable_ability = faster_naval_invasion_planning
+        enable_ability = probing_attack
+        enable_ability = glider_planes
+        enable_ability = makeshift_bridges
+	}
+    
+}
