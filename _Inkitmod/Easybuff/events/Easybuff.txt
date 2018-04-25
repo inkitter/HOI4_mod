@@ -131,6 +131,21 @@ country_event = {
         country_event = Easybuff.1
     }
     option = {
+        name = Easybuff.10.h
+        add_offsite_building = { type = dockyard level = 2 }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.10.i
+        add_offsite_building = { type = rocket_site level = 1 }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.10.j
+        add_offsite_building = { type = nuclear_reactor level = 1 }
+        country_event = Easybuff.1
+    }
+    option = {
         name = Easybuffback
         country_event = Easybuff.1
     }
