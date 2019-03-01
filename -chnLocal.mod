@@ -4,4 +4,4 @@ tags={
 	"Localisation"
 }
 picture="chnpic.png"
-supported_version="1.5"
+supported_version="1.6"

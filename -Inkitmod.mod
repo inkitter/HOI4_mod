@@ -4,4 +4,4 @@ tags={
 	"Gameplay"
 }
 picture="inkit.jpg"
-supported_version="1.5"
+supported_version="1.6"

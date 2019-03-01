@@ -70,7 +70,7 @@ ideas = {
 			available = { is_ai = no }
 			cancel_if_invalid = no
 			modifier = {
-				research_time_factor = -0.3
+				research_speed_factor = -0.3
 			}
 		}
 		cheat_technology_lv2 = {
@@ -78,7 +78,7 @@ ideas = {
 			available = { is_ai = no }
 			cancel_if_invalid = no
 			modifier = {
-				research_time_factor = -0.6
+				research_speed_factor = -0.6
 			}
 		}
 		cheat_technology_lv3 = {
@@ -86,7 +86,7 @@ ideas = {
 			available = { is_ai = no }
 			cancel_if_invalid = no
 			modifier = {
-				research_time_factor = -1.2
+				research_speed_factor = -1.2
 			}
 		}
 		cheat_technology_insane = {
@@ -94,7 +94,7 @@ ideas = {
 			available = { is_ai = no }
 			cancel_if_invalid = no
 			modifier = {
-				research_time_factor = -4
+				research_speed_factor = -4
 			}
 		}
 	}

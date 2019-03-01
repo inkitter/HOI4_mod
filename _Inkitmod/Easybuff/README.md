@@ -1,8 +1,6 @@
-[h1][b] +Easy Buff [1.5.*][/b][/h1]
+[h1][b] +Easy Buff [1.6.*][/b][/h1]
 
-[h1] Update 180325: Change the way trigger events: open cheat menu in decision or air cheat idea. [/h1]
-
-[h1] Changes a lot this time. Please report if there is any problem or typos. The cheat about leader's trait is just a trial at present. [/h1]
+[h1] Update 190301 [/h1]
 
 Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 
