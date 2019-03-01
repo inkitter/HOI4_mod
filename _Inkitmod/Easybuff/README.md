@@ -1,13 +1,9 @@
 [h1][b] +Easy Buff [1.6.*][/b][/h1]
 
-[h1] Update 190301 [/h1]
+[h1] Update 190301. Update for 1.6. Fixed research buff. [/h1]
 
 Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 
-# Changelog 180325
-* Change Event Triggers: 
-  1. Open Cheat Menu in National idea (Air Cheats icon).
-  2. Or Open Cheat Menu in Decision Menu.
 
 # Features:
 * For Single Players (Useable in Muti when others use this mod). 
