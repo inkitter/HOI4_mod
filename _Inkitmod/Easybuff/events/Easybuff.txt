@@ -195,7 +195,10 @@ country_event = {
     option = {
         name = Easybuff.20.b
         random_state = {
-            limit = { is_controlled_by = ROOT }
+            limit = { 
+                is_controlled_by = ROOT 
+                is_capital = yes
+            }
             add_resource = {
                 type = rubber
                 amount = 8
@@ -252,6 +255,90 @@ country_event = {
             }
         }
         country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.20.d
+        random_state = {
+            limit = { 
+                is_controlled_by = ROOT 
+                is_capital = yes
+            }
+            add_resource = {
+                type = steel
+                amount = 8
+            }
+        }
+        country_event = Easybuff.20
+    }
+    option = {
+        name = Easybuff.20.e
+        random_state = {
+            limit = { 
+                is_controlled_by = ROOT 
+                is_capital = yes
+            }
+            add_resource = {
+                type = tungsten
+                amount = 8
+            }
+        }
+        country_event = Easybuff.20
+    }
+    option = {
+        name = Easybuff.20.f
+        random_state = {
+            limit = { 
+                is_controlled_by = ROOT 
+                is_capital = yes
+            }
+            add_resource = {
+                type = aluminium
+                amount = 8
+            }
+        }
+        country_event = Easybuff.20
+    }
+    option = {
+        name = Easybuff.20.g
+        random_state = {
+            limit = { 
+                is_controlled_by = ROOT 
+                is_capital = yes
+            }
+            add_resource = {
+                type = chromium
+                amount = 8
+            }
+        }
+        country_event = Easybuff.20
+    }
+    option = {
+        name = Easybuff.20.h
+        random_state = {
+            limit = { 
+                is_controlled_by = ROOT 
+                is_capital = yes
+            }
+            add_resource = {
+                type = rubber
+                amount = 8
+            }
+        }
+        country_event = Easybuff.20
+    }
+    option = {
+        name = Easybuff.20.i
+        random_state = {
+            limit = { 
+                is_controlled_by = ROOT 
+                is_capital = yes
+            }
+            add_resource = {
+                type = oil
+                amount = 8
+            }
+        }
+        country_event = Easybuff.20
     }
     option = {
         name = Easybuffback
@@ -354,12 +441,22 @@ country_event = {
     }
     option = {
         name = Easybuff.32.d
-        set_technology = { torpedo_cruiser = 1 }
-        set_technology = { advanced_submarine = 1 }
-        set_technology = { advanced_carrier = 1 }
-        set_technology = { heavy_battleship2 = 1 }
-        set_technology = { advanced_battleship = 1 }
-        set_technology = { advanced_heavy_cruiser = 1 }
+        #set_technology = { torpedo_cruiser = 1 }
+        #set_technology = { advanced_submarine = 1 }
+        #set_technology = { advanced_carrier = 1 }
+        #set_technology = { heavy_battleship2 = 1 }
+        #set_technology = { advanced_battleship = 1 }
+        #set_technology = { advanced_heavy_cruiser = 1 }
+
+        set_technology = { advanced_ship_hull_light = 1 }
+        set_technology = { advanced_ship_hull_cruiser = 1 }
+        set_technology = { advanced_cruiser_armor_scheme = 1 }
+        set_technology = { advanced_ship_hull_heavy = 1 }
+        set_technology = { advanced_ship_hull_carrier = 1 }
+        set_technology = { advanced_ship_hull_submarine = 1 }
+        set_technology = { advanced_light_battery = 1 }
+        set_technology = { advanced_medium_battery = 1 }
+        set_technology = { advanced_heavy_battery = 1 }
         country_event = Easybuff.30
     }
     option = {
