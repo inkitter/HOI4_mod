@@ -88,4 +88,7 @@
  german_chinese_tank_designer:0 "中德技术使团"
  shanghai_electronics:0 "上海电子"
  sino_soviet_resource_surveyors:0 "中苏资源调查"
- 
+ MAN_arms_seized_1:0 "Ammunition Shortage in Manchuria"
+ MAN_arms_seized_1_desc:0 "The Qing have orchestrated a surprise attack and seized a number of arms depots and ammunition dumps on their territory. It will take some time to reorganize our supply chains in their territory."
+ MAN_underground_gun_shops:0 "Underground Workshops"
+ MAN_underground_gun_shops_desc:0 "We have created a number of makeshift workshops in backyards and cellars to produce more equipment. The quality is perhaps not as great, but they make up for it in numbers."

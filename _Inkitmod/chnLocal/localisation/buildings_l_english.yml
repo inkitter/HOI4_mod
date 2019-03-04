@@ -81,3 +81,6 @@
  RADAR_ONMAP_TOOLTIP_COVERAGE:0 "\n§H覆盖地区：§!"
  RADAR_ONMAP_TOOLTIP_COVERAGE_ENTRY:0 "\n  $PERC|%$$REGION$"
  RADAR_ONMAP_TOOLTIP_SUPPRESS:0 "\n按住§GCtrl§!§R隐藏§!这条提示。"
+ fuel_silo:0 "Fuel Silo"
+ fuel_silo_plural:0 "Fuel Silos"
+ fuel_silo_desc:0 "This building provides your nation with more room for stockpiling §HFuel§!."

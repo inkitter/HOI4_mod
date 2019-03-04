@@ -1415,6 +1415,15 @@ country_event = {
         country_event = Easybuff.1
     }
     option = {
+        name = Easybuff.80.e
+        if = {
+            limit = { has_idea = more_speed }
+            remove_ideas = more_speed
+            else = { add_ideas = more_speed }
+        }
+        country_event = Easybuff.1
+    }
+    option = {
         name = Easybuffback
         country_event = Easybuff.1
     }

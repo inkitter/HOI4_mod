@@ -113,6 +113,16 @@
  OOS_49:0 "完成的国策"
  OOS_50:0 "海军任务范围"
  OOS_51:0 "海军任务的海域"
+ OOS_52:0 "Command Power"
+ OOS_53:0 "Allocated Command Power"
+ OOS_54:0 "Total Command Power"
+ OOS_55:0 "Next ID"
+ OOS_56:0 "Number of Army Leaders"
+ OOS_57:0 "Number of Naval Leaders"
+ OOS_58:0 "Number of convoys used"
+ OOS_59:0 "Number of free convoys"
+ OOS_60:0 "Army Strength and Organization"
+ OOS_61:0 "Country Fuel Stockpiles"
  MULTIPLAYER_PLAYERS:0 "$NUM$"
  MULTIPLAYER_MESSAGES:0 "$NUM$"
  MATCHMAKING_FRIEND_STATUS_PLAYING_THIS:0 "§G已在游戏中§!"
@@ -133,5 +143,5 @@
  PLAYER_REMOVED_TITLE:0 "$PLAYER$退出了"
  PLAYER_REMOVED_DESC:0 "$PLAYER|Y$不幸退出了游戏。\n你希望$COUNTRY|Y$由AI接替控制么？"
  MULTIPLAYER_RESYC:1 "重新同步"
- 
  FAILED_TO_CONNECT:0 "连接失败"
+ 

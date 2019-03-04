@@ -73,6 +73,8 @@
  RESOURCE_TRADE_LINE_PLURAL:0 "$PARTNER|Y$: $FACTORIES|R$家民用工厂产品用于交换$NUM|G$单位$RESOURCE|Y$"
  CONSTRUCTION_FACTORIES_TRADE_DESC:0 "我们可以用民用工厂的产品来与其他国家交换战略资源。海外交易可能会需要运输船。"
  CONVERSION_SPEED_MODIFIERS:1 "转换成本修正:"
+ REFITTING_SPEED_MODIFIERS:1 "Refitting speed modified by:"
+ REFITTING_COST_MODIFIERS:1 "Refitting cost modified by:"
  INFRASTRUCTURE_COST_EFFECT:0 "地区基础设施：x$VAL|2H$"
  INFRA_VAL:0 "£infrastructure_texticon $VAL|0%+=$"
  CONSTRUCTION_MAP_ICON_ENTRY:0 "£backhoe_icon_small   $VAL$/$MAX$"

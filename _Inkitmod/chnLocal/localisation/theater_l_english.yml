@@ -18,6 +18,7 @@
  ORDER_AREA_DEFENSE_STATE_INVALID:0 "§R无法向地区下达区域防御命令§!"
  ORDER_PROV_TOOLTIP_FALLBACK_LINE:0 "- §G右键点击§!并拖动选择防御区域。\n这种类型的防御命令是§Y一次性命令§!, 可以用来§Y保卫海岸§!, 或为你的部队指定§Y撤退后的防线§! 。"
  ORDER_PROV_TOOLTIP_DEFENSIVE_LINE:0 "- §G点击§!在整个边界上设定§Y防线§! 。\n- §G右键点击§!并拖动在这条边界上设定§Y防线§! 。"
+ ORDER_PROV_TOOLTIP_DEFENSIVE_LINE_ARMY_GROUP:0 " - §GClick§! to make the §YDefensive Line§! on the entire border.\n - §GShift + Click§! to make the §YDefensive Line§! on the entire border without sub-army lines.\n - §GRight-click§! and drag to draw the §YDefensive Line§! along this border.\n - §GShift + Right-click§! and drag to draw the §YDefensive Line§! along this border without sub-army lines. "
  ORDER_PROV_TOOLTIP_DEFENSIVE_LINE_CANT:0 "§R你无法在这里设定前线。§!\n请将你的鼠标移动至一条高亮的前线上。"
  ORDER_PROV_TOOLTIP_DEFENSIVE_LINE_EDIT:1 "§G右键点击§!并拖动调整这条§Y防线§!"
  ORDER_PROV_TOOLTIP_DEFENSIVE_LINE_LINK:0 "§G点击§!§Y连接§!这条§Y防线§!"

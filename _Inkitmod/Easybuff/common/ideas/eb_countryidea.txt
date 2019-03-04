@@ -16,8 +16,17 @@ ideas = {
 			allowed = { is_ai = no }
 			removal_cost = -1
 			modifier = {
-				ARMY_ORG = 20
-				NAVY_ORG = 20
+				ARMY_ORG = 30
+				NAVY_ORG = 30
+			}
+		}
+		more_speed = {
+			name = more_speed
+			picture = generic_infantry_bonus
+			allowed = { is_ai = no }
+			removal_cost = -1
+			modifier = {
+				ARMY_SPEED_FACTOR = 3
 			}
 		}
 		more_special = {

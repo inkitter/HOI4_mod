@@ -1,5 +1,6 @@
 ﻿l_english:
  autonomy_dominion:0 "自治领"
+ autonomy_supervised_state:0 "Supervised State"
  autonomy_colony:0 "殖民地"
  autonomy_puppet:0 "傀儡国"
  autonomy_integrated_puppet:0 "半吞并傀儡"

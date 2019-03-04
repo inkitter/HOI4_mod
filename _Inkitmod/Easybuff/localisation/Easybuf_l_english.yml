@@ -232,6 +232,7 @@
  Easybuff.80.b:0 "More Max Organization"
  Easybuff.80.c:0 "More Special Forces"
  Easybuff.80.d:0 "Safety Equipments"
+ Easybuff.80.e:0 "Troops move faster"
 
  Easybuff.90:0 "Enhance Army Leader"
  Easybuff.90.t:0 "Enhance Army Leader"
@@ -248,4 +249,5 @@
  de_combat_width:0 "Decrease Combat Width"
  more_org:0 "Max Organization"
  more_special:0 "More Special Forces"
+ more_speed:0 "Troops move faster"
  safety_eqs:0 "Safety Equipments"
