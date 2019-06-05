@@ -1,6 +1,6 @@
-[h1][b] +Easy Buff [1.6.*][/b][/h1]
+[h1][b] +Easy Buff [1.7.*][/b][/h1]
 
-[h1] Update 190301. Update for 1.6. Fixed research buff. [/h1]
+[h1] Update 190605. Update for 1.7 [/h1]
 
 Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 
