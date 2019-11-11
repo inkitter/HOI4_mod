@@ -8,7 +8,7 @@ leader_traits = {
 			max_army_group_size = 15
 		}
         corps_commander_modifier = {
-			max_commander_army_size = 76
+			max_commander_army_size = 176
 		}
 	}
     lt_all_ability = { 
@@ -23,5 +23,4 @@ leader_traits = {
         enable_ability = glider_planes
         enable_ability = makeshift_bridges
 	}
-    
 }

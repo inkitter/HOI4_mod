@@ -114,12 +114,12 @@ country_event = {
     }
     option = {
         name = Easybuff.10.e
-        add_offsite_building = { type = industrial_complex level = 2 }
+        add_offsite_building = { type = industrial_complex level = 3 }
         country_event = Easybuff.1
     }
     option = {
         name = Easybuff.10.f
-        add_offsite_building = { type = arms_factory level = 2 }
+        add_offsite_building = { type = arms_factory level = 3 }
         country_event = Easybuff.1
     }
     option = {
@@ -132,7 +132,7 @@ country_event = {
     }
     option = {
         name = Easybuff.10.h
-        add_offsite_building = { type = dockyard level = 2 }
+        add_offsite_building = { type = dockyard level = 3 }
         country_event = Easybuff.1
     }
     option = {
@@ -268,7 +268,7 @@ country_event = {
                 amount = 8
             }
         }
-        country_event = Easybuff.20
+        country_event = Easybuff.1
     }
     option = {
         name = Easybuff.20.e
@@ -282,7 +282,7 @@ country_event = {
                 amount = 8
             }
         }
-        country_event = Easybuff.20
+        country_event = Easybuff.1
     }
     option = {
         name = Easybuff.20.f
@@ -296,7 +296,7 @@ country_event = {
                 amount = 8
             }
         }
-        country_event = Easybuff.20
+        country_event = Easybuff.1
     }
     option = {
         name = Easybuff.20.g
@@ -310,7 +310,7 @@ country_event = {
                 amount = 8
             }
         }
-        country_event = Easybuff.20
+        country_event = Easybuff.1
     }
     option = {
         name = Easybuff.20.h
@@ -324,7 +324,7 @@ country_event = {
                 amount = 8
             }
         }
-        country_event = Easybuff.20
+        country_event = Easybuff.1
     }
     option = {
         name = Easybuff.20.i
@@ -338,7 +338,7 @@ country_event = {
                 amount = 8
             }
         }
-        country_event = Easybuff.20
+        country_event = Easybuff.1
     }
     option = {
         name = Easybuffback
@@ -412,51 +412,52 @@ country_event = {
     option = {
         name = Easybuff.32.a
         set_technology = { cv_fighter3 = 1 }
-        set_technology = { jet_fighter2 = 1 }
-        set_technology = { cv_CAS3 = 1 }
         set_technology = { cv_naval_bomber3 = 1 }
+        set_technology = { jet_fighter2 = 1 }
         set_technology = { jet_tactical_bomber2 = 1 }
         set_technology = { jet_strategic_bomber1 = 1 }
+        set_technology = { radio_detection = 1 }
+        set_technology = { decimetric_radar = 1 }
+        set_technology = { improved_decimetric_radar = 1 }
+        set_technology = { centimetric_radar = 1 }
+        set_technology = { improved_centimetric_radar = 1 }
+        set_technology = { advanced_centimetric_radar = 1 }
+        set_technology = { atomic_research = 1 }
+        set_technology = { nuclear_reactor = 1 }
+        set_technology = { nukes = 1 }
         country_event = Easybuff.30
     }
     option = {
         name = Easybuff.32.b
         set_technology = { main_battle_tank = 1 }
         set_technology = { modern_art = 1 }
-        set_technology = { advanced_light_tank = 1 }
-        set_technology = { advanced_light_art = 1 }
-        set_technology = { advanced_medium_tank = 1 }
-        set_technology = { advanced_medium_art = 1 }
         country_event = Easybuff.30
     }
     option = {
         name = Easybuff.32.c
+        set_technology = { advanced_infantry_weapons = 1 }
+        set_technology = { motorised_infantry = 1 }
         set_technology = { mechanised_infantry3 = 1 }
         set_technology = { motorized_rocket_unit = 1 }
-        set_technology = { motorised_infantry = 1 }
         set_technology = { tech_support = 1 }
-        set_technology = { advanced_infantry_weapons = 1 }
-        set_technology = { tech_mountaineers = 1 }
+        set_technology = { rocket_artillery4 = 1 }
+        set_technology = { antiair5 = 1 }
         country_event = Easybuff.30
     }
     option = {
         name = Easybuff.32.d
-        #set_technology = { torpedo_cruiser = 1 }
-        #set_technology = { advanced_submarine = 1 }
-        #set_technology = { advanced_carrier = 1 }
-        #set_technology = { heavy_battleship2 = 1 }
-        #set_technology = { advanced_battleship = 1 }
-        #set_technology = { advanced_heavy_cruiser = 1 }
-
         set_technology = { advanced_ship_hull_light = 1 }
         set_technology = { advanced_ship_hull_cruiser = 1 }
-        set_technology = { advanced_cruiser_armor_scheme = 1 }
-        set_technology = { advanced_ship_hull_heavy = 1 }
+        set_technology = { early_ship_hull_carrier = 1 }
         set_technology = { advanced_ship_hull_carrier = 1 }
         set_technology = { advanced_ship_hull_submarine = 1 }
+        set_technology = { modern_ship_torpedo_launcher = 1 }
         set_technology = { advanced_light_battery = 1 }
         set_technology = { advanced_medium_battery = 1 }
-        set_technology = { advanced_heavy_battery = 1 }
+        set_technology = { dp_secondary_battery = 1 }
+        set_technology = { modern_naval_mines = 1 }
+        set_technology = { airsweep_mines = 1 }
+        set_technology = { advanced_fire_control_system = 1 }
         country_event = Easybuff.30
     }
     option = {
@@ -860,6 +861,7 @@ country_event = {
             limit = {
                 AND = {
                     is_faction_leader = yes
+                    is_ai=yes
                 }
             }
             dismantle_faction = yes
@@ -1388,6 +1390,15 @@ country_event = {
             limit = { has_idea = more_speed }
             remove_ideas = more_speed
             else = { add_ideas = more_speed }
+        }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.80.f
+        if = {
+            limit = { has_idea = gen_mods }
+            remove_ideas = gen_mods
+            else = { add_ideas = gen_mods }
         }
         country_event = Easybuff.1
     }

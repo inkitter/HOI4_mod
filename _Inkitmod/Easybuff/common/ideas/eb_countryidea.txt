@@ -1,6 +1,5 @@
 ideas = {
 	country = {
-
 		de_combat_width = {
 			name = de_combat_width
 			picture = generic_infantry_bonus
@@ -8,6 +7,74 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				COMBAT_WIDTH_FACTOR = -0.5
+			}
+		}
+		gen_mods = {
+			name = gen_mods
+			picture = generic_infantry_bonus
+			allowed = { is_ai = no }
+			removal_cost = -1
+			modifier = {
+				ARMY_SPEED_FACTOR = 3
+				army_defence_factor = 0.5
+				ARMY_ORG = 60
+				army_org_regain = 0.2
+				NO_SUPPLY_GRACE = 2400
+				COMBAT_WIDTH_FACTOR = -0.2
+				supply_consumption_factor = -0.3
+				fuel_consumption_factor = -0.2
+				AIR_RANGE_FACTOR = 2
+				air_accidents = -1
+				air_detection = 5
+				air_maximum_speed_factor = 2
+				NAVY_ORG = 30
+				naval_detection = 5
+				naval_speed_factor = 4
+				naval_enemy_fleet_size_ratio_penalty_factor = -1
+				decryption = 1
+
+				MAX_ARMY_EXPERIENCE = 500
+				MAX_NAVY_EXPERIENCE = 500
+				MAX_AIR_EXPERIENCE = 500
+
+				POLITICAL_POWER_GAIN = 3
+				max_command_power = 500
+				JUSTIFY_WAR_GOAL_TIME = -0.8
+				industry_repair_factor = 100
+				production_speed_buildings_factor = 10
+				production_factory_max_efficiency_factor = 0.2
+				industrial_capacity_factory = 8
+				industrial_capacity_dockyard = 8
+				industry_air_damage_factor = -0.6
+				fuel_gain_factor = 1
+			}
+			equipment_bonus = {
+				infantry = { reliability = 2 }
+				motorized = { reliability = 2 }
+				mechanized = { reliability = 2 }
+				armor = { reliability = 2 }
+				artillery = { reliability = 2 }
+				air_transport = { reliability = 2 }
+				fighter = { reliability = 2 }
+				tactical_bomber = { reliability = 2 }
+				naval_bomber = { reliability = 2 }
+				strategic_bomber = { reliability = 2 }
+				
+				submarine = {
+					reliability = 2
+					surface_detection = 20
+					sub_detection = 20
+					max_strength = 5
+				}
+				screen_ship = {
+					reliability = 2
+					max_strength = 5
+				}
+				carrier = {
+					build_cost_ic = -0.6
+					reliability = 2
+					max_strength = 5
+				}
 			}
 		}
 		more_org = {
@@ -26,7 +93,7 @@ ideas = {
 			allowed = { is_ai = no }
 			removal_cost = -1
 			modifier = {
-				ARMY_SPEED_FACTOR = 3
+				ARMY_SPEED_FACTOR = 2
 			}
 		}
 		more_special = {
@@ -47,25 +114,24 @@ ideas = {
 				air_accidents_factor = -2
 			}
 			equipment_bonus = {
-				transport_plane_equipment = { reliability = 1.2 }
-				tac_bomber_equipment = { reliability = 1.2 }
-				jet_tac_bomber_equipment = { reliability = 1.2 }
-				strat_bomber_equipment = { reliability = 1.2 }
-				jet_strat_bomber_equipment = { reliability = 1.2 }
-				nav_bomber_equipment = { reliability = 1.2 }
-				cv_nav_bomber_equipment = { reliability = 1.2 }
-				fighter_equipment = { reliability = 1.2 }
-				jet_fighter_equipment = { reliability = 1.2 }
-				cv_fighter_equipment = { reliability = 1.2 }
-				heavy_fighter_equipment = { reliability = 1.2 }
-				CAS_equipment = { reliability = 1.2 }
-				cv_CAS_equipment = { reliability = 1.2 }
-				mechanized_equipment = { reliability = 1.2 }
-				artillery_equipment = { reliability = 1.2 }
-				rocket_artillery_equipment = { reliability = 1.2 }
-				motorized_rocket_equipment = { reliability = 1.2 }
-				modern_tank_equipment = { reliability = 1.2 }
-				modern_tank_artillery_equipment = { reliability = 1.2 }
+				transport_plane_equipment = { reliability = 2 }
+				tac_bomber_equipment = { reliability = 2 }
+				jet_tac_bomber_equipment = { reliability = 2 }
+				strat_bomber_equipment = { reliability = 2 }
+				jet_strat_bomber_equipment = { reliability = 2 }
+				nav_bomber_equipment = { reliability = 2 }
+				cv_nav_bomber_equipment = { reliability = 2 }
+				fighter_equipment = { reliability = 2 }
+				jet_fighter_equipment = { reliability = 2 }
+				cv_fighter_equipment = { reliability = 2 }
+				CAS_equipment = { reliability = 2 }
+				cv_CAS_equipment = { reliability = 2 }
+				mechanized_equipment = { reliability = 1.5 }
+				artillery_equipment = { reliability = 1.5 }
+				rocket_artillery_equipment = { reliability = 1.5 }
+				motorized_rocket_equipment = { reliability = 1.5 }
+				modern_tank_equipment = { reliability = 2 }
+				modern_tank_artillery_equipment = { reliability = 2 }
 			}
 		}
     }
