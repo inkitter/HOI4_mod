@@ -442,6 +442,7 @@ country_event = {
         set_technology = { tech_support = 1 }
         set_technology = { rocket_artillery4 = 1 }
         set_technology = { antiair5 = 1 }
+        set_technology = { antitank5 = 1 }
         country_event = Easybuff.30
     }
     option = {
@@ -651,27 +652,27 @@ country_event = {
 
     option = {
         name = Easybuff.50.a
-        army_experience = 100
+        army_experience = 250
         country_event = Easybuff.1
     }
     option = {
         name = Easybuff.50.b
-        navy_experience = 100
+        navy_experience = 250
         country_event = Easybuff.1
     }
     option = {
         name = Easybuff.50.c
-        air_experience = 100
+        air_experience = 250
         country_event = Easybuff.1
     }
     option = {
         name = Easybuff.50.d
-        add_political_power = 300
+        add_political_power = 500
         country_event = Easybuff.1
     }
     option = {
         name = Easybuff.50.e
-        add_manpower = 500000
+        add_manpower = 700000
         country_event = Easybuff.1
     }
     option = {
@@ -1021,7 +1022,7 @@ country_event = {
             limit = {
                 has_war_with = ROOT
             }
-            PREV =  { white_peace = ROOT }
+            white_peace = ROOT
         } 
         country_event = Easybuff.1
     }

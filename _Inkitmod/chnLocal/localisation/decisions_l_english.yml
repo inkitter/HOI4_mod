@@ -10,4 +10,4 @@
  TAKE_DECISION_HEADER:0 "§H执行决议§!\n\n"
  DECISION_COST_DESC:0 "这个决议花费£pol_power $VAL|H0$"
  DECISION_COST_NOT_ENOUGH:0 "这个决议花费£pol_power $VAL|HR0$"
- ON_MAP_DECISION_NAME_DEFAULT:0 "Find decisions on the map."
+ ON_MAP_DECISION_NAME_DEFAULT:0 "寻找在地图上的决策。"

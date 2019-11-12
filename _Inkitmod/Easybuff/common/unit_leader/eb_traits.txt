@@ -8,7 +8,7 @@ leader_traits = {
 			max_army_group_size = 15
 		}
         corps_commander_modifier = {
-			max_commander_army_size = 176
+			max_commander_army_size = 276
 		}
 	}
     lt_all_ability = { 

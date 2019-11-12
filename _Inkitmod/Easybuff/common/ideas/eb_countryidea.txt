@@ -15,40 +15,40 @@ ideas = {
 			allowed = { is_ai = no }
 			removal_cost = -1
 			modifier = {
-				ARMY_SPEED_FACTOR = 3
+				ARMY_SPEED_FACTOR = 5
 				army_defence_factor = 0.5
-				ARMY_ORG = 60
-				army_org_regain = 0.2
-				NO_SUPPLY_GRACE = 2400
-				COMBAT_WIDTH_FACTOR = -0.2
-				supply_consumption_factor = -0.3
-				fuel_consumption_factor = -0.2
-				AIR_RANGE_FACTOR = 2
+				ARMY_ORG = 100
+				army_org_regain = 0.4
+				NO_SUPPLY_GRACE = 4800
+				COMBAT_WIDTH_FACTOR = -0.25
+				supply_consumption_factor = -0.2
+				#fuel_consumption_factor = -0.2
+				AIR_RANGE_FACTOR = 1
 				air_accidents = -1
-				air_detection = 5
+				air_detection = 2
 				air_maximum_speed_factor = 2
-				NAVY_ORG = 30
+				NAVY_ORG = 40
 				naval_detection = 5
-				naval_speed_factor = 4
-				naval_enemy_fleet_size_ratio_penalty_factor = -1
-				decryption = 1
-
-				MAX_ARMY_EXPERIENCE = 500
-				MAX_NAVY_EXPERIENCE = 500
-				MAX_AIR_EXPERIENCE = 500
+				naval_speed_factor = 3
+				decryption = 4
 
 				POLITICAL_POWER_GAIN = 3
 				max_command_power = 500
-				JUSTIFY_WAR_GOAL_TIME = -0.8
+				JUSTIFY_WAR_GOAL_TIME = -0.9
 				industry_repair_factor = 100
+				industry_free_repair_factor = 100
+				repair_speed_factor = 1
+				refit_speed = 1
 				production_speed_buildings_factor = 10
+				global_building_slots_factor = 0.6
 				production_factory_max_efficiency_factor = 0.2
 				industrial_capacity_factory = 8
 				industrial_capacity_dockyard = 8
 				industry_air_damage_factor = -0.6
-				fuel_gain_factor = 1
+				fuel_gain_factor = 0.3
 			}
 			equipment_bonus = {
+				reliability = 2
 				infantry = { reliability = 2 }
 				motorized = { reliability = 2 }
 				mechanized = { reliability = 2 }
@@ -64,16 +64,16 @@ ideas = {
 					reliability = 2
 					surface_detection = 20
 					sub_detection = 20
-					max_strength = 5
+					max_strength = 0.5
 				}
 				screen_ship = {
 					reliability = 2
-					max_strength = 5
+					max_strength = 1
 				}
 				carrier = {
-					build_cost_ic = -0.6
+					build_cost_ic = -0.3
 					reliability = 2
-					max_strength = 5
+					max_strength = 7
 				}
 			}
 		}

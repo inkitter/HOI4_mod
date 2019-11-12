@@ -1,5 +1,4 @@
 ﻿l_english:
- #AIR
  POL_fighter_equipment_0:0 "PZL.11"
  POL_fighter_equipment_0_short:0 "PZL.11"
  POL_cv_fighter_equipment_0:0 "PZL.11 舰载型"
@@ -70,7 +69,6 @@
  POL_strat_bomber_equipment_3_short:0 "马蜂"
  POL_jet_strat_bomber_equipment_1:0 "PZL 79 蚊子"
  POL_jet_strat_bomber_equipment_1_short:0 "蚊子"
- #ARMOR
  POL_gw_tank_equipment:0 "雷诺 FT"
  POL_gw_tank_equipment_short:0 "雷诺 FT"
  POL_light_tank_equipment_1:0 "TKS"
@@ -95,7 +93,6 @@
  POL_super_heavy_tank_equipment_1_short:0 "河马"
  POL_modern_tank_equipment_1:0 "57TP 枪骑"
  POL_modern_tank_equipment_1_short:0 "枪骑"
- #NAVAL
  POL_submarine_1:0 "狼级"
  POL_submarine_1_desc:0 "狼级包括三艘法国为波兰特制的潜艇，于30年代初入役。他们是基于法国的蓝宝石级设计的。他们属于大型潜艇，排水量近1000吨。装备550毫米鱼雷发射管6个，最大下潜深度80米。"
  POL_submarine_2:0 "雕级"

@@ -10,6 +10,9 @@ ideas = {
 				production_speed_buildings_factor = 0.2
 				LOCAL_RESOURCES_FACTOR = 0.2
 				industry_repair_factor = 0.2
+				repair_speed_factor = 0.3
+				refit_speed = 0.3
+				industry_free_repair_factor = 0.4
 			}
 		}
 		cheat_construction_lv2 = {
@@ -24,6 +27,9 @@ ideas = {
 				BUILDING_CONVERTION = 0.1
 				LOCAL_RESOURCES_FACTOR = 0.5
 				industry_repair_factor = 0.5
+				repair_speed_factor = 0.5
+				refit_speed = 0.5
+				industry_free_repair_factor = 1
 
 				LOCAL_MANPOWER = 0.1
 			}
@@ -40,6 +46,9 @@ ideas = {
 				BUILDING_CONVERTION = 0.5
 				LOCAL_RESOURCES_FACTOR = 1.2
 				industry_repair_factor = 0.7
+				repair_speed_factor = 0.7
+				refit_speed = 0.7
+				industry_free_repair_factor = 2
 
 				LOCAL_MANPOWER = 0.4
 			}
@@ -57,6 +66,9 @@ ideas = {
 				LOCAL_RESOURCES = 10
 				LOCAL_RESOURCES_FACTOR = 10
 				industry_repair_factor = 10
+				repair_speed_factor = 10
+				refit_speed = 10
+				industry_free_repair_factor = 10
 
 				LOCAL_MANPOWER = 10
 				industry_repair_factor = 100
@@ -117,6 +129,7 @@ ideas = {
 				stability_weekly = 0.05
 				war_support_weekly = 0.05
 				command_power_gain = 1
+				max_command_power = 50
 				OPINION_GAIN_MONTHLY = 0.01
 
 				TRADE_OPINION_FACTOR = 0.2
@@ -134,6 +147,7 @@ ideas = {
 				stability_weekly = 0.1
 				war_support_weekly = 0.1
 				command_power_gain = 3
+				max_command_power = 150
 				OPINION_GAIN_MONTHLY = 0.02
 
 				TRADE_OPINION_FACTOR = 0.5
@@ -152,6 +166,7 @@ ideas = {
 				stability_weekly = 0.4
 				war_support_weekly = 0.4
 				command_power_gain = 8
+				max_command_power = 300
 				OPINION_GAIN_MONTHLY = 0.05
 				OPINION_GAIN_MONTHLY_FACTOR = 0.3
 
@@ -171,6 +186,7 @@ ideas = {
 				stability_weekly = 10
 				war_support_weekly = 10
 				command_power_gain = 50
+				max_command_power = 500
 				OPINION_GAIN_MONTHLY = 1
 				OPINION_GAIN_MONTHLY_FACTOR = 1
 
