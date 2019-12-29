@@ -1,5 +1,11 @@
 ideas = {
 	cheat_construction = {
+		cheat_construction_lv0 = {
+			picture = generic_production_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			modifier = {}
+		}
 		cheat_construction_lv1 = {
 			picture = generic_production_bonus
 			available = { is_ai = no }
@@ -77,6 +83,12 @@ ideas = {
 	}
 
 	cheat_technology = {
+		cheat_technology_lv0 = {
+			picture = generic_intel_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			modifier = {}
+		}
 		cheat_technology_lv1 = {
 			picture = generic_intel_bonus
 			available = { is_ai = no }
@@ -120,6 +132,12 @@ ideas = {
 	}
 
 	cheat_politics = {
+		cheat_politics_lv0 = {
+			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			modifier = {}
+		}
 		cheat_politics_lv1 = {
 			picture = generic_communism_drift_bonus
 			available = { is_ai = no }
@@ -198,6 +216,12 @@ ideas = {
 	}
 
 	cheat_equipment = {
+		cheat_equipment_lv0 = {
+			picture = generic_goods_red_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			modifier = {}
+		}
 		cheat_equipment_lv1 = {
 			picture = generic_goods_red_bonus
 			available = { is_ai = no }
@@ -251,6 +275,12 @@ ideas = {
 	}
 
 	cheat_land = {
+		cheat_land_lv0 = {
+			picture = generic_fascism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			modifier = {}
+		}
 		cheat_land_lv1 = {
 			picture = generic_fascism_drift_bonus
 			available = { is_ai = no }
@@ -260,7 +290,7 @@ ideas = {
 				ARMY_ORG_FACTOR = 0.1
 				ARMY_MORALE_FACTOR = 0.1
 			}
-		}		
+		}
 		cheat_land_lv2 = {
 			picture = generic_fascism_drift_bonus
 			available = { is_ai = no }
@@ -333,10 +363,10 @@ ideas = {
 
 				EXPERIENCE_LOSS_FACTOR = -1
 				TRAINING_TIME_FACTOR = -0.8
-				
+
 				JUSTIFY_WAR_GOAL_TIME = -1
 				ENEMY_JUSTIFY_WAR_GOAL_TIME = 10
-				
+
 				COMBAT_WIDTH_FACTOR = -0.8
 				MINIMUM_TRAINING_LEVEL = -0.9
 			}
@@ -344,6 +374,12 @@ ideas = {
 	}
 
 	cheat_navyair = {
+		cheat_navyair_lv0 = {
+			picture = generic_air_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			modifier = {}
+		}
 		cheat_navyair_lv1 = {
 			picture = generic_air_bonus
 			available = { is_ai = no }
@@ -404,7 +440,7 @@ ideas = {
 				CARRIER_TRAFFIC = 0.5
 				NAVAL_SPEED_FACTOR = 0.8
 				SUBMARINE_ATTACK = 5
-				NAVY_MAX_RANGE_FACTOR = 1	
+				NAVY_MAX_RANGE_FACTOR = 1
 			}
 		}
 		cheat_navyair_insane = {
@@ -420,7 +456,7 @@ ideas = {
 
 				AIR_ATTACK_FACTOR = 3
 				AIR_DEFENCE_FACTOR = 3
-				AIR_AGILITY_FACTOR = 3		
+				AIR_AGILITY_FACTOR = 3
 				AIR_BOMBING_TARGETTING = 1
 				AIR_RANGE_FACTOR = 10
 

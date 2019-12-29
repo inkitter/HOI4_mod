@@ -61,7 +61,7 @@ country_event = {
     desc = Easybuff.10.desc
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
-    
+
     mean_time_to_happen = { days = 0 }
 
     option = {
@@ -84,7 +84,7 @@ country_event = {
                 type = anti_air_building
                 level = 1
                 instant_build = yes
-            }    
+            }
         }
         country_event = Easybuff.1
     }
@@ -158,7 +158,7 @@ country_event = {
     desc = Easybuff.20.desc
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
-    
+
     mean_time_to_happen = { days = 0 }
 
     option = {
@@ -195,8 +195,8 @@ country_event = {
     option = {
         name = Easybuff.20.b
         random_state = {
-            limit = { 
-                is_controlled_by = ROOT 
+            limit = {
+                is_controlled_by = ROOT
                 is_capital = yes
             }
             add_resource = {
@@ -259,8 +259,8 @@ country_event = {
     option = {
         name = Easybuff.20.d
         random_state = {
-            limit = { 
-                is_controlled_by = ROOT 
+            limit = {
+                is_controlled_by = ROOT
                 is_capital = yes
             }
             add_resource = {
@@ -273,8 +273,8 @@ country_event = {
     option = {
         name = Easybuff.20.e
         random_state = {
-            limit = { 
-                is_controlled_by = ROOT 
+            limit = {
+                is_controlled_by = ROOT
                 is_capital = yes
             }
             add_resource = {
@@ -287,8 +287,8 @@ country_event = {
     option = {
         name = Easybuff.20.f
         random_state = {
-            limit = { 
-                is_controlled_by = ROOT 
+            limit = {
+                is_controlled_by = ROOT
                 is_capital = yes
             }
             add_resource = {
@@ -301,8 +301,8 @@ country_event = {
     option = {
         name = Easybuff.20.g
         random_state = {
-            limit = { 
-                is_controlled_by = ROOT 
+            limit = {
+                is_controlled_by = ROOT
                 is_capital = yes
             }
             add_resource = {
@@ -315,8 +315,8 @@ country_event = {
     option = {
         name = Easybuff.20.h
         random_state = {
-            limit = { 
-                is_controlled_by = ROOT 
+            limit = {
+                is_controlled_by = ROOT
                 is_capital = yes
             }
             add_resource = {
@@ -329,8 +329,8 @@ country_event = {
     option = {
         name = Easybuff.20.i
         random_state = {
-            limit = { 
-                is_controlled_by = ROOT 
+            limit = {
+                is_controlled_by = ROOT
                 is_capital = yes
             }
             add_resource = {
@@ -353,7 +353,7 @@ country_event = {
     desc = Easybuff.30.desc
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
-    
+
     mean_time_to_happen = { days = 0 }
 
     option = {
@@ -363,10 +363,6 @@ country_event = {
     option = {
         name = Easybuff.30.b
         country_event = Easybuff.32
-    }
-    option = {
-        name = Easybuff.30.c
-        country_event = Easybuff.33
     }
     option = {
         name = Easybuffback
@@ -379,7 +375,7 @@ country_event = {
     title = Easybuff.31.t
     desc = Easybuff.31.desc
     picture = GFX_report_event_german_inspect_troops
-    
+
     is_triggered_only = yes
 
     mean_time_to_happen = { days = 0 }
@@ -394,7 +390,7 @@ country_event = {
         set_technology = { bicycle_infantry = 0 }
         country_event = Easybuff.30
     }
-  
+
     option = {
         name = Easybuffback
         country_event = Easybuff.30
@@ -466,29 +462,6 @@ country_event = {
         country_event = Easybuff.30
     }
 }
-# 33
-country_event = {
-    id = Easybuff.33
-    title = Easybuff.33.t
-    desc = Easybuff.33.desc
-    picture = GFX_report_event_german_inspect_troops
-    is_triggered_only = yes
-    mean_time_to_happen = { days = 0 }
-
-    option = {
-        name = Easybuff.33.a
-        country_event = Easybuff.30
-    }
-    option = {
-        name = Easybuff.33.b
-        country_event = Easybuff.30
-    }
-  
-    option = {
-        name = Easybuffback
-        country_event = Easybuff.30
-    }
-}
 
 # Equipments 40
 country_event = {
@@ -507,7 +480,27 @@ country_event = {
         name = Easybuff.40.b
         country_event = Easybuff.42
     }
-  
+    option = {
+        name = Easybuff.40.c
+        country_event = Easybuff.43
+    }
+    option = {
+        name = Easybuff.40.d
+        country_event = Easybuff.44
+    }
+    option = {
+        name = Easybuff.40.e
+        country_event = Easybuff.45
+    }
+    option = {
+        name = Easybuff.40.f
+        country_event = Easybuff.46
+    }
+    option = {
+        name = Easybuff.40.g
+        country_event = Easybuff.47
+    }
+
     option = {
         name = Easybuffback
         country_event = Easybuff.1
@@ -522,7 +515,7 @@ country_event = {
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
     mean_time_to_happen = { days = 0 }
-    
+
     option = {
         name = Easybuff.41.a
         add_equipment_to_stockpile = {
@@ -542,7 +535,7 @@ country_event = {
     option = {
         name = Easybuff.41.c
         add_equipment_to_stockpile = {
-            type = artillery_equipment_1
+            type = motorized_equipment_1
             amount = 1000
         }
         country_event = Easybuff.40
@@ -550,7 +543,7 @@ country_event = {
     option = {
         name = Easybuff.41.d
         add_equipment_to_stockpile = {
-            type = motorized_equipment_1
+            type = mechanized_equipment_1
             amount = 1000
         }
         country_event = Easybuff.40
@@ -558,7 +551,7 @@ country_event = {
     option = {
         name = Easybuff.41.e
         add_equipment_to_stockpile = {
-            type = mechanized_equipment_1
+            type = anti_air_equipment_1
             amount = 1000
         }
         country_event = Easybuff.40
@@ -566,14 +559,313 @@ country_event = {
     option = {
         name = Easybuff.41.f
         add_equipment_to_stockpile = {
+            type = anti_tank_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.g
+        add_equipment_to_stockpile = {
+            type = artillery_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.h
+        add_equipment_to_stockpile = {
+            type = rocket_artillery_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.i
+        add_equipment_to_stockpile = {
             type = motorized_rocket_equipment_1
             amount = 1000
         }
         country_event = Easybuff.40
     }
-    
+    option = {
+        name = Easybuff.41.j
+        add_equipment_to_stockpile = {
+            type = amphibious_mechanized_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.40
+    }
+}
+
+# Infantry Equipments 41
+country_event = {
+    id = Easybuff.41
+    title = Easybuff.41.t
+    desc = Easybuff.41.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.41.a
+        add_equipment_to_stockpile = {
+            type = infantry_equipment_0
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.b
+        add_equipment_to_stockpile = {
+            type = support_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.c
+        add_equipment_to_stockpile = {
+            type = motorized_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.d
+        add_equipment_to_stockpile = {
+            type = mechanized_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.e
+        add_equipment_to_stockpile = {
+            type = anti_air_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.f
+        add_equipment_to_stockpile = {
+            type = anti_tank_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
     option = {
         name = Easybuff.41.g
+        add_equipment_to_stockpile = {
+            type = artillery_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.h
+        add_equipment_to_stockpile = {
+            type = rocket_artillery_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.i
+        add_equipment_to_stockpile = {
+            type = motorized_rocket_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.41.j
+        add_equipment_to_stockpile = {
+            type = amphibious_mechanized_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.40
+    }
+}
+
+# Tank Equipments 42
+country_event = {
+    id = Easybuff.42
+    title = Easybuff.42.t
+    desc = Easybuff.42.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.42.a
+        add_equipment_to_stockpile = {
+            type = gw_tank_equipment
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.42.b
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.42.c
+        add_equipment_to_stockpile = {
+            type = medium_tank_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.42.d
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.42.e
+        add_equipment_to_stockpile = {
+            type = super_heavy_tank_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.42.f
+        add_equipment_to_stockpile = {
+            type = modern_tank_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.42.g
+        add_equipment_to_stockpile = {
+            type = amphibious_tank_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.40
+    }
+}
+
+# Tank Destroyer Equipments 43
+country_event = {
+    id = Easybuff.43
+    title = Easybuff.43.t
+    desc = Easybuff.43.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.43.b
+        add_equipment_to_stockpile = {
+            type = light_tank_destroyer_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.43.c
+        add_equipment_to_stockpile = {
+            type = medium_tank_destroyer_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.43.d
+        add_equipment_to_stockpile = {
+            type = heavy_tank_destroyer_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.43.e
+        add_equipment_to_stockpile = {
+            type = super_heavy_tank_destroyer_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.43.f
+        add_equipment_to_stockpile = {
+            type = modern_tank_destroyer_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.40
+    }
+}
+
+# Tank Artillery Equipments 44
+country_event = {
+    id = Easybuff.44
+    title = Easybuff.44.t
+    desc = Easybuff.44.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.44.b
+        add_equipment_to_stockpile = {
+            type = light_tank_artillery_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.44.c
+        add_equipment_to_stockpile = {
+            type = medium_tank_artillery_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.44.d
+        add_equipment_to_stockpile = {
+            type = heavy_tank_artillery_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.44.e
+        add_equipment_to_stockpile = {
+            type = super_heavy_tank_artillery_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.44.f
         add_equipment_to_stockpile = {
             type = modern_tank_artillery_equipment_1
             amount = 1000
@@ -586,17 +878,112 @@ country_event = {
     }
 }
 
-# Air Equipments 42
+# Tank Anti-Air Equipments 45
 country_event = {
-    id = Easybuff.42
-    title = Easybuff.42.t
-    desc = Easybuff.42.d
+    id = Easybuff.45
+    title = Easybuff.45.t
+    desc = Easybuff.45.d
     picture = GFX_report_event_german_inspect_troops
     is_triggered_only = yes
     mean_time_to_happen = { days = 0 }
-    
+
     option = {
-        name = Easybuff.42.a
+        name = Easybuff.45.b
+        add_equipment_to_stockpile = {
+            type = light_tank_aa_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.45.c
+        add_equipment_to_stockpile = {
+            type = medium_tank_aa_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.45.d
+        add_equipment_to_stockpile = {
+            type = heavy_tank_aa_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.45.e
+        add_equipment_to_stockpile = {
+            type = super_heavy_tank_aa_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.45.f
+        add_equipment_to_stockpile = {
+            type = modern_tank_aa_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.40
+    }
+}
+
+# Air Equipments 46
+country_event = {
+    id = Easybuff.46
+    title = Easybuff.46.t
+    desc = Easybuff.46.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.46.a
+        add_equipment_to_stockpile = {
+            type = fighter_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.46.b
+        add_equipment_to_stockpile = {
+            type = CAS_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.46.c
+        add_equipment_to_stockpile = {
+            type = nav_bomber_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.46.d
+        add_equipment_to_stockpile = {
+            type = heavy_fighter_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.46.e
+        add_equipment_to_stockpile = {
+            type = tac_bomber_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.46.f
         add_equipment_to_stockpile = {
             type = strat_bomber_equipment_1
             amount = 1000
@@ -604,15 +991,7 @@ country_event = {
         country_event = Easybuff.40
     }
     option = {
-        name = Easybuff.42.b
-        add_equipment_to_stockpile = {
-            type = jet_strat_bomber_equipment_1
-            amount = 1000
-        }
-        country_event = Easybuff.40
-    }
-    option = {
-        name = Easybuff.42.c
+        name = Easybuff.46.g
         add_equipment_to_stockpile = {
             type = transport_plane_equipment_1
             amount = 1000
@@ -620,17 +999,112 @@ country_event = {
         country_event = Easybuff.40
     }
     option = {
-        name = Easybuff.42.d
+        name = Easybuff.46.h
         add_equipment_to_stockpile = {
-            type = jet_fighter_equipment_2
+            type = rocket_interceptor_equipment_1
             amount = 1000
         }
         country_event = Easybuff.40
     }
     option = {
-        name = Easybuff.42.e
+        name = Easybuff.46.i
         add_equipment_to_stockpile = {
-            type = cv_CAS_equipment_3
+            type = rocket_suicide_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.46.j
+        add_equipment_to_stockpile = {
+            type = convoy_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.40
+    }
+}
+
+# Derivative Air Equipments 47
+country_event = {
+    id = Easybuff.47
+    title = Easybuff.47.t
+    desc = Easybuff.47.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.47.a
+        add_equipment_to_stockpile = {
+            type = cv_fighter_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.47.b
+        add_equipment_to_stockpile = {
+            type = cv_CAS_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.47.c
+        add_equipment_to_stockpile = {
+            type = cv_nav_bomber_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.47.d
+        add_equipment_to_stockpile = {
+            type = jet_fighter_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.47.e
+        add_equipment_to_stockpile = {
+            type = jet_tac_bomber_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.47.f
+        add_equipment_to_stockpile = {
+            type = jet_strat_bomber_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.47.g
+        add_equipment_to_stockpile = {
+            type = jet_heavy_fighter_equipment_1
+            amount = 100f0
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.47.h
+        add_equipment_to_stockpile = {
+            type = jet_CAS_equipment_1
+            amount = 1000
+        }
+        country_event = Easybuff.40
+    }
+    option = {
+        name = Easybuff.47.i
+        add_equipment_to_stockpile = {
+            type = jet_nav_bomber_equipment_1
             amount = 1000
         }
         country_event = Easybuff.40
@@ -736,8 +1210,8 @@ country_event = {
     option = {
         name = Easybuff.60.c
         every_country = {
-            limit = { 
-                AND = { 
+            limit = {
+                AND = {
                     has_war_with = ROOT
                     is_in_faction = yes
                     is_faction_leader = no
@@ -763,7 +1237,7 @@ country_event = {
         name = Easybuff.60.e
         country_event = Easybuff.63
     }
-  
+
     option = {
         name = Easybuffback
         country_event = Easybuff.1
@@ -1023,7 +1497,7 @@ country_event = {
                 has_war_with = ROOT
             }
             white_peace = ROOT
-        } 
+        }
         country_event = Easybuff.1
     }
     option = {
@@ -1192,8 +1666,8 @@ country_event = {
         random_state = {
             limit = {
                 AND = {
-                    any_neighbor_state = { 
-                        is_owned_by = ROOT 
+                    any_neighbor_state = {
+                        is_owned_by = ROOT
                         ROOT = {
                             divisions_in_state = {
                                 state = PREV
@@ -1201,7 +1675,7 @@ country_event = {
                             }
                         }
                     }
-                    
+
                     NOT = { is_controlled_by = ROOT }
                 }
             }
@@ -1284,7 +1758,7 @@ country_event = {
     mean_time_to_happen = { days = 0 }
 
     immediate = {
-        hidden_effect = { 
+        hidden_effect = {
             random_owned_state = {
                 limit = {
                     AND = {
@@ -1297,7 +1771,7 @@ country_event = {
                         }
                     }
                 }
-                save_event_target_as = cap_state          
+                save_event_target_as = cap_state
             }
             random_owned_state = {
                 limit = {
@@ -1311,10 +1785,10 @@ country_event = {
                         }
                     }
                 }
-                save_event_target_as = cap_states         
+                save_event_target_as = cap_states
             }
             random_owned_state = {
-                save_event_target_as = cap_statess         
+                save_event_target_as = cap_statess
             }
         }
     }
