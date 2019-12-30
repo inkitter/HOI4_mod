@@ -365,29 +365,320 @@ country_event = {
         country_event = Easybuff.32
     }
     option = {
+        name = Easybuff.30.c
+        country_event = Easybuff.33
+    }
+    option = {
         name = Easybuffback
         country_event = Easybuff.1
     }
 }
-# Bicycle 31
+
+# Get Technologies
 country_event = {
     id = Easybuff.31
     title = Easybuff.31.t
     desc = Easybuff.31.desc
     picture = GFX_report_event_german_inspect_troops
-
     is_triggered_only = yes
-
     mean_time_to_happen = { days = 0 }
 
     option = {
         name = Easybuff.31.a
+        set_technology = { infantry_weapons = 1 }
+        set_technology = { infantry_weapons1 = 1 }
+        set_technology = { infantry_weapons2 = 1 }
+        set_technology = { improved_infantry_weapons = 1 }
+        set_technology = { improved_infantry_weapons_2 = 1 }
+        set_technology = { infantry_at = 1 }
+        set_technology = { infantry_at2 = 1 }
+        set_technology = { advanced_infantry_weapons = 1 }
+        set_technology = { advanced_infantry_weapons2 = 1 }
+        set_technology = { support_weapons = 1 }
+        set_technology = { support_weapons2 = 1 }
+        set_technology = { support_weapons3 = 1 }
+        set_technology = { support_weapons4 = 1 }
+        set_technology = { HUN_light_infantry_tech = 1 }
+        set_technology = { night_vision = 1 }
+        set_technology = { night_vision2 = 1 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.b
+        set_technology = { motorised_infantry = 1 }
+        set_technology = { motorized_rocket_unit = 1 }
+        set_technology = { mechanised_infantry = 1 }
+        set_technology = { mechanised_infantry2 = 1 }
+        set_technology = { mechanised_infantry3 = 1 }
+        set_technology = { amphibious_mechanized_infantry = 1 }
+        set_technology = { amphibious_mechanized_infantry_2 = 1 }
         set_technology = { bicycle_infantry = 1 }
         country_event = Easybuff.30
     }
+
     option = {
-        name = Easybuff.31.b
-        set_technology = { bicycle_infantry = 0 }
+        name = Easybuff.31.c
+        set_technology = { paratroopers = 1 }
+        set_technology = { paratroopers2 = 1 }
+        set_technology = { paratroopers3 = 1 }
+        set_technology = { marines = 1 }
+        set_technology = { marines2 = 1 }
+        set_technology = { marines3 = 1 }
+        set_technology = { tech_mountaineers = 1 }
+        set_technology = { tech_mountaineers2 = 1 }
+        set_technology = { tech_mountaineers3 = 1 }
+        set_technology = { tech_special_forces = 1 }
+        set_technology = { advanced_special_forces = 1 }
+        set_technology = { improved_special_forces = 1 }
+        set_technology = { extreme_environment_training = 1 }
+        set_technology = { survival_training = 1 }
+        set_technology = { elite_forces = 1 }
+        set_technology = { jungle_warfare = 1 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.d
+        set_technology = { tech_support = 1 }
+        set_technology = { tech_engineers = 1 }
+        set_technology = { tech_engineers2 = 1 }
+        set_technology = { tech_engineers3 = 1 }
+        set_technology = { tech_engineers4 = 1 }
+        set_technology = { tech_recon = 1 }
+        set_technology = { tech_recon2 = 1 }
+        set_technology = { tech_recon3 = 1 }
+        set_technology = { tech_recon4 = 1 }
+        set_technology = { tech_military_police = 1 }
+        set_technology = { tech_military_police2 = 1 }
+        set_technology = { tech_military_police3 = 1 }
+        set_technology = { tech_military_police4 = 1 }
+        set_technology = { tech_maintenance_company = 1 }
+        set_technology = { tech_maintenance_company2 = 1 }
+        set_technology = { tech_maintenance_company3 = 1 }
+        set_technology = { tech_maintenance_company4 = 1 }
+        set_technology = { tech_field_hospital = 1 }
+        set_technology = { tech_field_hospital2 = 1 }
+        set_technology = { tech_field_hospital3 = 1 }
+        set_technology = { tech_field_hospital4 = 1 }
+        set_technology = { tech_logistics_company = 1 }
+        set_technology = { tech_logistics_company2 = 1 }
+        set_technology = { tech_logistics_company3 = 1 }
+        set_technology = { tech_logistics_company4 = 1 }
+        set_technology = { tech_signal_company = 1 }
+        set_technology = { tech_signal_company2 = 1 }
+        set_technology = { tech_signal_company3 = 1 }
+        set_technology = { tech_signal_company4 = 1 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.e
+        set_technology = { gw_artillery = 1 }
+        set_technology = { interwar_artillery = 1 }
+        set_technology = { artillery1 = 1 }
+        set_technology = { artillery2 = 1 }
+        set_technology = { artillery3 = 1 }
+        set_technology = { artillery4 = 1 }
+        set_technology = { artillery5 = 1 }
+        set_technology = { mountain_gun = 1 }
+        set_technology = { rocket_artillery = 1 }
+        set_technology = { rocket_artillery2 = 1 }
+        set_technology = { rocket_artillery3 = 1 }
+        set_technology = { rocket_artillery4 = 1 }
+        set_technology = { interwar_antiair = 1 }
+        set_technology = { antiair1 = 1 }
+        set_technology = { antiair2 = 1 }
+        set_technology = { antiair3 = 1 }
+        set_technology = { antiair4 = 1 }
+        set_technology = { antiair5 = 1 }
+        set_technology = { interwar_antitank = 1 }
+        set_technology = { antitank1 = 1 }
+        set_technology = { antitank2 = 1 }
+        set_technology = { antitank3 = 1 }
+        set_technology = { antitank4 = 1 }
+        set_technology = { antitank5 = 1 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.f
+        set_technology = { gwtank = 1 }
+        set_technology = { basic_light_tank = 1 }
+        set_technology = { basic_light_td = 1 }
+        set_technology = { basic_light_art = 1 }
+        set_technology = { basic_light_spaa = 1 }
+        set_technology = { improved_light_tank = 1 }
+        set_technology = { improved_light_td = 1 }
+        set_technology = { improved_light_art = 1 }
+        set_technology = { improved_light_spaa = 1 }
+        set_technology = { advanced_light_tank = 1 }
+        set_technology = { advanced_light_td = 1 }
+        set_technology = { advanced_light_art = 1 }
+        set_technology = { advanced_light_spaa = 1 }
+        set_technology = { amphibious_tank = 1 }
+        set_technology = { amphibious_tank_2 = 1 }
+        set_technology = { basic_medium_tank = 1 }
+        set_technology = { basic_medium_td = 1 }
+        set_technology = { basic_medium_art = 1 }
+        set_technology = { basic_medium_spaa = 1 }
+        set_technology = { improved_medium_tank = 1 }
+        set_technology = { improved_medium_td = 1 }
+        set_technology = { improved_medium_art = 1 }
+        set_technology = { improved_medium_spaa = 1 }
+        set_technology = { advanced_medium_tank = 1 }
+        set_technology = { advanced_medium_td = 1 }
+        set_technology = { advanced_medium_art = 1 }
+        set_technology = { advanced_medium_spaa = 1 }
+        set_technology = { basic_heavy_tank = 1 }
+        set_technology = { basic_heavy_td = 1 }
+        set_technology = { basic_heavy_art = 1 }
+        set_technology = { basic_heavy_spaa = 1 }
+        set_technology = { improved_heavy_tank = 1 }
+        set_technology = { improved_heavy_td = 1 }
+        set_technology = { improved_heavy_art = 1 }
+        set_technology = { improved_heavy_spaa = 1 }
+        set_technology = { advanced_heavy_tank = 1 }
+        set_technology = { advanced_heavy_td = 1 }
+        set_technology = { advanced_heavy_art = 1 }
+        set_technology = { advanced_heavy_spaa = 1 }
+        set_technology = { super_heavy_tank = 1 }
+        set_technology = { super_heavy_td = 1 }
+        set_technology = { super_heavy_art = 1 }
+        set_technology = { super_heavy_spaa = 1 }
+        set_technology = { main_battle_tank = 1 }
+        set_technology = { modern_td = 1 }
+        set_technology = { modern_art = 1 }
+        set_technology = { modern_spaa = 1 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.g
+        set_technology = { early_fighter = 1 }
+        set_technology = { fighter1 = 1 }
+        set_technology = { fighter2 = 1 }
+        set_technology = { fighter3 = 1 }
+        set_technology = { CAS1 = 1 }
+        set_technology = { CAS2 = 1 }
+        set_technology = { CAS3 = 1 }
+        set_technology = { naval_bomber1 = 1 }
+        set_technology = { naval_bomber2 = 1 }
+        set_technology = { naval_bomber3 = 1 }
+        set_technology = { cv_early_fighter = 1 }
+        set_technology = { cv_fighter1 = 1 }
+        set_technology = { cv_fighter2 = 1 }
+        set_technology = { cv_fighter3 = 1 }
+        set_technology = { cv_CAS1 = 1 }
+        set_technology = { cv_CAS2 = 1 }
+        set_technology = { cv_CAS3 = 1 }
+        set_technology = { cv_naval_bomber1 = 1 }
+        set_technology = { cv_naval_bomber2 = 1 }
+        set_technology = { cv_naval_bomber3 = 1 }
+        set_technology = { early_bomber = 1 }
+        set_technology = { heavy_fighter1 = 1 }
+        set_technology = { heavy_fighter2 = 1 }
+        set_technology = { heavy_fighter3 = 1 }
+        set_technology = { tactical_bomber1 = 1 }
+        set_technology = { tactical_bomber2 = 1 }
+        set_technology = { tactical_bomber3 = 1 }
+        set_technology = { strategic_bomber1 = 1 }
+        set_technology = { strategic_bomber2 = 1 }
+        set_technology = { strategic_bomber3 = 1 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.h
+        set_technology = { atomic_research = 1 }
+        set_technology = { nuclear_reactor = 1 }
+        set_technology = { nukes = 1 }
+        set_technology = { experimental_rockets = 1 }
+        set_technology = { rocket_engines = 1 }
+        set_technology = { improved_rocket_engines = 1 }
+        set_technology = { advanced_rocket_engines = 1 }
+        set_technology = { jet_engines = 1 }
+        set_technology = { jet_fighter1 = 1 }
+        set_technology = { jet_fighter2 = 1 }
+        set_technology = { jet_tactical_bomber1 = 1 }
+        set_technology = { jet_tactical_bomber2 = 1 }
+        set_technology = { jet_strategic_bomber1 = 1 }
+        set_technology = { suicide_craft = 1 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.i
+        set_technology = { electronic_mechanical_engineering = 1 }
+        set_technology = { radio = 1 }
+        set_technology = { radio_detection = 1 }
+        set_technology = { decimetric_radar = 1 }
+        set_technology = { improved_decimetric_radar = 1 }
+        set_technology = { advanced_decimetric_radar = 1 }
+        set_technology = { centimetric_radar = 1 }
+        set_technology = { improved_centimetric_radar = 1 }
+        set_technology = { advanced_centimetric_radar = 1 }
+        set_technology = { mechanical_computing = 1 }
+        set_technology = { computing_machine = 1 }
+        set_technology = { improved_computing_machine = 1 }
+        set_technology = { advanced_computing_machine = 1 }
+        set_technology = { basic_encryption = 1 }
+        set_technology = { improved_encryption = 1 }
+        set_technology = { advanced_encryption = 1 }
+        set_technology = { basic_decryption = 1 }
+        set_technology = { improved_decryption = 1 }
+        set_technology = { advanced_decryption = 1 }
+        set_technology = { basic_fire_control_system = 1 }
+        set_technology = { improved_fire_control_system = 1 }
+        set_technology = { advanced_fire_control_system = 1 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.j
+        set_technology = { basic_machine_tools = 1 }
+        set_technology = { improved_machine_tools = 1 }
+        set_technology = { advanced_machine_tools = 1 }
+        set_technology = { assembly_line_production = 1 }
+        set_technology = { flexible_line = 1 }
+        set_technology = { streamlined_line = 1 }
+        set_technology = { improved_equipment_conversion = 1 }
+        set_technology = { advanced_equipment_conversion = 1 }
+        set_technology = { concentrated_industry = 1 }
+        set_technology = { concentrated_industry2 = 1 }
+        set_technology = { concentrated_industry3 = 1 }
+        set_technology = { concentrated_industry4 = 1 }
+        set_technology = { concentrated_industry5 = 1 }
+        set_technology = { dispersed_industry = 1 }
+        set_technology = { dispersed_industry2 = 1 }
+        set_technology = { dispersed_industry3 = 1 }
+        set_technology = { dispersed_industry4 = 1 }
+        set_technology = { dispersed_industry5 = 1 }
+        set_technology = { fuel_silos = 1 }
+        set_technology = { fuel_refining = 1 }
+        set_technology = { fuel_refining2 = 1 }
+        set_technology = { fuel_refining3 = 1 }
+        set_technology = { fuel_refining4 = 1 }
+        set_technology = { fuel_refining5 = 1 }
+        set_technology = { synth_oil_experiments = 1 }
+        set_technology = { oil_processing = 1 }
+        set_technology = { improved_oil_processing = 1 }
+        set_technology = { advanced_oil_processing = 1 }
+        set_technology = { modern_oil_processing = 1 }
+        set_technology = { rubber_processing = 1 }
+        set_technology = { improved_rubber_processing = 1 }
+        set_technology = { advanced_rubber_processing = 1 }
+        set_technology = { modern_rubber_processing = 1 }
+        set_technology = { construction1 = 1 }
+        set_technology = { construction2 = 1 }
+        set_technology = { construction3 = 1 }
+        set_technology = { construction4 = 1 }
+        set_technology = { construction5 = 1 }
+        set_technology = { excavation1 = 1 }
+        set_technology = { excavation2 = 1 }
+        set_technology = { excavation3 = 1 }
+        set_technology = { excavation4 = 1 }
+        set_technology = { excavation5 = 1 }
         country_event = Easybuff.30
     }
 
@@ -396,7 +687,8 @@ country_event = {
         country_event = Easybuff.30
     }
 }
-# 32
+
+# Remove Technologies
 country_event = {
     id = Easybuff.32
     title = Easybuff.32.t
@@ -406,57 +698,450 @@ country_event = {
     mean_time_to_happen = { days = 0 }
 
     option = {
-        name = Easybuff.32.a
-        set_technology = { cv_fighter3 = 1 }
-        set_technology = { cv_naval_bomber3 = 1 }
-        set_technology = { jet_fighter2 = 1 }
-        set_technology = { jet_tactical_bomber2 = 1 }
-        set_technology = { jet_strategic_bomber1 = 1 }
-        set_technology = { radio_detection = 1 }
-        set_technology = { decimetric_radar = 1 }
-        set_technology = { improved_decimetric_radar = 1 }
-        set_technology = { centimetric_radar = 1 }
-        set_technology = { improved_centimetric_radar = 1 }
-        set_technology = { advanced_centimetric_radar = 1 }
-        set_technology = { atomic_research = 1 }
-        set_technology = { nuclear_reactor = 1 }
-        set_technology = { nukes = 1 }
+        name = Easybuff.31.a
+        set_technology = { infantry_weapons = 0 }
+        set_technology = { infantry_weapons1 = 0 }
+        set_technology = { infantry_weapons2 = 0 }
+        set_technology = { improved_infantry_weapons = 0 }
+        set_technology = { improved_infantry_weapons_2 = 0 }
+        set_technology = { infantry_at = 0 }
+        set_technology = { infantry_at2 = 0 }
+        set_technology = { advanced_infantry_weapons = 0 }
+        set_technology = { advanced_infantry_weapons2 = 0 }
+        set_technology = { support_weapons = 0 }
+        set_technology = { support_weapons2 = 0 }
+        set_technology = { support_weapons3 = 0 }
+        set_technology = { support_weapons4 = 0 }
+        set_technology = { HUN_light_infantry_tech = 0 }
+        set_technology = { night_vision = 0 }
+        set_technology = { night_vision2 = 0 }
         country_event = Easybuff.30
     }
+
     option = {
-        name = Easybuff.32.b
-        set_technology = { main_battle_tank = 1 }
-        set_technology = { modern_art = 1 }
+        name = Easybuff.31.b
+        set_technology = { motorised_infantry = 0 }
+        set_technology = { motorized_rocket_unit = 0 }
+        set_technology = { mechanised_infantry = 0 }
+        set_technology = { mechanised_infantry2 = 0 }
+        set_technology = { mechanised_infantry3 = 0 }
+        set_technology = { amphibious_mechanized_infantry = 0 }
+        set_technology = { amphibious_mechanized_infantry_2 = 0 }
+        set_technology = { bicycle_infantry = 0 }
         country_event = Easybuff.30
     }
+
     option = {
-        name = Easybuff.32.c
-        set_technology = { advanced_infantry_weapons = 1 }
-        set_technology = { motorised_infantry = 1 }
-        set_technology = { mechanised_infantry3 = 1 }
-        set_technology = { motorized_rocket_unit = 1 }
-        set_technology = { tech_support = 1 }
-        set_technology = { rocket_artillery4 = 1 }
-        set_technology = { antiair5 = 1 }
-        set_technology = { antitank5 = 1 }
+        name = Easybuff.31.c
+        set_technology = { paratroopers = 0 }
+        set_technology = { paratroopers2 = 0 }
+        set_technology = { paratroopers3 = 0 }
+        set_technology = { marines = 0 }
+        set_technology = { marines2 = 0 }
+        set_technology = { marines3 = 0 }
+        set_technology = { tech_mountaineers = 0 }
+        set_technology = { tech_mountaineers2 = 0 }
+        set_technology = { tech_mountaineers3 = 0 }
+        set_technology = { tech_special_forces = 0 }
+        set_technology = { advanced_special_forces = 0 }
+        set_technology = { improved_special_forces = 0 }
+        set_technology = { extreme_environment_training = 0 }
+        set_technology = { survival_training = 0 }
+        set_technology = { elite_forces = 0 }
+        set_technology = { jungle_warfare = 0 }
         country_event = Easybuff.30
     }
+
     option = {
-        name = Easybuff.32.d
+        name = Easybuff.31.d
+        set_technology = { tech_support = 0 }
+        set_technology = { tech_engineers = 0 }
+        set_technology = { tech_engineers2 = 0 }
+        set_technology = { tech_engineers3 = 0 }
+        set_technology = { tech_engineers4 = 0 }
+        set_technology = { tech_recon = 0 }
+        set_technology = { tech_recon2 = 0 }
+        set_technology = { tech_recon3 = 0 }
+        set_technology = { tech_recon4 = 0 }
+        set_technology = { tech_military_police = 0 }
+        set_technology = { tech_military_police2 = 0 }
+        set_technology = { tech_military_police3 = 0 }
+        set_technology = { tech_military_police4 = 0 }
+        set_technology = { tech_maintenance_company = 0 }
+        set_technology = { tech_maintenance_company2 = 0 }
+        set_technology = { tech_maintenance_company3 = 0 }
+        set_technology = { tech_maintenance_company4 = 0 }
+        set_technology = { tech_field_hospital = 0 }
+        set_technology = { tech_field_hospital2 = 0 }
+        set_technology = { tech_field_hospital3 = 0 }
+        set_technology = { tech_field_hospital4 = 0 }
+        set_technology = { tech_logistics_company = 0 }
+        set_technology = { tech_logistics_company2 = 0 }
+        set_technology = { tech_logistics_company3 = 0 }
+        set_technology = { tech_logistics_company4 = 0 }
+        set_technology = { tech_signal_company = 0 }
+        set_technology = { tech_signal_company2 = 0 }
+        set_technology = { tech_signal_company3 = 0 }
+        set_technology = { tech_signal_company4 = 0 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.e
+        set_technology = { gw_artillery = 0 }
+        set_technology = { interwar_artillery = 0 }
+        set_technology = { artillery1 = 0 }
+        set_technology = { artillery2 = 0 }
+        set_technology = { artillery3 = 0 }
+        set_technology = { artillery4 = 0 }
+        set_technology = { artillery5 = 0 }
+        set_technology = { mountain_gun = 0 }
+        set_technology = { rocket_artillery = 0 }
+        set_technology = { rocket_artillery2 = 0 }
+        set_technology = { rocket_artillery3 = 0 }
+        set_technology = { rocket_artillery4 = 0 }
+        set_technology = { interwar_antiair = 0 }
+        set_technology = { antiair1 = 0 }
+        set_technology = { antiair2 = 0 }
+        set_technology = { antiair3 = 0 }
+        set_technology = { antiair4 = 0 }
+        set_technology = { antiair5 = 0 }
+        set_technology = { interwar_antitank = 0 }
+        set_technology = { antitank1 = 0 }
+        set_technology = { antitank2 = 0 }
+        set_technology = { antitank3 = 0 }
+        set_technology = { antitank4 = 0 }
+        set_technology = { antitank5 = 0 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.f
+        set_technology = { gwtank = 0 }
+        set_technology = { basic_light_tank = 0 }
+        set_technology = { basic_light_td = 0 }
+        set_technology = { basic_light_art = 0 }
+        set_technology = { basic_light_spaa = 0 }
+        set_technology = { improved_light_tank = 0 }
+        set_technology = { improved_light_td = 0 }
+        set_technology = { improved_light_art = 0 }
+        set_technology = { improved_light_spaa = 0 }
+        set_technology = { advanced_light_tank = 0 }
+        set_technology = { advanced_light_td = 0 }
+        set_technology = { advanced_light_art = 0 }
+        set_technology = { advanced_light_spaa = 0 }
+        set_technology = { amphibious_tank = 0 }
+        set_technology = { amphibious_tank_2 = 0 }
+        set_technology = { basic_medium_tank = 0 }
+        set_technology = { basic_medium_td = 0 }
+        set_technology = { basic_medium_art = 0 }
+        set_technology = { basic_medium_spaa = 0 }
+        set_technology = { improved_medium_tank = 0 }
+        set_technology = { improved_medium_td = 0 }
+        set_technology = { improved_medium_art = 0 }
+        set_technology = { improved_medium_spaa = 0 }
+        set_technology = { advanced_medium_tank = 0 }
+        set_technology = { advanced_medium_td = 0 }
+        set_technology = { advanced_medium_art = 0 }
+        set_technology = { advanced_medium_spaa = 0 }
+        set_technology = { basic_heavy_tank = 0 }
+        set_technology = { basic_heavy_td = 0 }
+        set_technology = { basic_heavy_art = 0 }
+        set_technology = { basic_heavy_spaa = 0 }
+        set_technology = { improved_heavy_tank = 0 }
+        set_technology = { improved_heavy_td = 0 }
+        set_technology = { improved_heavy_art = 0 }
+        set_technology = { improved_heavy_spaa = 0 }
+        set_technology = { advanced_heavy_tank = 0 }
+        set_technology = { advanced_heavy_td = 0 }
+        set_technology = { advanced_heavy_art = 0 }
+        set_technology = { advanced_heavy_spaa = 0 }
+        set_technology = { super_heavy_tank = 0 }
+        set_technology = { super_heavy_td = 0 }
+        set_technology = { super_heavy_art = 0 }
+        set_technology = { super_heavy_spaa = 0 }
+        set_technology = { main_battle_tank = 0 }
+        set_technology = { modern_td = 0 }
+        set_technology = { modern_art = 0 }
+        set_technology = { modern_spaa = 0 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.g
+        set_technology = { early_fighter = 0 }
+        set_technology = { fighter1 = 0 }
+        set_technology = { fighter2 = 0 }
+        set_technology = { fighter3 = 0 }
+        set_technology = { CAS1 = 0 }
+        set_technology = { CAS2 = 0 }
+        set_technology = { CAS3 = 0 }
+        set_technology = { naval_bomber1 = 0 }
+        set_technology = { naval_bomber2 = 0 }
+        set_technology = { naval_bomber3 = 0 }
+        set_technology = { cv_early_fighter = 0 }
+        set_technology = { cv_fighter1 = 0 }
+        set_technology = { cv_fighter2 = 0 }
+        set_technology = { cv_fighter3 = 0 }
+        set_technology = { cv_CAS1 = 0 }
+        set_technology = { cv_CAS2 = 0 }
+        set_technology = { cv_CAS3 = 0 }
+        set_technology = { cv_naval_bomber1 = 0 }
+        set_technology = { cv_naval_bomber2 = 0 }
+        set_technology = { cv_naval_bomber3 = 0 }
+        set_technology = { early_bomber = 0 }
+        set_technology = { heavy_fighter1 = 0 }
+        set_technology = { heavy_fighter2 = 0 }
+        set_technology = { heavy_fighter3 = 0 }
+        set_technology = { tactical_bomber1 = 0 }
+        set_technology = { tactical_bomber2 = 0 }
+        set_technology = { tactical_bomber3 = 0 }
+        set_technology = { strategic_bomber1 = 0 }
+        set_technology = { strategic_bomber2 = 0 }
+        set_technology = { strategic_bomber3 = 0 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.h
+        set_technology = { atomic_research = 0 }
+        set_technology = { nuclear_reactor = 0 }
+        set_technology = { nukes = 0 }
+        set_technology = { experimental_rockets = 0 }
+        set_technology = { rocket_engines = 0 }
+        set_technology = { improved_rocket_engines = 0 }
+        set_technology = { advanced_rocket_engines = 0 }
+        set_technology = { jet_engines = 0 }
+        set_technology = { jet_fighter1 = 0 }
+        set_technology = { jet_fighter2 = 0 }
+        set_technology = { jet_tactical_bomber1 = 0 }
+        set_technology = { jet_tactical_bomber2 = 0 }
+        set_technology = { jet_strategic_bomber1 = 0 }
+        set_technology = { suicide_craft = 0 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.i
+        set_technology = { electronic_mechanical_engineering = 0 }
+        set_technology = { radio = 0 }
+        set_technology = { radio_detection = 0 }
+        set_technology = { decimetric_radar = 0 }
+        set_technology = { improved_decimetric_radar = 0 }
+        set_technology = { advanced_decimetric_radar = 0 }
+        set_technology = { centimetric_radar = 0 }
+        set_technology = { improved_centimetric_radar = 0 }
+        set_technology = { advanced_centimetric_radar = 0 }
+        set_technology = { mechanical_computing = 0 }
+        set_technology = { computing_machine = 0 }
+        set_technology = { improved_computing_machine = 0 }
+        set_technology = { advanced_computing_machine = 0 }
+        set_technology = { basic_encryption = 0 }
+        set_technology = { improved_encryption = 0 }
+        set_technology = { advanced_encryption = 0 }
+        set_technology = { basic_decryption = 0 }
+        set_technology = { improved_decryption = 0 }
+        set_technology = { advanced_decryption = 0 }
+        set_technology = { basic_fire_control_system = 0 }
+        set_technology = { improved_fire_control_system = 0 }
+        set_technology = { advanced_fire_control_system = 0 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.31.j
+        set_technology = { basic_machine_tools = 0 }
+        set_technology = { improved_machine_tools = 0 }
+        set_technology = { advanced_machine_tools = 0 }
+        set_technology = { assembly_line_production = 0 }
+        set_technology = { flexible_line = 0 }
+        set_technology = { streamlined_line = 0 }
+        set_technology = { improved_equipment_conversion = 0 }
+        set_technology = { advanced_equipment_conversion = 0 }
+        set_technology = { concentrated_industry = 0 }
+        set_technology = { concentrated_industry2 = 0 }
+        set_technology = { concentrated_industry3 = 0 }
+        set_technology = { concentrated_industry4 = 0 }
+        set_technology = { concentrated_industry5 = 0 }
+        set_technology = { dispersed_industry = 0 }
+        set_technology = { dispersed_industry2 = 0 }
+        set_technology = { dispersed_industry3 = 0 }
+        set_technology = { dispersed_industry4 = 0 }
+        set_technology = { dispersed_industry5 = 0 }
+        set_technology = { fuel_silos = 0 }
+        set_technology = { fuel_refining = 0 }
+        set_technology = { fuel_refining2 = 0 }
+        set_technology = { fuel_refining3 = 0 }
+        set_technology = { fuel_refining4 = 0 }
+        set_technology = { fuel_refining5 = 0 }
+        set_technology = { synth_oil_experiments = 0 }
+        set_technology = { oil_processing = 0 }
+        set_technology = { improved_oil_processing = 0 }
+        set_technology = { advanced_oil_processing = 0 }
+        set_technology = { modern_oil_processing = 0 }
+        set_technology = { rubber_processing = 0 }
+        set_technology = { improved_rubber_processing = 0 }
+        set_technology = { advanced_rubber_processing = 0 }
+        set_technology = { modern_rubber_processing = 0 }
+        set_technology = { construction1 = 0 }
+        set_technology = { construction2 = 0 }
+        set_technology = { construction3 = 0 }
+        set_technology = { construction4 = 0 }
+        set_technology = { construction5 = 0 }
+        set_technology = { excavation1 = 0 }
+        set_technology = { excavation2 = 0 }
+        set_technology = { excavation3 = 0 }
+        set_technology = { excavation4 = 0 }
+        set_technology = { excavation5 = 0 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.30
+    }
+}
+
+# Naval Technologies
+country_event = {
+    id = Easybuff.33
+    title = Easybuff.33.t
+    desc = Easybuff.33.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.33.a
+        set_technology = { early_destroyer = 1 }
+        set_technology = { basic_destroyer = 1 }
+        set_technology = { improved_destroyer = 1 }
+        set_technology = { advanced_destroyer = 1 }
+        set_technology = { early_light_cruiser = 1 }
+        set_technology = { basic_light_cruiser = 1 }
+        set_technology = { improved_light_cruiser = 1 }
+        set_technology = { advanced_light_cruiser = 1 }
+        set_technology = { early_heavy_cruiser = 1 }
+        set_technology = { basic_heavy_cruiser = 1 }
+        set_technology = { improved_heavy_cruiser = 1 }
+        set_technology = { advanced_heavy_cruiser = 1 }
+        set_technology = { early_battlecruiser = 1 }
+        set_technology = { basic_battlecruiser = 1 }
+        set_technology = { early_battleship = 1 }
+        set_technology = { basic_battleship = 1 }
+        set_technology = { improved_battleship = 1 }
+        set_technology = { advanced_battleship = 1 }
+        set_technology = { heavy_battleship = 1 }
+        set_technology = { heavy_battleship2 = 1 }
+        set_technology = { early_carrier = 1 }
+        set_technology = { basic_carrier = 1 }
+        set_technology = { improved_carrier = 1 }
+        set_technology = { advanced_carrier = 1 }
+        set_technology = { early_submarine = 1 }
+        set_technology = { basic_submarine = 1 }
+        set_technology = { improved_submarine = 1 }
+        set_technology = { advanced_submarine = 1 }
+        set_technology = { transport = 1 }
+        set_technology = { landing_craft = 1 }
+        set_technology = { tank_landing_craft = 1 }
+        set_technology = { torpedo_cruiser = 1 }
+        country_event = Easybuff.30
+    }
+
+    option = {
+        name = Easybuff.33.b
+        # light ships
+        set_technology = { early_ship_hull_light = 1 }
+        set_technology = { basic_ship_hull_light = 1 }
+        set_technology = { improved_ship_hull_light = 1 }
         set_technology = { advanced_ship_hull_light = 1 }
+        set_technology = { smoke_generator = 1 }
+        # anti submarine
+        set_technology = { basic_depth_charges = 1 }
+        set_technology = { improved_depth_charges = 1 }
+        set_technology = { advanced_depth_charges = 1 }
+        set_technology = { modern_depth_charges = 1 }
+        set_technology = { sonar = 1 }
+        set_technology = { improved_sonar = 1 }
+        # cruisers
+        set_technology = { early_ship_hull_cruiser = 1 }
+        set_technology = { basic_ship_hull_cruiser = 1 }
+        set_technology = { improved_ship_hull_cruiser = 1 }
         set_technology = { advanced_ship_hull_cruiser = 1 }
+        set_technology = { improved_airplane_launcher = 1 }
+        set_technology = { basic_cruiser_armor_scheme = 1 }
+        set_technology = { improved_cruiser_armor_scheme = 1 }
+        set_technology = { advanced_cruiser_armor_scheme = 1 }
+        # heavy ships
+        set_technology = { early_ship_hull_heavy = 1 }
+        set_technology = { basic_ship_hull_heavy = 1 }
+        set_technology = { improved_ship_hull_heavy = 1 }
+        set_technology = { advanced_ship_hull_heavy = 1 }
+        set_technology = { basic_heavy_armor_scheme = 1 }
+        set_technology = { improved_heavy_armor_scheme = 1 }
+        # carriers
         set_technology = { early_ship_hull_carrier = 1 }
-        set_technology = { advanced_ship_hull_carrier = 1 }
-        set_technology = { advanced_ship_hull_submarine = 1 }
+        set_technology = { basic_torpedo = 1 }
+        set_technology = { magnetic_detonator = 1 }
+        set_technology = { homing_torpedo = 1 }
+        set_technology = { electric_torpedo = 1 }
+        set_technology = { improved_ship_torpedo_launcher = 1 }
+        set_technology = { advanced_ship_torpedo_launcher = 1 }
         set_technology = { modern_ship_torpedo_launcher = 1 }
+        set_technology = { early_ship_hull_submine = 1 }
+        set_technology = { basic_ship_hull_submine = 1 }
+        set_technology = { improved_ship_hull_submine = 1 }
+        set_technology = { advanced_ship_hull_submine = 1 }
+        set_technology = { basic_submarine_snorkel = 1 }
+        set_technology = { improved_submarine_snorkel = 1 }
+        # armaments
+        set_technology = { basic_battery = 1 }
+        set_technology = { basic_light_battery = 1 }
+        set_technology = { improved_light_battery = 1 }
         set_technology = { advanced_light_battery = 1 }
+        set_technology = { basic_light_shell = 1 }
+        set_technology = { improved_light_shell = 1 }
+        set_technology = { basic_medium_battery = 1 }
+        set_technology = { improved_medium_battery = 1 }
         set_technology = { advanced_medium_battery = 1 }
+        set_technology = { basic_medium_shell = 1 }
+        set_technology = { improved_medium_shell = 1 }
+        set_technology = { basic_heavy_battery = 1 }
+        set_technology = { improved_heavy_battery = 1 }
+        set_technology = { advanced_heavy_battery = 1 }
+        set_technology = { basic_heavy_shell = 1 }
+        set_technology = { improved_heavy_shell = 1 }
+        set_technology = { basic_secondary_battery = 1 }
+        set_technology = { improved_secondary_battery = 1 }
         set_technology = { dp_secondary_battery = 1 }
+        # damage & fire control
+        set_technology = { damage_control_1 = 1 }
+        set_technology = { damage_control_2 = 1 }
+        set_technology = { damage_control_3 = 1 }
+        set_technology = { fire_control_methods_1 = 1 }
+        set_technology = { fire_control_methods_2 = 1 }
+        set_technology = { fire_control_methods_3 = 1 }
+        # mines
+        set_technology = { basic_naval_mines = 1 }
+        set_technology = { submarine_mine_laying = 1 }
+        set_technology = { improved_submarine_mine_laying = 1 }
+        set_technology = { improved_naval_mines = 1 }
+        set_technology = { degaussing = 1 }
+        set_technology = { advanced_naval_mines = 1 }
+        set_technology = { airdrop_mines = 1 }
         set_technology = { modern_naval_mines = 1 }
         set_technology = { airsweep_mines = 1 }
-        set_technology = { advanced_fire_control_system = 1 }
+        set_technology = { mtg_transport = 1 }
+        set_technology = { mtg_landing_craft = 1 }
+        set_technology = { mtg_tank_landing_craft = 1 }
+        set_technology = { panzerschiffe = 1 }
+        set_technology = { torpedo_cruiser_mtg = 1 }
+        set_technology = { pre_dreadnoughts = 1 }
+        set_technology = { coastal_defense_ships = 1 }
+        set_technology = { cruiser_submarines = 1 }
         country_event = Easybuff.30
     }
+
     option = {
         name = Easybuffback
         country_event = Easybuff.30
@@ -551,7 +1236,7 @@ country_event = {
     option = {
         name = Easybuff.41.e
         add_equipment_to_stockpile = {
-            type = anti_air_equipment
+            type = amphibious_mechanized_equipment
             amount = 1000
         }
         country_event = Easybuff.40
@@ -559,7 +1244,7 @@ country_event = {
     option = {
         name = Easybuff.41.f
         add_equipment_to_stockpile = {
-            type = anti_tank_equipment
+            type = artillery_equipment
             amount = 1000
         }
         country_event = Easybuff.40
@@ -567,7 +1252,7 @@ country_event = {
     option = {
         name = Easybuff.41.g
         add_equipment_to_stockpile = {
-            type = artillery_equipment
+            type = rocket_artillery_equipment
             amount = 1000
         }
         country_event = Easybuff.40
@@ -575,76 +1260,13 @@ country_event = {
     option = {
         name = Easybuff.41.h
         add_equipment_to_stockpile = {
-            type = rocket_artillery_equipment
-            amount = 1000
-        }
-        country_event = Easybuff.40
-    }
-    option = {
-        name = Easybuff.41.i
-        add_equipment_to_stockpile = {
             type = motorized_rocket_equipment
             amount = 1000
         }
         country_event = Easybuff.40
     }
     option = {
-        name = Easybuff.41.j
-        add_equipment_to_stockpile = {
-            type = amphibious_mechanized_equipment
-            amount = 1000
-        }
-        country_event = Easybuff.40
-    }
-    option = {
-        name = Easybuffback
-        country_event = Easybuff.40
-    }
-}
-
-# Infantry Equipments 41
-country_event = {
-    id = Easybuff.41
-    title = Easybuff.41.t
-    desc = Easybuff.41.desc
-    picture = GFX_report_event_german_inspect_troops
-    is_triggered_only = yes
-    mean_time_to_happen = { days = 0 }
-
-    option = {
-        name = Easybuff.41.a
-        add_equipment_to_stockpile = {
-            type = infantry_equipment
-            amount = 1000
-        }
-        country_event = Easybuff.40
-    }
-    option = {
-        name = Easybuff.41.b
-        add_equipment_to_stockpile = {
-            type = support_equipment
-            amount = 1000
-        }
-        country_event = Easybuff.40
-    }
-    option = {
-        name = Easybuff.41.c
-        add_equipment_to_stockpile = {
-            type = motorized_equipment
-            amount = 1000
-        }
-        country_event = Easybuff.40
-    }
-    option = {
-        name = Easybuff.41.d
-        add_equipment_to_stockpile = {
-            type = mechanized_equipment
-            amount = 1000
-        }
-        country_event = Easybuff.40
-    }
-    option = {
-        name = Easybuff.41.e
+        name = Easybuff.41.i
         add_equipment_to_stockpile = {
             type = anti_air_equipment
             amount = 1000
@@ -652,41 +1274,9 @@ country_event = {
         country_event = Easybuff.40
     }
     option = {
-        name = Easybuff.41.f
-        add_equipment_to_stockpile = {
-            type = anti_tank_equipment
-            amount = 1000
-        }
-        country_event = Easybuff.40
-    }
-    option = {
-        name = Easybuff.41.g
-        add_equipment_to_stockpile = {
-            type = artillery_equipment
-            amount = 1000
-        }
-        country_event = Easybuff.40
-    }
-    option = {
-        name = Easybuff.41.h
-        add_equipment_to_stockpile = {
-            type = rocket_artillery_equipment
-            amount = 1000
-        }
-        country_event = Easybuff.40
-    }
-    option = {
-        name = Easybuff.41.i
-        add_equipment_to_stockpile = {
-            type = motorized_rocket_equipment
-            amount = 1000
-        }
-        country_event = Easybuff.40
-    }
-    option = {
         name = Easybuff.41.j
         add_equipment_to_stockpile = {
-            type = amphibious_mechanized_equipment
+            type = anti_tank_equipment
             amount = 1000
         }
         country_event = Easybuff.40
