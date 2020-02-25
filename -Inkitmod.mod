@@ -1,7 +1,8 @@
-﻿name="Inkitmod"
+name="Inkitmod"
 path="mod/_Inkitmod/Inkitmod"
 tags={
 	"Gameplay"
 }
 picture="inkit.jpg"
-supported_version="1.7"
+version="1.9"
+supported_version="1.9.*"

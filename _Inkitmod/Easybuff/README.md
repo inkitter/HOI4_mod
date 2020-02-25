@@ -1,6 +1,6 @@
-[h1][b] +Easy Buff [1.7.*][/b][/h1]
+[h1][b] +Easy Buff [1.9.*][/b][/h1]
 
-[h1] Update 190605. Update for 1.7 [/h1]
+[h1] Update 200225. Update tag to 1.9. Fix building repair in insane buff. [/h1]
 
 Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 

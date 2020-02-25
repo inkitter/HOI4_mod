@@ -440,9 +440,16 @@ country_event = {
         set_technology = { mechanised_infantry3 = 1 }
         set_technology = { motorized_rocket_unit = 1 }
         set_technology = { tech_support = 1 }
+        set_technology = { rocket_artillery2 = 1 }
+        set_technology = { rocket_artillery3 = 1 }
         set_technology = { rocket_artillery4 = 1 }
+        set_technology = { rocket_engines = 1 }
+        set_technology = { improved_rocket_engines = 1 }
+        set_technology = { advanced_rocket_engines = 1 }
+        set_technology = { artillery4 = 1 }
         set_technology = { antiair5 = 1 }
         set_technology = { antitank5 = 1 }
+
         country_event = Easybuff.30
     }
     option = {

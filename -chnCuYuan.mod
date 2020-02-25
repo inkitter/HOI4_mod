@@ -1,7 +1,9 @@
-﻿name="ZChinese Font Cu Yuan"
+name="ZChinese Font Cu Yuan"
 path="mod/_Inkitmod/FontCuYuan"
+
 tags={
 	"Localisation"
 }
 picture="FontCuYuan.png"
-supported_version="1.7"
+version="1.9"
+supported_version="1.9.*"

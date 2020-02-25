@@ -35,20 +35,19 @@ ideas = {
 				POLITICAL_POWER_GAIN = 3
 				max_command_power = 500
 				JUSTIFY_WAR_GOAL_TIME = -0.9
-				industry_repair_factor = 100
-				industry_free_repair_factor = 100
+				industry_repair_factor = 1000
+				industry_free_repair_factor = 1000
 				repair_speed_factor = 1
 				refit_speed = 1
-				production_speed_buildings_factor = 10
+				production_speed_buildings_factor = 15
 				global_building_slots_factor = 0.6
-				production_factory_max_efficiency_factor = 0.2
-				industrial_capacity_factory = 8
-				industrial_capacity_dockyard = 8
-				industry_air_damage_factor = -0.6
-				fuel_gain_factor = 0.3
+				production_factory_max_efficiency_factor = 0.3
+				industrial_capacity_factory = 10
+				industrial_capacity_dockyard = 10
+				industry_air_damage_factor = -0.7
+				fuel_gain_factor = 0.2
 			}
 			equipment_bonus = {
-				reliability = 2
 				infantry = { reliability = 2 }
 				motorized = { reliability = 2 }
 				mechanized = { reliability = 2 }
