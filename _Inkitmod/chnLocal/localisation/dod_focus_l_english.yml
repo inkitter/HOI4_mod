@@ -273,6 +273,7 @@
  ROM_divide_yugoslavia:0 "肢解南斯拉夫"
  ROM_divide_yugoslavia_desc:0 "国际社会最新的对巴尔干国家的安排方案使得南斯拉夫成为一个难以维持的国家。我们将发布一个最后通牒要求重组他们的各个加盟国，当然是在罗马尼亚的主导下。"
  ROM_split_czechoslovakia:0 "分裂捷克斯洛伐克"
+ ROM_split_czechoslovakia_desc:0 "捷克斯洛伐克是一个不能单靠自己生存的人工造物。我们不能让这一部分陷入混乱，必须在局势变得无法维持前进行干涉。"
  ROM_secure_the_bosporus:0 "控制博斯普鲁斯海峡"
  ROM_secure_the_bosporus_desc:0 "我们海军目前能到达的地方还是被限缩在黑海中。土耳其，跨有博斯普鲁斯海峡，在战时可能会阻挡我们通向地中海的道路。因此我们必须确保我们在需要的时候能够自由通行海峡。"
  ROM_institute_royal_dictatorship:0 "确立皇室独裁"
@@ -756,4 +757,4 @@
  YUG_expand_the_submarine_fleet:0 "拓展潜艇编队"
  YUG_expand_the_submarine_fleet_desc:1 "与其靠我国略显逊色的海军和敌国海军硬碰硬，我们不如着重发展潜水艇以袭扰敌国商贸船队。"
  panslavic_workers_congress:0 "泛斯拉夫工人代表大会"
- ROM_split_czechoslovakia_desc:0 "捷克斯洛伐克是一个不能单靠自己生存的人工造物。我们不能让这一部分陷入混乱，必须在局势变得无法维持前进行干涉。"
+

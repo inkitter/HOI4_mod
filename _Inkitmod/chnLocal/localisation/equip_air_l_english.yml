@@ -166,6 +166,17 @@
  JAP_rocket_suicide_equipment_1:0 "横须贺MXY7 樱花"
  JAP_rocket_suicide_equipment_1_short:0 "樱花"
  JAP_rocket_suicide_equipment_1_desc:0 "横须贺MXY7 樱花是日本在二战将结束前投入使用的一款由火箭驱动的人工制导反舰神风攻击机。"
+ scout_plane:0 "Scout Plane"
+ scout_plane_equipment_desc:0 "A plane developed specifically for photo reconnaisance. Relies primarily on speed and stealth to survive and will lose in any stand-up fight."
+ scout_plane_equipment:0 "Scout Planes"
+ scout_plane_equipment_1:0 "Scout Plane I"
+ scout_plane_equipment_1_desc:0 "Gathering intelligence on enemy troop movements and providing reports of enemy naval deployments has been the original mission for airplanes since their first deployment in the Great War, and is still an important mission."
+ scout_plane_equipment_2:0 "Scout Plane II"
+ scout_plane_equipment_2_desc:0 "By developing dedicated planes for aerial surveillance and long-range reconnaissance, we ensure that we gain and maintain an accurate picture of our opponent's intentions and capabilities."
+ GER_scout_plane_equipment_1:0 "Henschel Hs 126"
+ GER_scout_plane_equipment_1_short:0 "Hs. 126"
+ GER_scout_plane_equipment_2:0 "Focke-Wulf Fw 189"
+ GER_scout_plane_equipment_2_short:0 "Fw 189"
  GER_fighter_equipment_0:0 "亨克尔He 51"
  GER_fighter_equipment_0_short:0 "He 51"
  GER_fighter_equipment_1:0 "梅塞施密特Bf 109"
@@ -243,6 +254,8 @@
  GER_cv_fighter_equipment_2_short:0 "Bf 109 T"
  GER_cv_fighter_equipment_3:0 "布洛姆 & 福斯 BV 155"
  GER_cv_fighter_equipment_3_short:0 "BV 155"
+ ENG_scout_plane_equipment_1:0 "Spitfire PR"
+ ENG_scout_plane_equipment_2:0 "Mosquito PR"
  ENG_fighter_equipment_0:0 "格罗斯特 斗士"
  ENG_fighter_equipment_0_short:0 "斗士"
  ENG_fighter_equipment_1:0 "霍克 飓风"
@@ -639,6 +652,10 @@
  NZL_cv_fighter_equipment_3_short:0 "萤火虫式"
  SAF_cv_fighter_equipment_3_short:0 "萤火虫式"
  RAJ_cv_fighter_equipment_3_short:0 "萤火虫式"
+ USA_scout_plane_equipment_1:0 "F4 Lightning"
+ USA_scout_plane_equipment_1_short:0 "F4"
+ USA_scout_plane_equipment_2:0 "F6 Mustang"
+ USA_scout_plane_equipment_2_short:0 "F6"
  USA_fighter_equipment_0:0 "寇蒂斯 P-1 鹰"
  USA_fighter_equipment_0_short:0 "P-1 鹰"
  USA_fighter_equipment_1:0 "寇蒂斯 P-40 战鹰"
@@ -681,6 +698,8 @@
  USA_nav_bomber_equipment_2_short:2 "“水手”"
  USA_nav_bomber_equipment_3:1 "PB4Y-2“私掠船”反潜机"
  USA_nav_bomber_equipment_3_short:1 "“私掠船”"
+ USA_cv_nav_bomber_equipment_3:1 "道格拉斯 BTD“毁灭者”俯冲轰炸机"
+ USA_cv_nav_bomber_equipment_3_short:1 "BTD“毁灭者”"
  USA_cv_CAS_equipment_1:0 "诺斯罗普 BT"
  USA_cv_CAS_equipment_1_short:0 "诺斯罗普 BT"
  USA_CAS_equipment_2:1 "A-20“浩劫”攻击机"
@@ -691,8 +710,8 @@
  USA_cv_nav_bomber_equipment_1_short:0 "TBD蹂躏者"
  USA_cv_nav_bomber_equipment_2:0 "格鲁曼 TBF-1C复仇者"
  USA_cv_nav_bomber_equipment_2_short:0 "TBF-1C复仇者"
- USA_cv_nav_bomber_equipment_3:1 "道格拉斯 BTD“毁灭者”俯冲轰炸机"
- USA_cv_nav_bomber_equipment_3_short:1 "BTD“毁灭者”"
+ #USA_cv_nav_bomber_equipment_3:0 "Consolidated TBY Sea Wolf"
+ #USA_cv_nav_bomber_equipment_3_short:0 "TBY Sea Wolf"
  USA_CAS_equipment_1:0 "诺斯罗普 A-17"
  USA_CAS_equipment_1_short:0 "A-17"
  USA_cv_CAS_equipment_2:0 "道格拉斯 SBD-2无畏"
@@ -707,6 +726,8 @@
  USA_cv_fighter_equipment_2_short:0 "F4F野猫"
  USA_cv_fighter_equipment_3:0 "格鲁曼 F6F地狱猫"
  USA_cv_fighter_equipment_3_short:0 "F6F地狱猫"
+ SOV_scout_plane_equipment_1:0 "R-10"
+ SOV_scout_plane_equipment_2:0 "Yak-2"
  SOV_fighter_equipment_0:0 "波利卡尔波夫 I-15"
  SOV_fighter_equipment_0_short:0 "I-15"
  SOV_fighter_equipment_1:0 "波利卡尔波夫 I-16"
@@ -777,6 +798,10 @@
  SOV_cv_fighter_equipment_2_short:0 "雅克-1M"
  SOV_cv_fighter_equipment_3:0 "雅克列夫 雅克-9T"
  SOV_cv_fighter_equipment_3_short:0 "雅克-9T"
+ JAP_scout_plane_equipment_1:0 "Mitsubishi Ki-46"
+ JAP_scout_plane_equipment_1_short:0 "Ki-46"
+ JAP_scout_plane_equipment_2:0 "Nakajima J1N1-C"
+ JAP_scout_plane_equipment_2_short:0 "J1N1-C"
  JAP_fighter_equipment_0:0 "中岛九一式战斗机"
  JAP_fighter_equipment_0_short:0 "九一式"
  JAP_fighter_equipment_1:0 "中岛 Ki-27"
@@ -841,6 +866,10 @@
  JAP_cv_fighter_equipment_2_short:0 "零战"
  JAP_cv_fighter_equipment_3:0 "三菱 A7M 烈风"
  JAP_cv_fighter_equipment_3_short:0 "烈风"
+ ITA_scout_plane_equipment_1:0 "Caproni Ca.310"
+ ITA_scout_plane_equipment_1_short:0 "Ca.310"
+ ITA_scout_plane_equipment_2:0 "Caproni Ca.311"
+ ITA_scout_plane_equipment_2_short:0 "Ca.311"
  ITA_CAS_equipment_1:0 "布雷达Ba.65"
  ITA_CAS_equipment_1_short:0 "Ba.65"
  ITA_CAS_equipment_2:0 "布雷达Ba.88 猞猁"
@@ -905,6 +934,9 @@
  ITA_cv_fighter_equipment_2_short:0 "MC.202"
  ITA_cv_fighter_equipment_3:0 "菲亚特G.55S 射手座"
  ITA_cv_fighter_equipment_3_short:0 "G.55S 射手座"
+ FRA_scout_plane_equipment_1:0 "Bloch MB-131"
+ FRA_scout_plane_equipment_1_short:0 "MB-131"
+ FRA_scout_plane_equipment_2:0 "CAO-700"
  FRA_CAS_equipment_1:0 "布雷盖Br.693"
  FRA_CAS_equipment_1_short:0 "Br.693"
  FRA_CAS_equipment_2:0 "卢瓦尔 - 纽波特LN.401"
@@ -975,6 +1007,9 @@
  ITA_transport_plane_equipment_1:0 "卡普罗尼Ca.133"
  FRA_transport_plane_equipment_1:0 "MB. 220"
  SWE_transport_plane_equipment_1:0 "Trp2"
+
+ ###Planes###
+ # Australia
  AST_fighter_equipment_1:0 "CAC CA-12 回旋镖式"
  AST_fighter_equipment_1_short:0 "CAC 回旋镖式"
  AST_fighter_equipment_2:0 "联邦飞机公司 野马式"
@@ -987,58 +1022,80 @@
  AST_CAS_equipment_2_short:0 "CAC 伍默拉式"
  AST_CAS_equipment_3:1 "布里斯托“英俊战士”MK21重型战斗机"
  AST_CAS_equipment_3_short:1 "“英俊战士”MK21"
+ 
  AST_jet_fighter_equipment_2:0 "CAC 佩刀式"
  AST_jet_fighter_equipment_2_short:0 "CAC 佩刀式"
+ 
+ #Argentinia
+ 
  ARG_heavy_fighter_equipment_3:0 "I.Ae 30巴塔哥尼亚鹰式P1型"
  ARG_heavy_fighter_equipment_3_short:0 "鹰式P1型"
+ 
  ARG_fighter_equipment_0:0 "FMA D.21"
  ARG_fighter_equipment_0_short:0 "D.21"
  ARG_fighter_equipment_2:0 "FMA鹰式75O"
  ARG_fighter_equipment_2_short:0 "飞鹰 75O"
+ 
  ARG_CAS_equipment_2:0 "I.Ae 22 DL"
  ARG_CAS_equipment_2_short:0 "I.Ae 22 DL"
  ARG_CAS_equipment_3:0 "I.Ae 30巴塔哥尼亚鹰式P2型"
  ARG_CAS_equipment_3_short:0 "鹰式P2型"
+ 
  ARG_tac_bomber_equipment_0:0 "FMA AeMB.1"
  ARG_tac_bomber_equipment_0_short:0 "FMA AeMB.1"
  ARG_tac_bomber_equipment_1:0 "FMA AeMB.2"
  ARG_tac_bomber_equipment_1_short:0 "FMA AeMB.2"
  ARG_tac_bomber_equipment_3:0 "I.Ae 24 Calquin"
  ARG_tac_bomber_equipment_3_short:0 "Calquin"
+ 
  ARG_jet_fighter_equipment_1:0 "FMA I.Ae. 27箭式I型"
  ARG_jet_fighter_equipment_1_short:0 "箭 I"
  ARG_jet_fighter_equipment_2:0 "FMA IAe 33箭式II型"
  ARG_jet_fighter_equipment_2_short:0 "箭 II"
+ 
+ #Belgium
+ 
  BEL_fighter_equipment_0:0 "费尔雷 萤火虫式"
  BEL_fighter_equipment_0_short:0 "Av-F. 萤火虫式"
  BEL_fighter_equipment_1:0 "费尔雷 魅影型"
  BEL_fighter_equipment_1_short:0 "魅影型"
  BEL_fighter_equipment_2:0 "雷纳德R.36"
  BEL_fighter_equipment_2_short:0 "R.36"
+ 
  BEL_CAS_equipment_1:0 "费尔雷 巴特尔式"
  BEL_CAS_equipment_1_short:0 "巴特尔式"
  BEL_CAS_equipment_2:0 "萨布卡S.47"
  BEL_CAS_equipment_2_short:0 "S.47"
+ 
  BEL_tac_bomber_equipment_1:0 "LACAB GR.8"
  BEL_tac_bomber_equipment_1_short:0 "GR.8"
  BEL_tac_bomber_equipment_2:0 "雷纳德-PZL 37"
  BEL_tac_bomber_equipment_2_short:0 "R-PZL 37"
+ 
  BEL_jet_fighter_equipment_2:0 "萨布卡猎人式"
  BEL_jet_fighter_equipment_2_short:0 "猎人式"
+
+ #Bulgarian
+
  BUL_CAS_equipment_1:0 "DAR 10"
  BUL_CAS_equipment_1_short:0 "DAR 10"
  BUL_CAS_equipment_2:0 "KB-11 野鸡"
  BUL_CAS_equipment_2_short:0 "KB-11"
+ # canadian
+ 
  CAN_jet_fighter_equipment_1:0 "德哈维兰吸血鬼式"
  CAN_jet_fighter_equipment_1_short:0 "吸血鬼式"
  CAN_jet_fighter_equipment_2:0 "CL 100加拿大人式"
  CAN_jet_fighter_equipment_2_short:0 "CL 100加拿大人式"
+ 
+ #Czech 
  CZE_CAS_equipment_1:0 "沃多乔迪A.101"
  CZE_CAS_equipment_1_short:0 "Aero A.101"
  CZE_CAS_equipment_2:0 "莱托夫S-28"
  CZE_CAS_equipment_2_short:0 "S-28"
  CZE_CAS_equipment_3:0 "莱托夫 S-615"
  CZE_CAS_equipment_3_short:0 "S-615"
+ 
  CZE_fighter_equipment_0:0 "阿维亚B-34.1"
  CZE_fighter_equipment_0_short:0 "阿维亚B-34.1"
  CZE_fighter_equipment_1:0 "阿维亚B-534.1"
@@ -1047,12 +1104,14 @@
  CZE_fighter_equipment_2_short:0 "阿维亚B-135"
  CZE_fighter_equipment_3:0 "阿维亚S-199"
  CZE_fighter_equipment_3_short:0 "阿维亚S-199"
+
  CZE_heavy_fighter_equipment_1:0 "阿维亚B-734.2"
  CZE_heavy_fighter_equipment_1_short:0 "阿维亚B-734.2"
  CZE_heavy_fighter_equipment_2:0 "阿维亚B-137"
  CZE_heavy_fighter_equipment_2_short:0 "阿维亚B-137"
  CZE_heavy_fighter_equipment_3:0 "沃多乔迪A.300战斗机"
  CZE_heavy_fighter_equipment_3_short:0 "A.300战斗机"
+
  CZE_tac_bomber_equipment_0:0 "沃多乔迪航空A.100"
  CZE_tac_bomber_equipment_0_short:0 "沃多乔迪A.100"
  CZE_tac_bomber_equipment_1:0 "沃多乔迪航空A.304"
@@ -1061,26 +1120,32 @@
  CZE_tac_bomber_equipment_2_short:0 "莱托夫Š-50"
  CZE_tac_bomber_equipment_3:0 "沃多乔迪航空A.300"
  CZE_tac_bomber_equipment_3_short:0 "沃多乔迪A.300"
+
  CZE_strat_bomber_equipment_1:0 "沃多乔迪航空C.301"
  CZE_strat_bomber_equipment_1_short:0 "沃多乔迪C.301"
  CZE_strat_bomber_equipment_2:0 "沃多乔迪航空C.508"
  CZE_strat_bomber_equipment_2_short:0 "沃多乔迪C.508"
  CZE_strat_bomber_equipment_3:0 "沃多乔迪航空A.711"
  CZE_strat_bomber_equipment_3_short:0 "沃多乔迪A.711"
+
  CZE_nav_bomber_equipment_1:0 "莱托夫S-502"
  CZE_nav_bomber_equipment_1_short:0 "莱托夫S-502"
  CZE_nav_bomber_equipment_2:0 "莱托夫S-655"
  CZE_nav_bomber_equipment_2_short:0 "莱托夫S-655"
  CZE_nav_bomber_equipment_3:0 "阿维亚A-298"
  CZE_nav_bomber_equipment_3_short:0 "阿维亚A-298"
+ 
  CZE_jet_fighter_equipment_1:0 "阿维亚S-92"
  CZE_jet_fighter_equipment_1_short:0 "S-92"
+ 
+ #Romania
  ROM_CAS_equipment_1:0 "IAR 37"
  ROM_CAS_equipment_1_short:0 "IAR 37"
  ROM_CAS_equipment_2:0 "IAR 81"
  ROM_CAS_equipment_2_short:0 "IAR 81"
  ROM_CAS_equipment_3:0 "IAR 471"
  ROM_CAS_equipment_3_short:0 "IAR 471"
+ 
  ROM_fighter_equipment_0:0 "IAR 12"
  ROM_fighter_equipment_0_short:0 "IAR 12"
  ROM_fighter_equipment_1:0 "IAR 14"
@@ -1089,12 +1154,14 @@
  ROM_fighter_equipment_2_short:0 "IAR 80"
  ROM_fighter_equipment_3:0 "IAR 109G"
  ROM_fighter_equipment_3_short:0 "IAR 109G"
+
  ROM_heavy_fighter_equipment_1:0 "IAR 214"
  ROM_heavy_fighter_equipment_1_short:0 "IAR 214"
  ROM_heavy_fighter_equipment_2:0 "IAR 380"
  ROM_heavy_fighter_equipment_2_short:0 "IAR 380"
  ROM_heavy_fighter_equipment_3:0 "IAR 410"
  ROM_heavy_fighter_equipment_3_short:0 "IAR 410"
+ 
  ROM_tac_bomber_equipment_0:1 "IAR 25"
  ROM_tac_bomber_equipment_0_short:1 "IAR 25"
  ROM_tac_bomber_equipment_1:1 "IAR 137"
@@ -1103,6 +1170,7 @@
  ROM_tac_bomber_equipment_2_short:1 "IAR 633"
  ROM_tac_bomber_equipment_3:1 "IAR 779"
  ROM_tac_bomber_equipment_3_short:1 "IAR 779"
+
  ROM_strat_bomber_equipment_0:0 "IAR 528"
  ROM_strat_bomber_equipment_0_short:0 "IAR 528"
  ROM_strat_bomber_equipment_1:0 "IAR 679"
@@ -1111,32 +1179,65 @@
  ROM_strat_bomber_equipment_2_short:0 "IAR 765"
  ROM_strat_bomber_equipment_3:0 "IAR 979"
  ROM_strat_bomber_equipment_3_short:0 "IAR 979"
+ 
  ROM_nav_bomber_equipment_1:1 "IAR 55"
  ROM_nav_bomber_equipment_1_short:1 "IAR 55"
  ROM_nav_bomber_equipment_2:1 "IAR 114"
  ROM_nav_bomber_equipment_2_short:1 "IAR 114B"
  ROM_nav_bomber_equipment_3:0 "IAR 117"
  ROM_nav_bomber_equipment_3_short:0 "IAR 117"
+
+ #Holland 
+ # herr fokker wins the race, with a single Koolhoven interloper
+
  HOL_heavy_fighter_equipment_1:0 "福克G.1 Mercury"
  HOL_heavy_fighter_equipment_1_short:0 "福克G.1M"
  HOL_heavy_fighter_equipment_2:0 "福克G.1 Wasp"
  HOL_heavy_fighter_equipment_2_short:0 "福克G.1W"
+ HOL_heavy_fighter_equipment_3:0 "福克  G.XXIII重型战斗机"
+ HOL_heavy_fighter_equipment_3_short:0 "福克 G.XXIII"
+
  HOL_fighter_equipment_0:0 "福克D.XVII"
  HOL_fighter_equipment_0_short:0 "福克D.XVII"
  HOL_fighter_equipment_1:0 "福克D.XXI"
  HOL_fighter_equipment_1_short:0 "福克D.XXI"
  HOL_fighter_equipment_2:0 "库尔霍芬F.K.58"
  HOL_fighter_equipment_2_short:0 "F.K. 58"
+ HOL_fighter_equipment_3:0 "福克 D.XXX战斗机"
+ HOL_fighter_equipment_3_short:0 "福克 D.XXX"
+
+ HOL_CAS_equipment_1:0 "艾威尔兰达 A-12"
+ HOL_CAS_equipment_1_short:0 "A-12"
+ HOL_CAS_equipment_2:0 "艾威尔兰达 A-17"
+ HOL_CAS_equipment_2_short:0 "A-17"
+ HOL_CAS_equipment_3:0 "艾威尔兰达 A-21"
+ HOL_CAS_equipment_3_short:0 "A-21"
+
+ HOL_strat_bomber_equipment_1:0 "潘德尔 F"
+ HOL_strat_bomber_equipment_1_short:0 "潘德尔 F"
+ HOL_strat_bomber_equipment_2:0 "潘德尔 M"
+ HOL_strat_bomber_equipment_2_short:0 "潘德尔 M"
+ HOL_strat_bomber_equipment_3:0 "潘德尔 U"
+ HOL_strat_bomber_equipment_3_short:0 "潘德尔 U"
+
  HOL_nav_bomber_equipment_1:0 "福克T.IVa"
  HOL_nav_bomber_equipment_1_short:0 "福克T.IVa"
  HOL_nav_bomber_equipment_2:0 "福克T.VIII"
  HOL_nav_bomber_equipment_2_short:0 "福克T.VIII"
+ HOL_nav_bomber_equipment_3:0 "库尔霍芬F.K.65"
+ HOL_nav_bomber_equipment_3_short:0 "库尔霍芬F.K.65"
+
  HOL_tac_bomber_equipment_0:0 "福克C.V D/E"
  HOL_tac_bomber_equipment_0_short:0 "福克C.V D/E"
  HOL_tac_bomber_equipment_1:0 "福克T.V"
  HOL_tac_bomber_equipment_1_short:0 "福克T.V"
  HOL_tac_bomber_equipment_2:0 "福克T.IX"
  HOL_tac_bomber_equipment_2_short:0 "福克T.IX"
+ HOL_tac_bomber_equipment_3:0 "库尔霍芬F.K.71"
+ HOL_tac_bomber_equipment_3_short:0 "库尔霍芬F.K.71"
+
+ #Finland
+ 
  FIN_fighter_equipment_0:0 "格罗斯特公鸡式"
  FIN_fighter_equipment_0_short:0 "公鸡式"
  FIN_fighter_equipment_1:0 "VL风暴式"
@@ -1145,30 +1246,42 @@
  FIN_fighter_equipment_2_short:0 "VL回旋式"
  FIN_fighter_equipment_3:0 "VL旋风式"
  FIN_fighter_equipment_3_short:0 "VL旋风式"
+ 
  FIN_nav_bomber_equipment_1:0 "VL鹰式"
  FIN_nav_bomber_equipment_1_short:0 "VL鹰式"
+ 
  FIN_CAS_equipment_1:0 "Fokker-VL C.X"
  FIN_CAS_equipment_1_short:0 "Fokker-VL C.X"
+ 
  FIN_tac_bomber_equipment_1:0 "Bristol-VL 布伦海姆式"
  FIN_tac_bomber_equipment_1_short:0 "布伦海姆式"
+ 
+ #Norway
+ 
  NOR_fighter_equipment_0:0 "F.F. 7 Hauk"
  NOR_fighter_equipment_0_short:0 "鹰式"
+ 
  NOR_nav_bomber_equipment_1:0 "M.F. 11"
  NOR_nav_bomber_equipment_1_short:0 "M.F. 11"
+ 
  NOR_tac_bomber_equipment_0:0 "切勒 - 福克C.V"
  NOR_tac_bomber_equipment_0_short:0 "Kj.-F. C.V"
+ 
+ #Hungary
  HUN_heavy_fighter_equipment_1:0 "RMI-3 X/V"
  HUN_heavy_fighter_equipment_1_short:0 "RMI-3 X/V"
  HUN_heavy_fighter_equipment_2:1 "DRR 201C"
  HUN_heavy_fighter_equipment_2_short:1 "DRR 210C"
  HUN_heavy_fighter_equipment_3:1 "RMI-8 X/V"
  HUN_heavy_fighter_equipment_3_short:1 "RMI-8 X/V"
+ 
  HUN_CAS_equipment_1:1 "魏斯WM-16 布达佩斯"
  HUN_CAS_equipment_1_short:0 "WM-16"
  HUN_CAS_equipment_2:0 "魏斯WM-21 隼"
  HUN_CAS_equipment_2_short:0 "WM-21"
  HUN_CAS_equipment_3:0 "RMI-3 Z/G"
  HUN_CAS_equipment_3_short:0 "RMI-3 Z/G"
+ 
  HUN_fighter_equipment_0:0 "AVIS III"
  HUN_fighter_equipment_0_short:0 "AVIS III"
  HUN_fighter_equipment_1:0 "魏斯WM-23 银箭"
@@ -1177,18 +1290,21 @@
  HUN_fighter_equipment_2_short:2 "鹰"
  HUN_fighter_equipment_3:0 "匈牙利皇家铁路机械制造公司 鹰II"
  HUN_fighter_equipment_3_short:0 "鹰II"
+
  HUN_strat_bomber_equipment_1:0 "RMI-5 X/G"
  HUN_strat_bomber_equipment_1_short:0 "RMI-5"
  HUN_strat_bomber_equipment_2:0 "RMI-12 Z/G"
  HUN_strat_bomber_equipment_2_short:0 "RMI-12"
  HUN_strat_bomber_equipment_3:0 "RMI-15 X/U"
  HUN_strat_bomber_equipment_3_short:0 "RMI-15"
+
  HUN_nav_bomber_equipment_1:0 "RMI-1 X/G"
  HUN_nav_bomber_equipment_1_short:0 "RMI-1"
  HUN_nav_bomber_equipment_2:0 "MÁVAG 鹰"
  HUN_nav_bomber_equipment_2_short:0 "鹰"
  HUN_nav_bomber_equipment_3:0 "MÁVAG-乌鸦"
  HUN_nav_bomber_equipment_3_short:0 "乌鸦"
+ 
  HUN_tac_bomber_equipment_0:0 "WM-35"
  HUN_tac_bomber_equipment_0_short:0 "WM-35"
  HUN_tac_bomber_equipment_1:0 "WM-37"
@@ -1197,34 +1313,92 @@
  HUN_tac_bomber_equipment_2_short:0 "RMI-13"
  HUN_tac_bomber_equipment_3:0 "RMI-16 Z/H"
  HUN_tac_bomber_equipment_3_short:0 "RMI-16"
+ #British Raj
+
  RAJ_fighter_equipment_0:0 "霍克Hart"
  RAJ_fighter_equipment_0_short:0 "Hart"
+ 
  RAJ_fighter_equipment_1:0 "霍克Demon"
  RAJ_fighter_equipment_1_short:0 "Demon"
+
  RAJ_cv_fighter_equipment_0:0 "霍克鱼鹰式"
  RAJ_cv_fighter_equipment_0_short:0 "鱼鹰式"
+
+ #Spain
+ 
+ SPR_fighter_equipment_0:0 "Hispano Aviación HA-900"
+ SPR_fighter_equipment_0_short:0 "HA-900"
+ SPR_fighter_equipment_1:0 "Hispano Aviación HA-1000"
+ SPR_fighter_equipment_1_short:0 "HA-1000"
  SPR_fighter_equipment_2:0 "西航HA-1112"
  SPR_fighter_equipment_2_short:0 "HA-1112"
+ SPR_fighter_equipment_3:0 "Hispano Aviación HA-1115"
+ SPR_fighter_equipment_3_short:0 "HA-1115"
+
+ SPR_heavy_fighter_equipment_1:0 "Hispano Aviación HA-1900"
+ SPR_heavy_fighter_equipment_1_short:0 "HA-1900"
+ SPR_heavy_fighter_equipment_2:1 "Hispano Aviación HA-2100"
+ SPR_heavy_fighter_equipment_2_short:1 "HA-2100"
+ SPR_heavy_fighter_equipment_3:1 "Hispano Aviación HA-2400"
+ SPR_heavy_fighter_equipment_3_short:1 "HA-2400"
+
+ SPR_CAS_equipment_1:1 "Hispano HS-36"
+ SPR_CAS_equipment_1_short:0 "HS-36"
+ SPR_CAS_equipment_2:0 "Hispano HS-41"
+ SPR_CAS_equipment_2_short:0 "HS-41"
+ SPR_CAS_equipment_3:0 "Hispano HS-44"
+ SPR_CAS_equipment_3_short:0 "HS-44"
+
+ SPR_nav_bomber_equipment_1:0 "Hispano E-33"
+ SPR_nav_bomber_equipment_1_short:0 "E-33"
+ SPR_nav_bomber_equipment_2:0 "Hispano E-42"
+ SPR_nav_bomber_equipment_2_short:0 "E-42"
+ SPR_nav_bomber_equipment_3:0 "Hispano E-46"
+ SPR_nav_bomber_equipment_3_short:0 "E-46"
+
+ SPR_strat_bomber_equipment_1:0 "Construcciones Aeronáuticas SA 10.100"
+ SPR_strat_bomber_equipment_1_short:0 "CASA 10.100"
+ SPR_strat_bomber_equipment_2:0 "Construcciones Aeronáuticas SA 12.300"
+ SPR_strat_bomber_equipment_2_short:0 "CASA 12.300"
+ SPR_strat_bomber_equipment_3:0 "Construcciones Aeronáuticas SA 18.500"
+ SPR_strat_bomber_equipment_3_short:0 "CASA 18.500"
+
+ SPR_tac_bomber_equipment_0:0 "Construcciones Aeronáuticas SA 1.134"
+ SPR_tac_bomber_equipment_0_short:0 "CASA 1.134"
+ SPR_tac_bomber_equipment_1:0 "Construcciones Aeronáuticas SA 2.111"
+ SPR_tac_bomber_equipment_1_short:0 "CASA 2.111"
+ SPR_tac_bomber_equipment_2:0 "Construcciones Aeronáuticas SA 3.318"
+ SPR_tac_bomber_equipment_2_short:0 "CASA 3.318"
+ SPR_tac_bomber_equipment_3:0 "Construcciones Aeronáuticas SA 4.181"
+ SPR_tac_bomber_equipment_3_short:0 "CASA 4.181"
+ 
+ #Sweden 
+
  SWE_CAS_equipment_1:0 "萨博-诺斯罗普 A-17 8A-1"
  SWE_CAS_equipment_1_short:0 "萨博 A-17 8A-1"
  SWE_CAS_equipment_2:0 "萨博 B17"
  SWE_CAS_equipment_2_short:0 "萨博 B17"
  SWE_CAS_equipment_3:0 "萨博 B18B"
  SWE_CAS_equipment_3_short:0 "萨博 B18B"
+
  SWE_cv_CAS_equipment_1:0 "ASJA 霍克鱼鹰式"
  SWE_cv_CAS_equipment_1_short:0 "ASJA 鱼鹰式"
+
  SWE_tac_bomber_equipment_0:0 "CVM 福克C.V S/J-3"
  SWE_tac_bomber_equipment_0_short:0 "CVM S/J-3"
  SWE_tac_bomber_equipment_1:0 "萨博 Ju-86K"
  SWE_tac_bomber_equipment_1_short:0 "Ju-86K"
  SWE_tac_bomber_equipment_2:0 "萨博 B18A"
  SWE_tac_bomber_equipment_2_short:0 "萨博 B18A"
+
  SWE_nav_bomber_equipment_1:0 "萨博 T18"
  SWE_nav_bomber_equipment_1_short:0 "萨博 T18"
+
  SWE_jet_fighter_equipment_1:0 "萨博 21R"
  SWE_jet_fighter_equipment_1_short:0 "萨博 21R"
  SWE_jet_fighter_equipment_2:0 "萨博 32 兰森"
  SWE_jet_fighter_equipment_2_short:0 "萨博 32"
+
  SWE_fighter_equipment_0:0 "ASJA SA-14 Jaktfalken"
  SWE_fighter_equipment_0_short:0 "ASJA SA-14"
  SWE_fighter_equipment_1:0 "舍维尔斯基P-35 J9"
@@ -1233,10 +1407,17 @@
  SWE_fighter_equipment_2_short:0 "Re. 2000 J12"
  SWE_fighter_equipment_3:0 "萨博 J21"
  SWE_fighter_equipment_3_short:0 "萨博 J21"
+ 
+ #switzerland
+ 
  SWI_fighter_equipment_0:0 "德瓦蒂纳D.27"
  SWI_fighter_equipment_0_short:0 "D.27"
+
  SWI_tac_bomber_equipment_0:0 "K+W 图恩-福克 C.V.-E"
  SWI_tac_bomber_equipment_0_short:0 "K+W C.V.-E"
+ 
+ # Turkish planes, all fictional, licence, or fictional licence builds
+ 
  TUR_fighter_equipment_0:0 "TamTAS 鹰式"
  TUR_fighter_equipment_0_short:0 "TamTAS 鹰式"
  TUR_fighter_equipment_1:0 "TamTAS飓风式"
@@ -1245,6 +1426,7 @@
  TUR_fighter_equipment_2_short:0 "THK Fw 190"
  TUR_fighter_equipment_3:0 "THK P47"
  TUR_fighter_equipment_3_short:0 "THK P47"
+ 
  TUR_tac_bomber_equipment_0:0 "TamTAS Ju A-20"
  TUR_tac_bomber_equipment_0_short:0 "A-20"
  TUR_tac_bomber_equipment_1:0 "TamTAS布伦海姆式"
@@ -1253,6 +1435,8 @@
  TUR_tac_bomber_equipment_2_short:0 "THK巴尔的摩式"
  TUR_tac_bomber_equipment_3:0 "THK入侵者式"
  TUR_tac_bomber_equipment_3_short:0 "THK入侵者式"
+ 
+ #chinese planes
  CHI_fighter_equipment_0:0 "柳飞3型"
  CHI_fighter_equipment_0_short:0 "3型"
  CHI_fighter_equipment_1:1 "中飞 霍克"
@@ -1261,18 +1445,21 @@
  CHI_fighter_equipment_2_short:0 "研驱零"
  CHI_fighter_equipment_3:0 "中飞 P12"
  CHI_fighter_equipment_3_short:0 "P12"
+ 
  CHI_CAS_equipment_1:0 "中飞伏尔提V-11"
  CHI_CAS_equipment_1_short:0 "伏尔提V-11"
  CHI_CAS_equipment_2:0 "中飞 12型"
  CHI_CAS_equipment_2_short:0 "12型"
  CHI_CAS_equipment_3:0 "中飞 24型"
  CHI_CAS_equipment_3_short:0 "24型"
+
  CHI_nav_bomber_equipment_1:0 "中飞 N-323"
  CHI_nav_bomber_equipment_1_short:0 "N-323"
  CHI_nav_bomber_equipment_2:0 "中飞 N-650"
  CHI_nav_bomber_equipment_2_short:0 "N-650"
  CHI_nav_bomber_equipment_3:0 "中飞 N-854"
  CHI_nav_bomber_equipment_3_short:0 "N-854"
+
  CHI_tac_bomber_equipment_0:0 "中飞 16型"
  CHI_tac_bomber_equipment_0_short:0 "16型"
  CHI_tac_bomber_equipment_1:0 "中飞 36型"
@@ -1281,18 +1468,21 @@
  CHI_tac_bomber_equipment_2_short:0 "40型"
  CHI_tac_bomber_equipment_3:0 "中飞 44型"
  CHI_tac_bomber_equipment_3_short:0 "44型"
+
  CHI_strat_bomber_equipment_1:0 "中飞 236型"
  CHI_strat_bomber_equipment_1_short:0 "236型"
  CHI_strat_bomber_equipment_2:0 "中飞 240型"
  CHI_strat_bomber_equipment_2_short:0 "240型"
  CHI_strat_bomber_equipment_3:0 "中飞 444型"
  CHI_strat_bomber_equipment_3_short:0 "444型"
+
  CHI_heavy_fighter_equipment_1:0 "中飞 P-60"
  CHI_heavy_fighter_equipment_1_short:0 "P-60"
  CHI_heavy_fighter_equipment_2:0 "中飞 PF-77"
  CHI_heavy_fighter_equipment_2_short:0 "PF-77"
  CHI_heavy_fighter_equipment_3:0 "中飞 PF-98"
  CHI_heavy_fighter_equipment_3_short:0 "PF-98"
+
  SHX_fighter_equipment_0:0 "柳飞 3型"
  SHX_fighter_equipment_0_short:0 "3型"
  SHX_fighter_equipment_1:0 "中飞 霍克"
@@ -1333,6 +1523,7 @@
  SHX_heavy_fighter_equipment_2_short:0 "PF-77"
  SHX_heavy_fighter_equipment_3:0 "中飞 PF-98"
  SHX_heavy_fighter_equipment_3_short:0 "PF-98"
+
  GXC_fighter_equipment_0:0 "柳飞 3型"
  GXC_fighter_equipment_0_short:0 "3型"
  GXC_fighter_equipment_1:0 "中飞 霍克"
@@ -1373,6 +1564,7 @@
  GXC_heavy_fighter_equipment_2_short:0 "PF-77"
  GXC_heavy_fighter_equipment_3:0 "中飞 PF-98"
  GXC_heavy_fighter_equipment_3_short:0 "PF-98"
+
  XSM_fighter_equipment_0:0 "柳飞 3型"
  XSM_fighter_equipment_0_short:0 "3型"
  XSM_fighter_equipment_1:0 "中飞 霍克"
@@ -1413,6 +1605,7 @@
  XSM_heavy_fighter_equipment_2_short:0 "PF-77"
  XSM_heavy_fighter_equipment_3:0 "中飞 PF-98"
  XSM_heavy_fighter_equipment_3_short:0 "PF-98"
+
  YUN_fighter_equipment_0:0 "柳飞 3型"
  YUN_fighter_equipment_0_short:0 "3型"
  YUN_fighter_equipment_1:0 "中飞 霍克"
@@ -1453,6 +1646,7 @@
  YUN_heavy_fighter_equipment_2_short:0 "PF-77"
  YUN_heavy_fighter_equipment_3:0 "中飞 PF-98"
  YUN_heavy_fighter_equipment_3_short:0 "PF-98"
+
  SIK_fighter_equipment_0:0 "柳飞 3式"
  SIK_fighter_equipment_0_short:0 "3式"
  SIK_fighter_equipment_1:0 "中飞 霍克"
@@ -1493,6 +1687,7 @@
  SIK_heavy_fighter_equipment_2_short:0 "PF-77"
  SIK_heavy_fighter_equipment_3:0 "中飞 PF-98"
  SIK_heavy_fighter_equipment_3_short:0 "PF-98"
+
  PRC_fighter_equipment_0:0 "柳飞 3式"
  PRC_fighter_equipment_0_short:0 "3式"
  PRC_fighter_equipment_1:0 "J-1"
@@ -1533,6 +1728,8 @@
  PRC_heavy_fighter_equipment_2_short:0 "JH-2"
  PRC_heavy_fighter_equipment_3:0 "JH-3"
  PRC_heavy_fighter_equipment_3_short:0 "JH-3"
+ 
+ #yugoslavian planes
  YUG_fighter_equipment_0:0 "阿维亚-伊卡鲁斯BH-33"
  YUG_fighter_equipment_0_short:0 "BH-33"
  YUG_fighter_equipment_1:0 "伊卡鲁斯IK-2"
@@ -1541,18 +1738,21 @@
  YUG_fighter_equipment_2_short:0 "IK-3"
  YUG_fighter_equipment_3:0 "伊卡鲁斯S-49"
  YUG_fighter_equipment_3_short:0 "S-49"
+ 
  YUG_heavy_fighter_equipment_1:0 "罗戈扎斯基IK-5"
  YUG_heavy_fighter_equipment_1_short:0 "IK-5"
  YUG_heavy_fighter_equipment_2:0 "罗戈扎斯基R-313"
  YUG_heavy_fighter_equipment_2_short:0 "R-313"
  YUG_heavy_fighter_equipment_3:0 "内纳多维奇-米特罗维奇"
  YUG_heavy_fighter_equipment_3_short:0 "NEMI"
+ 
  YUG_CAS_equipment_1:1 "罗戈扎斯基R-100"
  YUG_CAS_equipment_1_short:1 "R-100"
  YUG_CAS_equipment_2:0 "伊卡鲁斯飓风式"
  YUG_CAS_equipment_2_short:0 "伊卡鲁斯飓风式"
  YUG_CAS_equipment_3:0 "伊卡鲁斯 台风"
  YUG_CAS_equipment_3_short:0 "伊卡鲁斯 台风"
+ 
  YUG_tac_bomber_equipment_0:1 "龙 A-5"
  YUG_tac_bomber_equipment_0_short:1 "A-5"
  YUG_tac_bomber_equipment_1:1 "龙 C-17 "
@@ -1561,6 +1761,7 @@
  YUG_tac_bomber_equipment_2_short:1 "G-2"
  YUG_tac_bomber_equipment_3:0 "Zmaj R-1"
  YUG_tac_bomber_equipment_3_short:0 "R-1"
+
  YUG_strat_bomber_equipment_0:0 "罗戈扎斯基 R-401"
  YUG_strat_bomber_equipment_0_short:0 "R-401"
  YUG_strat_bomber_equipment_1:0 "龙 Q-12"
@@ -1569,32 +1770,14 @@
  YUG_strat_bomber_equipment_2_short:0 "R-522"
  YUG_strat_bomber_equipment_3:0 "龙 T-155"
  YUG_strat_bomber_equipment_3_short:0 "T-155"
+ 
  YUG_nav_bomber_equipment_1:0 "罗戈扎斯基SIM-XIV-H"
  YUG_nav_bomber_equipment_1_short:0 "SIM-XIV-H"
  YUG_nav_bomber_equipment_2:0 "罗戈扎斯基 SIM-XIX-V"
  YUG_nav_bomber_equipment_2_short:0 "SIM-XIX-V"
  YUG_nav_bomber_equipment_3:0 "伊卡鲁斯 IK-19"
  YUG_nav_bomber_equipment_3_short:0 "IK-19"
- HOL_heavy_fighter_equipment_3:0 "福克  G.XXIII重型战斗机"
- HOL_heavy_fighter_equipment_3_short:0 "福克 G.XXIII"
- HOL_fighter_equipment_3:0 "福克 D.XXX战斗机"
- HOL_fighter_equipment_3_short:0 "福克 D.XXX"
- HOL_CAS_equipment_1:0 "艾威尔兰达 A-12"
- HOL_CAS_equipment_1_short:0 "A-12"
- HOL_CAS_equipment_2:0 "艾威尔兰达 A-17"
- HOL_CAS_equipment_2_short:0 "A-17"
- HOL_CAS_equipment_3:0 "艾威尔兰达 A-21"
- HOL_CAS_equipment_3_short:0 "A-21"
- HOL_strat_bomber_equipment_1:0 "潘德尔 F"
- HOL_strat_bomber_equipment_1_short:0 "潘德尔 F"
- HOL_strat_bomber_equipment_2:0 "潘德尔 M"
- HOL_strat_bomber_equipment_2_short:0 "潘德尔 M"
- HOL_strat_bomber_equipment_3:0 "潘德尔 U"
- HOL_strat_bomber_equipment_3_short:0 "潘德尔 U"
- HOL_nav_bomber_equipment_3:0 "库尔霍芬F.K.65"
- HOL_nav_bomber_equipment_3_short:0 "库尔霍芬F.K.65"
- HOL_tac_bomber_equipment_3:0 "库尔霍芬F.K.71"
- HOL_tac_bomber_equipment_3_short:0 "库尔霍芬F.K.71"
+
  MEX_fighter_equipment_0:0 "国家航空器工厂 ‘低音提琴’ 3-E-130 型战斗机"
  MEX_fighter_equipment_0_short:0 "低音提琴"
  MEX_cv_fighter_equipment_0:0 "国家航空器工厂 ‘低音提琴’ 3-E-130 舰载战斗机"
@@ -1611,12 +1794,14 @@
  MEX_fighter_equipment_3_short:0 "战神"
  MEX_cv_fighter_equipment_3:0 "国家航空器工厂 ‘战神’舰载战斗机"
  MEX_cv_fighter_equipment_3_short:0 "战神 舰载型"
+ 
  MEX_heavy_fighter_equipment_1:0 "国家航空器工厂 ‘希里亚’重型战斗机"
  MEX_heavy_fighter_equipment_1_short:0 "希里亚型战斗机"
  MEX_heavy_fighter_equipment_2:0 "拉斯喀瑞-萨利纳斯重型战斗机"
  MEX_heavy_fighter_equipment_2_short:0 "萨利纳斯型战斗机"
  MEX_heavy_fighter_equipment_3:0 "拉斯喀瑞 ‘奥拉’重型战斗机"
  MEX_heavy_fighter_equipment_3_short:0 "奥拉型战斗机"
+ 
  MEX_CAS_equipment_1:0 "斯巴达‘宙斯’ 8W型轰炸机"
  MEX_CAS_equipment_1_short:0 "宙斯"
  MEX_cv_CAS_equipment_1:0 "斯巴达‘宙斯’ 8W 舰载轰炸机"
@@ -1629,6 +1814,7 @@
  MEX_CAS_equipment_3_short:0 "太阳神"
  MEX_cv_CAS_equipment_3:0 "国家航空器工厂‘太阳神’舰载轰炸机"
  MEX_cv_CAS_equipment_3_short:0 "太阳神 舰载型"
+ 
  MEX_tac_bomber_equipment_0:0 "国家航空器工厂‘阿兹卡拉特’ O-E-1 型轰炸机"
  MEX_tac_bomber_equipment_0_short:0 "阿兹卡拉特"
  MEX_tac_bomber_equipment_1:0 "国家航空器工厂 ‘希里亚’中型轰炸机"
@@ -1637,12 +1823,14 @@
  MEX_tac_bomber_equipment_2_short:0 "萨利纳斯型轰炸机"
  MEX_tac_bomber_equipment_3:0 "拉斯喀瑞 ‘奥拉’中型轰炸机"
  MEX_tac_bomber_equipment_3_short:0 "奥拉型轰炸机"
+
  MEX_strat_bomber_equipment_1:0 "国家航空器工厂 ‘希里亚’重型轰炸机"
  MEX_strat_bomber_equipment_1_short:0 "希里亚重型轰炸机"
  MEX_strat_bomber_equipment_2:0 "拉斯喀瑞-萨利纳斯重型轰炸机"
  MEX_strat_bomber_equipment_2_short:0 "萨利纳斯重型轰炸机"
  MEX_strat_bomber_equipment_3:0 "拉斯喀瑞 ‘奥拉’重型轰炸机"
  MEX_strat_bomber_equipment_3_short:0 "奥拉重型轰炸机"
+ 
  MEX_nav_bomber_equipment_1:0 "马里斯厂 MA-260轰炸机"
  MEX_nav_bomber_equipment_1_short:0 "MA-260轰炸机"
  MEX_cv_nav_bomber_equipment_1:0 "马里斯厂 MA-260舰载轰炸机"

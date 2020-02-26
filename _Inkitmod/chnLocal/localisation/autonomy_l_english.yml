@@ -1,5 +1,6 @@
 ﻿l_english:
  autonomy_dominion:0 "自治领"
+ autonomy_supervised_state:0 "监管国"
  autonomy_colony:0 "殖民地"
  autonomy_puppet:0 "傀儡国"
  autonomy_integrated_puppet:0 "半吞并傀儡国"
@@ -11,6 +12,7 @@
  autonomy_wtt_imperial_associate:0 "帝国协从国"
  autonomy_wtt_imperial_protectorate:0 "帝国保护领"
  autonomy_wtt_imperial_subject:1 "帝国属国"
+ autonomy_collaboration_government:0 "Collaboration Government"
  AUTONOMY_CAN_TAKE_DESC:1 "$OWNER|UH$可以变为$NEXTLEVEL|H$"
  AUTONOMY_CANT_TAKE_DESC:1 "$OWNER|UH$还无法变为$NEXTLEVEL|H$"
  AUTONOMY_CAN_LOSE_DESC:1 "$OWNER|UH$可以降为$PREVLEVEL|H$"
@@ -60,4 +62,4 @@
  CONSTRUCTION_MASTER_BUILDING_CANT_REDUCE:0 "§R我们不能减少这个建设项目的等级或取消它。§!"
  CONSTRUCTION_INFO_MASTER:0 "这个建筑物在$WHO|H$的领土内。如果我们不使用所有的工厂，他们可以用他们自己的工厂辅助建设。"
  CONSTRUCTION_INFO_SUBJECT:0 "这个建筑物是由$WHO|H$为我们建造的。如果他们不使用所有的工厂，我们可以用我们自己的工厂辅助建设。"
- autonomy_supervised_state:0 "监管国"
+ 

@@ -21,6 +21,12 @@
  at_least_one_division_in_state:0 "在该地区至少驻扎§H1§!个师"
  in_45_days:0 "45天内：\n"
  border_incident_active:0 "省份中没有正在进行的边境冲突"
+
+### #   # ### #  # ###  ## 
+#   #   # #   ## #  #  #   
+##   # #  ##  # ##  #   #  
+#    # #  #   #  #  #    # 
+###   #   ### #  #  #  ##  
  wtt_border_conflict_won_attacker.1.t:0 "在[their_state.GetName]获胜"
  wtt_border_conflict_won_attacker.1.desc:0 "在[our_state.GetName]与[their_state.GetName]边境上发生的冲突以我们完胜[their_country.GetLeader]的军队的结局告终。[their_country.GetAdjective]的军队被击退，而我们则占领了争议地区。"
  wtt_border_conflict_won_attacker.1.a:0 "我们展示了自己的实力！"

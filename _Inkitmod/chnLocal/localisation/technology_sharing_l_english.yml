@@ -54,3 +54,6 @@
  HOL_allied_research_desc:0 "减少其他同盟国国家已研发科技的研究时间。"
  HOL_europe_research_name:0 "欧洲大陆最好和最聪明的人"
  HOL_europe_research_desc:0 "减少其他阵营内国家已研发科技的研究时间。"
+ spr_research_name:0 "Soviet Technological Advancements"
+ spr_research_desc:0 "Reduced research time for technologies researched by [SOV.GetNameDef]."
+ VIC_learn_from_the_enemy_name:0 "Learning from the enemy"

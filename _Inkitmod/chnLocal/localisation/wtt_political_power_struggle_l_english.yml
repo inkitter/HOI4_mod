@@ -19,9 +19,11 @@
  XSM_full_political_support:0 "[scope_XSM.GetNameDefCap]有[?scope_XSM.total_political_support_points|+0] §H政治支持点§!\n[scope_XSM.GetStateSupport][scope_XSM.GetWarlordSupport][scope_XSM.GetOtherSupport]\n\n"
  SIK_political_support:0 "[scope_SIK.GetNameDefCap]有[?scope_SIK.total_political_support_points|+0] §H政治支持点§!\n"
  SIK_full_political_support:0 "[scope_SIK.GetNameDefCap]有[?scope_SIK.total_political_support_points|+0] §H政治支持点§!\n[scope_SIK.GetStateSupport][scope_SIK.GetWarlordSupport][scope_SIK.GetOtherSupport]\n\n"
+
  china_struggle_full_support_breakdown:0 "[Root.GetNameDefCap]有[?Root.total_political_support_points|+0] §H政治支持点§!\n[Root.GetStateSupport][Root.GetWarlordSupport][Root.GetOtherSupport]\n\n"
  china_struggle_short_breakdown:0 "[Root.GetNameDefCap]有[?Root.total_political_support_points|+0] §H政治支持点§!\n"
  china_struggle_icon_value:0 "[?Root.total_political_support_points|0H]"
+
  CHI_state_support:0 "§H地区主导权§!：[scope_CHI.GetFujian][scope_CHI.GetFujianPoints][scope_CHI.GetZhejiang][scope_CHI.GetZhejiangPoints][scope_CHI.GetShandong][scope_CHI.GetShandongPoints][scope_CHI.GetJiangsu][scope_CHI.GetJiangsuPoints][scope_CHI.GetJiangxi][scope_CHI.GetJiangxiPoints][scope_CHI.GetXikang][scope_CHI.GetXikangPoints][scope_CHI.GetHunan][scope_CHI.GetHunanPoints][scope_CHI.GetGuizhou][scope_CHI.GetGuizhouPoints][scope_CHI.GetSichuan][scope_CHI.GetSichuanPoints][scope_CHI.GetAnhui][scope_CHI.GetAnhuiPoints][scope_CHI.GetHenan][scope_CHI.GetHenanPoints][scope_CHI.GetBeijing][scope_CHI.GetBeijingPoints][scope_CHI.GetShanghai][scope_CHI.GetShanghaiPoints][scope_CHI.GetHebei][scope_CHI.GetHebeiPoints][scope_CHI.GetHubei][scope_CHI.GetHubeiPoints][scope_CHI.GetShanxi][scope_CHI.GetShanxiPoints][scope_CHI.GetSuiyuan][scope_CHI.GetSuiyuanPoints][scope_CHI.GetShaanxi][scope_CHI.GetShaanxiPoints][scope_CHI.GetGansu][scope_CHI.GetGansuPoints][scope_CHI.GetQinghai][scope_CHI.GetQinghaiPoints][scope_CHI.GetNingxia][scope_CHI.GetNingxiaPoints][scope_CHI.GetTaklamakan][scope_CHI.GetTaklamakanPoints][scope_CHI.GetUrumqi][scope_CHI.GetUrumqiPoints][scope_CHI.GetDzungaria][scope_CHI.GetDzungariaPoints][scope_CHI.GetYarkand][scope_CHI.GetYarkandPoints][scope_CHI.GetYunnan][scope_CHI.GetYunnanPoints][scope_CHI.GetHainan][scope_CHI.GetHainanPoints][scope_CHI.GetGuangzhou][scope_CHI.GetGuangzhouPoints][scope_CHI.GetGuangdong][scope_CHI.GetGuangdongPoints][scope_CHI.GetNanning][scope_CHI.GetNanningPoints][scope_CHI.GetGuangxi][scope_CHI.GetGuangxiPoints]"
  PRC_state_support:0 "§H地区主导权§!：[scope_PRC.GetFujian][scope_PRC.GetFujianPoints][scope_PRC.GetZhejiang][scope_PRC.GetZhejiangPoints][scope_PRC.GetShandong][scope_PRC.GetShandongPoints][scope_PRC.GetJiangsu][scope_PRC.GetJiangsuPoints][scope_PRC.GetJiangxi][scope_PRC.GetJiangxiPoints][scope_PRC.GetXikang][scope_PRC.GetXikangPoints][scope_PRC.GetHunan][scope_PRC.GetHunanPoints][scope_PRC.GetGuizhou][scope_PRC.GetGuizhouPoints][scope_PRC.GetSichuan][scope_PRC.GetSichuanPoints][scope_PRC.GetAnhui][scope_PRC.GetAnhuiPoints][scope_PRC.GetHenan][scope_PRC.GetHenanPoints][scope_PRC.GetBeijing][scope_PRC.GetBeijingPoints][scope_PRC.GetShanghai][scope_PRC.GetShanghaiPoints][scope_PRC.GetHebei][scope_PRC.GetHebeiPoints][scope_PRC.GetHubei][scope_PRC.GetHubeiPoints][scope_PRC.GetShanxi][scope_PRC.GetShanxiPoints][scope_PRC.GetSuiyuan][scope_PRC.GetSuiyuanPoints][scope_PRC.GetShaanxi][scope_PRC.GetShaanxiPoints][scope_PRC.GetGansu][scope_PRC.GetGansuPoints][scope_PRC.GetQinghai][scope_PRC.GetQinghaiPoints][scope_PRC.GetNingxia][scope_PRC.GetNingxiaPoints][scope_PRC.GetTaklamakan][scope_PRC.GetTaklamakanPoints][scope_PRC.GetUrumqi][scope_PRC.GetUrumqiPoints][scope_PRC.GetDzungaria][scope_PRC.GetDzungariaPoints][scope_PRC.GetYarkand][scope_PRC.GetYarkandPoints][scope_PRC.GetYunnan][scope_PRC.GetYunnanPoints][scope_PRC.GetHainan][scope_PRC.GetHainanPoints][scope_PRC.GetGuangzhou][scope_PRC.GetGuangzhouPoints][scope_PRC.GetGuangdong][scope_PRC.GetGuangdongPoints][scope_PRC.GetNanning][scope_PRC.GetNanningPoints][scope_PRC.GetGuangxi][scope_PRC.GetGuangxiPoints]"
  GXC_state_support:0 "§H地区主导权§!：[scope_GXC.GetFujian][scope_GXC.GetFujianPoints][scope_GXC.GetZhejiang][scope_GXC.GetZhejiangPoints][scope_GXC.GetShandong][scope_GXC.GetShandongPoints][scope_GXC.GetJiangsu][scope_GXC.GetJiangsuPoints][scope_GXC.GetJiangxi][scope_GXC.GetJiangxiPoints][scope_GXC.GetXikang][scope_GXC.GetXikangPoints][scope_GXC.GetHunan][scope_GXC.GetHunanPoints][scope_GXC.GetGuizhou][scope_GXC.GetGuizhouPoints][scope_GXC.GetSichuan][scope_GXC.GetSichuanPoints][scope_GXC.GetAnhui][scope_GXC.GetAnhuiPoints][scope_GXC.GetHenan][scope_GXC.GetHenanPoints][scope_GXC.GetBeijing][scope_GXC.GetBeijingPoints][scope_GXC.GetShanghai][scope_GXC.GetShanghaiPoints][scope_GXC.GetHebei][scope_GXC.GetHebeiPoints][scope_GXC.GetHubei][scope_GXC.GetHubeiPoints][scope_GXC.GetShanxi][scope_GXC.GetShanxiPoints][scope_GXC.GetSuiyuan][scope_GXC.GetSuiyuanPoints][scope_GXC.GetShaanxi][scope_GXC.GetShaanxiPoints][scope_GXC.GetGansu][scope_GXC.GetGansuPoints][scope_GXC.GetQinghai][scope_GXC.GetQinghaiPoints][scope_GXC.GetNingxia][scope_GXC.GetNingxiaPoints][scope_GXC.GetTaklamakan][scope_GXC.GetTaklamakanPoints][scope_GXC.GetUrumqi][scope_GXC.GetUrumqiPoints][scope_GXC.GetDzungaria][scope_GXC.GetDzungariaPoints][scope_GXC.GetYarkand][scope_GXC.GetYarkandPoints][scope_GXC.GetYunnan][scope_GXC.GetYunnanPoints][scope_GXC.GetHainan][scope_GXC.GetHainanPoints][scope_GXC.GetGuangzhou][scope_GXC.GetGuangzhouPoints][scope_GXC.GetGuangdong][scope_GXC.GetGuangdongPoints][scope_GXC.GetNanning][scope_GXC.GetNanningPoints][scope_GXC.GetGuangxi][scope_GXC.GetGuangxiPoints]"
@@ -60,7 +62,9 @@
  593_guangdong_points:0 "([?593.state_political_support_value|+0]) "
  594_nanning_points:0 "([?594.state_political_support_value|+0]) "
  599_guangxi_points:0 "([?599.state_political_support_value|+0]) "
+
  liberating_states_will_gain_you_state_majority:0 "战争期间被你解放的地区将会给予你§H地区主导权§!\n"
+
  CHI_warlord_support:0 "\n§H军阀支持§!：[scope_CHI.GetWarlordSupportFromGXC][scope_CHI.GetWarlordSupportFromYUN][scope_CHI.GetWarlordSupportFromSHX][scope_CHI.GetWarlordSupportFromXSM][scope_CHI.GetWarlordSupportFromSIK]"
  PRC_warlord_support:0 "\n§H军阀支持§!：[scope_PRC.GetWarlordSupportFromGXC][scope_PRC.GetWarlordSupportFromYUN][scope_PRC.GetWarlordSupportFromSHX][scope_PRC.GetWarlordSupportFromXSM][scope_PRC.GetWarlordSupportFromSIK]"
  GXC_warlord_support:0 "\n§H军阀支持§!：[scope_GXC.GetWarlordSupportFromGXC][scope_GXC.GetWarlordSupportFromYUN][scope_GXC.GetWarlordSupportFromSHX][scope_GXC.GetWarlordSupportFromXSM][scope_GXC.GetWarlordSupportFromSIK]"
@@ -73,6 +77,7 @@
  warlord_support_from_SHX:0 " [SHX.GetNameDefCap]([?SHX.warlord_political_support_value|+0])"
  warlord_support_from_XSM:0 " [XSM.GetNameDefCap]([?XSM.warlord_political_support_value|+0])"
  warlord_support_from_SIK:0 " [SIK.GetNameDefCap]([?SIK.warlord_political_support_value|+0])"
+
  CHI_other_support:0 "\n§H其他行动§!：[?scope_CHI.other_political_support|+0]"
  PRC_other_support:0 "\n§H其他行动§!：[?scope_PRC.other_political_support|+0]"
  GXC_other_support:0 "\n§H其他行动§!：[?scope_GXC.other_political_support|+0]"
@@ -80,6 +85,7 @@
  SHX_other_support:0 "\n§H其他行动§!：[?scope_SHX.other_political_support|+0]"
  XSM_other_support:0 "\n§H其他行动§!：[?scope_XSM.other_political_support|+0]"
  SIK_other_support:0 "\n§H其他行动§!：[?scope_SIK.other_political_support|+0]"
+
  CHI_local_state_support:0 "    [scope_CHI.GetNameDef]：[?From.political_platform_chi|H0]\n"
  PRC_local_state_support:0 "    [scope_PRC.GetNameDef]：[?From.political_platform_prc|H0]\n"
  GXC_local_state_support:0 "    [scope_GXC.GetNameDef]：[?From.political_platform_gxc|H0]\n"
@@ -94,25 +100,36 @@
  scope_SHX_GetNameDef:0 "[scope_SHX.GetNameDefCap]"
  scope_XSM_GetNameDef:0 "[scope_XSM.GetNameDefCap]"
  scope_SIK_GetNameDef:0 "[scope_SIK.GetNameDefCap]"
+
+ ##  #  #  ## ###  ##  #   #     ###   ##  ### #  # ###     ###  ##   ##  #   ### ### ###   ## 
+#  # #  # #    #  #  # ## ##     #  # #  #  #  ## #  #       #  #  # #  # #    #   #  #  # #   
+#    #  #  #   #  #  # # # #     ###  #  #  #  # ##  #       #  #  # #  # #    #   #  ###   #  
+#  # #  #   #  #  #  # #   #     #    #  #  #  #  #  #       #  #  # #  # #    #   #  #      # 
+ ##   ##  ##   #   ##  #   #     #     ##  ### #  #  #       #   ##   ##  ###  #  ### #    ##  
+
  loses_political_support_points_15:0 "失去 §R15§! §H政治支持点§!。\n"
  has_politcal_support_points_30:0 "有至少§G30§! §H政治支持点§!。我们现在有[?Root.total_political_support_points|+0]。"
  has_politcal_support_points_17:0 "有至少§G17§! §H政治支持点§!。 我们现在有[?Root.total_political_support_points|+0]。"
  is_current_leader_of_china:0 "现在是中国领导者"
  is_not_current_leader_of_china:0 "现在不是中国领导者"
+
  more_political_support_than_current_leader:0 "比[WTT_current_china_leader.GetNameDef]([?WTT_current_china_leader.total_political_support_points|0H])拥有更多§H政治支持点§!。我们现在拥有 [?Root.total_political_support_points|+0]。"
  enable_power_struggle:0 "开始与[WTT_current_china_leader.GetNameDef]争夺中国领导权\n"
  WTT_national_leadership_trigger_before_start:0 "比[WTT_current_china_leader.GetNameDef]拥有更多的§H政治支持点§!"
  WTT_national_leadership_join_wars_effect:0 "加入所有§H[WTT_current_china_leader.GetNameDef]§!参与的战争。\n"
+
  state_majority_country_rules:0 "§H[This.GetStateMajorityCountryName]§!获得§H地区主导权§!，并且在一个不同的国家有更高的§H地方支持率§!之前获得[?This.state_political_support_value|+0]§H政治支持点§!\n\n"
  state_support_breakdown:0 "§H地方支持率§!：\n[This.GetLocalStateSupport_CHI][This.GetLocalStateSupport_PRC][This.GetLocalStateSupport_GXC][This.GetLocalStateSupport_YUN][This.GetLocalStateSupport_SHX][This.GetLocalStateSupport_XSM][This.GetLocalStateSupport_SIK]\n"
  WTT_not_taking_over_national_leadership:0 "[Root.GetIsNationalLeadershipTakeOverInProgress]"
  WTT_taking_over_national_leadership_by:0 "[WTT_current_china_leader.GetNameDefCap]正在谋求中国的领导权。"
  WTT_china_leader_refused_to_give_up_national_leadership:0 "目前没有正在进行的对于争夺国家领导权的战争。\n权力斗争将在战争结束时重置。"
  WTT_power_struggle_ongoing:0 "国家领导权的斗争仍在继续。"
+
  increase_support_in_state_chance_modifiers:0 "\n"
  increase_support_in_state_1:0 "：§H地方支持率§! §G+1§!\n"
  increase_support_in_state_2:0 "：§H地方支持率§! §G+2§!\n"
  increase_support_in_state_3:0 "：§H地方支持率§! §G+3§!\n"
+ 
  remove_support_in_state_chance_modifiers:0 "\n一个§H[Root.GetPrinceOfTerrorLoc]§!会移除多于§H2§!点§H地方支持率§!\n一个§H[Root.GetBackRoomBackstabberLoc]§!会移除多于§H1§!点§H地方支持率§!\n"
  remove_support_in_state_3:0 "§H地方支持率§! §Y-3§!\n"
  remove_support_in_state_4:0 "§H地方支持率§! §Y-4§!\n"
@@ -120,6 +137,7 @@
  remove_support_in_state_6:0 "§H地方支持率§! §Y-6§!\n"
  empty_key:0 ""
  other_political_support_down_1:0 "永久失去§R1§! §H政治支持点§!"
+ 
  WTT_seek_support_from_warlord:0 "与[From.GetNameDef]谈判获取支持"
  WTT_seek_support_from_warlord_cost_tt:0 "从[From.GetNameDef]获取支持的代价会根据他们的意识形态和我们之间的双边关系而变化。\n"
  WTT_pay_for_support_from_warlord_PP:0 "公开支持[From.GetNameDef]的政治计划"
@@ -139,6 +157,15 @@
  WTT_seek_support_from_warlord_chance:0 "[From.GetNameDefCap]有[?From.support_chance_@ROOT|+%0]的可能支持我们。[Root.GetWarlordRulingPartyChance][Root.GetWarlordOpinionSupportChance]\n"
  WTT_warlord_chance_ruling_party:0 "\n相同的执政党：[?Root.chance_ruling_party|+%0]"
  WTT_warlord_chance_opinion:0 "\n他们对于我们的看法：[?Root.chance_opinion_of_us|+%0]"
+
+
+### #   # ### #  # ###  ## 
+#   #   # #   ## #  #  #   
+##   # #  ##  # ##  #   #  
+#    # #  #   #  #  #    # 
+###   #   ### #  #  #  ##  
+
+#Building local support in a state
  wtt_political_organisation.1.t:0 "来自[state.GetName]的报告"
  wtt_political_organisation.1.desc:0 "[state.GetName]本地派系的职能部门报告，当地多数的人民还在继续支持我们。大规模的工作甚至增加了我们的支持率。"
  wtt_political_organisation.1.a:0 "人民会见证胜利者"
@@ -159,6 +186,8 @@
  wtt_political_organisation.6.desc_not_majority:0 "[state.GetName]当地报纸报道称[From.GetLeader]演说聚集了史无前例的人群。[From.GetNameDef]似乎赢得了越来越多人的支持。然而[majority_country.GetLeader]仍然在当地占据主导。"
  wtt_political_organisation.6.desc_has_majority:0 "[state.GetName]传来坏消息。[From.GetLeader]发表的一些演说聚集了大量人群。我们在当地的机构身陷囫囵，被市民逼问有关[state.GetName]的事宜。我们在当地的根基尚且牢固，但状况随时可变。"
  wtt_political_organisation.6.a:0 "密切关注事态发展。"
+
+#Current leader being mean and removing local support in a state
  wtt_political_organisation.7.t:0 "[state.GetName]来报"
  wtt_political_organisation.7.desc:0 "在[state.GetName]的一场游行发展成了游行参与者与一群蒙面歹徒的械斗。这场暴力事件似乎起到了打击对方声望的效果。\n\n我们虽然没有直接参与其中，但相比大家心知肚明。"
  wtt_political_organisation.7.a:0 "这算是给他们一个教训。"
@@ -179,6 +208,8 @@
  wtt_political_organisation.12.desc_not_majority:0 "[state.GetName]正在经历一波政治动荡。[From.GetLeader]与[majority_country.GetLeader]的支持者日日在街上械斗。目前来看，[majority_country.GetLeader]仍然受大部分当地人的支持。"
  wtt_political_organisation.12.desc_has_majority:0 "[From.GetLeader]在[state.GetName]的特工煽动起了政治恐怖运动。报道称当地支持我们的民众被当街骚扰并被批为叛徒。党派地方领袖被暴打，办事处被纵火。尽管如此，大部分命中还是站在我们这边。"
  wtt_political_organisation.12.a:0 "胜利终将是我们的。"
+
+#Warlord support 
  wtt_political_warlord_support.1.t:0 "[From.GetNameDefCap]谋求支持"
  wtt_political_warlord_support.1.desc:0 "[asking_for_support.GetLeader]的一位代表前来谋求政治同盟。[asking_for_support.GetLeader]答应在赢得斗争后不插手我们的内部事务。参与其中将会有深远影响，就算声援也会被视为背叛。"
  wtt_political_warlord_support.1.a:0 "我们会支持他们。"
@@ -212,6 +243,7 @@
  wtt_political_warlord_support.22.a:0 "这些装备必将得善用。"
  wtt_political_warlord_support.23.desc:0 "[From.GetLeader]派出协助我军改组整编的军官团已经抵达。使团内成员包含各类精英专家，自久经沙场的步兵指挥与炮兵士官到参谋职员各有特长》\n\n使团领队提交了一份[From.GetLeader]撰写的电文，提醒我们不得遗忘己方约定的义务。"
  wtt_political_warlord_support.23.a:0 "喜迎诸位来客。"
+
  wtt_take_national_leadership.1.t:0 "[From.GetLeader]已准备好交接国家领导权"
  wtt_take_national_leadership.1.desc:0 "举国上下各是大规模游行占据街道，要求[old_leader.GetLeader]下台并将权力交与[new_leader.GetLeader]。甚至在政府内部，同样有不少职员认为[new_leader.GetLeader]作为领导人更能统一中国并带领人民走向未来。\n\n[new_leader.GetLeader]所获政治支持已经到了足以因拒绝一言而引来人民怒火的地步。"
  wtt_take_national_leadership.1.a:0 "民心已万人皆知。"
@@ -222,6 +254,13 @@
  wtt_take_national_leadership.3.t:0 "[From.GetLeader]拒绝让位"
  wtt_take_national_leadership.3.desc:0 "尽管[new_leader.GetLeader]有着压倒性的支持，[From.GetLeader]拒绝交出国民政府主席一职、他声称绝不会对此等低劣之胁迫低头或放任叛徒与匪贼夺取国家，[From.GetLeader]已经明确表示不会让出自己的位子。"
  wtt_take_national_leadership.3.a:0 "如此则只有武力强取一径！"
+
+###  ###  ##  ###  ## ###  ##  #  #     #  #  ##  #   # ###  ## 
+#  # #   #  #  #  #    #  #  # ## #     ## # #  # ## ## #   #   
+#  # ##  #     #   #   #  #  # # ##     # ## #### # # # ##   #  
+#  # #   #  #  #    #  #  #  # #  #     #  # #  # #   # #     # 
+###  ###  ##  ### ##  ###  ##  #  #     #  # #  # #   # ### ##  
+
  WTT_national_leadership:0 "获得国家领导权"
  WTT_national_leadership_desc:0 "§W所有中国派系都可以选取该决议\n[Root.GetHowToUnlockStruggle]§!"
  WTT_unlock_struggle_comchina:0 "完成§H联合政府§!国策以开始权力斗争。"
@@ -230,6 +269,7 @@
  WTT_national_leadership_accept_tooltip:0 "\n如果他们接受：\n"
  WTT_national_leadership_refuse_tooltip:0 "\n如果他们拒绝：\n"
  WTT_national_leadership_effect_tooltip_leader:0 "反对派已经获得了比我们更多的§H政治支持点§!。他们要求获得国家领导权\n\n如果我们接受：\n我方派系会被吞并。\n\n如果我们拒绝：\n对反对派§H宣战§!\n"
+
  WTT_build_support_in_fujian:0 "在福建地区建立支持§G([?595.state_political_support_value|+0])§!"
  WTT_build_support_in_fujian_desc:0 "§W§H[595.GetStateMajorityCountryName]§!拥有§H地区主导权§!并获得[?595.state_political_support_value|+0] §H政治支持点§!直到另一派系获得更高的§H地方支持率§!\n\n§H地方支持率§!：\n[595.GetLocalStateSupport_CHI][595.GetLocalStateSupport_PRC][595.GetLocalStateSupport_GXC][595.GetLocalStateSupport_YUN][595.GetLocalStateSupport_SHX][595.GetLocalStateSupport_XSM][595.GetLocalStateSupport_SIK]§!"
  WTT_build_support_in_zhejiang:0 "在浙江地区建立支持 §G([?596.state_political_support_value|+0])§!"
@@ -294,6 +334,7 @@
  WTT_build_support_in_guangxi_desc:0 "§W§H[599.GetStateMajorityCountryName]§! 拥有 §H地区主导权§! 并获得 [?599.state_political_support_value|+0] §H 政治支持点 §! 直到另一派系获得更高的 §H地方支持率§!\n\n§H地方支持率§!：\n[599.GetLocalStateSupport_CHI][599.GetLocalStateSupport_PRC][599.GetLocalStateSupport_GXC][599.GetLocalStateSupport_YUN][599.GetLocalStateSupport_SHX][599.GetLocalStateSupport_XSM][599.GetLocalStateSupport_SIK]§!"
  pp_per_day_neg_075:0 "£pol_power §Y每日增长：-0.75  ($DAYS$)§!"
  pp_per_day_neg_075_blocked:0 "£pol_power §R每日增长：-0.75§!"
+
  WTT_remove_opposition_in_fujian:0 "清除在福建的反对派"
  WTT_remove_opposition_in_zhejiang:0 "清除在浙江的反对派"
  WTT_remove_opposition_in_shandong:0 "清除在山东的反对派"

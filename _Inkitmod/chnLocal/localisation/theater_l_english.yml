@@ -53,6 +53,7 @@
  ORDER_CONNECT_CANT_CONNECT_HERE:0 "§R移动鼠标至可连接的命令上。§!"
  EDIT_MODE_CLICK_TO_EDIT_INVASION:0 "\n§G点击§!调整这次§Y海军入侵§!"
  EDIT_MODE_CLICK_TO_EDIT_PARADROP:0 "\n§G点击§!调整这个§Y空降命令§!"
+ EDIT_MODE_CLICK_TO_REORDER:0 "\n§G点击§!让前线上的§H集团军§!互换命令"
  UNITS_ASSIGNED_TO_ORDER_HEADER:0 "§H分配至该命令的师：§!\n"
  NO_UNITS_ASSIGNED_TO_ORDER:0 "§R没有单位被分配至这个命令。§!"
  ASSIGN_UNITS_TO_FALLBACK_AG_ORDER:0 "选中整个集团军之后§GCtrl+点击§!将所有没有命令的集团军分配至该命令。"
@@ -75,4 +76,3 @@
  THEATRE_UNITS:0 "该战区拥有$N|Y$个师"
  THEATRE_GROUP_UNASSIGNED:0 "未分配"
  CAN_ONLY_HAVE_ONE_INVASION_PER_PORT:0 "§R只能对任意选定港口下达一个单独的入侵命令。§!"
- EDIT_MODE_CLICK_TO_REORDER:0 "\n§G点击§!让前线上的§H集团军§!互换命令"

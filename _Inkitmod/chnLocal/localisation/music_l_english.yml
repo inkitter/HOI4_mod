@@ -1,4 +1,7 @@
 ﻿l_english:
+ # SHOULD NOT BE TRANSLATED FROM ENGLISH
+
+ # HOI4 Soundtrack
  maintheme:0 "Main Theme - Allies(主题曲 - 同盟国)"
  axis_war_1:0 "Axis Theme(轴心国 主题曲)"
  allies_peace_1:0 "Morning of D-day(D-day 的早上)"
@@ -21,6 +24,8 @@
  allies_peace_2:0 "End of the Tour(旅程的终点)"
  comintern_peace_3:0 "Russian Victory(俄国胜利)"
  general_peace_2:0 "The War Ends(战争结束)"
+
+ # HOI2 Soundtrack
  achtungpanzer:0 "Achtung Panzer!(注意坦克！)"
  astateofgrace:0 "A State of Grace(恩典的状态)"
  happymarch:0 "Happy March(快乐行军)"
@@ -37,6 +42,8 @@
  the101stairborne:0 "The 101st Airborne(第101空降师)"
  war:0 "War(战争)"
  variationsontherussianthem:0 "Variations on the Russian Theme(俄罗斯主题变奏曲)"
+
+ # HOI3 Soundtrack
  alliesfaction:0 "Allies Faction(同盟阵营)"
  alotofseactions:0 "Sea Action(海上行动)"
  axis1march:0 "Axis March(轴心国进行曲)"
@@ -56,3 +63,5 @@
  unitednations:0 "United Nations(联合国)"
  unitylow:0 "Unity Low(凝聚力过低)"
  wearefree:0 "We Are Free(我们自由了)"
+
+ # NEW MUSIC NAMES HERE BELOW

@@ -28,6 +28,7 @@
  anti_air_building_desc:0 "此建筑通过迎击敌人的轰炸机来为所在地区提供保护。"
  synthetic_refinery:0 "合成炼油厂"
  synthetic_refinery_plural:0 "合成炼油厂"
+ #synthetic_refinery_desc:0 "This building provides the state with +1 £resources_strip|3 and +2 £resources_strip|1."
  synthetic_refinery_desc:0 "此建筑为其所属地区提供了"
  synthetic_refinery_amount:0 "$VALUE|Y0=$"
  synthetic_refinery_resource:0 "£resources_strip|$FRAME$"

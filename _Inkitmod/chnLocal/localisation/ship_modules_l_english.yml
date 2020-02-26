@@ -1,4 +1,5 @@
 ﻿l_english:
+ ### EQUIPMENT MODULE CATEGORIES ###
  EQ_MOD_CAT_ship_light_battery_TITLE:0 "速射炮"
  EQ_MOD_CAT_ship_sub_snorkel_TITLE:0 "通气管"
  EQ_MOD_CAT_ship_torpedo_TITLE:0 "鱼雷发射器"
@@ -28,6 +29,7 @@
  EQ_MOD_CAT_ship_deck_space_TITLE:0 "机库"
  EQ_MOD_CAT_ship_extra_fuel_tank_TITLE:0 "油箱"
  EQ_MOD_CAT_ship_mine_layer_TITLE:1 "布雷装置"
+ ### EQUIPMENT MODULE SLOTS ###
  EQ_MOD_SLOT_fixed_ship_battery_slot_TITLE:0 "主炮"
  EQ_MOD_SLOT_fixed_ship_secondaries_slot_TITLE:0 "副炮"
  EQ_MOD_SLOT_fixed_ship_anti_air_slot_TITLE:0 "防空炮"
@@ -45,6 +47,7 @@
  EQ_MOD_SLOT_mid_3_custom_slot_TITLE:0 "中段自选装备3"
  EQ_MOD_SLOT_rear_1_custom_slot_TITLE:0 "舰尾自选装备1"
  EQ_MOD_SLOT_rear_2_custom_slot_TITLE:0 "舰尾自选装备2"
+ ### EQUIPMENT MODULES ###
  ship_light_battery_1:0 "85mm速射炮"
  ship_light_battery_1_short:0 "轻型炮组1"
  ship_light_battery_1_desc:0 "一种相对小些的火炮，用于驱逐舰和其他小型船只。"
@@ -299,6 +302,7 @@
  ship_armor_carrier_deck_short:0 "飞行甲板装甲"
  ship_armor_carrier_deck_desc:0 "重型装甲板可以在牺牲机库空间的前提下保护机库不受敌方轰炸机的伤害。"
  SHIP_DESIGNER_MODULE_SELECTION:0 "可选模块"
+ ### Nation Specific Modules
  ENG_ship_light_battery_1:0 "4英寸 MK.V 速射炮"
  ENG_ship_light_battery_2:0 "4.7英寸 MK.IX 速射炮"
  ENG_ship_light_battery_3:0 "4.7英寸 MK.XI 速射炮"
@@ -372,6 +376,7 @@
  ENG_carrier_ship_engine_2:0 "帕森斯 102000马力引擎"
  ENG_carrier_ship_engine_3:0 "帕森斯 148000马力引擎"
  ENG_carrier_ship_engine_4:0 "帕森斯 200000马力引擎"
+
  FRA_ship_light_battery_1:0 "130mm 40倍径 1919型"
  FRA_ship_light_battery_2:0 "138.6mm 40倍径 1927型"
  FRA_ship_light_battery_3:0 "138.6mm 50倍径 1934型"
@@ -438,6 +443,7 @@
  FRA_ship_armor_cruiser_2:0 "60mm主装甲/30mm甲板装甲"
  FRA_ship_armor_cruiser_3:0 "110mm主装甲/80mm甲板装甲"
  FRA_ship_armor_cruiser_4:0 "140mm主装甲/85mm甲板装甲"
+
  ITA_ship_light_battery_1:0 "102mm 45倍径 S-A"
  ITA_ship_light_battery_2:0 "120mm 50倍径 OTO"
  ITA_ship_light_battery_3:0 "120mm 50倍径 安萨尔多"
@@ -496,6 +502,7 @@
  ITA_carrier_ship_engine_2:0 "贝鲁佐 120000马力引擎"
  ITA_carrier_ship_engine_3:0 "贝鲁佐 151000马力引擎"
  ITA_carrier_ship_engine_4:0 "贝鲁佐 200000马力引擎"
+
  USA_ship_light_battery_1:0 "4英寸 50倍径 Mk9"
  USA_ship_light_battery_2:0 "5英寸 38倍径 Mk12搭配Mk21型炮塔"
  USA_ship_light_battery_3:0 "5英寸 38倍径 Mk12搭配Mk30型炮塔"
@@ -566,6 +573,7 @@
  USA_carrier_ship_engine_2:0 "西屋 120000马力引擎"
  USA_carrier_ship_engine_3:0 "西屋 150000马力引擎"
  USA_carrier_ship_engine_4:0 "西屋 212000马力引擎"
+
  JAP_ship_light_battery_1:0 "十一年式 12cm 45倍径炮"
  JAP_ship_light_battery_2:0 "三年式 12.7cm 50倍径炮"
  JAP_ship_light_battery_3:0 "九八式 10cm 65倍径炮"
@@ -640,6 +648,7 @@
  JAP_ship_armor_cruiser_3:0 "127mm主装甲/60mm甲板装甲"
  JAP_ship_armor_cruiser_4:0 "145mm主装甲/65mm甲板装甲"
  JAP_ship_armor_carrier_deck:0 "79mm飞行甲板装甲"
+
  ENG_ship_armor_bb_1:0 "13英寸主装甲带/3英寸甲板装甲"
  ENG_ship_armor_bc_1:0 "6英寸主装甲带/2.5英寸甲板装甲"
  ENG_ship_armor_bb_2:0 "14.5英寸主装甲带/5.5英寸甲板装甲"
@@ -657,6 +666,7 @@
  ITA_ship_armor_bc_2:0 "305mm主装甲/100mm甲板装甲"
  ITA_ship_armor_bb_3:0 "295mm主装甲/162mm甲板装甲"
  ITA_ship_armor_bc_3:0 "330mm主装甲/130mm甲板装甲"
+ #ITA_ship_armor_cruiser_2:0 "24mm Belt/20mm Deck"
  ITA_ship_armor_cruiser_1:0 "70mm主装甲/50mm甲板装甲"
  ITA_ship_armor_cruiser_2:0 "100mm主装甲/50mm甲板装甲"
  ITA_ship_armor_cruiser_3:0 "150mm主装甲/70mm甲板装甲"
@@ -671,6 +681,7 @@
  USA_ship_armor_cruiser_3:0 "5英寸主装甲带/2.25英寸甲板装甲"
  USA_ship_armor_cruiser_4:0 "6英寸主装甲带/3.75英寸甲板装甲"
  USA_ship_armor_carrier_deck:0 "3.5英寸飞行甲板装甲"
+
  GER_ship_light_battery_1:0 "10.5 cm 45倍径 SK C/32"
  GER_ship_light_battery_2:0 "12.7 cm 45倍径 SK C/34"
  GER_ship_light_battery_3:0 "12.7 cm 45倍径 SK C/41"
@@ -740,6 +751,7 @@
  GER_ship_armor_cruiser_2:0 "80mm主装甲/60mm甲板装甲"
  GER_ship_armor_cruiser_3:0 "100mm主装甲/88mm甲板装甲"
  GER_ship_armor_cruiser_4:0 "150mm主装甲/90mm甲板装甲"
+
  SOV_ship_light_battery_1:0 "102mm 60倍径 1911型火炮"
  SOV_ship_light_battery_2:0 "130mm 50倍径 B13 1936型火炮"
  SOV_ship_light_battery_3:0 "130mm 50倍径 B13型（遥控火炮）"
@@ -810,6 +822,7 @@
  SOV_ship_armor_cruiser_3:0 "70mm主装甲/50mm甲板装甲"
  SOV_ship_armor_cruiser_4:0 "100mm主装甲/50mm甲板装甲"
  SOV_ship_armor_carrier_deck:0 "50mm 装甲飞行甲板"
+
  ARG_ship_light_battery_1:0 "120mm/45 维克斯 Mk E"
  ARG_ship_light_battery_2:0 "120mm/45 速射炮 Mk IX"
  ARG_ship_heavy_battery_1:0 "30.5cm/50 伯利恒"
@@ -837,6 +850,7 @@
  ARG_heavy_ship_engine_1:0 "柯蒂斯 39500马力引擎"
  ARG_ship_armor_bb_1:0 "280mm主装甲/76mm甲板装甲"
  ARG_ship_armor_cruiser_1:0 "70mm主装甲/25mm甲板装甲"
+
  BRA_ship_light_battery_1:0 "102mm/40 速射炮 Mk IV"
  BRA_ship_light_battery_2:0 "127mm/38 Mk 12"
  BRA_ship_light_battery_3:0 "127mm/38 Mk 12 （遥控火炮）"
@@ -860,6 +874,7 @@
  BRA_heavy_ship_engine_1:0 "维克斯 30000马力引擎"
  BRA_ship_armor_bb_1:0 "229mm主装甲/51mm甲板装甲"
  BRA_ship_armor_cruiser_1:0 "31mm主装甲/19mm甲板装甲"
+
  CHI_ship_light_battery_1:0 "施耐德-克鲁索 100mm/44倍径 M1898型火炮"
  CHI_ship_light_medium_battery_1:0 "14.9cm/50倍径 SK L/40 C/97型火炮"
  CHI_ship_light_medium_battery_2:0 "三年式 14厘米50倍径炮"
@@ -870,6 +885,7 @@
  CHI_ship_secondaries_1:0 "120mm/45倍径 Y型阿姆斯特朗炮"
  CHI_ship_torpedo_1:0 "双联装356mm 鱼雷发射管"
  CHI_ship_armor_cruiser_1:0 "76mm主装甲/25mm甲板装甲"
+
  CHL_ship_light_battery_1:0 "维克斯120mm/45倍径E型速射炮"
  CHL_ship_heavy_battery_1:0 "35.6cm/45倍径 A型阿姆斯特朗炮"
  CHL_ship_heavy_battery_2:0 "35.6cm/50倍径火炮"
@@ -894,6 +910,7 @@
  CHL_sub_ship_engine_4:0 "5000马力引擎"
  CHL_heavy_ship_engine_1:0 "布朗-柯蒂斯 37000马力引擎"
  CHL_ship_armor_bb_1:0 "229mm主装甲/37mm甲板装甲"
+
  DEN_ship_heavy_battery_1:0 "1936式 24cm/42倍径 K/43型火炮"
  DEN_ship_light_medium_battery_1:0 "14.9cm/45倍径 PK L/45"
  DEN_ship_secondaries_1:0 "150mm/49倍径 L-50 M.06型火炮"
@@ -902,11 +919,13 @@
  DEN_ship_anti_air_2:0 "麦德森 20mm/60倍径 RK M41型防空炮"
  DEN_sub_ship_engine_1:0 "伯迈斯特&韦恩 900马力动力系统"
  DEN_sub_ship_engine_2:0 "伯迈斯特&韦恩 1200马力动力系统"
+
  EST_ship_torpedo_sub_1:0 "四联装 533mm鱼雷发射管"
  EST_ship_torpedo_sub_2:0 "六联装 533mm鱼雷发射管"
  EST_ship_torpedo_sub_3:0 "六联装 533mm鱼雷发射管（装有推进活塞装置）"
  EST_ship_torpedo_sub_4:0 "六联装 533mm鱼雷发射管（装有动力装填装置）"
  EST_sub_ship_engine_1:0 "维克斯 1000马力引擎"
+
  FIN_ship_light_battery_1:0 "1911型 102mm/60倍径"
  FIN_ship_heavy_battery_1:0 "25.4 cm 45倍径 博福斯"
  FIN_ship_secondaries_1:0 "105mm 50倍径 博福斯 M1932"
@@ -918,6 +937,7 @@
  FIN_ship_anti_air_2:0 "25mm防空炮"
  FIN_sub_ship_engine_1:0 "阿特拉斯 1160马力引擎"
  FIN_ship_armor_cruiser_1:0 "55mm主装甲/20mm甲板装甲"
+
  GRE_ship_light_battery_1:0 "102mm/50倍径 P型阿姆斯特朗炮"
  GRE_ship_light_battery_2:0 "128mm/42倍径 SK C/34型火炮"
  GRE_ship_light_medium_battery_1:0 "15.2cm/45倍径 NN型阿姆斯特朗炮"
@@ -942,6 +962,7 @@
  GRE_sub_ship_engine_1:0 "苏尔寿 1420马力引擎"
  GRE_ship_armor_cruiser_1:0 "51mm主装甲/25mm甲板装甲"
  GRE_ship_armor_cruiser_2:0 "100mm主装甲/50mm甲板装甲"
+
  HOL_ship_light_battery_1:0 "威尔顿-费诺德 120mm/50倍径 5型火炮"
  HOL_ship_light_battery_2:0 "威尔顿-费诺德 120mm/50倍径 8型火炮"
  HOL_ship_light_battery_3:0 "威尔顿-费诺德 120mm/50倍径 10型火炮"
@@ -978,11 +999,13 @@
  HOL_ship_armor_bc_1:0 "225mm主装甲/100mm甲板装甲"
  HOL_ship_armor_bc_2:0 "305mm主装甲/110mm甲板装甲"
  HOL_ship_armor_cruiser_1:0 "50mm主装甲/30mm甲板装甲"
+
  LAT_ship_torpedo_sub_1:0 "六联装 450mm鱼雷发射管"
  LAT_ship_torpedo_sub_2:0 "四联装 533mm鱼雷发射管"
  LAT_ship_torpedo_sub_3:0 "六联装 533mm鱼雷发射管"
  LAT_ship_torpedo_sub_4:0 "六联装 533mm鱼雷发射管（装有动力装填装置）"
  LAT_sub_ship_engine_1:0 "苏尔寿 1300马力引擎"
+
  NOR_ship_light_battery_1:0 "埃尔斯维克军械公司 76mm/40倍径 阿姆斯特朗炮"
  NOR_ship_light_battery_2:0 "博福斯 120mm/44 倍径火炮"
  NOR_ship_medium_battery_1:0 "埃尔斯维克军械公司 20.9cm/44倍径 1899型火炮"
@@ -999,6 +1022,7 @@
  NOR_ship_torpedo_sub_2:0 "四联装 450mm鱼雷发射管"
  NOR_light_ship_engine_1:0 "利拉伐 30000马力引擎"
  NOR_sub_ship_engine_1:0 "苏尔寿 900马力引擎"
+
  POL_ship_light_battery_1:0 "130mm/40倍径 1924型火炮"
  POL_ship_light_battery_2:0 "博福斯 120mm/50倍径 M34/36火炮"
  POL_ship_torpedo_1:0 "三联装 533mm鱼雷发射管"
@@ -1020,6 +1044,7 @@
  POL_sub_ship_engine_2:0 "苏尔寿 4740马力引擎"
  POL_sub_ship_engine_3:0 "苏尔寿 5400马力引擎"
  POL_sub_ship_engine_4:0 "6500马力引擎"
+
  POR_ship_light_battery_1:0 "100mm/41倍径N型阿姆斯特朗炮"
  POR_ship_light_battery_2:0 "维克斯120mm/50倍径G型炮"
  POR_ship_torpedo_1:0 "二联装450mm鱼雷发射管"
@@ -1037,6 +1062,7 @@
  POR_sub_ship_engine_1:0 "维克斯2300马力引擎"
  POR_sub_ship_engine_2:0 "2800马力引擎"
  POR_sub_ship_engine_3:0 "3500马力引擎"
+
  PRU_ship_light_battery_1:0 "102mm/60倍径1911型火炮"
  PRU_ship_light_medium_battery_1:0 "维克斯15.2cm/50倍径J型火炮"
  PRU_ship_light_medium_battery_2:0 "15.5cm/50倍径火炮"
@@ -1052,6 +1078,7 @@
  PRU_light_ship_engine_1:0 "布朗-博韦里32700马力引擎"
  PRU_sub_ship_engine_1:0 "新伦敦800马力引擎"
  PRU_ship_armor_cruiser_1:0 "38mm主装甲/38mm甲板装甲"
+
  ROM_ship_light_battery_1:0 "120mm 45倍径 SCA M1918-19型火炮"
  ROM_ship_light_battery_2:0 "博福斯120mm/50倍径Mk4型火炮"
  ROM_ship_torpedo_1:0 "二联装450mm鱼雷发射管"
@@ -1067,6 +1094,7 @@
  ROM_light_ship_engine_3:0 "57000马力引擎"
  ROM_light_ship_engine_4:0 "60000马力引擎"
  ROM_sub_ship_engine_1:0 "苏尔寿800马力引擎"
+
  SIA_ship_light_battery_1:0 "102mm/40倍径MkIV型速射炮"
  SIA_ship_medium_battery_2:0 "三年式二号20厘米50倍径炮"
  SIA_ship_medium_battery_3:0 "20.3cm/50倍径火炮（遥控）"
@@ -1082,6 +1110,7 @@
  SIA_ship_torpedo_sub_4:0 "六联装 533mm鱼雷发射管（装有动力装填装置）"
  SIA_light_ship_engine_1:0 "布朗-柯蒂斯 27000马力引擎"
  SIA_ship_armor_cruiser_1:0 "63mm主装甲/38mm甲板装甲"
+
  SPR_ship_light_battery_1:0 "维克斯 102mm/45倍径 Mk L型火炮"
  SPR_ship_light_battery_2:0 "维克斯 102mm/45倍径 Mk F型火炮"
  SPR_ship_heavy_battery_1:0 "维克斯 30.5cm/50倍径 H型火炮"
@@ -1118,6 +1147,7 @@
  SPR_ship_armor_bb_1:0 "230mm主装甲/40mm甲板装甲"
  SPR_ship_armor_cruiser_1:0 "50mm主装甲/38mm甲板装甲"
  SPR_ship_armor_cruiser_2:0 "102mm主装甲/37mm甲板装甲"
+
  SWE_ship_light_battery_1:0 "博福斯 12cm/45倍径 M24型火炮"
  SWE_ship_light_battery_2:0 "博福斯 12cm/45倍径 M24C型火炮"
  SWE_ship_light_battery_3:0 "博福斯 12cm/50倍径 M36型火炮"
@@ -1165,6 +1195,7 @@
  SWE_ship_armor_bb_1:0 "200mm主装甲/45mm甲板装甲"
  SWE_ship_armor_cruiser_1:0 "24mm主装甲/25mm甲板装甲"
  SWE_ship_armor_cruiser_2:0 "70mm主装甲/30mm甲板装甲"
+
  TUR_ship_light_battery_1:0 "105mm/37倍径SK L/40 C/97型火炮"
  TUR_ship_light_battery_2:0 "安萨尔多120mm/50倍径1926型火炮"
  TUR_ship_heavy_battery_1:0 "28cm 50倍径SK L/50型火炮"
@@ -1190,9 +1221,11 @@
  TUR_heavy_ship_engine_1:0 "帕森斯 52000马力引擎"
  TUR_ship_armor_bc_1:0 "270mm主装甲/50mm甲板装甲"
  TUR_ship_armor_cruiser_1:0 "70mm主装甲/38mm甲板装甲"
+ 
  URG_ship_light_battery_1:0 "克虏伯 120mm/45倍径 速射炮"
  URG_ship_light_battery_2:0 "120mm/50倍径火炮"
  URG_ship_torpedo_1:0 "双联装 450mm鱼雷发射器"
+ 
  YUG_ship_light_battery_1:0 "斯柯达 120mm/46倍径火炮"
  YUG_ship_light_battery_2:0 "斯柯达 120mm/56倍径火炮"
  YUG_ship_secondaries_1:0 "斯柯达 83mm/52倍径火炮"

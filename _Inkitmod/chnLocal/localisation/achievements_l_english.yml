@@ -20,3 +20,6 @@
  assuming_direct_control_achievement_flag:0 "使用§Y[ENG.GetName]§!、§Y[GER.GetName]§!或者§Y[SOV.GetName]§!成为阵营领导者。\n"
  USA_civil_war_fired_democrats:0 "波士顿叛乱已经开始。\n"
  putting_the_raid_on_the_medway_to_shame_tt:0 "任意国家：\n初始国家为[ENG.GetName]\n最多§Y0 主力舰§!舰艇"
+ borbon_stuff_tt:0 "Conquer all of France."
+ die_albion_tt:0 "Conquer all of Great Britain and Northern Ireland."
+ portugal_macau_my_day_tt:0 "Create a collaboration government in Macau and have it own all core territory of China and Manchukuo."
