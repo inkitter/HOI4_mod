@@ -1,0 +1,10 @@
+﻿l_english:
+ ST:0 ""
+ ND:0 ""
+ RD:0 ""
+ TH:0 ""
+ WAR_NAME:0 "$ORDER$$FIRST$ - $SECOND$战争"
+ CIVIL_WAR_NAME:0 "$ORDER$$SECOND$内战"
+ WAR_TAKE_CORE_NAME:0 "$ORDER$$FIRST$收复$STATE$战争"
+ WAR_TAKE_CLAIM_NAME:0 "$ORDER$$FIRST$征服$STATE$战争"
+ WAR_NAME_ITA_ETH:0 "意大利对埃塞俄比亚战争"
