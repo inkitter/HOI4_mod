@@ -1,0 +1,19 @@
+ideas = {
+	cheat_menu = {
+		cheat_open_easybuff = {
+			picture = generic_pp_unity_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 1
+			on_add = {
+				country_event = Easybuff.1
+			}
+		}
+		cheat_nothing={
+			picture = generic_pp_unity_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 9
+		}
+	}
+}

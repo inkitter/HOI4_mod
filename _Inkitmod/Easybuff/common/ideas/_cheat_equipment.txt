@@ -1,0 +1,80 @@
+ideas = {
+
+
+	cheat_equipment = {
+		cheat_equipment_lv1 = {
+			picture = generic_goods_red_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.2
+				line_change_production_efficiency_factor = 0.5
+				industrial_capacity_factory = 0.2
+				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 0.5
+				industrial_capacity_dockyard = 0.3
+			}
+		}
+		cheat_equipment_lv2 = {
+			picture = generic_goods_red_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 2
+			modifier = {
+				industrial_capacity_factory = 0.5
+				production_factory_max_efficiency_factor = 0.5
+				line_change_production_efficiency_factor = 1
+				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 1
+				industrial_capacity_dockyard = 1
+			}
+		}
+		cheat_equipment_lv3 = {
+			picture = generic_goods_red_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 3
+			modifier = {
+				production_factory_max_efficiency_factor = 1
+				industrial_capacity_factory = 0.8
+				line_change_production_efficiency_factor = 2
+				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 2
+				industrial_capacity_dockyard = 2
+			}
+		}
+		cheat_equipment_lv4 = {
+			picture = generic_goods_red_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 4
+			modifier = {
+				production_factory_max_efficiency_factor = 2
+				industrial_capacity_factory = 1
+				line_change_production_efficiency_factor = 2
+				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 2
+				industrial_capacity_dockyard = 2
+				CONSUMER_GOODS_FACTOR = -0.5
+			}
+		}
+		cheat_equipment_insane = {
+			picture = generic_goods_red_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 8
+			modifier = {
+				industrial_capacity_factory = 5
+				INDUSTRY_REPAIR_FACTOR = 3
+				production_factory_max_efficiency_factor = 10
+				line_change_production_efficiency_factor = 1
+				PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = 10
+				CONSUMER_GOODS_FACTOR = -0.8
+				industrial_capacity_dockyard = 10
+			}
+		}
+		cheat_nothingequipment={
+			picture = generic_pp_unity_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 9
+		}
+	}
+}

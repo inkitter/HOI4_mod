@@ -1,0 +1,41 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_slot_cheat_construction"
+		textureFile = "gfx/interface/idea_slot_industrial_concern.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_cheat_technology"
+		textureFile = "gfx/interface/idea_slot_theorist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_cheat_politics"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_cheat_spy"
+		textureFile = "gfx/interface/idea_slot_high_command.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_cheat_equipment"
+		textureFile = "gfx/interface/idea_slot_materiel_manufacturer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_cheat_land"
+		textureFile = "gfx/interface/idea_slot_army_chief.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_cheat_navy"
+		textureFile = "gfx/interface/idea_slot_navy_chief.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_cheat_air"
+		textureFile = "gfx/interface/idea_slot_air_chief.dds"
+	}
+}

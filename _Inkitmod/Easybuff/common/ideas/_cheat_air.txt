@@ -1,0 +1,93 @@
+ideas = {
+	cheat_air = {
+		cheat_air_lv1 = {
+			picture = generic_air_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 1
+			modifier = {
+				AIR_ATTACK_FACTOR = 0.1
+				AIR_DEFENCE_FACTOR = 0.1
+			}
+		}
+		cheat_air_lv2 = {
+			picture = generic_air_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 2
+			modifier = {
+				AIR_DETECTION = 1
+				NAVAL_DETECTION = 1
+
+				AIR_ACCIDENTS = -0.3
+
+				AIR_ATTACK_FACTOR = 0.2
+				AIR_DEFENCE_FACTOR = 0.2
+				AIR_BOMBING_TARGETTING = 0.3
+				AIR_RANGE_FACTOR = 0.5
+			}
+		}
+		cheat_air_lv3 = {
+			picture = generic_air_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 3
+			modifier = {
+				AIR_DETECTION = 4
+				NAVAL_DETECTION = 4
+
+				AIR_ACCIDENTS = -0.7
+
+				AIR_ATTACK_FACTOR = 0.4
+				AIR_DEFENCE_FACTOR = 0.4
+				AIR_BOMBING_TARGETTING = 0.5
+				AIR_RANGE_FACTOR = 1
+				air_intercept_efficiency = 0.25
+			}
+		}
+		cheat_air_lv4 = {
+			picture = generic_air_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 4
+			modifier = {
+				AIR_DETECTION = 10
+				NAVAL_DETECTION = 10
+
+				AIR_ACCIDENTS = -1
+
+				AIR_ATTACK_FACTOR = 1
+				AIR_DEFENCE_FACTOR = 1
+				AIR_BOMBING_TARGETTING = 1
+				AIR_RANGE_FACTOR = 2
+				air_intercept_efficiency = 1
+			}
+		}
+		cheat_air_insane = {
+			picture = generic_air_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 8
+			modifier = {
+				AIR_DETECTION = 50
+				NAVAL_DETECTION = 50
+
+				AIR_ACCIDENTS = -1
+				AIR_ACCIDENTS_FACTOR = -1
+
+				AIR_ATTACK_FACTOR = 5
+				AIR_DEFENCE_FACTOR = 5
+				AIR_AGILITY_FACTOR = 5		
+				AIR_BOMBING_TARGETTING = 2
+				AIR_RANGE_FACTOR = 10
+				air_intercept_efficiency = 2
+			}
+		}
+		cheat_nothingair={
+			picture = generic_pp_unity_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 9
+		}
+	}
+}

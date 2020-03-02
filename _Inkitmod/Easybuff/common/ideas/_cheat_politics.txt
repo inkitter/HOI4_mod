@@ -1,0 +1,107 @@
+ideas = {
+
+	cheat_politics = {
+		cheat_politics_lv1 = {
+			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 1
+			modifier = {
+				POLITICAL_POWER_GAIN = 0.5
+				stability_weekly = 0.05
+				war_support_weekly = 0.05
+				command_power_gain = 1
+				max_command_power = 50
+				OPINION_GAIN_MONTHLY = 0.01
+
+				TRADE_OPINION_FACTOR = 0.2
+			}
+		}
+		cheat_politics_lv2 = {
+			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 2
+			modifier = {
+				POLITICAL_POWER_GAIN = 1
+				POLITICAL_POWER_FACTOR = 0.1
+
+				stability_weekly = 0.1
+				war_support_weekly = 0.1
+				command_power_gain = 3
+				max_command_power = 150
+				OPINION_GAIN_MONTHLY = 0.02
+
+				TRADE_OPINION_FACTOR = 0.5
+				OCCUPATION_COST = -0.05
+			}
+		}
+		cheat_politics_lv3 = {
+			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 3
+			modifier = {
+				POLITICAL_POWER_GAIN = 1.5
+				POLITICAL_POWER_FACTOR = 0.2
+
+				stability_weekly = 0.4
+				war_support_weekly = 0.4
+				command_power_gain = 8
+				max_command_power = 300
+				OPINION_GAIN_MONTHLY = 0.05
+				OPINION_GAIN_MONTHLY_FACTOR = 0.3
+
+				TRADE_OPINION_FACTOR = 1
+				OCCUPATION_COST = -0.3
+			}
+		}
+		cheat_politics_lv4 = {
+			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 4
+			modifier = {
+				POLITICAL_POWER_GAIN = 2
+				POLITICAL_POWER_FACTOR = 0.5
+
+				stability_weekly = 0.5
+				war_support_weekly = 0.5
+				command_power_gain = 10
+				max_command_power = 500
+				OPINION_GAIN_MONTHLY = 0.1
+				OPINION_GAIN_MONTHLY_FACTOR = 0.5
+
+				TRADE_OPINION_FACTOR = 1
+				OCCUPATION_COST = -0.5
+			}
+		}
+		cheat_politics_insane = {
+			picture = generic_communism_drift_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 8
+			modifier = {
+				POLITICAL_POWER_GAIN = 100
+				POLITICAL_POWER_FACTOR = 1
+
+				stability_weekly = 10
+				war_support_weekly = 10
+				command_power_gain = 50
+				max_command_power = 500
+				OPINION_GAIN_MONTHLY = 1
+				OPINION_GAIN_MONTHLY_FACTOR = 1
+
+				TRADE_OPINION_FACTOR = 10
+				OCCUPATION_COST = -10
+				DRIFT_DEFENCE_FACTOR = 1
+			}
+		}
+		cheat_nothingpolitics={
+			picture = generic_pp_unity_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 9
+		}
+	}
+}

@@ -1,0 +1,139 @@
+ideas = {
+	cheat_land = {
+		cheat_land_lv1 = {
+			picture = generic_infantry_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 1
+			modifier = {
+				land_reinforce_rate = 0.1
+				ARMY_ORG_FACTOR = 0.1
+				ARMY_MORALE_FACTOR = 0.1
+			}
+		}		
+		cheat_land_lv2 = {
+			picture = generic_infantry_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 2
+			modifier = {
+				land_reinforce_rate = 0.2
+				ARMY_ORG_FACTOR = 0.3
+				LOCAL_ORG_REGAIN = 0.2
+				ARMY_MORALE_FACTOR = 0.3
+
+				DEFENCE = 0.2
+				OFFENCE = 0.2
+				ARMY_SPEED_FACTOR = 0.1
+				ARMY_ARMOR_SPEED_FACTOR = 0.1
+
+				ATTRITION = -0.1
+
+				EXPERIENCE_LOSS_FACTOR = -0.4
+			}
+		}
+		cheat_land_lv3 = {
+			picture = generic_infantry_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 3
+			modifier = {
+				land_reinforce_rate = 0.5
+				NO_SUPPLY_GRACE = 240
+				ARMY_ORG = 40
+				ARMY_ORG_FACTOR = 0.1
+				LOCAL_ORG_REGAIN = 0.3
+				ORG_LOSS_WHEN_MOVING = -0.5
+				ARMY_MORALE_FACTOR = 0.6
+
+				DEFENCE = 0.4
+				OFFENCE = 0.4
+				ARMY_SPEED_FACTOR = 0.2
+				ARMY_ARMOR_SPEED_FACTOR = 0.2
+				TRAINING_TIME_FACTOR = -0.5
+
+				ATTRITION = -0.2
+				COMBAT_WIDTH_FACTOR = -0.2
+
+				EXPERIENCE_LOSS_FACTOR = -0.6
+			}
+		}
+		cheat_land_lv4 = {
+			picture = generic_infantry_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 4
+			modifier = {
+				land_reinforce_rate = 0.7
+				NO_SUPPLY_GRACE = 480
+				ARMY_ORG = 60
+				ARMY_ORG_FACTOR = 0.5
+				LOCAL_ORG_REGAIN = 0.5
+				ORG_LOSS_WHEN_MOVING = -0.7
+				ARMY_MORALE_FACTOR = 0.7
+
+				DEFENCE = 1
+				OFFENCE = 1
+				ARMY_ATTACK_FACTOR = 1
+				ARMY_DEFENCE_FACTOR = 1
+
+				ARMY_SPEED_FACTOR = 10
+				ARMY_ARMOR_SPEED_FACTOR = 10
+
+				ATTRITION = -0.5
+
+				EXPERIENCE_LOSS_FACTOR = -1
+				TRAINING_TIME_FACTOR = -0.8
+				
+				JUSTIFY_WAR_GOAL_TIME = -0.5
+				ENEMY_JUSTIFY_WAR_GOAL_TIME = 2
+				
+				COMBAT_WIDTH_FACTOR = -0.4
+				MINIMUM_TRAINING_LEVEL = -0.5
+			}
+		}
+		cheat_land_insane = {
+			picture = generic_infantry_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 8
+			modifier = {
+				land_reinforce_rate = 1
+				NO_SUPPLY_GRACE = 2400
+
+				ARMY_ORG = 80
+				ARMY_ORG_FACTOR = 1
+				LOCAL_ORG_REGAIN = 1
+				ORG_LOSS_WHEN_MOVING = -1
+				ARMY_MORALE = 30
+				ARMY_MORALE_FACTOR = 1
+
+				DEFENCE = 5
+				OFFENCE = 5
+				ARMY_ATTACK_FACTOR = 5
+				ARMY_DEFENCE_FACTOR = 5
+
+				ARMY_SPEED_FACTOR = 20
+				ARMY_ARMOR_SPEED_FACTOR = 20
+
+				ATTRITION = -1
+
+				EXPERIENCE_LOSS_FACTOR = -1
+				TRAINING_TIME_FACTOR = -0.8
+				
+				JUSTIFY_WAR_GOAL_TIME = -1
+				ENEMY_JUSTIFY_WAR_GOAL_TIME = 10
+				
+				COMBAT_WIDTH_FACTOR = -0.8
+				MINIMUM_TRAINING_LEVEL = -0.9
+			}
+		}
+		cheat_nothingland={
+			picture = generic_pp_unity_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 9
+		}
+	}
+
+}

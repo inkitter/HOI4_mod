@@ -1,0 +1,91 @@
+ideas = {
+	cheat_spy = {
+		cheat_spy_lv1 = {
+			picture = generic_intel_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 1
+			modifier = {
+				operative_slot=3
+			}
+		}
+		cheat_spy_lv2 = {
+			picture = generic_intel_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 2
+			modifier = {
+				decryption = 1
+				encryption = 1
+				operative_slot=7
+
+				compliance_gain = 0.5
+
+				
+			}
+		}
+		cheat_spy_lv3 = {
+			picture = generic_intel_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 3
+			modifier = {
+				decryption = 2
+				encryption = 2
+				operative_slot=15
+
+				intel_network_gain_factor = 0.3
+				own_operative_detection_chance_factor = -0.15
+				operation_outcome = 0.15
+				operation_cost = -0.15
+				compliance_gain = 1
+			}
+		}
+		cheat_spy_lv4 = {
+			picture = generic_intel_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 4
+			modifier = {
+				decryption = 4
+				encryption = 4
+				operative_slot=20
+
+				intel_network_gain = 1
+				own_operative_detection_chance_factor = -0.5
+				operation_outcome = 0.5
+				operation_cost = -0.5
+				compliance_gain = 5
+				INTELLIGENCE_AGENCY_DEFENSE=2
+				CRYPTO_STRENGTH=2
+				DECRYPTION_POWER=2
+			}
+		}
+		cheat_spy_insane = {
+			picture = generic_intel_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 8
+			modifier = {
+				decryption = 7
+				encryption = 7
+				operative_slot=25
+
+				intel_network_gain = 5
+				own_operative_detection_chance_factor = -2
+				operation_outcome = 1
+				operation_cost = -1
+				compliance_gain = 50
+				INTELLIGENCE_AGENCY_DEFENSE=5
+				CRYPTO_STRENGTH=5
+				DECRYPTION_POWER=5
+			}
+		}
+		cheat_nothingspy={
+			picture = generic_pp_unity_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 9
+		}
+	}
+}

@@ -1,0 +1,102 @@
+ideas = {
+	cheat_navy = {
+		cheat_navy_lv1 = {
+			picture = generic_naval_manufacturer_1
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 1
+			modifier = {
+				NAVY_ORG_FACTOR = 0.1
+				NAVAL_STRIKE = 0.1
+				CARRIER_TRAFFIC = 0.2
+				NAVAL_SPEED_FACTOR = 0.3
+				NAVY_MAX_RANGE_FACTOR = 0.3
+			}
+		}
+		cheat_navy_lv2 = {
+			picture = generic_naval_manufacturer_1
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 2
+			modifier = {
+				AIR_DETECTION = 1
+				NAVAL_DETECTION = 1
+
+				NAVY_ORG_FACTOR = 0.2
+				NAVAL_STRIKE = 0.3
+				NAVAL_HIT_CHANCE = 0.2
+				CARRIER_TRAFFIC = 0.5
+				NAVAL_SPEED_FACTOR = 0.5
+				NAVY_MAX_RANGE_FACTOR = 0.5
+			}
+		}
+		cheat_navy_lv3 = {
+			picture = generic_naval_manufacturer_1
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 3
+			modifier = {
+				AIR_DETECTION = 4
+				NAVAL_DETECTION = 4
+
+				NAVY_ORG = 10
+				NAVY_ORG_FACTOR = 0.3
+				NAVAL_STRIKE = 0.3
+				NAVAL_HIT_CHANCE = 0.2
+				CARRIER_TRAFFIC = 0.5
+				NAVAL_SPEED_FACTOR = 0.8
+				SUBMARINE_ATTACK = 5
+				NAVY_MAX_RANGE_FACTOR = 1	
+			}
+		}
+		cheat_navy_lv4 = {
+			picture = generic_naval_manufacturer_1
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 4
+			modifier = {
+				AIR_DETECTION = 10
+				NAVAL_DETECTION = 10
+
+				NAVY_ORG = 30
+				NAVY_ORG_FACTOR = 0.5
+				NAVAL_STRIKE = 0.5
+				NAVAL_HIT_CHANCE = 0.5
+				CARRIER_TRAFFIC = 1
+				NAVAL_SPEED_FACTOR = 1
+				SUBMARINE_ATTACK = 10
+				NAVY_MAX_RANGE_FACTOR = 2	
+			}
+		}
+		cheat_navy_insane = {
+			picture = generic_naval_manufacturer_1
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 8
+			modifier = {
+				AIR_DETECTION = 50
+				NAVAL_DETECTION = 50
+
+				NAVY_ORG = 40
+				NAVY_ORG_FACTOR = 1
+				NAVAL_STRIKE = 1
+				NAVAL_HIT_CHANCE = 1
+				CARRIER_TRAFFIC = 1
+				NAVAL_SPEED_FACTOR = 10
+				SUBMARINE_ATTACK = 100
+				NAVY_MAX_RANGE_FACTOR = 100
+				NAVY_SUBMARINE_DEFENCE_FACTOR = 10
+				CARRIER_CAPACITY_PENALTY_REDUCTION = -1
+
+				AMPHIBIOUS_INVASION = 5
+				INVASION_PREPARATION = -1
+			}
+		}
+		cheat_nothingnavy={
+			picture = generic_pp_unity_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 9
+		}
+	}
+}

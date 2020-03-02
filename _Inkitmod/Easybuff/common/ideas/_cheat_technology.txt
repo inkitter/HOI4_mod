@@ -1,0 +1,55 @@
+ideas = {
+	cheat_technology = {
+		cheat_technology_lv1 = {
+			picture = generic_research_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 1
+			modifier = {
+				research_speed_factor = 0.5
+			}
+		}
+		cheat_technology_lv2 = {
+			picture = generic_research_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 2
+			modifier = {
+				research_speed_factor = 2.5
+			}
+		}
+		cheat_technology_lv3 = {
+			picture = generic_research_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 3
+			modifier = {
+				research_speed_factor = 5
+			}
+		}
+		cheat_technology_lv4 = {
+			picture = generic_research_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 4
+			modifier = {
+				research_speed_factor = 15
+			}
+		}
+		cheat_technology_insane = {
+			picture = generic_research_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 8
+			modifier = {
+				research_speed_factor = 1000
+			}
+		}
+		cheat_nothingtechnology={
+			picture = generic_pp_unity_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 9
+		}
+	}
+}

@@ -1,0 +1,99 @@
+ideas = {
+	cheat_construction = {
+		cheat_construction_lv1 = {
+			picture = generic_production_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 1
+			modifier = {
+				global_building_slots_factor = 0.1
+
+				production_speed_buildings_factor = 0.2
+				LOCAL_RESOURCES_FACTOR = 0.2
+				industry_repair_factor = 0.2
+				repair_speed_factor = 0.3
+				refit_speed = 0.3
+				industry_free_repair_factor = 0.4
+			}
+		}
+		cheat_construction_lv2 = {
+			picture = generic_production_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 2
+			modifier = {
+				global_building_slots_factor = 0.2
+
+				production_speed_buildings_factor = 0.5
+				LOCAL_RESOURCES_FACTOR = 0.5
+				industry_repair_factor = 0.5
+				repair_speed_factor = 0.5
+				refit_speed = 0.5
+				industry_free_repair_factor = 1
+
+				LOCAL_MANPOWER = 0.1
+			}
+		}
+		cheat_construction_lv3 = {
+			picture = generic_production_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 3
+			modifier = {
+				global_building_slots_factor = 0.5
+
+				production_speed_buildings_factor = 0.7
+				LOCAL_RESOURCES_FACTOR = 1.2
+				industry_repair_factor = 0.7
+				repair_speed_factor = 0.7
+				refit_speed = 0.7
+				industry_free_repair_factor = 2
+
+				LOCAL_MANPOWER = 0.4
+			}
+		}
+		cheat_construction_lv4 = {
+			picture = generic_production_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 4
+			modifier = {
+				global_building_slots_factor = 1
+
+				production_speed_buildings_factor = 1
+				LOCAL_RESOURCES_FACTOR = 2
+				industry_repair_factor = 1
+				repair_speed_factor = 1
+				refit_speed = 1
+				industry_free_repair_factor = 2
+
+				LOCAL_MANPOWER = 1
+			}
+		}
+		cheat_construction_insane = {
+			picture = generic_production_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 8
+			modifier = {
+				global_building_slots_factor = 2
+
+				production_speed_buildings_factor = 10
+				LOCAL_RESOURCES = 10
+				LOCAL_RESOURCES_FACTOR = 10
+				industry_repair_factor = 20
+				repair_speed_factor = 10
+				refit_speed = 10
+				industry_free_repair_factor = 10
+
+				LOCAL_MANPOWER = 10
+			}
+		}
+		cheat_nothingconstruction={
+			picture = generic_pp_unity_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 9
+		}
+	}
+}

@@ -1,8 +1,13 @@
 [h1][b] +Easy Buff [1.9.*][/b][/h1]
 
-[h1] Update 200225. Update tag to 1.9. Fix building repair in insane buff. [/h1]
+[h1] Update 200302. Add Agency related buffs. Split the buffs in nation idea into two lines (UI may became worse, but I've no idea now.).[/h1]
 
-Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
+[h1] Since the modifiers on agency are so complicated that I can't make a good numeric design without deep understand of the new system. Please tell me if some values are too high or low. [/h1]
+
+[h1] I don't have much time deeply playing the game recently. If there are any new interesting mod-able features in new version, please leave a message.  [/h1]
+
+
+Github:  github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff
 
 
 # Features:
@@ -14,7 +19,7 @@ Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 * Support different level Modifiers in Construction, Research Speed, Politics, Production, Land, Navy and Air.
 
 ## Cheat Events
-* Open Cheat Menu in: 1. Air Idea. 2. Decisions.
+* Open Cheat Menu in: 1. Country Ideas.  2. Event
 
 [h1]Type of event as follows:[/h1]
 
@@ -29,14 +34,10 @@ Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 1. Get Bicycle Technology or remove it.
 2. Get some late-game technologies immediately.
 
-* This is an interest direction, maybe more functions could come out if you have ideas.
-
 ## 4. Equipments
 1. Get Basic Equipments Immediately. [b] !!! All Equipment needs the technology had been researched. !!! [/b] Or the event does not give you Eq.
 2. Infantry, Support, Artillery, Motorized, Mechanized, Motorized Rocket, Modern Tank Artillery.
 3. Bomber, Jet Bomber, Transport, Jet Fighter, CV CAS 3
-
-* Since Soft Attack and Air is all in HOI4, I just wrote codes on these Eq. (Artillery and Aircraft) Please leave a note if some other useful Eq. are necessary.
 
 ### 5. Points and Experiments
 1. Army, Navy, Air Experience.
@@ -46,8 +47,6 @@ Github: <https://github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff>
 5. Stability.
 6. War Support.
 7. Increase or Decrease Threat.
-
-* Known Issues: The Experience can only be get once time per day. Please resume game to get more experience. This may due to core code of game if not controllable by mod.
 
 ### 6. Faction and Parties
 1. Exit Faction
