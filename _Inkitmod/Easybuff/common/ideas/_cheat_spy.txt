@@ -20,8 +20,8 @@ ideas = {
 				operative_slot=7
 
 				compliance_gain = 0.5
-
-				
+				operation_outcome = 0.15
+				operation_cost = -0.15
 			}
 		}
 		cheat_spy_lv3 = {
@@ -36,8 +36,8 @@ ideas = {
 
 				intel_network_gain_factor = 0.3
 				own_operative_detection_chance_factor = -0.15
-				operation_outcome = 0.15
-				operation_cost = -0.15
+				operation_outcome = 0.3
+				operation_cost = -0.3
 				compliance_gain = 1
 			}
 		}
@@ -58,7 +58,7 @@ ideas = {
 				compliance_gain = 5
 				INTELLIGENCE_AGENCY_DEFENSE=2
 				CRYPTO_STRENGTH=2
-				DECRYPTION_POWER=2
+				DECRYPTION_POWER=50
 			}
 		}
 		cheat_spy_insane = {
@@ -78,7 +78,7 @@ ideas = {
 				compliance_gain = 50
 				INTELLIGENCE_AGENCY_DEFENSE=5
 				CRYPTO_STRENGTH=5
-				DECRYPTION_POWER=5
+				DECRYPTION_POWER=100
 			}
 		}
 		cheat_nothingspy={
