@@ -4,6 +4,7 @@ idea_categories = {
 		slot = cheat_technology
 		slot = cheat_politics
 		slot = cheat_spy
+		slot = cheat_population
 		slot = cheat_menu
 
 		cost = 0

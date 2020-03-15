@@ -1,0 +1,55 @@
+ideas = {
+	cheat_population = {
+		cheat_population_lv1 = {
+			picture = generic_manpower_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 1
+			modifier = {
+				MONTHLY_POPULATION = 0.5
+			}
+		}
+		cheat_population_lv2 = {
+			picture = generic_manpower_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 2
+			modifier = {
+				MONTHLY_POPULATION = 2.5
+			}
+		}
+		cheat_population_lv3 = {
+			picture = generic_manpower_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 3
+			modifier = {
+				MONTHLY_POPULATION = 5
+			}
+		}
+		cheat_population_lv4 = {
+			picture = generic_manpower_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 4
+			modifier = {
+				MONTHLY_POPULATION = 15
+			}
+		}
+		cheat_population_insane = {
+			picture = generic_manpower_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 8
+			modifier = {
+				MONTHLY_POPULATION = 100
+			}
+		}
+		cheat_nothingpopulation={
+			picture = generic_pp_unity_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 9
+		}
+	}
+}

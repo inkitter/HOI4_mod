@@ -1,12 +1,12 @@
 ideas = {
 	cheat_spy = {
-		cheat_spy_lv1 = {
+		cheat_spy_slot = {
 			picture = generic_intel_bonus
 			available = { is_ai = no }
 			cancel_if_invalid = no
 			level = 1
 			modifier = {
-				operative_slot=3
+				operative_slot=5
 			}
 		}
 		cheat_spy_lv2 = {
@@ -17,7 +17,6 @@ ideas = {
 			modifier = {
 				decryption = 1
 				encryption = 1
-				operative_slot=7
 
 				compliance_gain = 0.5
 				operation_outcome = 0.15
@@ -32,7 +31,6 @@ ideas = {
 			modifier = {
 				decryption = 2
 				encryption = 2
-				operative_slot=15
 
 				intel_network_gain_factor = 0.3
 				own_operative_detection_chance_factor = -0.15
@@ -49,7 +47,6 @@ ideas = {
 			modifier = {
 				decryption = 4
 				encryption = 4
-				operative_slot=20
 
 				intel_network_gain = 1
 				own_operative_detection_chance_factor = -0.5
@@ -69,7 +66,6 @@ ideas = {
 			modifier = {
 				decryption = 7
 				encryption = 7
-				operative_slot=25
 
 				intel_network_gain = 5
 				own_operative_detection_chance_factor = -2
