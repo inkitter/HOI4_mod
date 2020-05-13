@@ -1,13 +1,13 @@
 [h1][b] +Easy Buff [1.9.*][/b][/h1]
 
-[h1] Update 200302. Add Agency related buffs. Split the buffs in nation idea into two lines (UI may became worse, but I've no idea now.).[/h1]
+[h1] Update 200315 Add monthly population buff, fix spy slots buff.[/h1]
 
 [h1] Since the modifiers on agency are so complicated that I can't make a good numeric design without deep understand of the new system. Please tell me if some values are too high or low. [/h1]
 
 [h1] I don't have much time deeply playing the game recently. If there are any new interesting mod-able features in new version, please leave a message.  [/h1]
 
 
-Github:  github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff
+Github: github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff
 
 
 # Features:
