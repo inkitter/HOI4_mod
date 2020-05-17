@@ -48,31 +48,34 @@ ideas = {
 				fuel_gain_factor = 0.2
 			}
 			equipment_bonus = {
-				infantry = { reliability = 2 }
-				motorized = { reliability = 2 }
-				mechanized = { reliability = 2 }
-				armor = { reliability = 2 }
-				artillery = { reliability = 2 }
-				air_transport = { reliability = 2 }
-				fighter = { reliability = 2 }
-				tactical_bomber = { reliability = 2 }
-				naval_bomber = { reliability = 2 }
-				strategic_bomber = { reliability = 2 }
+				infantry = { reliability = 2 instant = yes }
+				motorized = { reliability = 2 instant = yes }
+				mechanized = { reliability = 2 instant = yes }
+				armor = { reliability = 2 instant = yes }
+				artillery = { reliability = 2 instant = yes }
+				air_transport = { reliability = 2 instant = yes }
+				fighter = { reliability = 2 instant = yes }
+				tactical_bomber = { reliability = 2 instant = yes }
+				naval_bomber = { reliability = 2 instant = yes }
+				strategic_bomber = { reliability = 2 instant = yes }
 				
 				submarine = {
 					reliability = 2
 					surface_detection = 20
 					sub_detection = 20
 					max_strength = 0.5
+					instant = yes 
 				}
 				screen_ship = {
 					reliability = 2
 					max_strength = 1
+					instant = yes 
 				}
 				carrier = {
 					build_cost_ic = -0.3
 					reliability = 2
 					max_strength = 7
+					instant = yes 
 				}
 			}
 		}
@@ -113,24 +116,24 @@ ideas = {
 				air_accidents_factor = -2
 			}
 			equipment_bonus = {
-				transport_plane_equipment = { reliability = 2 }
-				tac_bomber_equipment = { reliability = 2 }
-				jet_tac_bomber_equipment = { reliability = 2 }
-				strat_bomber_equipment = { reliability = 2 }
-				jet_strat_bomber_equipment = { reliability = 2 }
-				nav_bomber_equipment = { reliability = 2 }
-				cv_nav_bomber_equipment = { reliability = 2 }
-				fighter_equipment = { reliability = 2 }
-				jet_fighter_equipment = { reliability = 2 }
-				cv_fighter_equipment = { reliability = 2 }
-				CAS_equipment = { reliability = 2 }
-				cv_CAS_equipment = { reliability = 2 }
-				mechanized_equipment = { reliability = 1.5 }
-				artillery_equipment = { reliability = 1.5 }
-				rocket_artillery_equipment = { reliability = 1.5 }
-				motorized_rocket_equipment = { reliability = 1.5 }
-				modern_tank_equipment = { reliability = 2 }
-				modern_tank_artillery_equipment = { reliability = 2 }
+				transport_plane_equipment = { reliability = 2 instant = yes }
+				tac_bomber_equipment = { reliability = 2 instant = yes }
+				jet_tac_bomber_equipment = { reliability = 2 instant = yes }
+				strat_bomber_equipment = { reliability = 2 instant = yes }
+				jet_strat_bomber_equipment = { reliability = 2 instant = yes }
+				nav_bomber_equipment = { reliability = 2 instant = yes }
+				cv_nav_bomber_equipment = { reliability = 2 instant = yes }
+				fighter_equipment = { reliability = 2 instant = yes }
+				jet_fighter_equipment = { reliability = 2 instant = yes }
+				cv_fighter_equipment = { reliability = 2 instant = yes }
+				CAS_equipment = { reliability = 2 instant = yes }
+				cv_CAS_equipment = { reliability = 2 instant = yes }
+				mechanized_equipment = { reliability = 1.5 instant = yes }
+				artillery_equipment = { reliability = 1.5 instant = yes }
+				rocket_artillery_equipment = { reliability = 1.5 instant = yes }
+				motorized_rocket_equipment = { reliability = 1.5 instant = yes }
+				modern_tank_equipment = { reliability = 2 instant = yes }
+				modern_tank_artillery_equipment = { reliability = 2 instant = yes }
 			}
 		}
     }
