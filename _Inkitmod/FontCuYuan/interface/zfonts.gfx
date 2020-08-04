@@ -175,6 +175,21 @@ bitmapfonts = {
 			H = { 0 0 160 }   # 绿色77 153 0
 		}
 	}
+
+	bitmapfont = {
+		name = "hoi4_typewriter16_inverted"
+		fontfiles = { 	
+			"gfx/fonts/14"		
+		}		
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 0 105 14 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+			H = { 0 0 160 }   # 绿色77 153 0
+		}
+	}
 	
 	bitmapfont = {
 		name = "hoi4_typewriter22"   # 单位属性标题 写在黄纸上的字
@@ -187,6 +202,20 @@ bitmapfonts = {
 			Y = { 255 189 0 }
 		}
 	}
+
+	bitmapfont = {
+		name = "hoi4_typewriter22_inverted"
+		fontfiles = { 
+			"gfx/fonts/14"		
+		}		
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 77 153 0 }
+			R = { 222 86 70 }
+			Y = { 255 189 0 }
+		}
+	}	
 
 	bitmapfont = {
 		name = "hoi_80"
