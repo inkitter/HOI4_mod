@@ -13,7 +13,7 @@
  PERMISSION_NOT_FRIENDLY_DESC:0 "Required for friendly relations"
  PERMISSION_NOT_NEUTRAL_DESC:0 "Required for neutral relations"
  PERMISSION_HEADER:0 "通行权$PERMISSION|H$："
- PERMISSION_CURRENT_HEADER:0 "通行权类型$PERMISSION|H$ (§H当前状态§!)："
+ PERMISSION_CURRENT_HEADER:0 "通行权类型$PERMISSION|H$（§H当前状态§!）："
  PERMISSION_BLOCKED_DUE_TO:0 "因为以下原因没有通行权：$REASON$"
  PERMISSION_BLOCKED:0 "没有通行权。\n"
  PERMISSION_DESC:0 " - 可以通过军队：$ARMY$\n - 可以通过海军：$NAVY$\n - 可以通过潜艇：$SUBMARINES$\n - 可以通过民船：$TRADE$"

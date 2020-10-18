@@ -35,7 +35,7 @@
  wtt_border_conflict_won_defender.1.a:0 "我们展示了自己的实力！"
  wtt_border_conflict_lost_attacker.1.t:0 "在[our_state.GetName]失利"
  wtt_border_conflict_lost_attacker.1.desc:0 "[their_country.GetLeader]麾下的军队已经成功地将我们赶出了[our_state.GetName]与[their_state.GetName]之间的争议地区。我们部队已经井然有序地撤退了，并在进行重整以备未来的战斗。"
- wtt_border_conflict_lost_attacker.1.a:0 "我们必须尽快反击!"
+ wtt_border_conflict_lost_attacker.1.a:0 "我们必须尽快反击！"
  wtt_border_conflict_lost_defender.1.t:0 "在[our_state.GetName]失利"
  wtt_border_conflict_lost_defender.1.desc:0 "[their_country.GetLeader]麾下的军队已经成功地将我们赶出了[our_state.GetName]与[their_state.GetName]之间的争议地区。我们部队已经井然有序地撤退了，并在进行重整以备未来的战斗。"
  wtt_border_conflict_lost_defender.1.a:0 "我们必须尽快反击！"

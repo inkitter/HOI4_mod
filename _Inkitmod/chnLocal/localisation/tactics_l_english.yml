@@ -1,7 +1,7 @@
 ﻿l_english:
- TACTIC_ATTACKER:0 " (进攻方)"
- TACTIC_DEFENDER:0 " (防御方)"
- TACTIC_DESC:0 "双方的指挥官将选择一种战术进行战斗进而影响战斗的过程。 一名拥有更高的技能等级或者更先进的侦查手段的指挥官会有更多的机会选择一种反制战术以使敌军的战术失效。"
+ TACTIC_ATTACKER:0 "（进攻方）"
+ TACTIC_DEFENDER:0 "（防御方）"
+ TACTIC_DESC:0 "双方的指挥官将选择一种战术进行战斗进而影响战斗的过程。一名拥有更高的技能等级或者更先进的侦查手段的指挥官会有更多的机会选择一种反制战术以使敌军的战术失效。"
  tactic_basic_attack:0 "进攻"
  tactic_basic_defend:0 "防御"
  tactic_counterattack:0 "反击"
