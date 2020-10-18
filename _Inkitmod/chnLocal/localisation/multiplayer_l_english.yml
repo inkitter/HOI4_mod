@@ -136,6 +136,8 @@
  OOS_72:0 "Weather"
  OOS_73:0 "Intelligence Agency Upgrades"
  OOS_74:0 "Intel values"
+ OOS_75:1 "Land Combat"
+ OOS_76:1 "Naval Combat"
  MULTIPLAYER_PLAYERS:0 "$NUM$"
  MULTIPLAYER_MESSAGES:0 "$NUM$"
  MATCHMAKING_FRIEND_STATUS_PLAYING_THIS:0 "§G已在游戏中§!"

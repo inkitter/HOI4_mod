@@ -419,6 +419,7 @@
  won_british_civil_war:1 "不到一年前打赢了一场内战。\n"
  ENG_abdication_crisis:1 "爱德华八世退位危机"
  ENG_abdication_crisis_changed_mind:1 "爱德华八世不与华里丝·辛普森结婚"
+ ENG_edward_viii_abdicated:0 "Edward VIII abdicated"
  LIT_move_capital_to_vilnius:0 "将首都迁往维尔纽斯"
  governments_in_exile:0 "流亡政府"
  governments_in_exile_desc:0 "虽然他们的国土被敌人占领，但有一些勇敢的士兵和公民愿意继续战斗下去。如果我们承认友好的流亡政府，它们就可以利用侨民、移民和难民的资源，组建新的部队，与我们并肩作战。"
@@ -602,3 +603,4 @@
  ENG_expected_decolonization:0 "预期的去殖民化"
  ENG_expected_decolonization_tt:0 "一场政变的尝试将被避免。\n"
  TUR_recall_ataturk_to_active_service:0 "召回阿塔图尔克为现役军人"
+ TUR_recall_ataturk_to_active_service_desc: "Mustafa Kemal Atatürk, Turkey's first field marshal, played an absolutely pivotal role in securing our independence in the National Campaign. He has one of the sharpest military minds on the continent, and destiny has made it necessary to call upon the Father of the Turks to personally lead our troops to victory once again."

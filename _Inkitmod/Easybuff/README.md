@@ -1,6 +1,6 @@
-[h1][b] +Easy Buff [1.9.*][/b][/h1]
+[h1][b] +Easy Buff [1.10.*][/b][/h1]
 
-[h1] Update 200517 Add "instant = yes" to eq_bonus to make effects instantly.[/h1]
+[h1] Update 201016 [/h1]
 
 Github: github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff
 

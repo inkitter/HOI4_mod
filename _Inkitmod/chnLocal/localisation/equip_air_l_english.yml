@@ -1081,6 +1081,13 @@
  BUL_CAS_equipment_1_short:0 "DAR 10"
  BUL_CAS_equipment_2:0 "KB-11 野鸡"
  BUL_CAS_equipment_2_short:0 "KB-11"
+ BUL_CAS_equipment_3:0 "KB-11 Fazan"
+ BUL_CAS_equipment_3_short:0 "KB-11"
+ BUL_tac_bomber_equipment_2:0 "KB-6 Papagal"
+ BUL_tac_bomber_equipment_2_short:0 "KB-6"
+ BUL_scout_plane_equipment_1:0 "KB-5 Chuchuliga III"
+ BUL_scout_plane_equipment_1_short:0 "KB-5"
+
  # canadian
  
  CAN_jet_fighter_equipment_1:0 "德哈维兰吸血鬼式"

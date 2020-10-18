@@ -122,9 +122,12 @@
  ship_hull_cruiser_panzerschiff:0 "装甲舰"
  ship_hull_cruiser_panzerschiff_desc:0 "知其不可而为之，德国的工程师们成功在巡洋舰的船体上搭载了接近战列舰级别的火炮，其成果是一艘火力超过了任何已知巡洋舰的战舰，但是造价昂贵，航速较慢，并且装甲较为薄弱。"
  ship_hull_cruiser_coastal_defense_ship:1 "岸防舰"
+ ship_hull_cruiser_coastal_defense_ship_desc:0 "Too small for true ocean-going warfare, this relatively cheap vessel sacrifices range for heavy armament and armor."
  ship_hull_torpedo_cruiser:0 "重雷装巡洋舰"
+ ship_hull_torpedo_cruiser_desc:0 "Light cruisers equipped with a large number of torpedo tubes, at the cost of a smaller main battery and fewer anti-aircraft guns."
  ship_hull_super_heavy_1:0 "超重型战舰船体"
  ship_hull_cruiser_submarine:0 "巡洋潜艇"
+ ship_hull_cruiser_submarine_desc:0 "A larger submarine hull optimized for longer range. Can be equipped with additional fuel tanks for even more range, or a small scout airplane."
  ### ENG - ENGLAND ###
  ENG_submarine_1:0 "L级"
  ENG_submarine_1_desc:0 "L级中型潜艇原本是紧急战争计划下的一艘前潜水艇的改进版本。它们都在第一次世界大战后期建造，并配备了新的更大的21英寸鱼雷。它们一直服役到第二次世界大战开始时，主要是进行培训和辅助任务。"

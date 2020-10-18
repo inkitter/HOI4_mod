@@ -246,6 +246,8 @@
  jungle_warfare_desc:0 "让我们的士兵能在丛林更有效率的训练"
  HUN_light_infantry_tech:0 "轻型步兵师学说"
  HUN_light_infantry_tech_desc:0 "减少我们步兵师的支援装备以使他们更加灵活，这样可以在如城市或者要塞这种受限制的地型上的战斗中取得优势。"
+ mountain_warfare:0 "Mountain Warfare"
+ mountain_warfare_desc:0 "Special training to make our soldiers effective in mountain ranges."
  tech_recon:0 "侦察连 I"
  tech_recon_desc:0 "在大部队行动前预先派遣小股侦察兵将使我方获得要面对敌军之所在及数量的情报。"
  tech_recon2:0 "侦察连 II"

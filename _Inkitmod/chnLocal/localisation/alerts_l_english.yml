@@ -33,6 +33,7 @@
  alert_non_payed_license_delayed:0 "有些国家未出借民用工厂以换取生产许可：\n$LIST$§G右键点击关闭§!"
  alert_decision_new_instant:0 "§H有可执行决议§!"
  alert_decision_new_delayed:0 "接下来可以执行的决议：\n$LIST$§G右键点击关闭§!"
+ alert_decision_new_delayed_more:0 "...and $COUNT|H$ more."
  alert_decision_timeout_instant:0 "§H事件或决议超时§!"
  alert_decision_timeout_delayed:0 "接下来即将超时的事件和决议：\n$LIST$§G右键点击关闭§!"
  TIMEOUT_ITEM_LOC:0 "$NAME|H$ ($DAYS|H0$ §H日剩余§!)"

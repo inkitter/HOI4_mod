@@ -1071,7 +1071,7 @@
  mtg_netherlands.36_tt:0 "§Y[From.GetNameDefCap]§!将会在与一个主要西欧国家爆发战争后的180日内针对侵略他们的国家获得攻击和防御加成。\n"
  mtg_netherlands.36_tt_2:0 "我们将会在被一个西欧主要国家攻击后的180日内获得针对侵略国的攻击和防御加成。\n"
  mtg_netherlands.37.t:0 "[From.GetNameDefCap]拒绝交换情报"
- mtg_netherlands.37.d:0 "[From.GetNameDefCap] 已拒绝分享他们的情报。"
+ mtg_netherlands.37.desc:0 "[From.GetNameDefCap] has refused to share their intelligence."
  mtg_netherlands.37.a:0 "看来我们还不够值得信任……"
  mtg_netherlands.41.t:0 "[From.GetNameDefCap]要求分享军事知识"
  mtg_netherlands.41.d:0 "[From.GetNameDefCap]要求我们分享我们的一些军事知识，使他们能够在军事理论方面取得重大进展。"
@@ -1500,3 +1500,4 @@
  mtg_news.64.desc:1 "低地国家政府以其国家安全受到严重外来威胁为由，宣布立即统一其政府和武装部队，以加强其人民的地位。在 [From.GetOldAdjective] 的领导下，工业投资和防御性军事计划现在将优先于其他国内事务，目的是确保军事准备充分，足以应对任何可能威胁新国家主权的行动。"
  mtg_news.64.a:0 "我们所有的人民团结起来保卫我们的家园。"
  mtg_news.64.b:0 "再次联合起来？请你拿定主意！"
+ mtg_netherlands.37.d:0 "[From.GetNameDefCap] 已拒绝分享他们的情报。"

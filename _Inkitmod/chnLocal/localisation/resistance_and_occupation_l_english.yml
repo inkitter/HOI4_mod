@@ -79,6 +79,7 @@
  forced_labor_occupation:1 "Forced Labor"
  harsh_quotas_occupation:1 "Harsh Quotas"
  brutally_oppressive_occupation:1 "Brutal Oppression"
+ reconciliation:0 "Reconciliation"
  
  COMPLIANCE_ADDITIONAL_DAILY_GAIN:0 "Additional Daily Compliance Gain: $GAIN$"
  COMPLIANCE_GAIN_IS_DISABLED:0 "§RCompliance Gain is disabled§!"
