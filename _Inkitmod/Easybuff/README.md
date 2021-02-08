@@ -1,6 +1,6 @@
 [h1][b] +Easy Buff [1.10.*][/b][/h1]
 
-[h1] Update 201016 [/h1]
+[h1] Update 20201106 minor fix filename to 01_decisioneb_categories.txt [/h1]
 
 Github: github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff
 
