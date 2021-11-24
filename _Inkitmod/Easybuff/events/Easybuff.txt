@@ -1328,17 +1328,17 @@ country_event = {
 
     option = {
         name = Easybuff.75.a
-        set_capital = event_target:cap_state
+        set_capital = { state = event_target:cap_state }
         country_event = Easybuff.70
     }
     option = {
         name = Easybuff.75.b
-        set_capital = event_target:cap_states
+        set_capital = { state = event_target:cap_states }
         country_event = Easybuff.70
     }
     option = {
         name = Easybuff.75.c
-        set_capital = event_target:cap_statess
+        set_capital = { state = event_target:cap_statess }
         country_event = Easybuff.70
     }
     option = {
