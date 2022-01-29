@@ -429,8 +429,23 @@ country_event = {
     }
     option = {
         name = Easybuff.32.b
-        set_technology = { main_battle_tank = 1 }
-        set_technology = { modern_art = 1 }
+        set_technology = { gwtank_chassis = 1 }
+        set_technology = { amphibious_tank_chassis = 1 }
+        set_technology = { amphibious_drive = 1 }
+        set_technology = { advanced_light_tank_chassis = 1 }
+        set_technology = { advanced_medium_tank_chassis = 1 }
+        set_technology = { main_battle_tank_chassis = 1 }
+        set_technology = { advanced_heavy_tank_chassis = 1 }
+        set_technology = { super_heavy_tank_chassis = 1 }
+        set_technology = { armor_tech_4 = 1 }
+        set_technology = { engine_tech_4 = 1 }
+        # set_technology = { gwtank = 1 }
+        # set_technology = { amphibious_tank = 1 }
+        # set_technology = { advanced_light_tank = 1 }
+        # set_technology = { advanced_medium_tank = 1 }
+        # set_technology = { main_battle_tank = 1 }
+        # set_technology = { advanced_heavy_tank = 1 }
+        # set_technology = { super_heavy_tank = 1 }
         country_event = Easybuff.30
     }
     option = {
@@ -447,6 +462,7 @@ country_event = {
         set_technology = { improved_rocket_engines = 1 }
         set_technology = { advanced_rocket_engines = 1 }
         set_technology = { artillery4 = 1 }
+        set_technology = { artillery5 = 1 }
         set_technology = { antiair5 = 1 }
         set_technology = { antitank5 = 1 }
 

@@ -51,7 +51,7 @@
  ORDER_PROV_TOOLTIP_RESHAPE_INFO:0 "你可以通过调整推进箭头来修复因前线推移而漏掉的地方。\n另外把§Y控制点§!拖动到希望的命令上，也可以把推进箭头§Y重新连向§!不同的命令来改变他们的层级。"
  ORDER_CONNECT_TOOLTIP_INFO:0 "\n§G右键点击§!开始§Y自由拖动推进箭头§!。\n箭头终点必须连接到另一个可连接的命令上。"
  ORDER_CONNECT_CANT_CONNECT_HERE:0 "§R移动鼠标至可连接的命令上。§!"
- EDIT_MODE_CLICK_TO_EDIT_INVASION:0 "\n§G点击§!调整这次§Y海军入侵§!"
+ EDIT_MODE_CLICK_TO_EDIT_INVASION:0 "\n§G点击§!调整这次§Y登陆作战§!"
  EDIT_MODE_CLICK_TO_EDIT_PARADROP:0 "\n§G点击§!调整这个§Y空降命令§!"
  UNITS_ASSIGNED_TO_ORDER_HEADER:0 "§H分配至该命令的师：§!\n"
  NO_UNITS_ASSIGNED_TO_ORDER:0 "§R没有单位被分配至这个命令。§!"
@@ -76,3 +76,4 @@
  THEATRE_GROUP_UNASSIGNED:0 "未分配"
  CAN_ONLY_HAVE_ONE_INVASION_PER_PORT:0 "§R只能对任意选定港口下达一个单独的入侵命令。§!"
  EDIT_MODE_CLICK_TO_REORDER:0 "\n§G点击§!让前线上的§H集团军§!互换命令"
+ MAX_UNITS_ON_THIS_ORDER:0 "补给上限：$VALUE|Y$"

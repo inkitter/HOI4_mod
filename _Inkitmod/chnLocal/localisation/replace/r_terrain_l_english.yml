@@ -31,3 +31,6 @@
  water_deep_ocean_desc:0 ""
  water_arctic:0 "极地水域"
  water_arctic_desc:0 ""
+ TERRAIN_COMBAT_WIDTH_COMB:0 "战斗宽度：$VALUE|0Y$（额外攻击：$ADD|0Y$）"
+ TERRAIN_COMBAT_WIDTH:0 "战斗宽度：$VALUE|0Y$"
+ TERRAIN_ADDITIONAL_WIDTH:0 "每个额外方向的战斗宽度：$VALUE|=0Y$"

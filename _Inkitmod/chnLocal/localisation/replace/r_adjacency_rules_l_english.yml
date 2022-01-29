@@ -13,7 +13,7 @@
  PERMISSION_DESC:0 "－可以通过陆军：$ARMY$\n－可以通过海军：$NAVY$\n－可以通过潜艇：$SUBMARINES$\n－可以通过民用舰船：$TRADE$"
  SUEZ_CANAL:0 "苏伊士运河"
  GIBRALTAR_STRAIT:0 "直布罗陀海峡"
- DANISH_BELTS_STRAIT:0 "丹麦贝尔特海峡"
+ DANISH_BELTS_STRAIT:0 "丹属贝尔特海峡"
  PANAMA_CANAL:0 "巴拿马运河"
  KIEL_CANAL:0 "基尔运河"
  BOSPHORUS_STRAIT:0 "博斯普鲁斯海峡"

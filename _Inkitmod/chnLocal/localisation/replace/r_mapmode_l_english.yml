@@ -59,3 +59,6 @@
  MAPMODE_OPERATIVES_NAME:0 "特工"
  MAPMODE_OPERATIVES:0 "§H特工§!地图模式"
  MAPMODE_OPERATIVES_DESCRIPTION:0 "显示特工，他们的任务，正在执行的行动以及展开的情报网。"
+ MAPMODE_SUPPLY_MAP_MODE_NAME:0 "补给"
+ MAPMODE_SUPPLY_MAP_MODE:0 "§H补给§!地图模式"
+ MAPMODE_SUPPLY_MAP_MODE_DESCRIPTION:1 "显示当前补给状况。较亮的绿色区域补给最充足，而紫色区域则最为短缺。单位遭受补给不足惩罚的区域按恶劣状况标记为§Y黄色§!到§R红色§!。"

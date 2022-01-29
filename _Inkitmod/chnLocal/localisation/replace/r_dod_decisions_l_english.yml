@@ -56,3 +56,4 @@
  ROM_change_sides_to_axis_desc:0 "随着我国政府的更迭，我国在战时的结盟政策亦发生了变化。加入轴心国后，我们在这场全球冲突中目前的“战友们”将惊愕地看到罗马尼亚的枪口转向新的目标。"
  newline_tt:0 "\n"
  ROM_present_ultimatum:0 "递交最后通牒"
+ ROM_claim_herzegovina:0 "宣称[804.GetName]"

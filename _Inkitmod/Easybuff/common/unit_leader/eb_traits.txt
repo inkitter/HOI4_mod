@@ -1,6 +1,6 @@
 leader_traits = {
     ctrl_more_troops = { 
-        allowed = { always = no }
+
 		type = all
 		trait_type = personality_trait
 		
@@ -12,7 +12,7 @@ leader_traits = {
 		}
 	}
     lt_all_ability = { 
-        allowed = { always = no }
+
 		type = all
 		trait_type = personality_trait
 		

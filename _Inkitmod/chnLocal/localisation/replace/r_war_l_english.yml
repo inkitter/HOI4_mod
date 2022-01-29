@@ -8,3 +8,5 @@
  WAR_TAKE_CORE_NAME:0 "$ORDER$$FIRST$收复$STATE$之战"
  WAR_TAKE_CLAIM_NAME:0 "$ORDER$$FIRST$攻略$STATE$之战"
  WAR_NAME_ITA_ETH:0 "意埃战争"
+ INDEPENDENCE_WAR_NAME:0 "$ORDER$$FIRST$独立战争"
+ create_puppet_wargoal_usa:0 "§Y[ROOT.GetNameDef]§!获得§H傀儡（国策）§!战争目标"
