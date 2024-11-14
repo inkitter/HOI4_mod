@@ -33,7 +33,6 @@ ideas = {
 				OPINION_GAIN_MONTHLY = 0.02
 
 				TRADE_OPINION_FACTOR = 0.5
-				OCCUPATION_COST = -0.05
 			}
 		}
 		cheat_politics_lv3 = {
@@ -53,7 +52,6 @@ ideas = {
 				OPINION_GAIN_MONTHLY_FACTOR = 0.3
 
 				TRADE_OPINION_FACTOR = 1
-				OCCUPATION_COST = -0.3
 			}
 		}
 		cheat_politics_lv4 = {
@@ -73,7 +71,6 @@ ideas = {
 				OPINION_GAIN_MONTHLY_FACTOR = 0.5
 
 				TRADE_OPINION_FACTOR = 1
-				OCCUPATION_COST = -0.5
 			}
 		}
 		cheat_politics_insane = {
@@ -93,7 +90,6 @@ ideas = {
 				OPINION_GAIN_MONTHLY_FACTOR = 1
 
 				TRADE_OPINION_FACTOR = 10
-				OCCUPATION_COST = -10
 				DRIFT_DEFENCE_FACTOR = 1
 			}
 		}
