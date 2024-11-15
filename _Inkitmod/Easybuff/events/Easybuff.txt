@@ -420,8 +420,20 @@ country_event = {
         set_technology = { jet_fighter2 = 1 }
         set_technology = { jet_tactical_bomber2 = 1 }
         set_technology = { jet_strategic_bomber1 = 1 }
+
+        set_technology = { bba_strategic_airlifter = 1 }
+        set_technology = { advanced_small_airframe = 1 }
+        set_technology = { supersonic_small_airframe = 1 }
+        set_technology = { modern_medium_airframe = 1 }
+        set_technology = { modern_large_airframe = 1 }
+        set_technology = { engines_4 = 1 }
+        set_technology = { air_torpedoe_3 = 1 }
+        set_technology = { heavy_bombs = 1 }
+
         set_technology = { radio_detection = 1 }
         set_technology = { centimetric_radar = 1 }
+        set_technology = { monopulse_radar = 1 }
+        set_technology = { phased_array = 1 }
         set_technology = { atomic_research = 1 }
         set_technology = { nuclear_reactor = 1 }
         set_technology = { nukes = 1 }
@@ -465,6 +477,7 @@ country_event = {
         name = Easybuff.32.d
         set_technology = { advanced_ship_hull_light = 1 }
         set_technology = { advanced_ship_hull_cruiser = 1 }
+        set_technology = { advanced_ship_hull_heavy = 1 }
         set_technology = { early_ship_hull_carrier = 1 }
         set_technology = { advanced_ship_hull_carrier = 1 }
         set_technology = { advanced_ship_hull_submarine = 1 }

@@ -18,6 +18,7 @@ leader_traits = {
 		
 		enable_ability = extra_suplies
         enable_ability = siege_artillery
+		enable_ability = faster_naval_invasion_planning
         enable_ability = probing_attack
         enable_ability = glider_planes
         enable_ability = makeshift_bridges
