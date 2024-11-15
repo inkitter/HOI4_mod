@@ -540,22 +540,50 @@ country_event = {
 
     option = {
         name = Easybuff.34.a
-        add_offsite_building = { type = nuclear_facility level = 1 }
+        random_owned_controlled_state = {
+            limit = {
+                can_construct_building = nuclear_facility
+            }
+            construct_building_in_random_province = {
+                nuclear_facility = 1
+            }
+        }
         country_event = Easybuff.30
     }
     option = {
         name = Easybuff.34.b
-        add_offsite_building = { type = air_facility level = 1 }
+        random_owned_controlled_state = {
+            limit = {
+                can_construct_building = air_facility
+            }
+            construct_building_in_random_province = {
+                air_facility = 1
+            }
+        }
         country_event = Easybuff.30
     }
     option = {
         name = Easybuff.34.c
-        add_offsite_building = { type = land_facility level = 1 }
+        random_owned_controlled_state = {
+            limit = {
+                can_construct_building = land_facility
+            }
+            construct_building_in_random_province = {
+                land_facility = 1
+            }
+        }
         country_event = Easybuff.30
     }
     option = {
         name = Easybuff.34.d
-        add_offsite_building = { type = naval_facility level = 1 }
+        random_owned_controlled_state = {
+            limit = {
+                can_construct_building = naval_facility
+            }
+            construct_building_in_random_province = {
+                naval_facility = 1
+            }
+        }
         country_event = Easybuff.30
     }
   
