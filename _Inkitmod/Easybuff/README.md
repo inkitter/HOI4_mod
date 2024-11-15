@@ -1,33 +1,34 @@
-[h1][b] +Easy Buff [1.11.*][/b][/h1]
+[h1] [b] +Easy Buff [1.15.*] [/b] [/h1]
 
-[h1] 21.11.24 update tag to 1.11 [/h1]
+[h3] 24.11.14 update tag to 1.15 [/h3]
+[h2] Add Latest Breakthrough Buff and events [b](event -> technology -> Get Breakthrough / Facility)[/b]. [/h2]
 
-Github: github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff
-
-
-# Features:
-* For Single Players (Useable in Muti when others also use this mod). 
+[h2] Features:[/h2]
+* For Single Players (Useable in Muti when all others also use this mod). 
 * No steam archievements.
 
-## Modifier Buffs
+[h3] Modifier Buffs[/h3]
 * Open Buffs in National Ideas.
 * Support different level Modifiers in Construction, Research Speed, Politics, Production, Land, Navy and Air.
 
-## Cheat Events
+[h3] Cheat Events[/h3]
 * Open Cheat Menu in: 1. Country Ideas.  2. Event
 
-[h1]Type of event as follows:[/h1]
+[h2]Type of event as follows:[/h2]
 
 ### 1. Buildings
 1. Get Buildings immediately: Infrasturcture, Anti-Air, Radar, Air Base.
 2. Get Forgein Factories which is not on map and does not base on domain at all. (Industrial Complexes or Army Factories.)
 3. Open more Building Slots
+
 ### 2. Resources
 * Add Resources in Controlled states.
 
 ### 3. Technologies
 1. Get Bicycle Technology or remove it.
 2. Get some late-game technologies immediately.
+3. Get Breakthrough Points.
+4. Get Facility.
 
 ## 4. Equipments
 1. Get Basic Equipments Immediately. [b] !!! All Equipment needs the technology had been researched. !!! [/b] Or the event does not give you Eq.
@@ -69,22 +70,3 @@ Github: github.com/inkitter/HOI4_mod/tree/master/_Inkitmod/Easybuff
 
 
 A patch mod for Kaiserreich compatibility (thx @MrBlazzar™) http://steamcommunity.com/sharedfiles/filedetails/?id=1156092472
-
-## -----Below For Chinese-----
-
-## 精力有限，汉化包暂时移除。
-
-* 这是一个用于作弊的 mod ，类似 HOI3 (钢铁雄心3) 的水桶决议。
-1. 在国家界面能看到 Easybuff 的按钮，点击各类buf开启或关闭。
-2. 在 Air buff 处或在决议界面可以看到 Open Easy buff 选项，可以打开作弊菜单。
-
-# 作弊菜单功能：
-1. 各类建筑物
-2. 添加资源
-3. 获得科技，有自行车科技
-4. 获得装备
-5. 获得各种点数、经验值
-6. 阵营和党派相关
-7. 核心和领土相关
-8. 其他的 buf
-9. 强化领袖
