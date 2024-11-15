@@ -85,6 +85,13 @@
  cheat_population_lv4:0 "Lv4 Population" 
  cheat_population_insane:0 "Insane Population" 
 
+ cheat_specproj:0 "Special Project" 
+ cheat_specproj_lv1:0 "Lv1 Special Project" 
+ cheat_specproj_lv2:0 "Lv2 Special Project" 
+ cheat_specproj_lv3:0 "Lv3 Special Project" 
+ cheat_specproj_lv4:0 "Lv4 Special Project" 
+ cheat_specproj_insane:0 "Insane Special Project" 
+
 # Leader Traits
  ctrl_more_troops:0 "Control More Troops"
  lt_all_ability:0 "Learn All Abilities"

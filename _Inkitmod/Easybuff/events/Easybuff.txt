@@ -369,6 +369,10 @@ country_event = {
         country_event = Easybuff.33
     }
     option = {
+        name = Easybuff.30.d
+        country_event = Easybuff.34
+    }
+    option = {
         name = Easybuffback
         country_event = Easybuff.1
     }
@@ -417,11 +421,7 @@ country_event = {
         set_technology = { jet_tactical_bomber2 = 1 }
         set_technology = { jet_strategic_bomber1 = 1 }
         set_technology = { radio_detection = 1 }
-        set_technology = { decimetric_radar = 1 }
-        set_technology = { improved_decimetric_radar = 1 }
         set_technology = { centimetric_radar = 1 }
-        set_technology = { improved_centimetric_radar = 1 }
-        set_technology = { advanced_centimetric_radar = 1 }
         set_technology = { atomic_research = 1 }
         set_technology = { nuclear_reactor = 1 }
         set_technology = { nukes = 1 }
@@ -439,13 +439,6 @@ country_event = {
         set_technology = { super_heavy_tank_chassis = 1 }
         set_technology = { armor_tech_4 = 1 }
         set_technology = { engine_tech_4 = 1 }
-        # set_technology = { gwtank = 1 }
-        # set_technology = { amphibious_tank = 1 }
-        # set_technology = { advanced_light_tank = 1 }
-        # set_technology = { advanced_medium_tank = 1 }
-        # set_technology = { main_battle_tank = 1 }
-        # set_technology = { advanced_heavy_tank = 1 }
-        # set_technology = { super_heavy_tank = 1 }
         country_event = Easybuff.30
     }
     option = {
@@ -478,7 +471,6 @@ country_event = {
         set_technology = { modern_ship_torpedo_launcher = 1 }
         set_technology = { advanced_light_battery = 1 }
         set_technology = { advanced_medium_battery = 1 }
-        set_technology = { dp_secondary_battery = 1 }
         set_technology = { modern_naval_mines = 1 }
         set_technology = { airsweep_mines = 1 }
         set_technology = { advanced_fire_control_system = 1 }
@@ -500,10 +492,70 @@ country_event = {
 
     option = {
         name = Easybuff.33.a
+        add_breakthrough_points = {
+            specialization = specialization_nuclear
+            value = 1
+        }
         country_event = Easybuff.30
     }
     option = {
         name = Easybuff.33.b
+        add_breakthrough_points = {
+            specialization = specialization_air
+            value = 1
+        }
+        country_event = Easybuff.30
+    }
+    option = {
+        name = Easybuff.33.c
+        add_breakthrough_points = {
+            specialization = specialization_naval
+            value = 1
+        }
+        country_event = Easybuff.30
+    }
+    option = {
+        name = Easybuff.33.d
+        add_breakthrough_points = {
+            specialization = specialization_land
+            value = 1
+        }
+        country_event = Easybuff.30
+    }
+  
+    option = {
+        name = Easybuffback
+        country_event = Easybuff.30
+    }
+}
+
+
+country_event = {
+    id = Easybuff.34
+    title = Easybuff.34.t
+    desc = Easybuff.34.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Easybuff.34.a
+        add_offsite_building = { type = nuclear_facility level = 1 }
+        country_event = Easybuff.30
+    }
+    option = {
+        name = Easybuff.34.b
+        add_offsite_building = { type = air_facility level = 1 }
+        country_event = Easybuff.30
+    }
+    option = {
+        name = Easybuff.34.c
+        add_offsite_building = { type = land_facility level = 1 }
+        country_event = Easybuff.30
+    }
+    option = {
+        name = Easybuff.34.d
+        add_offsite_building = { type = naval_facility level = 1 }
         country_event = Easybuff.30
     }
   

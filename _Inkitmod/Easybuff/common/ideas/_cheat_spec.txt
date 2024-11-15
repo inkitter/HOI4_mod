@@ -1,0 +1,77 @@
+
+
+ideas = {
+	cheat_specproj = {
+		cheat_specproj_lv1 = {
+			picture = generic_research_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 1
+			modifier = {
+				special_project_speed_factor = 0.5
+				scientist_xp_gain_factor = 0.5
+				scientist_research_bonus_factor = 0.5
+				scientist_breakthrough_bonus_factor = 0.5
+				special_project_facility_supply_consumption_factor = -0.2
+			}
+		}
+		cheat_specproj_lv2 = {
+			picture = generic_research_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 2
+			modifier = {
+				special_project_speed_factor = 1
+				scientist_xp_gain_factor = 1
+				scientist_research_bonus_factor = 1
+				scientist_breakthrough_bonus_factor = 1
+				special_project_facility_supply_consumption_factor = -0.4
+			}
+		}
+		cheat_specproj_lv3 = {
+			picture = generic_research_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 3
+			modifier = {
+				special_project_speed_factor = 3
+				scientist_xp_gain_factor = 3
+				scientist_research_bonus_factor = 3
+				scientist_breakthrough_bonus_factor = 3
+				special_project_facility_supply_consumption_factor = -0.6
+			}
+		}
+		cheat_specproj_lv4 = {
+			picture = generic_research_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 4
+			modifier = {
+				special_project_speed_factor = 7
+				scientist_xp_gain_factor = 7
+				scientist_research_bonus_factor = 7
+				scientist_breakthrough_bonus_factor = 7
+				special_project_facility_supply_consumption_factor = -0.8
+			}
+		}
+		cheat_specproj_insane = {
+			picture = generic_research_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 8
+			modifier = {
+				special_project_speed_factor = 100
+				scientist_xp_gain_factor = 100
+				scientist_research_bonus_factor = 100
+				scientist_breakthrough_bonus_factor = 100
+				special_project_facility_supply_consumption_factor = -0.95
+			}
+		}
+		cheat_nothingspecproj={
+			picture = generic_pp_unity_bonus
+			available = { is_ai = no }
+			cancel_if_invalid = no
+			level = 9
+		}
+	}
+}

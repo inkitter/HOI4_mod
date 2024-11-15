@@ -16,6 +16,7 @@ idea_categories = {
 		slot = cheat_land
 		slot = cheat_navy
 		slot = cheat_air
+		slot = cheat_specproj
 
 		cost = 0
 		removal_cost = 0
