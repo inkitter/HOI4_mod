@@ -1,17 +1,17 @@
-l_russian:
+﻿l_russian:
  # Event Menu
  Easybuff.1:1 "Открыть Чит Меню"
  Easybuff.1.t: "Чит Меню"
  Easybuff.1.desc: "Выбирите Тип Чита"
- Easybuff.1.a: "Сооружения" #10"
- Easybuff.1.b: "Ресурсы" #20"
- Easybuff.1.c: "Технологии" #30"
- Easybuff.1.d: "Оснащение" #40"
- Easybuff.1.e: "Очки и Опыт" #50"
- Easybuff.1.f: "Фракции и Партии" #60"
- Easybuff.1.g: "Национальные и ненациональные провинции" #70"
- Easybuff.1.h: "Статичные модификаторы" #80"
- Easybuff.1.i: "Лидеры" #90"
+ Easybuff.1.a: "Сооружения"
+ Easybuff.1.b: "Ресурсы"
+ Easybuff.1.c: "Технологии"
+ Easybuff.1.d: "Оснащение"
+ Easybuff.1.e: "Очки и Опыт"
+ Easybuff.1.f: "Фракции и Партии"
+ Easybuff.1.g: "Национальные и ненациональные провинции"
+ Easybuff.1.h: "Статичные модификаторы"
+ Easybuff.1.i: "Лидеры"
  
  Easybuff.10: "Сооружения"
  Easybuff.10.t: "Сооружения"
