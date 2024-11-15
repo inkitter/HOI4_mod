@@ -1543,6 +1543,13 @@ country_event = {
         country_event = Easybuff.1
     }
     option = {
+        name = Easybuff.90.d
+        every_army_leader = {
+            add_unit_leader_trait = lt_all_modifier
+        }
+        country_event = Easybuff.1
+    }
+    option = {
         name = Easybuffback
         country_event = Easybuff.1
     }

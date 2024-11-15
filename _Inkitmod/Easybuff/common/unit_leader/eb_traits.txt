@@ -18,9 +18,36 @@ leader_traits = {
 		
 		enable_ability = extra_suplies
         enable_ability = siege_artillery
-        enable_ability = faster_naval_invasion_planning
         enable_ability = probing_attack
         enable_ability = glider_planes
         enable_ability = makeshift_bridges
+	}
+
+	lt_all_modifier = {
+		type = all
+		trait_type = personality_trait
+
+		attack_skill = 1
+		planning_skill = 1
+		defense_skill = 1
+		logistics_skill = 1
+		
+		attack_skill_factor = 1
+		planning_skill_factor = 1
+		defense_skill_factor = 1
+		logistics_skill_factor = 1
+
+		modifier = {
+			planning_speed = 0.20
+			wounded_chance_factor = -0.5
+			army_artillery_attack_factor   = 0.2
+			supply_consumption_factor = -0.2
+			org_loss_when_moving = -0.30
+			max_dig_in_factor = 0.30
+			defence = 0.10
+			breakthrough_factor = 0.10
+			army_armor_speed_factor = 0.1
+			army_armor_attack_factor = 0.15
+		}
 	}
 }

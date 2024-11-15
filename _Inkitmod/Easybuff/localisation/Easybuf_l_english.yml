@@ -95,6 +95,7 @@
 # Leader Traits
  ctrl_more_troops:0 "Control More Troops"
  lt_all_ability:0 "Learn All Abilities"
+ lt_all_modifier:0 "Leader Buffs"
 
 # Static Modifiers
  de_combat_width:0 "Decrease Combat Width"
