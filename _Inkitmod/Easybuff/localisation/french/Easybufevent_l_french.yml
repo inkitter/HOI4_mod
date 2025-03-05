@@ -1,6 +1,6 @@
 ﻿l_french:
  # Event Menu
- Easybuff.1:1: "Open Cheat Menu"
+ Easybuff.1: "Open Cheat Menu"
  Easybuff.1.t: "Cheat Menu"
  Easybuff.1.desc: "Select Type of Cheat."
  Easybuff.1.a: "Buildings"
