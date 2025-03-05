@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
  # Event Menu
- Easybuff.1:1 "开启作弊菜单"
+ Easybuff.1:1: "开启作弊菜单"
  Easybuff.1.t: "作弊菜单"
  Easybuff.1.desc: "从下面选择类别"
  Easybuff.1.a: "建筑"
