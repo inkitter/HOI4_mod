@@ -189,6 +189,10 @@ country_event = {
                 type = chromium
                 amount = 8
             }
+            add_resource = {
+                type = coal
+                amount = 8
+            }
         }
         country_event = Easybuff.1
     }
@@ -223,6 +227,10 @@ country_event = {
                 type = chromium
                 amount = 8
             }
+            add_resource = {
+                type = coal
+                amount = 8
+            }
         }
         country_event = Easybuff.1
     }
@@ -251,6 +259,10 @@ country_event = {
             }
             add_resource = {
                 type = chromium
+                amount = 8
+            }
+            add_resource = {
+                type = coal
                 amount = 8
             }
         }
@@ -335,6 +347,20 @@ country_event = {
             }
             add_resource = {
                 type = oil
+                amount = 8
+            }
+        }
+        country_event = Easybuff.1
+    }
+    option = {
+        name = Easybuff.20.j
+        random_state = {
+            limit = { 
+                is_controlled_by = ROOT 
+                is_capital = yes
+            }
+            add_resource = {
+                type = coal
                 amount = 8
             }
         }
