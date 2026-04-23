@@ -1,9 +1,9 @@
-[h1] [b] +Easy Buff [1.15.*] [/b] [/h1]
+[h1] [b] +Easy Buff [1.18.*] [/b] [/h1]
 
-[h3] 24.11.14 update tag to 1.15 [/h3]
-[h2] Add Latest Breakthrough Buff and events [b](event -> technology -> Get Breakthrough / Facility)[/b]. [/h2]
+[h3] 26.4.23 Update tag to 1.18 [/h3]
 
-Due to the engine limit, Add Facility function may not work well for small nation. It needs a state allowed to build the type of facility and offsite building does not work for facility.
+
+[b] Due to the engine limit, Add Facility function may not work well for small nation. It needs a state allowed to build the type of facility and offsite building does not work for facility. [/b]
 
 [h2] Features:[/h2]
 * For Single Players (Useable in Muti when all others also use this mod). 

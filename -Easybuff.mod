@@ -5,5 +5,5 @@ tags={
 }
 picture="easybuff.png"
 remote_file_id="699587979"
-version="1.17"
-supported_version="1.17.*"
+version="1.18"
+supported_version="1.18.*"
